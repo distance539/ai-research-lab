@@ -1,0 +1,76 @@
+{
+  "cache_key": "4d2ff513726d879c4c28de751aaa63ade0cd6806e623f0731e4f33338ae8c0c3",
+  "config": {
+    "seed": 82,
+    "split": "train",
+    "purpose": "development baseline; BEIR test reserved for later confirmation",
+    "top_k": 100,
+    "k_values": [
+      1,
+      10,
+      100
+    ],
+    "language": "english",
+    "number_of_shards": 1,
+    "batch_size": 64,
+    "es_version": "7.17.9",
+    "model": "Elasticsearch built-in BM25",
+    "model_revision": "ef48222227ee6b9e70e502f0f0daa52435ee634d",
+    "tokenizer": "Elasticsearch 7.17.9 english analyzer",
+    "prompt": null,
+    "decoding": null,
+    "bm25_defaults": {
+      "k1": 1.2,
+      "b": 0.75
+    },
+    "fields": [
+      "title",
+      "txt"
+    ],
+    "multi_match": "best_fields",
+    "tie_breaker": 0.5,
+    "rank_tie_policy": "score descending, doc ID string descending (trec_eval)",
+    "selection_rule": "one frozen default configuration, no hyperparameter search",
+    "query_limit": null
+  },
+  "code": {
+    "audit.py": "3a35b665b9c6a8a596c56e8c8df7ec88c26d14f91a500c6ad2c45f719f364d04",
+    "common.py": "b87afe7d2e5552d5433f288b85c5b3e5bac9aab955a770992e337bedb928f54d",
+    "compat.py": "f190edf88cbac732f48566f096e51467d6a89691d3c881dd8975a45d8d4a9239",
+    "prepare.py": "1a1daeaa886e4f3719b73b3a189f5cb65ced26fddcc49760ff3afae252bf31f5",
+    "run.py": "da1b64499f2d8a234663c2617e8da9ddf88dbff79587c6e174f410d6f9b7b51e"
+  },
+  "data": {
+    "scifact/corpus.jsonl": "dec31c8182f3d744c7d2c09423756fd1d17cbef75808db13ba01cc0aab4d1ac6",
+    "scifact/queries.jsonl": "8ff84a7c903f722981cd8d595c022660140c51867b27608a6d4910db86080313",
+    "scifact/qrels/train.tsv": "a53f2114831916c096b6c37d9e54da68cef4efdcdbd5ed46533601af972acf1d",
+    "scifact/qrels/test.tsv": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+    "downloads/data/claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+    "downloads/data/claims_train.jsonl": "f4c8fa82d8bd0653a9cc8d61a6ea48c25eacea64e90af5dbf390ebb1b74372f0",
+    "downloads/data/claims_test.jsonl": "558930d75215c73f84a28fe538307d6d397c9de1ec7239514cf45f80d75d2ca3",
+    "downloads/data/corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+    "downloads/data/cross_validation/fold_4/claims_dev_4.jsonl": "f6c91c02854739b476b145160c47beb9a123607da58b33b7ea240e0d51209142",
+    "downloads/data/cross_validation/fold_4/claims_train_4.jsonl": "11444b9365c72eb6b497dc1a068ad11fa691e5c94cab2249b8969430704f0608",
+    "downloads/data/cross_validation/fold_3/claims_train_3.jsonl": "8b16b208d9b42cbf882d480531090b23025689077f78aee60b6434a73c8b3d8b",
+    "downloads/data/cross_validation/fold_3/claims_dev_3.jsonl": "25f3b19510216350db45cfd469a7d8c6131f948c7ce70976f01d6126682ee745",
+    "downloads/data/cross_validation/fold_2/claims_dev_2.jsonl": "1db8e51cfa04f680ce6d256096ffe336ee74f1640f836e4d2bc0c711fb312f03",
+    "downloads/data/cross_validation/fold_2/claims_train_2.jsonl": "6d8ad6881a7d50cd05aad1baf62d68d68ae3168fe5e3049549bc430ffd7f09a3",
+    "downloads/data/cross_validation/fold_5/claims_train_5.jsonl": "859ac5af4b2703d8feab737315b0d12c59d7cbc4c4265852a2c3f9dc93ef1177",
+    "downloads/data/cross_validation/fold_5/claims_dev_5.jsonl": "a210668e95a02d8b2b67f2592db517476e22d6175309e5d643f2bf01eed5c97b",
+    "downloads/data/cross_validation/fold_1/claims_dev_1.jsonl": "e30aaab11fbc94580514c83fe3778b76cac0b1b981f3fe941d7b4a33005e5653",
+    "downloads/data/cross_validation/fold_1/claims_train_1.jsonl": "32922d3690b6e867589ed9c672c00115eea7295845c91d13747ef07fa6fb3996"
+  },
+  "upstream": "ef83d29307061c65d04b035b4f4e7c18bd8374af",
+  "model_revision": "ef48222227ee6b9e70e502f0f0daa52435ee634d",
+  "tokenizer": "Elasticsearch 7.17.9 english analyzer",
+  "prompt": null,
+  "decoding": null,
+  "query_ids": [
+    "0",
+    "2",
+    "4",
+    "6",
+    "9"
+  ],
+  "requirements": "2288e6b5471d08c7282d2a7b019e45fef492fd71039437cfde579a2cdd6c4cbb"
+}

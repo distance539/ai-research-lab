@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": "0",
+    "relevant_ranks": {
+      "31715818": null
+    },
+    "no_relevant_top100": true,
+    "no_relevant_top10": true,
+    "raw_count": 101,
+    "kept_count": 100
+  },
+  {
+    "query_id": "2",
+    "relevant_ranks": {
+      "13734012": 1
+    },
+    "no_relevant_top100": false,
+    "no_relevant_top10": false,
+    "raw_count": 101,
+    "kept_count": 100
+  },
+  {
+    "query_id": "4",
+    "relevant_ranks": {
+      "22942787": 9
+    },
+    "no_relevant_top100": false,
+    "no_relevant_top10": false,
+    "raw_count": 101,
+    "kept_count": 100
+  },
+  {
+    "query_id": "6",
+    "relevant_ranks": {
+      "2613775": 2
+    },
+    "no_relevant_top100": false,
+    "no_relevant_top10": false,
+    "raw_count": 101,
+    "kept_count": 100
+  },
+  {
+    "query_id": "9",
+    "relevant_ranks": {
+      "44265107": 1
+    },
+    "no_relevant_top100": false,
+    "no_relevant_top10": false,
+    "raw_count": 101,
+    "kept_count": 100
+  }
+]

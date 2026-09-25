@@ -1,0 +1,42 @@
+{
+  "n_queries": 5,
+  "n_documents": 5183,
+  "scope": "development",
+  "metrics": {
+    "recall_1": 0.4,
+    "recall_10": 0.8,
+    "recall_100": 0.8,
+    "ndcg_cut_1": 0.4,
+    "ndcg_cut_10": 0.5863919498470878,
+    "ndcg_cut_100": 0.5863919498470878,
+    "mrr_10": 0.5222222222222223
+  },
+  "official_beir_rounded": [
+    {
+      "NDCG@1": 0.4,
+      "NDCG@10": 0.58639,
+      "NDCG@100": 0.58639
+    },
+    {
+      "MAP@1": 0.4,
+      "MAP@10": 0.52222,
+      "MAP@100": 0.52222
+    },
+    {
+      "Recall@1": 0.4,
+      "Recall@10": 0.8,
+      "Recall@100": 0.8
+    },
+    {
+      "P@1": 0.4,
+      "P@10": 0.08,
+      "P@100": 0.008
+    }
+  ],
+  "independent_max_error": 0.0,
+  "missing_top100": 1,
+  "missing_top10": 1,
+  "raw_count_histogram": {
+    "101": 5
+  }
+}

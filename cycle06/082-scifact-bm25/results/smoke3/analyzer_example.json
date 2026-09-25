@@ -1,0 +1,46 @@
+{
+  "tokens": [
+    {
+      "token": "0",
+      "start_offset": 0,
+      "end_offset": 1,
+      "type": "<NUM>",
+      "position": 0
+    },
+    {
+      "token": "dimension",
+      "start_offset": 2,
+      "end_offset": 13,
+      "type": "<ALPHANUM>",
+      "position": 1
+    },
+    {
+      "token": "biomateri",
+      "start_offset": 14,
+      "end_offset": 26,
+      "type": "<ALPHANUM>",
+      "position": 2
+    },
+    {
+      "token": "lack",
+      "start_offset": 27,
+      "end_offset": 31,
+      "type": "<ALPHANUM>",
+      "position": 3
+    },
+    {
+      "token": "induct",
+      "start_offset": 32,
+      "end_offset": 41,
+      "type": "<ALPHANUM>",
+      "position": 4
+    },
+    {
+      "token": "properti",
+      "start_offset": 42,
+      "end_offset": 52,
+      "type": "<ALPHANUM>",
+      "position": 5
+    }
+  ]
+}
