@@ -1,0 +1,106 @@
+{
+  "sha": "68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+  "node_id": "C_kwDOD3bFyNoAKDY4Yjk4YTU2ZDkzZTBmOWRhMGQyYWFiNGU2YzMyOTQ2OTlhMGY3MmU",
+  "commit": {
+    "author": {
+      "name": "David Wadden",
+      "email": "davidw@allenai.org",
+      "date": "2023-10-15T18:32:12Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2023-10-15T18:32:12Z"
+    },
+    "message": "Merge pull request #33 from computerscienceiscool/patch-1\n\nUpdate README.md",
+    "tree": {
+      "sha": "4bb595deb94c29d0964ee93cdcfeb062b4e09634",
+      "url": "https://api.github.com/repos/allenai/scifact/git/trees/4bb595deb94c29d0964ee93cdcfeb062b4e09634"
+    },
+    "url": "https://api.github.com/repos/allenai/scifact/git/commits/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJlLDAsCRBK7hj4Ov3rIwAAxacIAIR+lDj5yIHn3M+TsZIadwhi\nRU1XgTiFX4V9FDJEUwJ/9f05zjd0ds3w31xXF9cI6fVfK/51cxA0Q+qAGssleIEY\nrfxiYhE6u8mGdoW9zyeTvOoqY/ETIiZUr3uKnHJ/axbBLXlkBX8kAMnkIFnD8aEW\n0AEUSQfhgUzpDvPmLYoamLTIxT7LC+EtCfxsxfLsllwTW0djhjkqZFu+tie+SLs5\ndU+5wntk1dAaq+j/OMc7b5MlN4RcriOx6kCxo/82ck8ZAOQLo3hiyOy3YeHnLWVz\npccd6q/EBK3Yfp6+jVCV/fMnM361t55uvswIfilW2e89fzgTxhDERCtfC5xy22k=\n=y2u6\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 4bb595deb94c29d0964ee93cdcfeb062b4e09634\nparent a5254a1bf108726a1704d8e191b8a7f2225a029f\nparent dbe9546cd993e9b5d1758d4bc72dcaefb02f7c88\nauthor David Wadden <davidw@allenai.org> 1697394732 -0700\ncommitter GitHub <noreply@github.com> 1697394732 -0700\n\nMerge pull request #33 from computerscienceiscool/patch-1\n\nUpdate README.md",
+      "verified_at": "2024-01-16T19:59:59Z"
+    }
+  },
+  "url": "https://api.github.com/repos/allenai/scifact/commits/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+  "html_url": "https://github.com/allenai/scifact/commit/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+  "comments_url": "https://api.github.com/repos/allenai/scifact/commits/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/comments",
+  "author": {
+    "login": "dwadden",
+    "id": 3091916,
+    "node_id": "MDQ6VXNlcjMwOTE5MTY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3091916?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dwadden",
+    "html_url": "https://github.com/dwadden",
+    "followers_url": "https://api.github.com/users/dwadden/followers",
+    "following_url": "https://api.github.com/users/dwadden/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dwadden/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dwadden/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dwadden/subscriptions",
+    "organizations_url": "https://api.github.com/users/dwadden/orgs",
+    "repos_url": "https://api.github.com/users/dwadden/repos",
+    "events_url": "https://api.github.com/users/dwadden/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dwadden/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "a5254a1bf108726a1704d8e191b8a7f2225a029f",
+      "url": "https://api.github.com/repos/allenai/scifact/commits/a5254a1bf108726a1704d8e191b8a7f2225a029f",
+      "html_url": "https://github.com/allenai/scifact/commit/a5254a1bf108726a1704d8e191b8a7f2225a029f"
+    },
+    {
+      "sha": "dbe9546cd993e9b5d1758d4bc72dcaefb02f7c88",
+      "url": "https://api.github.com/repos/allenai/scifact/commits/dbe9546cd993e9b5d1758d4bc72dcaefb02f7c88",
+      "html_url": "https://github.com/allenai/scifact/commit/dbe9546cd993e9b5d1758d4bc72dcaefb02f7c88"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 1,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "b483bc1102536ce1e58b4a4794a567abb66d78f1",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/allenai/scifact/blob/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/README.md",
+      "raw_url": "https://github.com/allenai/scifact/raw/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/README.md",
+      "contents_url": "https://api.github.com/repos/allenai/scifact/contents/README.md?ref=68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+      "patch": "@@ -137,7 +137,7 @@ For more information on the data, see [claims-with-citances.md](doc/claims-with-\n \n ## Download pre-trained models\n \n-All \"BERT-to-BERT\"-style models as described in the paper are stored in a public AWS S3 bucket. You can download the models models using the script:\n+All \"BERT-to-BERT\"-style models as described in the paper are stored in a public AWS S3 bucket. You can download the models using the script:\n \n ```bash\n ./script/download-model.sh [model-component] [bert-variant] [training-dataset]"
+    }
+  ]
+}
