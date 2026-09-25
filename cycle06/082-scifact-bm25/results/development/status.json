@@ -1,0 +1,36 @@
+{
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "reused verified cache"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "seconds": 0.14899487514048815
+    },
+    "indexing": {
+      "status": "passed",
+      "seconds": 1.281302582938224,
+      "documents": 5183,
+      "reused": false
+    },
+    "retrieval": {
+      "status": "passed",
+      "seconds": 0.6507896250113845
+    },
+    "evaluation": {
+      "status": "passed",
+      "seconds": 0.06577625032514334
+    }
+  },
+  "command": [
+    "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/data/research_cycle6/venv/bin/python",
+    "drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py",
+    "--cache",
+    "data/research_cycle6",
+    "--out",
+    "drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/results/development"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 2.8665093751624227
+}
