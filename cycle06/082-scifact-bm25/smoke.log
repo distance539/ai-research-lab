@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py", line 169, in <module>
+    main(ap.parse_args())
+  File "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py", line 65, in main
+    audit = data_audit(args.cache)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py", line 28, in data_audit
+    assert b['text'] == ' '.join(d['abstract'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

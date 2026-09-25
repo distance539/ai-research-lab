@@ -1,0 +1,3 @@
+# 082 frozen protocol
+
+Saved before target retrieval. Full 5183-document corpus, all 809 BEIR train queries; BEIR test (300 original dev claims) reserved, only structural schema/mapping audited. No benchmark comparison. Primary nDCG@10; secondary Recall@100 and MRR@10. One configuration, no model/parameter selection. Candidate budget 100; preserve official raw output (may contain 101). Tie policy score then string doc ID, both descending, matching trec_eval. No training, GPU, neural tokenizer or prompt. Seed 82 is recorded but BM25 has no stochastic initialization. Later work must not tune on confirmation results. Query independence is not assumed; no CI in this article.

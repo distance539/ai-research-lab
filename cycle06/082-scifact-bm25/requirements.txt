@@ -1,0 +1,7 @@
+certifi==2026.7.22
+elasticsearch==7.9.1
+numpy==1.26.4
+pytrec-eval-terrier==0.5.10
+scipy==1.13.1
+tqdm==4.67.1
+urllib3==1.26.20

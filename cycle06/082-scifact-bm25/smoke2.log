@@ -1,0 +1,8 @@
+  0%|          | 0/5183 [00:00<?, ?it/s]100%|██████████| 5183/5183 [00:00<00:00, 235309.60it/s]
+Traceback (most recent call last):
+  File "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py", line 175, in <module>
+    main(ap.parse_args())
+  File "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py", line 92, in main
+    model = BM25Search(index_name=index, hostname=args.hostname, initialize=False,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class BM25Search without an implementation for abstract methods 'encode', 'search_from_files'
