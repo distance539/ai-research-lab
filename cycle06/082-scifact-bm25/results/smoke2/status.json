@@ -1,0 +1,25 @@
+{
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "reused verified cache"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "seconds": 0.16279858257621527
+    }
+  },
+  "command": [
+    "/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/data/research_cycle6/venv/bin/python",
+    "drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py",
+    "--cache",
+    "data/research_cycle6",
+    "--out",
+    "drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/results/smoke2",
+    "--limit",
+    "5"
+  ],
+  "exit_code": 1,
+  "error": "Traceback (most recent call last):\n  File \"/Users/zhangzijian/Library/CloudStorage/OneDrive-个人/多平台博客撰写/drafts/research-trends/2026-09-25_082_scifact_auditable_bm25/code/run.py\", line 92, in main\n    model = BM25Search(index_name=index, hostname=args.hostname, initialize=False,\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: Can't instantiate abstract class BM25Search without an implementation for abstract methods 'encode', 'search_from_files'\n",
+  "elapsed_seconds": 7.891923249699175
+}
