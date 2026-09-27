@@ -1,0 +1,78 @@
+{
+  "largest_gains": [
+    {
+      "query_id": "618",
+      "delta": 1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "6836086",
+          "bm25": 25,
+          "dense": 3,
+          "rrf60_union": 1
+        }
+      ]
+    },
+    {
+      "query_id": "1032",
+      "delta": 1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "6836086",
+          "bm25": 25,
+          "dense": 2,
+          "rrf60_union": 1
+        }
+      ]
+    },
+    {
+      "query_id": "1253",
+      "delta": 1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "3321943",
+          "bm25": 31,
+          "dense": 4,
+          "rrf60_union": 1
+        }
+      ]
+    }
+  ],
+  "largest_losses": [
+    {
+      "query_id": "317",
+      "delta": -1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "4506414",
+          "bm25": 1,
+          "dense": 52,
+          "rrf60_union": 11
+        }
+      ]
+    },
+    {
+      "query_id": "607",
+      "delta": -1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "4506414",
+          "bm25": 1,
+          "dense": 62,
+          "rrf60_union": 11
+        }
+      ]
+    },
+    {
+      "query_id": "1307",
+      "delta": -1.0,
+      "relevant_ranks": [
+        {
+          "doc_id": "18231807",
+          "bm25": 1,
+          "dense": null,
+          "rrf60_union": 11
+        }
+      ]
+    }
+  ]
+}

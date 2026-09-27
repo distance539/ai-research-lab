@@ -1,0 +1,38 @@
+{
+  "paired_rrf60_vs_bm25": {
+    "delta": 0.01794963353750414,
+    "wins": 162,
+    "ties": 546,
+    "losses": 101,
+    "positive_contribution": 0.060797779323698474,
+    "negative_contribution": -0.04284814578619433
+  },
+  "paired_rrf60_vs_alternate100": {
+    "delta": -0.0008931666658160033,
+    "wins": 137,
+    "ties": 562,
+    "losses": 110,
+    "positive_contribution": 0.045080112190991,
+    "negative_contribution": -0.045973278856807
+  },
+  "paired_depth50_rrf_vs_alternate": {
+    "delta": -0.00016817230728316085,
+    "wins": 134,
+    "ties": 563,
+    "losses": 112,
+    "positive_contribution": 0.04428618982488884,
+    "negative_contribution": -0.04445436213217201
+  },
+  "tie_policy_primary": {
+    "ascending_ndcg10": 0.7102500741725142,
+    "descending_ndcg10": 0.712219140791914,
+    "queries_with_metric_change": 60
+  },
+  "rank_movement": {
+    "shared_top10_pairs": 7935,
+    "exclusive_top10_pairs": 155,
+    "relevant_union_pairs": 892,
+    "relevant_pairs_enter_top10_vs_bm25": 44,
+    "relevant_pairs_leave_top10_vs_bm25": 23
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "config": {
+    "seed": 84,
+    "split": "BEIR train; development only",
+    "queries": 809,
+    "corpus_documents": 5183,
+    "input_depth": 100,
+    "output_depth": 100,
+    "primary_rrf_k": 60,
+    "sensitivity_rrf_k": [
+      10,
+      60,
+      100
+    ],
+    "primary_metric": "ndcg_cut_10",
+    "selection_rule": "Primary60 fixed from original paper before fusion; grid descriptive only, no winner promoted",
+    "tie_break": "score descending then document ID string descending",
+    "scope": "Fusion of frozen real BM25/MiniLM runs; no new inference, training or test retrieval"
+  },
+  "inputs": {
+    "source_repository": "https://github.com/distance539/ai-research-lab",
+    "source_commit": "8a3b931f2aa147a71db7812177f0ded4283ec9e4",
+    "source_path": "cycle06/083-embedding-vs-bm25",
+    "pyserini": {
+      "sha": "527c917120ff154f84b09ff2b69dc8946085aae4",
+      "url": "https://github.com/castorini/pyserini/commit/527c917120ff154f84b09ff2b69dc8946085aae4",
+      "date": "2026-09-26T20:14:02Z"
+    },
+    "files": {
+      "inputs/dense.json": "1b6a6b8e593ed699586248d5eec59f7d51fcc595ead9acbea13a36b765b90b8a",
+      "inputs/bm25.json": "7bccd6d03d742d58c9064a22cc79ba23610d4ca86447509d7ddfa8fc682c50ee",
+      "inputs/qrels.json": "4c832c55748107e467ce67c11304eb3e9c9bb94036a20f08a5fd2bce562f9012",
+      "vendor/fusion_base.py": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4",
+      "vendor/LICENSE.txt": "c09df0ba5728f1bf266f0b6240d252e27cbeefecd62c514f85fce61d6325c1d4",
+      "vendor/trectools_base.py": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4"
+    },
+    "source_files": {
+      "inputs/bm25.json": "baseline/results.json",
+      "inputs/dense.json": "results/development/results.json",
+      "inputs/qrels.json": "results/development/qrels_used.json"
+    }
+  },
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "tokenizer_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "prompt": null,
+  "decoding": null,
+  "code": {
+    "audit.py": "6dc444d1ba0caa907193350721b94c64e92900d4425cb0319bf4b52c3e689945",
+    "diagnostics.py": "95207dea736cad0f163b002ad7131c4140015d3ecb9191925828b6ac5b62f87b",
+    "plot.py": "0e2d4431a07ffbfa0f6743bc69eae3a516782e03406c8689155c32aab6cd6be5",
+    "prepare.py": "93b45ead114d0620f8f8ee2d71c15058b7a5a5d7ac5f977fd53c2a3ee08b43c1",
+    "run.py": "3dee9eaff97c52dd216e8de51916861c771f391498f4490ee9422a2e1fc39187"
+  },
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pandas": "3.0.6",
+    "pytrec_eval-terrier": "0.5.10"
+  },
+  "requirements_sha256": "2c2396e7dd721f3d3f69791f4c9f9f49b4c688cfa274388cad780b713d88c93f",
+  "scope": "development",
+  "cache_key": "3672ac0eb8507f574bb2c5cac1228e31abb1ddcf91c310ff444d622e7f711373"
+}

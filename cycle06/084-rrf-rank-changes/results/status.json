@@ -1,0 +1,43 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--out",
+    "results"
+  ],
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "included hash-verified frozen rankings and two official modules; no download needed"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "queries": 809,
+      "input_rows": [
+        80827,
+        80900
+      ]
+    },
+    "fusion": {
+      "status": "passed",
+      "official_calls": 5,
+      "seconds_by_setting": {
+        "rrf10": 0.460016124881804,
+        "rrf60": 0.3708692076615989,
+        "rrf100": 0.3313693329691887,
+        "rrf60_depth50": 0.17431150004267693
+      },
+      "input_unchanged": true,
+      "duplicate_baseline_identical": true
+    },
+    "evaluation": {
+      "status": "passed",
+      "queries": 809,
+      "methods": 8,
+      "candidate_trace_rows": 136650,
+      "primary_evaluator": "pytrec_eval-terrier"
+    }
+  },
+  "elapsed_seconds": 4.859690666664392
+}
