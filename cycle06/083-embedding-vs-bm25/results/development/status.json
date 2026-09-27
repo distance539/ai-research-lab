@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python",
+    "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py",
+    "--cache",
+    "data/research_cycle6",
+    "--out",
+    "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/results/development"
+  ],
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "verified cache",
+      "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "seconds": 0.040386584121733904
+    },
+    "model_load": {
+      "status": "passed",
+      "seconds": 0.19134887494146824,
+      "parameters": 22713216
+    },
+    "inference_retrieval": {
+      "status": "passed",
+      "seconds": 53.549131457693875
+    },
+    "evaluation": {
+      "status": "passed",
+      "seconds": 0.05605216696858406
+    }
+  },
+  "elapsed_seconds": 58.58793433383107
+}
