@@ -1,0 +1,98 @@
+{
+  "smoke": {
+    "command": [
+      "python",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py",
+      "--cache",
+      "data/research_cycle6",
+      "--out",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/results/smoke"
+    ],
+    "exit_code": 1,
+    "stages": {
+      "download": {
+        "status": "passed",
+        "mode": "verified cache",
+        "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+      }
+    },
+    "error": "Traceback (most recent call last):\n  File \"<WORKSPACE>/drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py\", line 40, in main\n    from beir.retrieval.search.dense import DenseRetrievalExactSearch\n  File \"<WORKSPACE>/data/research_cycle6/upstream/beir-ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/__init__.py\", line 4, in <module>\n    from .exact_search_multi_gpu import DenseRetrievalParallelExactSearch\n  File \"<WORKSPACE>/data/research_cycle6/upstream/beir-ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/exact_search_multi_gpu.py\", line 11, in <module>\n    from datasets import Dataset\nModuleNotFoundError: No module named 'datasets'\n",
+    "elapsed_seconds": 10.172571584116668,
+    "role": "failed dependency import"
+  },
+  "smoke2": {
+    "command": [
+      "python",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py",
+      "--cache",
+      "data/research_cycle6",
+      "--out",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/results/smoke2"
+    ],
+    "exit_code": 0,
+    "stages": {
+      "download": {
+        "status": "passed",
+        "mode": "verified cache",
+        "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+      },
+      "preprocessing": {
+        "status": "passed",
+        "seconds": 0.0431148330681026
+      },
+      "model_load": {
+        "status": "passed",
+        "seconds": 0.406980583909899,
+        "parameters": 22713216
+      },
+      "inference_retrieval": {
+        "status": "passed",
+        "seconds": 54.68652370804921
+      },
+      "evaluation": {
+        "status": "passed",
+        "seconds": 0.05619516596198082
+      }
+    },
+    "elapsed_seconds": 86.3507884577848,
+    "role": "exploratory full run: omitted --smoke, no tuning"
+  },
+  "resource_smoke": {
+    "command": [
+      "python",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py",
+      "--cache",
+      "data/research_cycle6",
+      "--out",
+      "drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/results/resource_smoke",
+      "--smoke"
+    ],
+    "exit_code": 0,
+    "stages": {
+      "download": {
+        "status": "passed",
+        "mode": "verified cache",
+        "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+      },
+      "preprocessing": {
+        "status": "passed",
+        "seconds": 0.03618604177609086
+      },
+      "model_load": {
+        "status": "passed",
+        "seconds": 0.1848532920703292,
+        "parameters": 22713216
+      },
+      "inference_retrieval": {
+        "status": "passed",
+        "seconds": 0.19457049993798137
+      },
+      "evaluation": {
+        "status": "passed",
+        "seconds": 0.0022812080569565296
+      }
+    },
+    "elapsed_seconds": 4.430333415977657,
+    "role": "5 query/16 doc resource check"
+  }
+}

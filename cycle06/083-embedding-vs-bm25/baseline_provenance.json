@@ -1,0 +1,13 @@
+{
+  "commit": "cae9252b4daa0dd50625e6b06b2f62cb36547226",
+  "repository": "https://github.com/distance539/ai-research-lab",
+  "path": "cycle06/082-scifact-bm25",
+  "files": {
+    "baseline/identity.json": "2980396ab47cbd697008b36630d69546ad9ac56d3d3b24c48c8fdcada627750b",
+    "baseline/qrels_used.json": "4c832c55748107e467ce67c11304eb3e9c9bb94036a20f08a5fd2bce562f9012",
+    "baseline/results.json": "7bccd6d03d742d58c9064a22cc79ba23610d4ca86447509d7ddfa8fc682c50ee",
+    "baseline/summary.json": "72dc09535ae2371d7f5fa4eccdc6c803b396d6275c87d41ea2754fbf74c75381"
+  },
+  "common_py_sha256": "b87afe7d2e5552d5433f288b85c5b3e5bac9aab955a770992e337bedb928f54d",
+  "verification": "Copied byte-identical from accepted082 code, whose archive matches published version; no BM25 rerun this run."
+}

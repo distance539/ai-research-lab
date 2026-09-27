@@ -1,0 +1,19 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "max_seq_length": 256,
+  "batch_size": 16,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "seed": 83,
+  "split": "train",
+  "candidate_k": 100,
+  "score": "cos_sim",
+  "prompt": null,
+  "decoding": null,
+  "corpus_text": "(title + space + text).strip()",
+  "primary_metric": "ndcg_cut_10",
+  "tie_break": "score descending, document ID string descending",
+  "selection_rule": "one model chosen before inference; no configuration search; test excluded"
+}

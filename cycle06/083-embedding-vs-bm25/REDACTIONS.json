@@ -1,0 +1,17 @@
+{
+  "smoke.log": {
+    "raw_sha256": "efcdacb164691e5e1392c59feece8622752b6dd16bed1add1bc3188c24bae925",
+    "published_sha256": "9062c4fefded9fa193c0507c1c12fc801f8115817466dd001f483c63d077c1bb",
+    "change": "only author filesystem prefixes replaced; numeric results unchanged"
+  },
+  "results/development/status.json": {
+    "raw_sha256": "c8c557cbf57c14384fd1916282048643bc856929ea79994dd40ff47c3f9c2b10",
+    "published_sha256": "016175ab564bc2da165f96adf7d45f7f5ba676eadb8f39127db5239ea7b12aa9",
+    "change": "only author filesystem prefixes replaced; numeric results unchanged"
+  },
+  "EARLY_RUNS.json": {
+    "raw_sha256": "a5612281a3e85abe7ae06c82359ba8c47e4f2aeccc1f296beecf56476981cd20",
+    "published_sha256": "5e2a8409c61c6bdef7c85ee484d6388c6dff7064cb0d55e9b86ffa7a43386dd8",
+    "change": "only author filesystem prefixes, including JSON-escaped Unicode paths; numerical records unchanged"
+  }
+}

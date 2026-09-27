@@ -1,0 +1,2 @@
+{'dense': 0.6602002541701137, 'bm25': 0.6942695072544098, 'delta': -0.03406925308429603, 'wins': 150, 'ties': 444, 'losses': 215, 'positive_contribution': 0.0779236555397414, 'negative_contribution': -0.11199290862403742}
+{'dense_hit__bm25_miss': 25, 'dense_hit__bm25_hit': 732, 'dense_miss__bm25_hit': 30, 'dense_miss__bm25_miss': 22}

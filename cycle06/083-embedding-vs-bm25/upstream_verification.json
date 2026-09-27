@@ -1,0 +1,83 @@
+{
+  "accessed_at": "2026-09-26",
+  "sources": [
+    {
+      "name": "sentence_transformers",
+      "repository": "https://github.com/huggingface/sentence-transformers",
+      "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+      "file": "sentence_transformers/SentenceTransformer.py",
+      "sha256": "2b94a93974be37e7d7fbaf64dce63bf6a55c337480dec827aeb2141f4cfdeee3",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/SentenceTransformer.py",
+      "lines": 1868,
+      "installed_sha256": "76b856d2eb901a1cc9aafa538dd3a9b99e1ccd9db207f3962004e70745d82a55",
+      "installed_matches_official_commit": false,
+      "normalized_text_matches": true
+    },
+    {
+      "name": "sentence_transformers",
+      "repository": "https://github.com/huggingface/sentence-transformers",
+      "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+      "file": "sentence_transformers/models/Pooling.py",
+      "sha256": "c33f8a1f6c9d6db8e614de0c2195f90d70f5179084dd1d7102a8ef4dc1a641ed",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Pooling.py",
+      "lines": 260,
+      "installed_sha256": "b8fd36f5141e67559c7e20ccae32d44e88b3db41b3f9490d01ca0d4cc73256db",
+      "installed_matches_official_commit": false,
+      "normalized_text_matches": true
+    },
+    {
+      "name": "sentence_transformers",
+      "repository": "https://github.com/huggingface/sentence-transformers",
+      "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+      "file": "sentence_transformers/models/Transformer.py",
+      "sha256": "1e4f0baf43ad9e5b68661144cfc7fa38ad5b60fd84298e78759c5ae9285027de",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Transformer.py",
+      "lines": 551,
+      "installed_sha256": "938b7b9a524c718e7efa09732c206a32ffa3aff598d069074ab717e1e2e8f046",
+      "installed_matches_official_commit": false,
+      "normalized_text_matches": true
+    },
+    {
+      "name": "sentence_transformers",
+      "repository": "https://github.com/huggingface/sentence-transformers",
+      "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+      "file": "sentence_transformers/models/Normalize.py",
+      "sha256": "16e84885c8647a1608e72ab89421d5fcae57e4460a1df96a02644efa7cd1c4c7",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Normalize.py",
+      "lines": 22,
+      "installed_sha256": "5bb60074f4d6b5b2832077faa276b5f81a82727db4d969e492b538afa89d3c75",
+      "installed_matches_official_commit": false,
+      "normalized_text_matches": true
+    },
+    {
+      "name": "sentence_transformers",
+      "repository": "https://github.com/huggingface/sentence-transformers",
+      "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+      "file": "LICENSE",
+      "sha256": "624b030fd62b8b989dd502d5bb6322cbc0dbb524ab9c9708f32efe33d7275735",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/LICENSE",
+      "lines": 201
+    },
+    {
+      "name": "transformers",
+      "repository": "https://github.com/huggingface/transformers",
+      "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+      "file": "src/transformers/models/bert/modeling_bert.py",
+      "sha256": "92c8a613e537f160080eee95500ec6eb4c46379527c0f6eb14b6cc1605214385",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/bert/modeling_bert.py",
+      "lines": 2017,
+      "installed_sha256": "92c8a613e537f160080eee95500ec6eb4c46379527c0f6eb14b6cc1605214385",
+      "installed_matches_official_commit": true,
+      "normalized_text_matches": true
+    },
+    {
+      "name": "transformers",
+      "repository": "https://github.com/huggingface/transformers",
+      "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+      "file": "LICENSE",
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "raw_url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+      "lines": 203
+    }
+  ]
+}

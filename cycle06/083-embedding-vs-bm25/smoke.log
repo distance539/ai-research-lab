@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<WORKSPACE>/drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py", line 95, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--smoke',action='store_true');main(p.parse_args())
+                                                                                                                                                                                ^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/drafts/research-trends/2026-09-26_083_embedding_vs_bm25/code/run.py", line 40, in main
+    from beir.retrieval.search.dense import DenseRetrievalExactSearch
+  File "<WORKSPACE>/data/research_cycle6/upstream/beir-ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/__init__.py", line 4, in <module>
+    from .exact_search_multi_gpu import DenseRetrievalParallelExactSearch
+  File "<WORKSPACE>/data/research_cycle6/upstream/beir-ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/exact_search_multi_gpu.py", line 11, in <module>
+    from datasets import Dataset
+ModuleNotFoundError: No module named 'datasets'
