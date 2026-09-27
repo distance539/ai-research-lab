@@ -1,0 +1,14 @@
+{
+  "seed": 84,
+  "split": "BEIR train; development only",
+  "queries": 809,
+  "corpus_documents": 5183,
+  "input_depth": 100,
+  "output_depth": 100,
+  "primary_rrf_k": 60,
+  "sensitivity_rrf_k": [10, 60, 100],
+  "primary_metric": "ndcg_cut_10",
+  "selection_rule": "Primary60 fixed from original paper before fusion; grid descriptive only, no winner promoted",
+  "tie_break": "score descending then document ID string descending",
+  "scope": "Fusion of frozen real BM25/MiniLM runs; no new inference, training or test retrieval"
+}

@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "queries": 809,
+  "methods": 8,
+  "rrf_score_checks": 310733,
+  "max_score_error": 2.7755575615628914e-17,
+  "rational_rounding_rank_differences": [
+    {
+      "method": "rrf10",
+      "query_id": "1056",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf10",
+      "query_id": "1087",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf10",
+      "query_id": "187",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf10",
+      "query_id": "603",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf10",
+      "query_id": "946",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf60",
+      "query_id": "1345",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    },
+    {
+      "method": "rrf60_depth50",
+      "query_id": "1345",
+      "metric_changes": {
+        "ndcg_cut_10": 0.0,
+        "recall_100": 0.0,
+        "mrr_10": 0.0
+      }
+    }
+  ],
+  "trace_rows_checked": 136650,
+  "all_saved_metrics_independently_recomputed": true,
+  "depth50_same_candidate_sets": true
+}
