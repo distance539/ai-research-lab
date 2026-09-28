@@ -1,0 +1,46 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "results"
+  ],
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "existing hash-verified model/data cache"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "seconds": 0.03852079063653946,
+      "queries": 100,
+      "corpus": 5183,
+      "pairs": 5000
+    },
+    "model_load": {
+      "status": "passed",
+      "seconds": 0.11622587498277426,
+      "parameters": 22713601
+    },
+    "token_shape_audit": {
+      "status": "passed",
+      "seconds": 2.2262636674568057
+    },
+    "inference": {
+      "status": "passed",
+      "seconds": 135.32812020834535,
+      "pairs": 5000,
+      "new_inference": true
+    },
+    "evaluation": {
+      "status": "passed",
+      "seconds": 0.07365241646766663,
+      "evaluator": "pytrec_eval-terrier"
+    }
+  },
+  "smoke": false,
+  "elapsed_seconds": 141.9821097906679
+}

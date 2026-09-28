@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "queries": 100,
+  "pairs": 5000,
+  "max_metric_error": 0.0,
+  "same_candidates": true,
+  "oracle_closed_form_passed": true,
+  "loss_decomposition_passed": true,
+  "all_metrics_recomputed": true,
+  "pair_scores_and_ranks_checked": true
+}

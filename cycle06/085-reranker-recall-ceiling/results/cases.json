@@ -1,0 +1,89 @@
+{
+  "rule": "3 lowest and3 highest delta; automatic, not human annotation",
+  "rows": [
+    {
+      "query_id": "309",
+      "delta": -0.6437928128919779,
+      "original": 1.0,
+      "reranked": 0.3562071871080222,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.6437928128919779,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 6
+    },
+    {
+      "query_id": "817",
+      "delta": -0.6309297535714575,
+      "original": 0.6309297535714575,
+      "reranked": 0.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 1.0,
+      "category": "candidate_hit_but_top10_miss",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 2,
+      "reranked_first_relevant": 15
+    },
+    {
+      "query_id": "469",
+      "delta": -0.5693234419266069,
+      "original": 1.0,
+      "reranked": 0.43067655807339306,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.5693234419266069,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 4
+    },
+    {
+      "query_id": "1307",
+      "delta": 0.43067655807339306,
+      "original": 0.0,
+      "reranked": 0.43067655807339306,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.5693234419266069,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 11,
+      "reranked_first_relevant": 4
+    },
+    {
+      "query_id": "74",
+      "delta": 0.5693234419266069,
+      "original": 0.43067655807339306,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 4,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "764",
+      "delta": 0.6309297535714575,
+      "original": 0.0,
+      "reranked": 0.6309297535714575,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.36907024642854247,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 13,
+      "reranked_first_relevant": 2
+    }
+  ]
+}
