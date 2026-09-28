@@ -1,0 +1,15 @@
+{
+  "accessed_at": "2026-09-28T01:13:34.966010+00:00",
+  "beir_commit": "ef83d29307061c65d04b035b4f4e7c18bd8374af",
+  "sentence_transformers_commit": "7d52a069e0b37d976b3ed3f674a6180436c27574",
+  "model_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "source_checks": {
+    "BEIR exact copied module": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5",
+    "ST raw source": "87adb18b78e8ca525932635d604549c44251e205217be185428dc11fc52632b6"
+  },
+  "installed_ST_matches_official_normalized_newlines": true,
+  "beir_license": "Apache-2.0",
+  "ST_license": "Apache-2.0",
+  "model_license": "Apache-2.0",
+  "retrieval": "official raw URL downloads successful; web tool raw URL cache miss recorded"
+}

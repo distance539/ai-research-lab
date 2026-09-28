@@ -1,0 +1,38 @@
+inference {'status': 'passed', 'seconds': 1.3045381670817733, 'pairs': 50, 'new_inference': True}
+{
+  "original": {
+    "ndcg_cut_10": 0.7261859507142916,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.7
+  },
+  "reranked": {
+    "ndcg_cut_10": 0.8,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.8
+  },
+  "oracle": {
+    "ndcg_cut_10": 0.8,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.8
+  },
+  "queries": 5,
+  "pairs": 50,
+  "win_tie_loss": [
+    1,
+    4,
+    0
+  ],
+  "failure_categories": {
+    "no_relevant_candidate": 1,
+    "candidate_hit_but_top10_miss": 0,
+    "top10_hit": 4
+  },
+  "partial_candidate_coverage": 0,
+  "mean_candidate_loss": 0.2,
+  "mean_ordering_loss": 0.0,
+  "delta": 0.07381404928570845,
+  "scope": "development subset, no test, no training"
+}

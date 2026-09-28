@@ -1,0 +1,9 @@
+# Validation
+
+Real CPU smoke5x10 and main100x50 exited0. Official model and data hashes checked; actual command and stage timing are in smoke/status.json and results/status.json, raw stdout in smoke.log/development.log. Primary model/data/preprocessing/inference source was unchanged between smoke and main; audit.py and plot.py were completed afterwards, so original identity.json lists files present at execution time. Archive verification records complete final source identities separately; no original execution record is rewritten.
+
+Independent audit validates100 queries/5000pairs, all metric means, candidate membership, scores/ranks and oracle loss identity (audit.log/results/audit.json). No failures in target model runs. Initial resource access via sandbox proxy failed; authenticated-free public downloads succeeded through normal proxy in network-enabled execution. Direct no-proxy download timed out; neither case produced experiment output. Plot font cache warning resolved with explicit MPLCONFIGDIR. No credentials read or requested.
+
+Distribution excludes model/data caches, virtualenv, bytecode and private paths. Full requirements-observed captures actual environment; compact requirements.txt lists runtime roots. Oracle is label-assisted diagnostics, never deployed model. Original benchmark training, confirmation set, GPU, confidence interval, manual labels and contamination audit were not performed.
+
+The parent article verification/archive_verification.json records fresh temporary extraction, file manifest/hash checks, AST, entry help, offline audit and a real full5000-pair replay using verified external cache. Full network redownload is unnecessary for replay. Remote publication verification is kept outside source archive to avoid circular commit/hash dependencies.

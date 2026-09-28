@@ -1,0 +1,9 @@
+{
+  "smoke_pairs": 50,
+  "inference_seconds": 1.3045381670817733,
+  "extrapolated_5000_seconds": 130.45381670817733,
+  "peak_rss_bytes": 899219456,
+  "rule": "<900seconds and <4GiB",
+  "decision": "proceed100x50",
+  "decision_used_quality_scores": false
+}

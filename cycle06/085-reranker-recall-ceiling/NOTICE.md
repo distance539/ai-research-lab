@@ -1,0 +1,5 @@
+# Attribution and distribution
+
+Independent experiment orchestration and audits: distance539 AI Research Lab, 2026, Apache-2.0 (LICENSE).
+`official_rerank.py` is unmodified BEIR code, copyright original BEIR contributors, Apache-2.0; retain licenses/BEIR-LICENSE. Sentence Transformers is used as installed dependency, Apache-2.0 (licenses/ST-LICENSE); no full source copied. Cross-encoder model is Apache-2.0 according to fixed model card; weights not included.
+SciFact: David Wadden, Shanchuan Lin, Kyle Lo, Lucy Lu Wang, Madeleine van Zuylen, Arman Cohan, Hannaneh Hajishirzi, Fact or Fiction: Verifying Scientific Claims, EMNLP2020, https://aclanthology.org/2020.emnlp-main.609/ . The small qrels subset derives from BEIR SciFact and cites original claims/document IDs; licenses/SCIFACT-LICENSE.md retained. Full query text/abstract corpus downloaded independently via prepare.py, not packaged. Candidate IDs/scores and our measured outputs are included for audit. No weights, virtualenv, corpus, credentials or absolute machine configuration are distributed.
