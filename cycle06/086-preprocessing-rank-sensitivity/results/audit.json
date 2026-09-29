@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "queries": 100,
+  "pair_rows": 20000,
+  "max_metric_error": 0.0,
+  "candidate_identity": true,
+  "tokens_and_ranks": true,
+  "effects_recomputed": true
+}

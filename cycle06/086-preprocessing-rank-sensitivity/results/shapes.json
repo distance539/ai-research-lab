@@ -1,0 +1,78 @@
+{
+  "title_256": {
+    "input": [
+      2,
+      256
+    ],
+    "hidden": [
+      2,
+      256,
+      384
+    ],
+    "logits": [
+      2,
+      1
+    ],
+    "predict": [
+      2
+    ],
+    "manual_error": 0.0
+  },
+  "title_512": {
+    "input": [
+      2,
+      512
+    ],
+    "hidden": [
+      2,
+      512,
+      384
+    ],
+    "logits": [
+      2,
+      1
+    ],
+    "predict": [
+      2
+    ],
+    "manual_error": 0.0
+  },
+  "abstract_256": {
+    "input": [
+      2,
+      256
+    ],
+    "hidden": [
+      2,
+      256,
+      384
+    ],
+    "logits": [
+      2,
+      1
+    ],
+    "predict": [
+      2
+    ],
+    "manual_error": 0.0
+  },
+  "abstract_512": {
+    "input": [
+      2,
+      512
+    ],
+    "hidden": [
+      2,
+      512,
+      384
+    ],
+    "logits": [
+      2,
+      1
+    ],
+    "predict": [
+      2
+    ],
+    "manual_error": 0.0
+  }
+}

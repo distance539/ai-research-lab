@@ -1,0 +1,187 @@
+{
+  "queries": 100,
+  "pairs_per_variant": 5000,
+  "metrics": {
+    "rrf": {
+      "ndcg_cut_10": 0.6709061301781298,
+      "mrr_10": 0.6373611111111112,
+      "recall_10": 0.7775,
+      "recall_50": 0.905
+    },
+    "title_256": {
+      "ndcg_cut_10": 0.6596858695957812,
+      "mrr_10": 0.6152579365079365,
+      "recall_10": 0.8125,
+      "recall_50": 0.905
+    },
+    "title_512": {
+      "ndcg_cut_10": 0.6691325921143205,
+      "mrr_10": 0.6267499999999999,
+      "recall_10": 0.8175,
+      "recall_50": 0.905
+    },
+    "abstract_256": {
+      "ndcg_cut_10": 0.6502066828522263,
+      "mrr_10": 0.602718253968254,
+      "recall_10": 0.81,
+      "recall_50": 0.905
+    },
+    "abstract_512": {
+      "ndcg_cut_10": 0.6386130834987793,
+      "mrr_10": 0.5922619047619048,
+      "recall_10": 0.8,
+      "recall_50": 0.905
+    }
+  },
+  "effects": {
+    "title_256_minus_abstract_256": {
+      "mean": 0.009479186743554947,
+      "win_tie_loss": [
+        16,
+        70,
+        14
+      ]
+    },
+    "title_512_minus_abstract_512": {
+      "mean": 0.030519508615541185,
+      "win_tie_loss": [
+        22,
+        68,
+        10
+      ]
+    },
+    "title_512_minus_title_256": {
+      "mean": 0.009446722518539327,
+      "win_tie_loss": [
+        12,
+        78,
+        10
+      ]
+    },
+    "abstract_512_minus_abstract_256": {
+      "mean": -0.01159359935344691,
+      "win_tie_loss": [
+        10,
+        74,
+        16
+      ]
+    },
+    "title_256_minus_rrf": {
+      "mean": -0.011220260582348644,
+      "win_tie_loss": [
+        21,
+        59,
+        20
+      ]
+    },
+    "title_512_minus_rrf": {
+      "mean": -0.0017735380638093168,
+      "win_tie_loss": [
+        20,
+        62,
+        18
+      ]
+    },
+    "abstract_256_minus_rrf": {
+      "mean": -0.02069944732590359,
+      "win_tie_loss": [
+        21,
+        56,
+        23
+      ]
+    },
+    "abstract_512_minus_rrf": {
+      "mean": -0.0322930466793505,
+      "win_tie_loss": [
+        15,
+        64,
+        21
+      ]
+    },
+    "interaction": {
+      "mean": 0.021040321871986237,
+      "win_tie_loss": [
+        22,
+        69,
+        9
+      ]
+    }
+  },
+  "tokens": {
+    "title_256": {
+      "raw_tokens": 1834958,
+      "retained_tokens": 1237934,
+      "query_raw": 101100,
+      "query_retained": 101100,
+      "doc_raw": 1718858,
+      "doc_retained": 1121834,
+      "title_retained": 112064,
+      "abstract_retained": 1009770,
+      "truncated": 4056,
+      "relevant_pairs": 108,
+      "relevant_truncated": 95,
+      "relevant_unique_docs_truncated": 92
+    },
+    "title_512": {
+      "raw_tokens": 1834958,
+      "retained_tokens": 1761679,
+      "query_raw": 101100,
+      "query_retained": 101100,
+      "doc_raw": 1718858,
+      "doc_retained": 1645579,
+      "title_retained": 112064,
+      "abstract_retained": 1533515,
+      "truncated": 569,
+      "relevant_pairs": 108,
+      "relevant_truncated": 20,
+      "relevant_unique_docs_truncated": 20
+    },
+    "abstract_256": {
+      "raw_tokens": 1722894,
+      "retained_tokens": 1217894,
+      "query_raw": 101100,
+      "query_retained": 101100,
+      "doc_raw": 1606794,
+      "doc_retained": 1101794,
+      "title_retained": 0,
+      "abstract_retained": 1101794,
+      "truncated": 3695,
+      "relevant_pairs": 108,
+      "relevant_truncated": 86,
+      "relevant_unique_docs_truncated": 84
+    },
+    "abstract_512": {
+      "raw_tokens": 1722894,
+      "retained_tokens": 1662975,
+      "query_raw": 101100,
+      "query_retained": 101100,
+      "doc_raw": 1606794,
+      "doc_retained": 1546875,
+      "title_retained": 0,
+      "abstract_retained": 1546875,
+      "truncated": 443,
+      "relevant_pairs": 108,
+      "relevant_truncated": 18,
+      "relevant_unique_docs_truncated": 18
+    }
+  },
+  "timings": {
+    "title_256": {
+      "inference_seconds": 55.01272112503648,
+      "token_shape_audit_seconds": 4.785523124970496
+    },
+    "title_512": {
+      "inference_seconds": 142.51947983447462,
+      "token_shape_audit_seconds": 5.2635950008407235
+    },
+    "abstract_256": {
+      "inference_seconds": 55.65432533342391,
+      "token_shape_audit_seconds": 4.848586415871978
+    },
+    "abstract_512": {
+      "inference_seconds": 141.55069587472826,
+      "token_shape_audit_seconds": 5.014840583316982
+    }
+  },
+  "scope": "development100x50, 4 frozen conditions; smoke5x10 if specified"
+}
