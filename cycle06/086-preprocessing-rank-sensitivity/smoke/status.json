@@ -1,0 +1,53 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<hash-verified-cache>",
+    "--out",
+    "smoke",
+    "--smoke"
+  ],
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "existing hash-verified cache"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "queries": 5,
+      "corpus": 5183,
+      "pairs_per_variant": 50
+    },
+    "inference": {
+      "status": "passed",
+      "variants": 4,
+      "pairs_total": 200,
+      "timings": {
+        "title_256": {
+          "inference_seconds": 0.5015333751216531,
+          "token_shape_audit_seconds": 0.10183087456971407
+        },
+        "title_512": {
+          "inference_seconds": 1.2965077077969909,
+          "token_shape_audit_seconds": 0.16120674926787615
+        },
+        "abstract_256": {
+          "inference_seconds": 0.5030851252377033,
+          "token_shape_audit_seconds": 0.0944750839844346
+        },
+        "abstract_512": {
+          "inference_seconds": 1.402444500476122,
+          "token_shape_audit_seconds": 0.15833883360028267
+        }
+      }
+    },
+    "evaluation": {
+      "status": "passed",
+      "evaluator": "pytrec_eval-terrier0.5.10; independent MRR10"
+    }
+  },
+  "smoke": true,
+  "elapsed_seconds": 7.785642333328724
+}

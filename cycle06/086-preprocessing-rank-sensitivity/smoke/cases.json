@@ -1,0 +1,151 @@
+{
+  "rule": "3largest absolute title length delta; tie queryID asc; automatic not human annotation",
+  "rows": [
+    {
+      "query_id": "1125",
+      "metrics": {
+        "rrf": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "title_256": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "title_512": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "abstract_256": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "abstract_512": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        }
+      },
+      "relevant_ranks": {
+        "rrf": {
+          "21009874": 1
+        },
+        "title_256": {
+          "21009874": 1
+        },
+        "title_512": {
+          "21009874": 1
+        },
+        "abstract_256": {
+          "21009874": 1
+        },
+        "abstract_512": {
+          "21009874": 1
+        }
+      }
+    },
+    {
+      "query_id": "1193",
+      "metrics": {
+        "rrf": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 0.6309297535714575,
+          "mrr_10": 0.5
+        },
+        "title_256": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "title_512": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 1.0,
+          "mrr_10": 1.0
+        },
+        "abstract_256": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 0.6309297535714575,
+          "mrr_10": 0.5
+        },
+        "abstract_512": {
+          "recall_10": 1.0,
+          "recall_50": 1.0,
+          "ndcg_cut_10": 0.6309297535714575,
+          "mrr_10": 0.5
+        }
+      },
+      "relevant_ranks": {
+        "rrf": {
+          "20532591": 2
+        },
+        "title_256": {
+          "20532591": 1
+        },
+        "title_512": {
+          "20532591": 1
+        },
+        "abstract_256": {
+          "20532591": 2
+        },
+        "abstract_512": {
+          "20532591": 2
+        }
+      }
+    },
+    {
+      "query_id": "1309",
+      "metrics": {
+        "rrf": {
+          "recall_10": 0.0,
+          "recall_50": 0.0,
+          "ndcg_cut_10": 0.0,
+          "mrr_10": 0.0
+        },
+        "title_256": {
+          "recall_10": 0.0,
+          "recall_50": 0.0,
+          "ndcg_cut_10": 0.0,
+          "mrr_10": 0.0
+        },
+        "title_512": {
+          "recall_10": 0.0,
+          "recall_50": 0.0,
+          "ndcg_cut_10": 0.0,
+          "mrr_10": 0.0
+        },
+        "abstract_256": {
+          "recall_10": 0.0,
+          "recall_50": 0.0,
+          "ndcg_cut_10": 0.0,
+          "mrr_10": 0.0
+        },
+        "abstract_512": {
+          "recall_10": 0.0,
+          "recall_50": 0.0,
+          "ndcg_cut_10": 0.0,
+          "mrr_10": 0.0
+        }
+      },
+      "relevant_ranks": {
+        "rrf": {},
+        "title_256": {},
+        "title_512": {},
+        "abstract_256": {},
+        "abstract_512": {}
+      }
+    }
+  ]
+}
