@@ -1,0 +1,4 @@
+# Attribution and distribution
+Local original code: Apache-2.0 (LICENSE). official_rerank.py is a byte-identical copy from BEIR ef83d29307061c65d04b035b4f4e7c18bd8374af; Apache-2.0 license in licenses/BEIR-LICENSE. Runtime Sentence Transformers3.4.1 Apache-2.0 license retained in licenses/ST-LICENSE. Model Apache-2.0 per fixed card; weights not distributed.
+
+SciFact: David Wadden et al., Fact or Fiction: Verifying Scientific Claims, EMNLP2020. Annotation subset credited to original authors, CC BY4.0; abstracts ODC-By1.0 per original LICENSE (licenses/SCIFACT-LICENSE.md). No full abstracts, weights, environment, private configuration or credentials included. Query/document IDs, qrels subset, numerical predictions and token counts included for audit. Fetch large resources through prepare.py and hashes. No human annotation or human review claimed.

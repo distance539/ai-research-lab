@@ -1,0 +1,69 @@
+title_256 {'inference_seconds': 49.78143070824444, 'token_shape_audit_seconds': 4.837675458751619} {'raw_tokens': 1834958, 'retained_tokens': 1237934, 'query_raw': 101100, 'query_retained': 101100, 'doc_raw': 1718858, 'doc_retained': 1121834, 'title_retained': 112064, 'abstract_retained': 1009770, 'truncated': 4056, 'relevant_pairs': 108, 'relevant_truncated': 95, 'relevant_unique_docs_truncated': 92}
+Traceback (most recent call last):
+  File "<workspace>/drafts/research-trends/2026-09-29_086_preprocessing_rank_sensitivity/code/run.py", line 69, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--smoke',action='store_true');a=p.parse_args();main(a.cache,a.out,a.smoke)
+                                                                                                                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/drafts/research-trends/2026-09-29_086_preprocessing_rank_sensitivity/code/run.py", line 42, in main
+    runs[name]=Rerank(model,batch_size=cfg['batch_size']).rerank(altered,{q:queries[q] for q in qids},candidates,top_k=k)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/drafts/research-trends/2026-09-29_086_preprocessing_rank_sensitivity/code/official_rerank.py", line 40, in rerank
+    float(score) for score in self.cross_encoder.predict(sentence_pairs, batch_size=self.batch_size)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/sentence_transformers/cross_encoder/CrossEncoder.py", line 441, in predict
+    model_predictions = self.model(**features, return_dict=True)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1673, in forward
+    outputs = self.bert(
+              ^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 1142, in forward
+    encoder_outputs = self.encoder(
+                      ^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 695, in forward
+    layer_outputs = layer_module(
+                    ^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 585, in forward
+    self_attention_outputs = self.attention(
+                             ^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 515, in forward
+    self_outputs = self.self(
+                   ^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/data/research_cycle6/venv/lib/python3.12/site-packages/transformers/models/bert/modeling_bert.py", line 440, in forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

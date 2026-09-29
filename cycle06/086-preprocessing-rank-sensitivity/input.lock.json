@@ -1,0 +1,8 @@
+{
+  "source_commit": "4a2c80e8b39305f1ac411bcd80c0c688d0660c5e",
+  "source_path": "cycle06/085-reranker-recall-ceiling",
+  "files": {
+    "inputs/candidates.json": "13a2509668ff1ca44386070840c6832b959f29cb37957ece421741f918478265",
+    "inputs/qrels.json": "224e1a2160f951e1d94799102944b2a718b7af2ce94f8e41196ba2457fa81f67"
+  }
+}

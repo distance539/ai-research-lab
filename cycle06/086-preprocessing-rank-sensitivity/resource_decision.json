@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-29T09:08:36.668112+08:00",
+  "smoke_pairs_total": 200,
+  "smoke_inference_seconds": 3.703570708632469,
+  "scaled_full_seconds": 370.3570708632469,
+  "rss_bytes": 985202688,
+  "passed": true,
+  "accidental_prior_full_run": "interrupted SIGINT130; one5000pair title256 output retained, not used for choices"
+}

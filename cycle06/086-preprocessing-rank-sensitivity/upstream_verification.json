@@ -1,0 +1,51 @@
+{
+  "CrossEncoder.py": {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/cross_encoder/CrossEncoder.py",
+    "http_status": 200,
+    "sha256": "87adb18b78e8ca525932635d604549c44251e205217be185428dc11fc52632b6",
+    "accessed_at": "2026-09-29T09:09:56.795763+08:00"
+  },
+  "rerank.py": {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/reranking/rerank.py",
+    "http_status": 200,
+    "sha256": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5",
+    "accessed_at": "2026-09-29T09:09:58.050379+08:00"
+  },
+  "evaluation.py": {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/evaluation.py",
+    "http_status": 200,
+    "sha256": "f346bd20f258e552895e438257e3cc91308b65e0b1ee6c09422e987084bc3bd0",
+    "accessed_at": "2026-09-29T09:09:59.098734+08:00"
+  },
+  "model-card.md": {
+    "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/README.md",
+    "http_status": 200,
+    "sha256": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa",
+    "accessed_at": "2026-09-29T09:10:01.019223+08:00"
+  },
+  "BEIR-LICENSE": {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/LICENSE",
+    "http_status": 200,
+    "sha256": "d4c454f2506fb94fd17f71498fd66177546a570676cbe85b48a64a9e98596794",
+    "accessed_at": "2026-09-29T09:10:02.041276+08:00"
+  },
+  "ST-LICENSE": {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/LICENSE",
+    "http_status": 200,
+    "sha256": "624b030fd62b8b989dd502d5bb6322cbc0dbb524ab9c9708f32efe33d7275735",
+    "accessed_at": "2026-09-29T09:10:03.074299+08:00"
+  },
+  "085-candidates.json": {
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/4a2c80e8b39305f1ac411bcd80c0c688d0660c5e/cycle06/085-reranker-recall-ceiling/inputs/candidates.json",
+    "http_status": 200,
+    "sha256": "13a2509668ff1ca44386070840c6832b959f29cb37957ece421741f918478265",
+    "accessed_at": "2026-09-29T09:10:04.946197+08:00"
+  },
+  "local_equality_checks": {
+    "BEIR_exact": true,
+    "ST_normalized_exact": true,
+    "candidates_public_exact": true,
+    "BEIR_license": true,
+    "ST_license": true
+  }
+}

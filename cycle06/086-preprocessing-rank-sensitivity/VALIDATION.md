@@ -1,0 +1,6 @@
+# Validation — 2026-09-29
+Real smoke200pairs and full20000pairs completed exit0; all four official CrossEncoder/BEIR conditions. Independent standard-library audit checks every saved score/rank/candidate set/token accounting and metric, max metric error0. title512 all5000 logits exactly match085 public baseline; originalRRF identical. Shapes [2,256 or512] -> [2,S,384] -> [2,1] -> [2], manual error0. Model/data downloads not repeated, existing per-filehashes checked. No test/training/humanannotation.
+
+Initial full invocation accidentally lacked --smoke. Interrupted with SIGINT exit130; partial title256 output and raw-log public redaction retained early_aborted/. resource decision then based only on correct smoke. All four final settings identical to preregistration.
+
+identity.json records executable modules present at each run. Independent audit/plot and documentation were added after inference; runtime run.py/common.py/official_rerank.py unchanged. Final archive manifest captures all delivered source. code.zip excludes __pycache__, model weights/data archives/venv/private paths. Archive/public validation records are kept outside code to avoid circular package hash; fresh extracted minimal real200pair replay and public export verification are recorded by the article metadata, not assumed here.
