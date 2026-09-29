@@ -1,0 +1,26 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<hash-verified-cache>",
+    "--out",
+    "smoke"
+  ],
+  "exit_code": 130,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "existing hash-verified cache"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "queries": 100,
+      "corpus": 5183,
+      "pairs_per_variant": 5000
+    }
+  },
+  "smoke": false,
+  "elapsed_seconds": 96.79926379118115,
+  "error": "KeyboardInterrupt: stopped accidental full run without --smoke before resource decision"
+}
