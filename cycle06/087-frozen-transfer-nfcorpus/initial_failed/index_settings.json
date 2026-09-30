@@ -1,0 +1,45 @@
+{
+  "cycle6-087-bf55c0313eff": {
+    "aliases": {},
+    "mappings": {
+      "properties": {
+        "refresh": {
+          "type": "text",
+          "fields": {
+            "keyword": {
+              "type": "keyword",
+              "ignore_above": 256
+            }
+          }
+        },
+        "title": {
+          "type": "text",
+          "analyzer": "english"
+        },
+        "txt": {
+          "type": "text",
+          "analyzer": "english"
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "routing": {
+          "allocation": {
+            "include": {
+              "_tier_preference": "data_content"
+            }
+          }
+        },
+        "number_of_shards": "1",
+        "provided_name": "cycle6-087-bf55c0313eff",
+        "creation_date": "1790730526069",
+        "number_of_replicas": "1",
+        "uuid": "aKy2Rn2uRsyYPceayrUu-A",
+        "version": {
+          "created": "7170999"
+        }
+      }
+    }
+  }
+}
