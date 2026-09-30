@@ -1,0 +1,163 @@
+{
+  "cache_key": "995635d0828383369a587f400d6e3b1d00df65835937fa473752f9ae97cc8f7f",
+  "config": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "max_seq_length": 256,
+    "batch_size": 16,
+    "threads": 4,
+    "device": "cpu",
+    "dtype": "float32",
+    "seed": 87,
+    "split": "test",
+    "candidate_k": 100,
+    "score": "cos_sim",
+    "prompt": null,
+    "decoding": null,
+    "corpus_text": "(title + space + text).strip()",
+    "primary_metric": "ndcg_cut_10",
+    "tie_break": "score descending, document ID string descending",
+    "selection_rule": "All BEIR NFCorpus test queries; no target tuning; no reranker",
+    "dataset": "nfcorpus",
+    "rrf_k": 60,
+    "es_version": "7.17.9",
+    "es_build": "ef48222227ee6b9e70e502f0f0daa52435ee634d",
+    "bm25": {
+      "analyzer": "english",
+      "k1": 1.2,
+      "b": 0.75,
+      "fields": [
+        "title",
+        "txt"
+      ],
+      "type": "best_fields",
+      "tie_breaker": 0.5,
+      "shards": 1
+    }
+  },
+  "data": {
+    "nfcorpus/corpus.jsonl": "10cc83ef1826b1425e6a87090b5140b39b27755d5a27e48215a88611c899991f",
+    "nfcorpus/queries.jsonl": "d024e6621b84925d485ae473d316a0c3af31c62c8068a59fb29d22f7613aef2a",
+    "nfcorpus/qrels/train.tsv": "6336b80f9bffc4f063f3aa450047ad35c0b7c534efe4a6ba35e16dbace047f6a",
+    "nfcorpus/qrels/dev.tsv": "b1d38b5e8f78c4a5820bce2b7ec2db54911d7690dc601e76811846b211180bd8",
+    "nfcorpus/qrels/test.tsv": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a"
+  },
+  "model_tokenizer": {
+    "repository": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "files": {
+      "config.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json",
+        "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+        "bytes": 612
+      },
+      "config_sentence_transformers.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json",
+        "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+        "bytes": 116
+      },
+      "modules.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json",
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "bytes": 349
+      },
+      "sentence_bert_config.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json",
+        "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+        "bytes": 53
+      },
+      "special_tokens_map.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json",
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "bytes": 112
+      },
+      "tokenizer.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json",
+        "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+        "bytes": 466247
+      },
+      "tokenizer_config.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json",
+        "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+        "bytes": 350
+      },
+      "vocab.txt": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt",
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "bytes": 231508
+      },
+      "1_Pooling/config.json": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling/config.json",
+        "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+        "bytes": 190
+      },
+      "model.safetensors": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/model.safetensors",
+        "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+        "bytes": 90868376
+      },
+      "README.md": {
+        "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+        "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+        "bytes": 10502
+      }
+    }
+  },
+  "prompt": null,
+  "decoding": null,
+  "beir": "ef83d29307061c65d04b035b4f4e7c18bd8374af",
+  "protocol": "5e8c5cfdbada4126de53db7c10b590ed8f1889116f3df3d887c43cb87ddbe894",
+  "code": {
+    "common.py": "937bb4c337509bb513ddee8a250bb8e5630ba3819b27305b10947c8e25f64fbc",
+    "compat.py": "f190edf88cbac732f48566f096e51467d6a89691d3c881dd8975a45d8d4a9239",
+    "encoder.py": "820389493a2da96f31d35d3a4980566402b31c1b8753539441c9fcc83c534791",
+    "fusion.py": "167feb52d38b6e3fdc9a6b1c7a61ede9f945720f18db8ebb51b1c0ce5f677cc7",
+    "prepare.py": "df34202156a8b93847bd1403bf3a4f76f5623dd00c8b216008180693ec96a9a6",
+    "run.py": "8a8bff955a457ce8e5cda64f7666c42cba1a0b108915027da5f15156d1eef447",
+    "vendor/fusion_base.py": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4",
+    "vendor/trectools_base.py": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4"
+  },
+  "requirements": "6424a1aba8c15ff92559f64dba96ad3e57006049b331239dd07c96625f689f5d",
+  "smoke": true,
+  "query_ids": [
+    "PLAIN-1008",
+    "PLAIN-1018",
+    "PLAIN-102",
+    "PLAIN-1028",
+    "PLAIN-1039"
+  ],
+  "corpus_ids": [
+    "MED-10",
+    "MED-14",
+    "MED-118",
+    "MED-301",
+    "MED-306",
+    "MED-329",
+    "MED-330",
+    "MED-332",
+    "MED-334",
+    "MED-335",
+    "MED-398",
+    "MED-557",
+    "MED-666",
+    "MED-691",
+    "MED-692",
+    "MED-702",
+    "MED-706",
+    "MED-707",
+    "MED-708",
+    "MED-709",
+    "MED-711",
+    "MED-712",
+    "MED-713",
+    "MED-714",
+    "MED-716",
+    "MED-717",
+    "MED-718",
+    "MED-719",
+    "MED-720",
+    "MED-721",
+    "MED-722",
+    "MED-723"
+  ]
+}

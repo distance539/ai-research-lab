@@ -1,0 +1,64 @@
+{
+  "dense": {
+    "rule": "three largest gains/losses automatically selected, no human annotation",
+    "losses": [
+      {
+        "query_id": "PLAIN-1008",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-1018",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-102",
+        "delta": 0.0
+      }
+    ],
+    "gains": [
+      {
+        "query_id": "PLAIN-1008",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-1018",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-102",
+        "delta": 0.0
+      }
+    ]
+  },
+  "rrf60": {
+    "rule": "three largest gains/losses automatically selected, no human annotation",
+    "losses": [
+      {
+        "query_id": "PLAIN-1008",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-1018",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-102",
+        "delta": 0.0
+      }
+    ],
+    "gains": [
+      {
+        "query_id": "PLAIN-1008",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-1018",
+        "delta": 0.0
+      },
+      {
+        "query_id": "PLAIN-102",
+        "delta": 0.0
+      }
+    ]
+  }
+}

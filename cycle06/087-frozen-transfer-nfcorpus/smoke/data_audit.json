@@ -1,0 +1,23 @@
+{
+  "full": {
+    "documents": 3633,
+    "queries": 323
+  },
+  "actual": {
+    "documents": 32,
+    "queries": 5
+  },
+  "label_counts": {
+    "1": 90,
+    "2": 2
+  },
+  "positive_per_query": {
+    "min": 1,
+    "max": 60,
+    "mean": 18.4
+  },
+  "train_dev_query_overlap": 0,
+  "query_doc_collision": 0,
+  "grades_binarized": false,
+  "test_access": "all target test used once as frozen transfer; smoke subset overlaps but no tuning; no untouched target claim after run"
+}

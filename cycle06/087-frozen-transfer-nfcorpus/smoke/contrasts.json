@@ -1,0 +1,46 @@
+{
+  "dense": [
+    {
+      "query_id": "PLAIN-1008",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1018",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-102",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1028",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1039",
+      "delta": 0.0
+    }
+  ],
+  "rrf60": [
+    {
+      "query_id": "PLAIN-1008",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1018",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-102",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1028",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1039",
+      "delta": 0.0
+    }
+  ]
+}

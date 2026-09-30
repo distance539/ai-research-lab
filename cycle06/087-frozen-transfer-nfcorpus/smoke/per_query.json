@@ -1,0 +1,83 @@
+{
+  "bm25": {
+    "PLAIN-1008": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1018": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-102": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1028": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1039": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    }
+  },
+  "dense": {
+    "PLAIN-1008": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1018": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-102": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1028": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1039": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    }
+  },
+  "rrf60": {
+    "PLAIN-1008": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1018": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-102": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1028": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    },
+    "PLAIN-1039": {
+      "recall_100": 0.0,
+      "ndcg_cut_10": 0.0,
+      "mrr_10": 0.0
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "queries": {
+    "count": 5,
+    "tokens_untruncated": 24,
+    "tokens_after_truncation": 24,
+    "truncated_count": 0,
+    "max_tokens": 7,
+    "seconds": 0.009318457916378975,
+    "shape": [
+      5,
+      384
+    ],
+    "max_norm_error": 1.1920928955078125e-07
+  },
+  "corpus": {
+    "count": 32,
+    "tokens_untruncated": 10979,
+    "tokens_after_truncation": 7935,
+    "truncated_count": 27,
+    "max_tokens": 527,
+    "seconds": 0.3609902076423168,
+    "shape": [
+      32,
+      384
+    ],
+    "max_norm_error": 1.1920928955078125e-07
+  }
+}

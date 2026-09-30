@@ -1,0 +1,18 @@
+{
+  "input_ids": [
+    2,
+    8
+  ],
+  "hidden": [
+    2,
+    8,
+    384
+  ],
+  "pooled": [
+    2,
+    384
+  ],
+  "masked_mean_max_error": 0.0,
+  "parameters": 22713216,
+  "training": false
+}
