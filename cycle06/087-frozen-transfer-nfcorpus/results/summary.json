@@ -1,0 +1,91 @@
+{
+  "scope": "All323 BEIR NFCorpus test queries; full3633documents; frozen single configuration",
+  "source": {
+    "bm25": {
+      "ndcg_cut_10": 0.6942695072544098,
+      "recall_100": 0.9350638648537289,
+      "mrr_10": 0.6625198657955147,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        809,
+        0
+      ]
+    },
+    "dense": {
+      "ndcg_cut_10": 0.6602002541701137,
+      "recall_100": 0.9324268644416976,
+      "mrr_10": 0.6261301430337277,
+      "delta_vs_bm25": -0.03406925308429603,
+      "win_tie_loss": [
+        150,
+        444,
+        215
+      ]
+    },
+    "rrf60": {
+      "ndcg_cut_10": 0.712219140791914,
+      "recall_100": 0.9503502266172229,
+      "mrr_10": 0.680723801675594,
+      "delta_vs_bm25": 0.01794963353750414,
+      "win_tie_loss": [
+        162,
+        546,
+        101
+      ]
+    }
+  },
+  "target": {
+    "bm25": {
+      "ndcg_cut_10": 0.3268901559044054,
+      "recall_100": 0.2481408450402383,
+      "mrr_10": 0.5277630350385768,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        323,
+        0
+      ]
+    },
+    "dense": {
+      "ndcg_cut_10": 0.31594074924861876,
+      "recall_100": 0.31150992401169303,
+      "mrr_10": 0.5040419676642587,
+      "delta_vs_bm25": -0.010949406655786658,
+      "win_tie_loss": [
+        109,
+        106,
+        108
+      ]
+    },
+    "rrf60": {
+      "ndcg_cut_10": 0.35311460256774024,
+      "recall_100": 0.322482479093216,
+      "mrr_10": 0.556373777581208,
+      "delta_vs_bm25": 0.026224446663334837,
+      "win_tie_loss": [
+        122,
+        136,
+        65
+      ]
+    }
+  },
+  "independent_metric_max_error": 3.3306690738754696e-16,
+  "failure_counts": {
+    "bm25": {
+      "no_relevant_top10": 96,
+      "no_relevant_top100": 68
+    },
+    "dense": {
+      "no_relevant_top10": 100,
+      "no_relevant_top100": 51
+    },
+    "rrf60": {
+      "no_relevant_top10": 90,
+      "no_relevant_top100": 43
+    }
+  },
+  "rrf_union_rows": 46852,
+  "target_tuning": false,
+  "source_confirmation_used": false
+}

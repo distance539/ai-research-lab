@@ -1,0 +1,2590 @@
+{
+  "dense": [
+    {
+      "query_id": "PLAIN-1008",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1018",
+      "delta": -0.2992268320114626
+    },
+    {
+      "query_id": "PLAIN-102",
+      "delta": 0.08762359653242777
+    },
+    {
+      "query_id": "PLAIN-1028",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1039",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1050",
+      "delta": 0.031167576170599065
+    },
+    {
+      "query_id": "PLAIN-1066",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1088",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1098",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1109",
+      "delta": 0.17947710508581738
+    },
+    {
+      "query_id": "PLAIN-1119",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-112",
+      "delta": 0.29624764112538965
+    },
+    {
+      "query_id": "PLAIN-1130",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1141",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1151",
+      "delta": -0.3592298738520636
+    },
+    {
+      "query_id": "PLAIN-1161",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1172",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1183",
+      "delta": -0.15459324452388565
+    },
+    {
+      "query_id": "PLAIN-1193",
+      "delta": -0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-12",
+      "delta": 0.05818813536910704
+    },
+    {
+      "query_id": "PLAIN-1203",
+      "delta": 0.20483424751859086
+    },
+    {
+      "query_id": "PLAIN-1214",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1225",
+      "delta": 0.019664981045742214
+    },
+    {
+      "query_id": "PLAIN-123",
+      "delta": 0.11501412117799026
+    },
+    {
+      "query_id": "PLAIN-1236",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1249",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1262",
+      "delta": 0.0979018376247538
+    },
+    {
+      "query_id": "PLAIN-1275",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1288",
+      "delta": -0.6618313225363273
+    },
+    {
+      "query_id": "PLAIN-1299",
+      "delta": -0.09478836436955076
+    },
+    {
+      "query_id": "PLAIN-1309",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1320",
+      "delta": -0.5709662133861837
+    },
+    {
+      "query_id": "PLAIN-133",
+      "delta": 0.09508977831648076
+    },
+    {
+      "query_id": "PLAIN-1331",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1342",
+      "delta": 0.12031219509808355
+    },
+    {
+      "query_id": "PLAIN-1353",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1363",
+      "delta": 0.0020360616418525768
+    },
+    {
+      "query_id": "PLAIN-1374",
+      "delta": -0.08514311764162098
+    },
+    {
+      "query_id": "PLAIN-1387",
+      "delta": 0.009645246727929657
+    },
+    {
+      "query_id": "PLAIN-1398",
+      "delta": 0.06362078819895167
+    },
+    {
+      "query_id": "PLAIN-1409",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1419",
+      "delta": 0.06943122193677725
+    },
+    {
+      "query_id": "PLAIN-1429",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-143",
+      "delta": 0.2963688446922485
+    },
+    {
+      "query_id": "PLAIN-1441",
+      "delta": 0.06439687505746194
+    },
+    {
+      "query_id": "PLAIN-1453",
+      "delta": -0.053436906422580865
+    },
+    {
+      "query_id": "PLAIN-1463",
+      "delta": -0.1253034019285294
+    },
+    {
+      "query_id": "PLAIN-1473",
+      "delta": -1.0
+    },
+    {
+      "query_id": "PLAIN-1485",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1496",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1506",
+      "delta": -0.15962759140320096
+    },
+    {
+      "query_id": "PLAIN-1516",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1527",
+      "delta": 0.21145027911440428
+    },
+    {
+      "query_id": "PLAIN-153",
+      "delta": 0.3636144125732219
+    },
+    {
+      "query_id": "PLAIN-1537",
+      "delta": 0.5924001005995501
+    },
+    {
+      "query_id": "PLAIN-1547",
+      "delta": 0.11706259313796354
+    },
+    {
+      "query_id": "PLAIN-1557",
+      "delta": -0.05810640331987074
+    },
+    {
+      "query_id": "PLAIN-1568",
+      "delta": -0.08027921085181244
+    },
+    {
+      "query_id": "PLAIN-1579",
+      "delta": -0.16958010263680806
+    },
+    {
+      "query_id": "PLAIN-1590",
+      "delta": -0.028816560724514453
+    },
+    {
+      "query_id": "PLAIN-1601",
+      "delta": -0.03668196104968002
+    },
+    {
+      "query_id": "PLAIN-1611",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1621",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1635",
+      "delta": 0.4946396555628011
+    },
+    {
+      "query_id": "PLAIN-1645",
+      "delta": -0.30260241349881345
+    },
+    {
+      "query_id": "PLAIN-165",
+      "delta": 0.05336845745288965
+    },
+    {
+      "query_id": "PLAIN-1656",
+      "delta": -0.13886244387355454
+    },
+    {
+      "query_id": "PLAIN-1667",
+      "delta": 0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-1679",
+      "delta": 0.38685280723454163
+    },
+    {
+      "query_id": "PLAIN-1690",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1700",
+      "delta": 0.09803928583135704
+    },
+    {
+      "query_id": "PLAIN-1710",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1721",
+      "delta": -0.12575777885388384
+    },
+    {
+      "query_id": "PLAIN-1731",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1741",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-175",
+      "delta": -0.16842717545221192
+    },
+    {
+      "query_id": "PLAIN-1752",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1762",
+      "delta": 0.3767121257187075
+    },
+    {
+      "query_id": "PLAIN-1772",
+      "delta": -0.08027921085181244
+    },
+    {
+      "query_id": "PLAIN-1784",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1794",
+      "delta": -0.38685280723454163
+    },
+    {
+      "query_id": "PLAIN-1805",
+      "delta": 0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-1817",
+      "delta": -0.17947710508581743
+    },
+    {
+      "query_id": "PLAIN-1827",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1837",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1847",
+      "delta": -0.02881656072451444
+    },
+    {
+      "query_id": "PLAIN-1857",
+      "delta": -0.064075165124306
+    },
+    {
+      "query_id": "PLAIN-186",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1867",
+      "delta": -0.27487633291429087
+    },
+    {
+      "query_id": "PLAIN-1877",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1887",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1897",
+      "delta": 0.20438239758848611
+    },
+    {
+      "query_id": "PLAIN-1909",
+      "delta": -0.27163203419993076
+    },
+    {
+      "query_id": "PLAIN-1919",
+      "delta": -0.1388420586952389
+    },
+    {
+      "query_id": "PLAIN-1929",
+      "delta": 0.40853591842579556
+    },
+    {
+      "query_id": "PLAIN-1940",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1950",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-196",
+      "delta": -0.3289967126065847
+    },
+    {
+      "query_id": "PLAIN-1962",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1972",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1983",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1995",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2",
+      "delta": 0.02217110800149502
+    },
+    {
+      "query_id": "PLAIN-2009",
+      "delta": 0.07979453856244817
+    },
+    {
+      "query_id": "PLAIN-2019",
+      "delta": -0.46927872602275644
+    },
+    {
+      "query_id": "PLAIN-2030",
+      "delta": -0.30260241349881345
+    },
+    {
+      "query_id": "PLAIN-2040",
+      "delta": -0.23440650992329992
+    },
+    {
+      "query_id": "PLAIN-2051",
+      "delta": -0.008147820134518313
+    },
+    {
+      "query_id": "PLAIN-2061",
+      "delta": 0.02881656072451455
+    },
+    {
+      "query_id": "PLAIN-207",
+      "delta": 0.06629351357819235
+    },
+    {
+      "query_id": "PLAIN-2071",
+      "delta": -0.2108422994468293
+    },
+    {
+      "query_id": "PLAIN-2081",
+      "delta": -1.0
+    },
+    {
+      "query_id": "PLAIN-2092",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2102",
+      "delta": -0.06549852177419468
+    },
+    {
+      "query_id": "PLAIN-2113",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2124",
+      "delta": 0.1951890007906611
+    },
+    {
+      "query_id": "PLAIN-2134",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2145",
+      "delta": -0.05736919995117026
+    },
+    {
+      "query_id": "PLAIN-2156",
+      "delta": -0.05584077365993956
+    },
+    {
+      "query_id": "PLAIN-2167",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-217",
+      "delta": 0.3164618153841291
+    },
+    {
+      "query_id": "PLAIN-2177",
+      "delta": 0.31172351736355847
+    },
+    {
+      "query_id": "PLAIN-2187",
+      "delta": -0.1482972305701491
+    },
+    {
+      "query_id": "PLAIN-2197",
+      "delta": -0.13698471029831183
+    },
+    {
+      "query_id": "PLAIN-2209",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2220",
+      "delta": -0.11752277470724268
+    },
+    {
+      "query_id": "PLAIN-2230",
+      "delta": -0.11838279295536291
+    },
+    {
+      "query_id": "PLAIN-2240",
+      "delta": -0.24655055544758614
+    },
+    {
+      "query_id": "PLAIN-2250",
+      "delta": 0.20438239758848611
+    },
+    {
+      "query_id": "PLAIN-2261",
+      "delta": -0.31516255047698377
+    },
+    {
+      "query_id": "PLAIN-227",
+      "delta": -0.22009176629808017
+    },
+    {
+      "query_id": "PLAIN-2271",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2281",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2291",
+      "delta": -0.3391602052736161
+    },
+    {
+      "query_id": "PLAIN-23",
+      "delta": 0.15057456580330206
+    },
+    {
+      "query_id": "PLAIN-2301",
+      "delta": 0.3436966913921454
+    },
+    {
+      "query_id": "PLAIN-2311",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2321",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2332",
+      "delta": 0.3694341408067503
+    },
+    {
+      "query_id": "PLAIN-2343",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2354",
+      "delta": 0.014863272330364663
+    },
+    {
+      "query_id": "PLAIN-2364",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2375",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-238",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2386",
+      "delta": 0.17993148201117176
+    },
+    {
+      "query_id": "PLAIN-2396",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2408",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2430",
+      "delta": 0.17197645331561695
+    },
+    {
+      "query_id": "PLAIN-2440",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2450",
+      "delta": -0.11585631688686565
+    },
+    {
+      "query_id": "PLAIN-2460",
+      "delta": 0.18659057191349063
+    },
+    {
+      "query_id": "PLAIN-2470",
+      "delta": 0.39030996379297295
+    },
+    {
+      "query_id": "PLAIN-248",
+      "delta": 0.06708020649069263
+    },
+    {
+      "query_id": "PLAIN-2480",
+      "delta": 0.17849544332798353
+    },
+    {
+      "query_id": "PLAIN-2490",
+      "delta": -0.30190255404928124
+    },
+    {
+      "query_id": "PLAIN-2500",
+      "delta": 0.1575082328920582
+    },
+    {
+      "query_id": "PLAIN-2510",
+      "delta": -0.03145052628213818
+    },
+    {
+      "query_id": "PLAIN-2520",
+      "delta": -0.13618441546731896
+    },
+    {
+      "query_id": "PLAIN-2530",
+      "delta": 0.03564428516685214
+    },
+    {
+      "query_id": "PLAIN-2540",
+      "delta": 0.25207424612958834
+    },
+    {
+      "query_id": "PLAIN-2550",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2560",
+      "delta": 0.1401617087807
+    },
+    {
+      "query_id": "PLAIN-2570",
+      "delta": 0.0771160796265821
+    },
+    {
+      "query_id": "PLAIN-2580",
+      "delta": 0.010386329346650791
+    },
+    {
+      "query_id": "PLAIN-259",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2590",
+      "delta": 0.2520814921425032
+    },
+    {
+      "query_id": "PLAIN-2600",
+      "delta": 0.10650189107590569
+    },
+    {
+      "query_id": "PLAIN-2610",
+      "delta": 0.14856628765015972
+    },
+    {
+      "query_id": "PLAIN-2620",
+      "delta": -0.48671301141637685
+    },
+    {
+      "query_id": "PLAIN-2630",
+      "delta": -0.11032830295839285
+    },
+    {
+      "query_id": "PLAIN-2640",
+      "delta": -0.09172777501762386
+    },
+    {
+      "query_id": "PLAIN-2650",
+      "delta": -0.091700552188759
+    },
+    {
+      "query_id": "PLAIN-2660",
+      "delta": -0.17630010660342915
+    },
+    {
+      "query_id": "PLAIN-2670",
+      "delta": -0.04726427333290906
+    },
+    {
+      "query_id": "PLAIN-2680",
+      "delta": -0.1170347822566436
+    },
+    {
+      "query_id": "PLAIN-2690",
+      "delta": 0.1120027807575878
+    },
+    {
+      "query_id": "PLAIN-270",
+      "delta": 0.21691476781569197
+    },
+    {
+      "query_id": "PLAIN-2700",
+      "delta": 0.2996484034259831
+    },
+    {
+      "query_id": "PLAIN-2710",
+      "delta": 0.13932477033182866
+    },
+    {
+      "query_id": "PLAIN-2720",
+      "delta": 0.01931441819496804
+    },
+    {
+      "query_id": "PLAIN-2730",
+      "delta": 0.4283542128087301
+    },
+    {
+      "query_id": "PLAIN-2740",
+      "delta": 0.18910422298175422
+    },
+    {
+      "query_id": "PLAIN-2750",
+      "delta": 0.14520319523375802
+    },
+    {
+      "query_id": "PLAIN-2760",
+      "delta": 0.17907045092245474
+    },
+    {
+      "query_id": "PLAIN-2770",
+      "delta": -0.11925151867444772
+    },
+    {
+      "query_id": "PLAIN-2780",
+      "delta": 0.10271657219582164
+    },
+    {
+      "query_id": "PLAIN-2790",
+      "delta": -0.04997312974787804
+    },
+    {
+      "query_id": "PLAIN-280",
+      "delta": -0.15159495928642297
+    },
+    {
+      "query_id": "PLAIN-2800",
+      "delta": 0.04994140057099718
+    },
+    {
+      "query_id": "PLAIN-2810",
+      "delta": -0.047509220064594695
+    },
+    {
+      "query_id": "PLAIN-2820",
+      "delta": -0.11671218210122507
+    },
+    {
+      "query_id": "PLAIN-2830",
+      "delta": -0.12791931551299435
+    },
+    {
+      "query_id": "PLAIN-2840",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2850",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2860",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2870",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2880",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2890",
+      "delta": 0.10736654993242954
+    },
+    {
+      "query_id": "PLAIN-2900",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-291",
+      "delta": 0.28906861130950307
+    },
+    {
+      "query_id": "PLAIN-2910",
+      "delta": 0.11954681300743233
+    },
+    {
+      "query_id": "PLAIN-2920",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2930",
+      "delta": 0.09019475927038989
+    },
+    {
+      "query_id": "PLAIN-2940",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2950",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2960",
+      "delta": -0.3273949503887395
+    },
+    {
+      "query_id": "PLAIN-2970",
+      "delta": 0.11732715127377447
+    },
+    {
+      "query_id": "PLAIN-2981",
+      "delta": -0.0928582560511943
+    },
+    {
+      "query_id": "PLAIN-2991",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3001",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3014",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3026",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3037",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3053",
+      "delta": -0.2960819109658652
+    },
+    {
+      "query_id": "PLAIN-3063",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-307",
+      "delta": 0.0265616050096924
+    },
+    {
+      "query_id": "PLAIN-3074",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3085",
+      "delta": 0.3772153153380493
+    },
+    {
+      "query_id": "PLAIN-3097",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3116",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3131",
+      "delta": -0.21384648510932602
+    },
+    {
+      "query_id": "PLAIN-3141",
+      "delta": -0.013264987449230159
+    },
+    {
+      "query_id": "PLAIN-3151",
+      "delta": 0.4834249213402222
+    },
+    {
+      "query_id": "PLAIN-3161",
+      "delta": 0.054302655984158565
+    },
+    {
+      "query_id": "PLAIN-3171",
+      "delta": -0.1497052177660393
+    },
+    {
+      "query_id": "PLAIN-3181",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3191",
+      "delta": -0.22872265647635903
+    },
+    {
+      "query_id": "PLAIN-320",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3201",
+      "delta": -0.29482201403853153
+    },
+    {
+      "query_id": "PLAIN-3211",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3221",
+      "delta": 0.07768953695765952
+    },
+    {
+      "query_id": "PLAIN-3231",
+      "delta": 0.1463953520880401
+    },
+    {
+      "query_id": "PLAIN-3241",
+      "delta": 0.20539996316624035
+    },
+    {
+      "query_id": "PLAIN-3251",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3261",
+      "delta": -0.0945285466658181
+    },
+    {
+      "query_id": "PLAIN-3271",
+      "delta": 0.06943122193677727
+    },
+    {
+      "query_id": "PLAIN-3281",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3292",
+      "delta": 0.08607659139286838
+    },
+    {
+      "query_id": "PLAIN-33",
+      "delta": 0.08489033699495696
+    },
+    {
+      "query_id": "PLAIN-3302",
+      "delta": -0.29420263302058774
+    },
+    {
+      "query_id": "PLAIN-3312",
+      "delta": 0.25531134137954115
+    },
+    {
+      "query_id": "PLAIN-332",
+      "delta": 0.22629438553091674
+    },
+    {
+      "query_id": "PLAIN-3322",
+      "delta": 0.03668196104968004
+    },
+    {
+      "query_id": "PLAIN-3332",
+      "delta": 0.16788429622804935
+    },
+    {
+      "query_id": "PLAIN-3342",
+      "delta": -0.2671713795222088
+    },
+    {
+      "query_id": "PLAIN-3352",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3362",
+      "delta": -0.22749013678522056
+    },
+    {
+      "query_id": "PLAIN-3372",
+      "delta": 0.21228563115522306
+    },
+    {
+      "query_id": "PLAIN-3382",
+      "delta": 0.41983261987989534
+    },
+    {
+      "query_id": "PLAIN-3392",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3402",
+      "delta": 0.07336392209936005
+    },
+    {
+      "query_id": "PLAIN-3412",
+      "delta": 0.09012249829021904
+    },
+    {
+      "query_id": "PLAIN-3422",
+      "delta": -0.17357643876285958
+    },
+    {
+      "query_id": "PLAIN-3432",
+      "delta": -0.1262383603495026
+    },
+    {
+      "query_id": "PLAIN-344",
+      "delta": 0.11532344710242137
+    },
+    {
+      "query_id": "PLAIN-3442",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3452",
+      "delta": -0.456317814070433
+    },
+    {
+      "query_id": "PLAIN-3462",
+      "delta": 0.024422727507653508
+    },
+    {
+      "query_id": "PLAIN-3472",
+      "delta": 0.23982141142979554
+    },
+    {
+      "query_id": "PLAIN-358",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-371",
+      "delta": -0.026349408163597376
+    },
+    {
+      "query_id": "PLAIN-383",
+      "delta": 0.01039377481284759
+    },
+    {
+      "query_id": "PLAIN-395",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-407",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-418",
+      "delta": 0.06960906079711471
+    },
+    {
+      "query_id": "PLAIN-430",
+      "delta": -0.012698996151365272
+    },
+    {
+      "query_id": "PLAIN-44",
+      "delta": 0.15969179190153254
+    },
+    {
+      "query_id": "PLAIN-441",
+      "delta": -0.18653085781700185
+    },
+    {
+      "query_id": "PLAIN-457",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-468",
+      "delta": 0.06586282135935001
+    },
+    {
+      "query_id": "PLAIN-478",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-488",
+      "delta": 0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-499",
+      "delta": -0.21190465603975872
+    },
+    {
+      "query_id": "PLAIN-510",
+      "delta": 0.19092086617893467
+    },
+    {
+      "query_id": "PLAIN-520",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-531",
+      "delta": 0.29663268687982836
+    },
+    {
+      "query_id": "PLAIN-541",
+      "delta": -0.10778915452451093
+    },
+    {
+      "query_id": "PLAIN-551",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-56",
+      "delta": 0.09248922817937044
+    },
+    {
+      "query_id": "PLAIN-561",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-571",
+      "delta": -0.0627704498881588
+    },
+    {
+      "query_id": "PLAIN-583",
+      "delta": -0.22009176629808017
+    },
+    {
+      "query_id": "PLAIN-593",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-603",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-613",
+      "delta": -0.005034346879315282
+    },
+    {
+      "query_id": "PLAIN-623",
+      "delta": 0.2578753740644927
+    },
+    {
+      "query_id": "PLAIN-634",
+      "delta": -0.19518900079066107
+    },
+    {
+      "query_id": "PLAIN-645",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-660",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-671",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-68",
+      "delta": -0.11381311447980808
+    },
+    {
+      "query_id": "PLAIN-681",
+      "delta": -0.36907024642854247
+    },
+    {
+      "query_id": "PLAIN-691",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-701",
+      "delta": -0.18873103118020407
+    },
+    {
+      "query_id": "PLAIN-711",
+      "delta": 0.06735587017112149
+    },
+    {
+      "query_id": "PLAIN-721",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-731",
+      "delta": -0.07617607059972298
+    },
+    {
+      "query_id": "PLAIN-741",
+      "delta": -0.41125017975368
+    },
+    {
+      "query_id": "PLAIN-751",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-761",
+      "delta": 0.15192592595886684
+    },
+    {
+      "query_id": "PLAIN-771",
+      "delta": -0.3635608190110413
+    },
+    {
+      "query_id": "PLAIN-78",
+      "delta": -0.06370866775185362
+    },
+    {
+      "query_id": "PLAIN-782",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-792",
+      "delta": -0.5439570152608838
+    },
+    {
+      "query_id": "PLAIN-806",
+      "delta": -0.16354138662029627
+    },
+    {
+      "query_id": "PLAIN-817",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-827",
+      "delta": -0.29419248513214735
+    },
+    {
+      "query_id": "PLAIN-838",
+      "delta": -0.16207343047068856
+    },
+    {
+      "query_id": "PLAIN-850",
+      "delta": -0.15692535502448285
+    },
+    {
+      "query_id": "PLAIN-872",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-882",
+      "delta": 0.5079937796926364
+    },
+    {
+      "query_id": "PLAIN-892",
+      "delta": -0.4451989745299883
+    },
+    {
+      "query_id": "PLAIN-902",
+      "delta": -0.3728176791560912
+    },
+    {
+      "query_id": "PLAIN-91",
+      "delta": -0.0028769691594836555
+    },
+    {
+      "query_id": "PLAIN-913",
+      "delta": -0.15139734109601
+    },
+    {
+      "query_id": "PLAIN-924",
+      "delta": 0.5577804057619872
+    },
+    {
+      "query_id": "PLAIN-934",
+      "delta": -0.28634598975246917
+    },
+    {
+      "query_id": "PLAIN-946",
+      "delta": -0.33013764944712026
+    },
+    {
+      "query_id": "PLAIN-956",
+      "delta": 0.15020616743594872
+    },
+    {
+      "query_id": "PLAIN-966",
+      "delta": -0.1480409554829326
+    },
+    {
+      "query_id": "PLAIN-977",
+      "delta": 0.054066391017614956
+    },
+    {
+      "query_id": "PLAIN-987",
+      "delta": -0.23463936301137822
+    },
+    {
+      "query_id": "PLAIN-997",
+      "delta": 0.0
+    }
+  ],
+  "rrf60": [
+    {
+      "query_id": "PLAIN-1008",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1018",
+      "delta": 0.043976192331525166
+    },
+    {
+      "query_id": "PLAIN-102",
+      "delta": 0.06444905849935917
+    },
+    {
+      "query_id": "PLAIN-1028",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1039",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1050",
+      "delta": 0.005810433737825554
+    },
+    {
+      "query_id": "PLAIN-1066",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1088",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1098",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1109",
+      "delta": 0.16769790954355646
+    },
+    {
+      "query_id": "PLAIN-1119",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-112",
+      "delta": 0.05636833970382776
+    },
+    {
+      "query_id": "PLAIN-1130",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1141",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1151",
+      "delta": 0.05465374115705368
+    },
+    {
+      "query_id": "PLAIN-1161",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1172",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1183",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1193",
+      "delta": -0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-12",
+      "delta": 0.06702365070652629
+    },
+    {
+      "query_id": "PLAIN-1203",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1214",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1225",
+      "delta": 0.003274885654866777
+    },
+    {
+      "query_id": "PLAIN-123",
+      "delta": 0.07254167601008785
+    },
+    {
+      "query_id": "PLAIN-1236",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1249",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1262",
+      "delta": 0.11679073181198579
+    },
+    {
+      "query_id": "PLAIN-1275",
+      "delta": 0.009645246727929768
+    },
+    {
+      "query_id": "PLAIN-1288",
+      "delta": -0.011798100487748209
+    },
+    {
+      "query_id": "PLAIN-1299",
+      "delta": -0.021424442270190747
+    },
+    {
+      "query_id": "PLAIN-1309",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1320",
+      "delta": -0.5709662133861837
+    },
+    {
+      "query_id": "PLAIN-133",
+      "delta": 0.1922542355453186
+    },
+    {
+      "query_id": "PLAIN-1331",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1342",
+      "delta": 0.12848040041091768
+    },
+    {
+      "query_id": "PLAIN-1353",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1363",
+      "delta": 0.13698471029831175
+    },
+    {
+      "query_id": "PLAIN-1374",
+      "delta": -0.08514311764162098
+    },
+    {
+      "query_id": "PLAIN-1387",
+      "delta": 0.02613322929128359
+    },
+    {
+      "query_id": "PLAIN-1398",
+      "delta": 0.06362078819895167
+    },
+    {
+      "query_id": "PLAIN-1409",
+      "delta": 0.15176219107803537
+    },
+    {
+      "query_id": "PLAIN-1419",
+      "delta": 0.10153321303249646
+    },
+    {
+      "query_id": "PLAIN-1429",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-143",
+      "delta": 0.13304537651816245
+    },
+    {
+      "query_id": "PLAIN-1441",
+      "delta": -0.00942142396725243
+    },
+    {
+      "query_id": "PLAIN-1453",
+      "delta": 0.15805266281562674
+    },
+    {
+      "query_id": "PLAIN-1463",
+      "delta": -0.018088572225339605
+    },
+    {
+      "query_id": "PLAIN-1473",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1485",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1496",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1506",
+      "delta": -0.012144045524286273
+    },
+    {
+      "query_id": "PLAIN-1516",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1527",
+      "delta": 0.21145027911440428
+    },
+    {
+      "query_id": "PLAIN-153",
+      "delta": 0.3636144125732219
+    },
+    {
+      "query_id": "PLAIN-1537",
+      "delta": 0.40030566811860463
+    },
+    {
+      "query_id": "PLAIN-1547",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1557",
+      "delta": -0.05810640331987074
+    },
+    {
+      "query_id": "PLAIN-1568",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1579",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1590",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1601",
+      "delta": 0.13961814555374918
+    },
+    {
+      "query_id": "PLAIN-1611",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1621",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1635",
+      "delta": 0.33359706773886133
+    },
+    {
+      "query_id": "PLAIN-1645",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-165",
+      "delta": 0.11808648205423328
+    },
+    {
+      "query_id": "PLAIN-1656",
+      "delta": -0.04407407950400376
+    },
+    {
+      "query_id": "PLAIN-1667",
+      "delta": 0.24618570546556073
+    },
+    {
+      "query_id": "PLAIN-1679",
+      "delta": 0.38685280723454163
+    },
+    {
+      "query_id": "PLAIN-1690",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1700",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1710",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1721",
+      "delta": 0.06232152329180629
+    },
+    {
+      "query_id": "PLAIN-1731",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1741",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-175",
+      "delta": -0.035981843741182906
+    },
+    {
+      "query_id": "PLAIN-1752",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1762",
+      "delta": 0.3839120231438854
+    },
+    {
+      "query_id": "PLAIN-1772",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1784",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1794",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1805",
+      "delta": 0.0026334352554373552
+    },
+    {
+      "query_id": "PLAIN-1817",
+      "delta": -0.11322288163142841
+    },
+    {
+      "query_id": "PLAIN-1827",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1837",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1847",
+      "delta": 0.05632655691710656
+    },
+    {
+      "query_id": "PLAIN-1857",
+      "delta": -0.03871802269153257
+    },
+    {
+      "query_id": "PLAIN-186",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1867",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1877",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1887",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1897",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1909",
+      "delta": -0.4011248950259845
+    },
+    {
+      "query_id": "PLAIN-1919",
+      "delta": 0.0031769984823881714
+    },
+    {
+      "query_id": "PLAIN-1929",
+      "delta": 0.07336392209936005
+    },
+    {
+      "query_id": "PLAIN-1940",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1950",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-196",
+      "delta": -0.17442237302818642
+    },
+    {
+      "query_id": "PLAIN-1962",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1972",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1983",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-1995",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2",
+      "delta": 0.0058689491777421665
+    },
+    {
+      "query_id": "PLAIN-2009",
+      "delta": 0.07614334071738352
+    },
+    {
+      "query_id": "PLAIN-2019",
+      "delta": -0.17319681505689122
+    },
+    {
+      "query_id": "PLAIN-2030",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2040",
+      "delta": -0.0014339013662262312
+    },
+    {
+      "query_id": "PLAIN-2051",
+      "delta": -0.07206465719221467
+    },
+    {
+      "query_id": "PLAIN-2061",
+      "delta": -0.08122932242452552
+    },
+    {
+      "query_id": "PLAIN-207",
+      "delta": 0.05103599479870302
+    },
+    {
+      "query_id": "PLAIN-2071",
+      "delta": -0.10098094893466342
+    },
+    {
+      "query_id": "PLAIN-2081",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2092",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2102",
+      "delta": 0.07336392209935994
+    },
+    {
+      "query_id": "PLAIN-2113",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2124",
+      "delta": 0.1951890007906611
+    },
+    {
+      "query_id": "PLAIN-2134",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2145",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2156",
+      "delta": 0.09109240322345802
+    },
+    {
+      "query_id": "PLAIN-2167",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-217",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2177",
+      "delta": 0.2137581545116195
+    },
+    {
+      "query_id": "PLAIN-2187",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2197",
+      "delta": 0.07196677001973595
+    },
+    {
+      "query_id": "PLAIN-2209",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2220",
+      "delta": 0.10122860821230018
+    },
+    {
+      "query_id": "PLAIN-2230",
+      "delta": -0.020469867605395112
+    },
+    {
+      "query_id": "PLAIN-2240",
+      "delta": 0.006192584565112624
+    },
+    {
+      "query_id": "PLAIN-2250",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2261",
+      "delta": -0.13961814555374907
+    },
+    {
+      "query_id": "PLAIN-227",
+      "delta": -0.22009176629808017
+    },
+    {
+      "query_id": "PLAIN-2271",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2281",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2291",
+      "delta": -0.3391602052736161
+    },
+    {
+      "query_id": "PLAIN-23",
+      "delta": 0.15692117844783468
+    },
+    {
+      "query_id": "PLAIN-2301",
+      "delta": 0.23944085680261515
+    },
+    {
+      "query_id": "PLAIN-2311",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2321",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2332",
+      "delta": 0.1919035704194565
+    },
+    {
+      "query_id": "PLAIN-2343",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2354",
+      "delta": 0.20795512776127428
+    },
+    {
+      "query_id": "PLAIN-2364",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2375",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-238",
+      "delta": 0.06943122193677727
+    },
+    {
+      "query_id": "PLAIN-2386",
+      "delta": 0.15176219107803537
+    },
+    {
+      "query_id": "PLAIN-2396",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2408",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2430",
+      "delta": 0.05173987386550999
+    },
+    {
+      "query_id": "PLAIN-2440",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2450",
+      "delta": 0.008967047041898046
+    },
+    {
+      "query_id": "PLAIN-2460",
+      "delta": 0.13787989781674873
+    },
+    {
+      "query_id": "PLAIN-2470",
+      "delta": 0.3460132729787985
+    },
+    {
+      "query_id": "PLAIN-248",
+      "delta": 0.035432592320327916
+    },
+    {
+      "query_id": "PLAIN-2480",
+      "delta": 0.07871468816111216
+    },
+    {
+      "query_id": "PLAIN-2490",
+      "delta": -0.38374260773938107
+    },
+    {
+      "query_id": "PLAIN-2500",
+      "delta": 0.1258762533685709
+    },
+    {
+      "query_id": "PLAIN-2510",
+      "delta": 0.031325904237208824
+    },
+    {
+      "query_id": "PLAIN-2520",
+      "delta": -0.12177613510506173
+    },
+    {
+      "query_id": "PLAIN-2530",
+      "delta": 0.0009286741984635416
+    },
+    {
+      "query_id": "PLAIN-2540",
+      "delta": 0.40291839406918667
+    },
+    {
+      "query_id": "PLAIN-2550",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2560",
+      "delta": 0.07073048684392269
+    },
+    {
+      "query_id": "PLAIN-2570",
+      "delta": 0.17729565613086679
+    },
+    {
+      "query_id": "PLAIN-2580",
+      "delta": 0.010386329346650791
+    },
+    {
+      "query_id": "PLAIN-259",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2590",
+      "delta": 0.2570863449738051
+    },
+    {
+      "query_id": "PLAIN-2600",
+      "delta": 0.11698290934296995
+    },
+    {
+      "query_id": "PLAIN-2610",
+      "delta": -0.1135242063862684
+    },
+    {
+      "query_id": "PLAIN-2620",
+      "delta": -0.15154101508994133
+    },
+    {
+      "query_id": "PLAIN-2630",
+      "delta": 0.07183213356065532
+    },
+    {
+      "query_id": "PLAIN-2640",
+      "delta": -0.02822470971799973
+    },
+    {
+      "query_id": "PLAIN-2650",
+      "delta": -0.0667977866813399
+    },
+    {
+      "query_id": "PLAIN-2660",
+      "delta": 0.0767254532186224
+    },
+    {
+      "query_id": "PLAIN-2670",
+      "delta": -0.04726427333290906
+    },
+    {
+      "query_id": "PLAIN-2680",
+      "delta": -0.0016389767450468162
+    },
+    {
+      "query_id": "PLAIN-2690",
+      "delta": 0.2000668555013015
+    },
+    {
+      "query_id": "PLAIN-270",
+      "delta": 0.040614661212262815
+    },
+    {
+      "query_id": "PLAIN-2700",
+      "delta": 0.19291148852020382
+    },
+    {
+      "query_id": "PLAIN-2710",
+      "delta": 0.08184005369009983
+    },
+    {
+      "query_id": "PLAIN-2720",
+      "delta": 0.06943122193677725
+    },
+    {
+      "query_id": "PLAIN-2730",
+      "delta": 0.26998153306816786
+    },
+    {
+      "query_id": "PLAIN-2740",
+      "delta": 0.10204733847310354
+    },
+    {
+      "query_id": "PLAIN-2750",
+      "delta": 0.028872105743180665
+    },
+    {
+      "query_id": "PLAIN-2760",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2770",
+      "delta": -0.09111206301956104
+    },
+    {
+      "query_id": "PLAIN-2780",
+      "delta": 0.034019538049805786
+    },
+    {
+      "query_id": "PLAIN-2790",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-280",
+      "delta": -0.1199473451160582
+    },
+    {
+      "query_id": "PLAIN-2800",
+      "delta": 0.057959913024345
+    },
+    {
+      "query_id": "PLAIN-2810",
+      "delta": 0.05478496602275211
+    },
+    {
+      "query_id": "PLAIN-2820",
+      "delta": -0.11671218210122507
+    },
+    {
+      "query_id": "PLAIN-2830",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2840",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2850",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2860",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2870",
+      "delta": 0.07989569279756416
+    },
+    {
+      "query_id": "PLAIN-2880",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2890",
+      "delta": 0.06012983951359323
+    },
+    {
+      "query_id": "PLAIN-2900",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-291",
+      "delta": 0.17902272816046294
+    },
+    {
+      "query_id": "PLAIN-2910",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2920",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2930",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2940",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2950",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-2960",
+      "delta": -0.10765147306823286
+    },
+    {
+      "query_id": "PLAIN-2970",
+      "delta": 0.06779095235709004
+    },
+    {
+      "query_id": "PLAIN-2981",
+      "delta": -0.0928582560511943
+    },
+    {
+      "query_id": "PLAIN-2991",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3001",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3014",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3026",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3037",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3053",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3063",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-307",
+      "delta": 0.20713457700345583
+    },
+    {
+      "query_id": "PLAIN-3074",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3085",
+      "delta": 0.30783943172461625
+    },
+    {
+      "query_id": "PLAIN-3097",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3116",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3131",
+      "delta": -0.1525223304663143
+    },
+    {
+      "query_id": "PLAIN-3141",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3151",
+      "delta": 0.516779662686917
+    },
+    {
+      "query_id": "PLAIN-3161",
+      "delta": 0.01211177813662373
+    },
+    {
+      "query_id": "PLAIN-3171",
+      "delta": -0.113813114479808
+    },
+    {
+      "query_id": "PLAIN-3181",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3191",
+      "delta": 0.008015724352493314
+    },
+    {
+      "query_id": "PLAIN-320",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3201",
+      "delta": -0.1288646347121656
+    },
+    {
+      "query_id": "PLAIN-3211",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3221",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3231",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3241",
+      "delta": 0.20539996316624035
+    },
+    {
+      "query_id": "PLAIN-3251",
+      "delta": 0.09019475927038985
+    },
+    {
+      "query_id": "PLAIN-3261",
+      "delta": -0.0945285466658181
+    },
+    {
+      "query_id": "PLAIN-3271",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3281",
+      "delta": 0.04875383067250011
+    },
+    {
+      "query_id": "PLAIN-3292",
+      "delta": 0.0794248923227564
+    },
+    {
+      "query_id": "PLAIN-33",
+      "delta": 0.07888899830838719
+    },
+    {
+      "query_id": "PLAIN-3302",
+      "delta": -0.13422368210700986
+    },
+    {
+      "query_id": "PLAIN-3312",
+      "delta": 0.12346685137332336
+    },
+    {
+      "query_id": "PLAIN-332",
+      "delta": 0.22629438553091674
+    },
+    {
+      "query_id": "PLAIN-3322",
+      "delta": 0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-3332",
+      "delta": 0.22220244690368096
+    },
+    {
+      "query_id": "PLAIN-3342",
+      "delta": -0.061442547954487
+    },
+    {
+      "query_id": "PLAIN-3352",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3362",
+      "delta": -0.030298063857368218
+    },
+    {
+      "query_id": "PLAIN-3372",
+      "delta": 0.15537907391531905
+    },
+    {
+      "query_id": "PLAIN-3382",
+      "delta": 0.11582832728732517
+    },
+    {
+      "query_id": "PLAIN-3392",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3402",
+      "delta": 0.06625422345438903
+    },
+    {
+      "query_id": "PLAIN-3412",
+      "delta": 0.16739628388485064
+    },
+    {
+      "query_id": "PLAIN-3422",
+      "delta": -0.14160746578971992
+    },
+    {
+      "query_id": "PLAIN-3432",
+      "delta": -0.11649522644909427
+    },
+    {
+      "query_id": "PLAIN-344",
+      "delta": 0.10964831850396273
+    },
+    {
+      "query_id": "PLAIN-3442",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-3452",
+      "delta": -0.3001489274483366
+    },
+    {
+      "query_id": "PLAIN-3462",
+      "delta": 0.030391489312088904
+    },
+    {
+      "query_id": "PLAIN-3472",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-358",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-371",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-383",
+      "delta": 0.04876879993731387
+    },
+    {
+      "query_id": "PLAIN-395",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-407",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-418",
+      "delta": 0.06960906079711471
+    },
+    {
+      "query_id": "PLAIN-430",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-44",
+      "delta": 0.08494489033580484
+    },
+    {
+      "query_id": "PLAIN-441",
+      "delta": -0.17026899994916045
+    },
+    {
+      "query_id": "PLAIN-457",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-468",
+      "delta": 0.18540963436678237
+    },
+    {
+      "query_id": "PLAIN-478",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-488",
+      "delta": 0.0026334352554373552
+    },
+    {
+      "query_id": "PLAIN-499",
+      "delta": 0.0007760868585103275
+    },
+    {
+      "query_id": "PLAIN-510",
+      "delta": 0.13032376591037062
+    },
+    {
+      "query_id": "PLAIN-520",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-531",
+      "delta": 0.09385394944443068
+    },
+    {
+      "query_id": "PLAIN-541",
+      "delta": -0.05735541894137536
+    },
+    {
+      "query_id": "PLAIN-551",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-56",
+      "delta": -0.0487246054097068
+    },
+    {
+      "query_id": "PLAIN-561",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-571",
+      "delta": -0.031101485426915598
+    },
+    {
+      "query_id": "PLAIN-583",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-593",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-603",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-613",
+      "delta": 0.01639009539087545
+    },
+    {
+      "query_id": "PLAIN-623",
+      "delta": 0.17366667134799182
+    },
+    {
+      "query_id": "PLAIN-634",
+      "delta": -0.022002367442434945
+    },
+    {
+      "query_id": "PLAIN-645",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-660",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-671",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-68",
+      "delta": -0.0779210111935768
+    },
+    {
+      "query_id": "PLAIN-681",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-691",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-701",
+      "delta": 0.04700138666207576
+    },
+    {
+      "query_id": "PLAIN-711",
+      "delta": 0.08514311764162102
+    },
+    {
+      "query_id": "PLAIN-721",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-731",
+      "delta": -0.12801766325641373
+    },
+    {
+      "query_id": "PLAIN-741",
+      "delta": -0.04790889249410801
+    },
+    {
+      "query_id": "PLAIN-751",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-761",
+      "delta": 0.05584077365993939
+    },
+    {
+      "query_id": "PLAIN-771",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-78",
+      "delta": 0.08039138809008574
+    },
+    {
+      "query_id": "PLAIN-782",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-792",
+      "delta": -0.04351205222489596
+    },
+    {
+      "query_id": "PLAIN-806",
+      "delta": -0.07522127049628702
+    },
+    {
+      "query_id": "PLAIN-817",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-827",
+      "delta": -0.28481420121376444
+    },
+    {
+      "query_id": "PLAIN-838",
+      "delta": -0.007592755750414515
+    },
+    {
+      "query_id": "PLAIN-850",
+      "delta": 0.07336392209936005
+    },
+    {
+      "query_id": "PLAIN-872",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-882",
+      "delta": 0.5079937796926364
+    },
+    {
+      "query_id": "PLAIN-892",
+      "delta": -0.06943122193677731
+    },
+    {
+      "query_id": "PLAIN-902",
+      "delta": 0.0
+    },
+    {
+      "query_id": "PLAIN-91",
+      "delta": 0.0845170184479227
+    },
+    {
+      "query_id": "PLAIN-913",
+      "delta": -0.07336392209936005
+    },
+    {
+      "query_id": "PLAIN-924",
+      "delta": 0.5577804057619872
+    },
+    {
+      "query_id": "PLAIN-934",
+      "delta": -0.1310934504880391
+    },
+    {
+      "query_id": "PLAIN-946",
+      "delta": -0.0249027655074191
+    },
+    {
+      "query_id": "PLAIN-956",
+      "delta": 0.2476279670609367
+    },
+    {
+      "query_id": "PLAIN-966",
+      "delta": -0.1480409554829326
+    },
+    {
+      "query_id": "PLAIN-977",
+      "delta": 0.1480409554829326
+    },
+    {
+      "query_id": "PLAIN-987",
+      "delta": -0.05309757047402555
+    },
+    {
+      "query_id": "PLAIN-997",
+      "delta": 0.0
+    }
+  ]
+}

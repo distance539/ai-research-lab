@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "queries": 323,
+  "methods": 3,
+  "rrf_scores_recomputed": 46852,
+  "maximum_error": 3.3306690738754696e-16,
+  "linear_gain_fixture": 0.8597186998521972,
+  "empty_bm25_queries_retained": 15,
+  "positive_qrels": 12334,
+  "duplicate_corpus_query_ids": false,
+  "qrel_doc_integrity": true,
+  "scope": "offline numerical audit; real inference separately recorded"
+}

@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "rows": [
+    {
+      "query_id": "PLAIN-1098",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1214",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1309",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1611",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1621",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1679",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1752",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-1827",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-2134",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-2209",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-2271",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-2396",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-2408",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-551",
+      "direct_es_count": 0
+    },
+    {
+      "query_id": "PLAIN-997",
+      "direct_es_count": 0
+    }
+  ],
+  "claim": "all15 omitted queries confirmed zero matches by direct same-query ES count"
+}

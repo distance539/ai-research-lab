@@ -1,0 +1,47 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "results"
+  ],
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "verified cached BEIR archive, data and model; network timing in acquisition record"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "seconds": 0.1390697918832302
+    },
+    "indexing": {
+      "status": "passed",
+      "seconds": 1.0071232095360756
+    },
+    "bm25_retrieval": {
+      "status": "passed",
+      "seconds": 0.15896220784634352
+    },
+    "model_load_shape": {
+      "status": "passed",
+      "seconds": 0.20670341700315475
+    },
+    "dense_inference": {
+      "status": "passed",
+      "seconds": 37.134510500356555
+    },
+    "fusion": {
+      "status": "passed",
+      "seconds": 0.18242829106748104
+    },
+    "evaluation": {
+      "status": "passed",
+      "seconds": 0.12689904123544693,
+      "metric_max_error": 3.3306690738754696e-16
+    }
+  },
+  "elapsed_seconds": 42.65439158305526
+}
