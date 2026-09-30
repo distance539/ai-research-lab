@@ -1,0 +1,25 @@
+
+  0%|          | 0/3633 [00:00<?, ?it/s]
+100%|██████████| 3633/3633 [00:00<00:00, 230256.38it/s]
+
+  0%|          | 0/3633 [00:00<?, ?docs/s]
+  0%|          | 1/3633 [00:00<13:21,  4.53docs/s]
+ 28%|██▊       | 1001/3633 [00:00<00:00, 3123.66docs/s]
+ 55%|█████▌    | 2001/3633 [00:00<00:00, 4551.85docs/s]
+ 69%|██████▉   | 2501/3633 [00:00<00:00, 4645.96docs/s]
+ 83%|████████▎ | 3001/3633 [00:00<00:00, 4011.22docs/s]
+  0%|          | 0/3633 [00:00<?, ?docs/s]             
+  0%|          | 0/3633 [00:00<?, ?docs/s]
+
+que:   0%|          | 0/6 [00:00<?, ?it/s]
+que:  17%|█▋        | 1/6 [00:00<00:01,  2.85it/s]
+que:  67%|██████▋   | 4/6 [00:00<00:00,  9.13it/s]
+que: 100%|██████████| 6/6 [00:00<00:00, 10.83it/s]
+Traceback (most recent call last):
+  File "<workspace>/drafts/research-trends/2026-09-30_087_frozen_transfer_nfcorpus/code/run.py", line 95, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--cache',type=Path,required=True);p.add_argument('--out',type=Path,required=True);p.add_argument('--hostname',default='http://127.0.0.1:19282');p.add_argument('--smoke',action='store_true');main(p.parse_args())
+                                                                                                                                                                                                                                              ^^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/drafts/research-trends/2026-09-30_087_frozen_transfer_nfcorpus/code/run.py", line 53, in main
+    t=time.perf_counter();raw=bm.search(corpus,queries,top_k=100);write(a.out/'bm25_raw.json',raw);assert set(raw)==set(queries)
+                                                                                                          ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

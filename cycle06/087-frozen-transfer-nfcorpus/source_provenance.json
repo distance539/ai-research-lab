@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/distance539/ai-research-lab",
+  "commit": "804da74ba3484e0156183951e89228d8e71c780b",
+  "path": "cycle06/084-rrf-rank-changes/results/per_query.json",
+  "transformation": "Only bm25,dense,rrf60 keys retained; values unchanged",
+  "scope": "809 SciFact development queries, full5183 corpus; previously observed; no source rerun"
+}

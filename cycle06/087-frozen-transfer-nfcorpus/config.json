@@ -1,0 +1,35 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "max_seq_length": 256,
+  "batch_size": 16,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "seed": 87,
+  "split": "test",
+  "candidate_k": 100,
+  "score": "cos_sim",
+  "prompt": null,
+  "decoding": null,
+  "corpus_text": "(title + space + text).strip()",
+  "primary_metric": "ndcg_cut_10",
+  "tie_break": "score descending, document ID string descending",
+  "selection_rule": "All BEIR NFCorpus test queries; no target tuning; no reranker",
+  "dataset": "nfcorpus",
+  "rrf_k": 60,
+  "es_version": "7.17.9",
+  "es_build": "ef48222227ee6b9e70e502f0f0daa52435ee634d",
+  "bm25": {
+    "analyzer": "english",
+    "k1": 1.2,
+    "b": 0.75,
+    "fields": [
+      "title",
+      "txt"
+    ],
+    "type": "best_fields",
+    "tie_breaker": 0.5,
+    "shards": 1
+  }
+}

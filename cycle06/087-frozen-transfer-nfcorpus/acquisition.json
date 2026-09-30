@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-30",
+  "initial_request": {
+    "exit_code": 7,
+    "reason": "sandbox cannot connect to configured localhost proxy"
+  },
+  "retry": {
+    "exit_code": 0,
+    "source": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/nfcorpus.zip",
+    "bytes": 2448432,
+    "archive_md5_matched_official": true,
+    "archive_sha256": "efe5be03f8c5b86a5870102d0599d227c8c6e2484328e68c6522560385671b0b"
+  },
+  "download_seconds": "not separately measured",
+  "model_and_beir": "reused hash-verified cache",
+  "training": "not performed"
+}

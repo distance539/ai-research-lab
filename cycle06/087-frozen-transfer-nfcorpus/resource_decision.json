@@ -1,0 +1,10 @@
+{
+  "time": "2026-09-30T09:13:23.070947+08:00",
+  "smoke_seconds": 0.37541633378714323,
+  "linear_encoding_estimate_seconds": 40.139108553025366,
+  "caveat": "length/batch effects may differ; rough planning only",
+  "smoke_peak_rss_bytes": 703938560,
+  "budget_seconds": 900,
+  "budget_python_rss_bytes": 4294967296,
+  "decision": "proceed full323queries/3633docs; no score-based selection"
+}

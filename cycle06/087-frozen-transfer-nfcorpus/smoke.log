@@ -1,0 +1,95 @@
+  0%|          | 0/3633 [00:00<?, ?it/s]100%|██████████| 3633/3633 [00:00<00:00, 214754.51it/s]
+  0%|          | 0/32 [00:00<?, ?docs/s]  0%|          | 0/32 [00:00<?, ?docs/s]  0%|          | 0/32 [00:00<?, ?docs/s]
+que:   0%|          | 0/1 [00:00<?, ?it/s]que: 100%|██████████| 1/1 [00:00<00:00, 387.93it/s]
+dense {'status': 'passed', 'seconds': 0.37541633378714323}
+{
+  "scope": "SMOKE reduced corpus; no benchmark",
+  "source": {
+    "bm25": {
+      "ndcg_cut_10": 0.6942695072544098,
+      "recall_100": 0.9350638648537289,
+      "mrr_10": 0.6625198657955147,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        809,
+        0
+      ]
+    },
+    "dense": {
+      "ndcg_cut_10": 0.6602002541701137,
+      "recall_100": 0.9324268644416976,
+      "mrr_10": 0.6261301430337277,
+      "delta_vs_bm25": -0.03406925308429603,
+      "win_tie_loss": [
+        150,
+        444,
+        215
+      ]
+    },
+    "rrf60": {
+      "ndcg_cut_10": 0.712219140791914,
+      "recall_100": 0.9503502266172229,
+      "mrr_10": 0.680723801675594,
+      "delta_vs_bm25": 0.01794963353750414,
+      "win_tie_loss": [
+        162,
+        546,
+        101
+      ]
+    }
+  },
+  "target": {
+    "bm25": {
+      "ndcg_cut_10": 0.0,
+      "recall_100": 0.0,
+      "mrr_10": 0.0,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        5,
+        0
+      ]
+    },
+    "dense": {
+      "ndcg_cut_10": 0.0,
+      "recall_100": 0.0,
+      "mrr_10": 0.0,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        5,
+        0
+      ]
+    },
+    "rrf60": {
+      "ndcg_cut_10": 0.0,
+      "recall_100": 0.0,
+      "mrr_10": 0.0,
+      "delta_vs_bm25": 0.0,
+      "win_tie_loss": [
+        0,
+        5,
+        0
+      ]
+    }
+  },
+  "independent_metric_max_error": 0,
+  "failure_counts": {
+    "bm25": {
+      "no_relevant_top10": 5,
+      "no_relevant_top100": 5
+    },
+    "dense": {
+      "no_relevant_top10": 5,
+      "no_relevant_top100": 5
+    },
+    "rrf60": {
+      "no_relevant_top10": 5,
+      "no_relevant_top100": 5
+    }
+  },
+  "rrf_union_rows": 160,
+  "target_tuning": false,
+  "source_confirmation_used": false
+}

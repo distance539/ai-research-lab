@@ -1,0 +1,4 @@
+{
+  "rule": "private workspace absolute prefix replaced by <workspace> in initial failure traceback/log; numeric outputs unchanged",
+  "occurrences": 3
+}

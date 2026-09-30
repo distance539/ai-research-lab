@@ -1,0 +1,192 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/datasets/data_loader.py",
+    "http": 200,
+    "sha256": "bcb39af11b73861eda44f3083b399ba78c46ef11c25d56d8e195572af0be336f",
+    "bytes": 4858,
+    "lines": 134,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "bcb39af11b73861eda44f3083b399ba78c46ef11c25d56d8e195572af0be336f",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/lexical/bm25_search.py",
+    "http": 200,
+    "sha256": "f0c056b8145f6104b7f23be34fdeb3f2926fc9ae5b58eb8b6709b3f0b43cc8d0",
+    "bytes": 3330,
+    "lines": 102,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "f0c056b8145f6104b7f23be34fdeb3f2926fc9ae5b58eb8b6709b3f0b43cc8d0",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/lexical/elastic_search.py",
+    "http": 200,
+    "sha256": "a75382710c9ace81e7878557ce47ec2753e5e300907d8f79d14199674dec9e21",
+    "bytes": 10121,
+    "lines": 291,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "a75382710c9ace81e7878557ce47ec2753e5e300907d8f79d14199674dec9e21",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/exact_search.py",
+    "http": 200,
+    "sha256": "4b7ee8e9c673dc14423ca25d3555716734319fcf2223ed9ca7899ed1144c08a2",
+    "bytes": 10886,
+    "lines": 251,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "4b7ee8e9c673dc14423ca25d3555716734319fcf2223ed9ca7899ed1144c08a2",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/util.py",
+    "http": 200,
+    "sha256": "be7606016ced877067c1229a4b3e0af2c752397827257e63b3fd7582f0e67e35",
+    "bytes": 2716,
+    "lines": 97,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "be7606016ced877067c1229a4b3e0af2c752397827257e63b3fd7582f0e67e35",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/evaluation.py",
+    "http": 200,
+    "sha256": "f346bd20f258e552895e438257e3cc91308b65e0b1ee6c09422e987084bc3bd0",
+    "bytes": 5441,
+    "lines": 147,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "f346bd20f258e552895e438257e3cc91308b65e0b1ee6c09422e987084bc3bd0",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/LICENSE",
+    "http": 200,
+    "sha256": "d4c454f2506fb94fd17f71498fd66177546a570676cbe85b48a64a9e98596794",
+    "bytes": 11348,
+    "lines": 201,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "d4c454f2506fb94fd17f71498fd66177546a570676cbe85b48a64a9e98596794",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/SentenceTransformer.py",
+    "http": 200,
+    "sha256": "2b94a93974be37e7d7fbaf64dce63bf6a55c337480dec827aeb2141f4cfdeee3",
+    "bytes": 87192,
+    "lines": 1868,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "76b856d2eb901a1cc9aafa538dd3a9b99e1ccd9db207f3962004e70745d82a55",
+    "comparison": "newline normalized",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Pooling.py",
+    "http": 200,
+    "sha256": "c33f8a1f6c9d6db8e614de0c2195f90d70f5179084dd1d7102a8ef4dc1a641ed",
+    "bytes": 11500,
+    "lines": 260,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "b8fd36f5141e67559c7e20ccae32d44e88b3db41b3f9490d01ca0d4cc73256db",
+    "comparison": "newline normalized",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Normalize.py",
+    "http": 200,
+    "sha256": "16e84885c8647a1608e72ab89421d5fcae57e4460a1df96a02644efa7cd1c4c7",
+    "bytes": 588,
+    "lines": 22,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "5bb60074f4d6b5b2832077faa276b5f81a82727db4d969e492b538afa89d3c75",
+    "comparison": "newline normalized",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/models/Transformer.py",
+    "http": 200,
+    "sha256": "1e4f0baf43ad9e5b68661144cfc7fa38ad5b60fd84298e78759c5ae9285027de",
+    "bytes": 25382,
+    "lines": 551,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "938b7b9a524c718e7efa09732c206a32ffa3aff598d069074ab717e1e2e8f046",
+    "comparison": "newline normalized",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/pyserini/fusion/_base.py",
+    "http": 200,
+    "sha256": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4",
+    "bytes": 5397,
+    "lines": 138,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/pyserini/trectools/_base.py",
+    "http": 200,
+    "sha256": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4",
+    "bytes": 13004,
+    "lines": 359,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/LICENSE.txt",
+    "http": 200,
+    "sha256": "c09df0ba5728f1bf266f0b6240d252e27cbeefecd62c514f85fce61d6325c1d4",
+    "bytes": 10767,
+    "lines": 191,
+    "accessed_at": "2026-09-30",
+    "local_sha256": "c09df0ba5728f1bf266f0b6240d252e27cbeefecd62c514f85fce61d6325c1d4",
+    "comparison": "byte exact",
+    "match": true
+  },
+  {
+    "url": "https://api.github.com/repos/beir-cellar/beir/commits/ef83d29307061c65d04b035b4f4e7c18bd8374af",
+    "http": 200,
+    "sha256": "100245523bb6b632d30d533a29323718c931f69ab96ff3e4f872e96f8e363821",
+    "bytes": 6489,
+    "lines": 1,
+    "accessed_at": "2026-09-30",
+    "commit": "ef83d29307061c65d04b035b4f4e7c18bd8374af"
+  },
+  {
+    "url": "https://api.github.com/repos/UKPLab/sentence-transformers/commits/7d52a069e0b37d976b3ed3f674a6180436c27574",
+    "http": 200,
+    "sha256": "a85afc3bf97f5cdf4ef17e724a9f29cdcec15ee2059313c3cbd3f220ef80edef",
+    "bytes": 5020,
+    "lines": 1,
+    "accessed_at": "2026-09-30",
+    "commit": "7d52a069e0b37d976b3ed3f674a6180436c27574"
+  },
+  {
+    "url": "https://api.github.com/repos/castorini/pyserini/commits/527c917120ff154f84b09ff2b69dc8946085aae4",
+    "http": 200,
+    "sha256": "adbf88609c3ba4c7b28c6516d671610eb9861e3f8d19a71d9dd5687120e39f6f",
+    "bytes": 11578,
+    "lines": 1,
+    "accessed_at": "2026-09-30",
+    "commit": "527c917120ff154f84b09ff2b69dc8946085aae4"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/804da74ba3484e0156183951e89228d8e71c780b/cycle06/084-rrf-rank-changes/results/per_query.json",
+    "http": 200,
+    "sha256": "1001a5e556bc5cc3c46341c91efc3cd31fd7f4da3e38987183005e267ac7dcae",
+    "bytes": 624900,
+    "lines": 32378,
+    "accessed_at": "2026-09-30",
+    "source_subset_equal": true
+  }
+]
