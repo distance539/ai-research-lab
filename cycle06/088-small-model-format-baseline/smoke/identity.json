@@ -1,0 +1,207 @@
+{
+  "config": {
+    "seed": 88,
+    "count": 64,
+    "confirmation_count": 128,
+    "threads": 4,
+    "device": "cpu",
+    "dtype": "float32",
+    "attention": "eager",
+    "max_input_tokens": 512,
+    "system": "You are a helpful assistant.",
+    "task": "Classify the sentiment of this movie review as positive or negative.",
+    "contracts": {
+      "plain": "Reply with exactly one lowercase word: positive or negative.",
+      "json": "Reply with only a JSON object with exactly one key, sentiment, whose value is positive or negative in lowercase."
+    },
+    "decoding": {
+      "max_new_tokens": 32,
+      "do_sample": false,
+      "num_beams": 1,
+      "use_cache": true
+    },
+    "walltime_budget_seconds": 900,
+    "rss_budget_bytes": 4294967296
+  },
+  "resources": {
+    "model": {
+      "id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "tokenizer_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "license": "Apache-2.0"
+    },
+    "data": {
+      "id": "stanfordnlp/sst2",
+      "revision": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+      "split": "validation",
+      "license": "unknown; no source data redistributed"
+    },
+    "transformers": {
+      "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+      "version": "4.49.0",
+      "license": "Apache-2.0"
+    },
+    "files": {
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md",
+        "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+        "bytes": 6772
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json",
+        "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+        "bytes": 861
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json",
+        "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+        "bytes": 132
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt",
+        "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+        "bytes": 466391
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors",
+        "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+        "bytes": 269060552
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json",
+        "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+        "bytes": 655
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json",
+        "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+        "bytes": 2104556
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json",
+        "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+        "bytes": 3764
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json",
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+        "bytes": 800662
+      },
+      "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md": {
+        "url": "https://huggingface.co/datasets/stanfordnlp/sst2/resolve/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md",
+        "sha256": "b67282cc0ee148ca5fad017275f5559095cca4252a76a4ae7688377935c862fc",
+        "bytes": 5274
+      },
+      "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/validation-00000-of-00001.parquet": {
+        "url": "https://huggingface.co/datasets/stanfordnlp/sst2/resolve/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/validation-00000-of-00001.parquet",
+        "sha256": "fb00fe008f6828f86ba2beda8415a4cf5da0c884f21c5f238c87131b5aa19529",
+        "bytes": 72813
+      },
+      "upstream/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/llama/modeling_llama.py": {
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/llama/modeling_llama.py",
+        "sha256": "d313bd9b9565638f0780fbd8158ddf69ff77334b38462f50945efdd64140bbfb",
+        "bytes": 51822
+      },
+      "upstream/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/generation/utils.py": {
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/generation/utils.py",
+        "sha256": "77c5fc139dc27cf10e0311d732976c14b7d89ef517e39108ba84ace8797d3383",
+        "bytes": 253488
+      },
+      "upstream/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/tokenization_utils_base.py": {
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/tokenization_utils_base.py",
+        "sha256": "a3c07a2d7637c1eefe8ade3d0fd789d755937240ff79b5825ed9fb12b327a416",
+        "bytes": 207905
+      },
+      "upstream/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE": {
+        "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+        "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+        "bytes": 11418
+      }
+    }
+  },
+  "selected_ids": [
+    400,
+    615
+  ],
+  "smoke": true,
+  "code_hashes": {
+    "run.py": "695522c7c3f49291f81069dc793025d3e58f71111e07d7e7ee97d24499b8537e",
+    "prepare.py": "a519f964e3082cde59cdd0f2a6a15454d64093b2a05811e8415219178d6c68bd",
+    "scoring.py": "7eadc77b35b20ee9f33bd56ad2586964da9f93fe781a9d197fe587163b0ed348",
+    "config.json": "486fc56d3af02a33dc83e45deae6aa689cc5047fc3b66a872f59a3b525bbdf08",
+    "resources.lock.json": "480e531ebab5f31f86e91bea35cb921ba7eb47219a6f2cafdbe976dcd6f6b551",
+    "PROTOCOL.md": "9271fca212e1dc95ce73a93618faf57b00982736ad71f011d25957cee8e82bed"
+  },
+  "chat_template_sha256": "872be49dbb638044ad01b60388f48d469ff2980e5f0dccdc22ec907db54d0788",
+  "generation_config": {
+    "max_length": 20,
+    "max_new_tokens": 32,
+    "min_length": 0,
+    "min_new_tokens": null,
+    "early_stopping": false,
+    "max_time": null,
+    "stop_strings": null,
+    "do_sample": false,
+    "num_beams": 1,
+    "num_beam_groups": 1,
+    "penalty_alpha": null,
+    "dola_layers": null,
+    "use_cache": true,
+    "cache_implementation": null,
+    "cache_config": null,
+    "return_legacy_cache": null,
+    "temperature": 1.0,
+    "top_k": 50,
+    "top_p": 1.0,
+    "min_p": null,
+    "typical_p": 1.0,
+    "epsilon_cutoff": 0.0,
+    "eta_cutoff": 0.0,
+    "diversity_penalty": 0.0,
+    "repetition_penalty": 1.0,
+    "encoder_repetition_penalty": 1.0,
+    "length_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "bad_words_ids": null,
+    "force_words_ids": null,
+    "renormalize_logits": false,
+    "constraints": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "remove_invalid_values": false,
+    "exponential_decay_length_penalty": null,
+    "suppress_tokens": null,
+    "begin_suppress_tokens": null,
+    "forced_decoder_ids": null,
+    "sequence_bias": null,
+    "token_healing": false,
+    "guidance_scale": null,
+    "low_memory": null,
+    "watermarking_config": null,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "output_logits": null,
+    "return_dict_in_generate": false,
+    "pad_token_id": 2,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "encoder_no_repeat_ngram_size": 0,
+    "decoder_start_token_id": null,
+    "is_assistant": false,
+    "num_assistant_tokens": 20,
+    "num_assistant_tokens_schedule": "constant",
+    "assistant_confidence_threshold": 0.4,
+    "prompt_lookup_num_tokens": null,
+    "max_matching_ngram_size": null,
+    "assistant_early_exit": null,
+    "assistant_lookbehind": 10,
+    "target_lookbehind": 10,
+    "disable_compile": false,
+    "generation_kwargs": {},
+    "_from_model_config": false,
+    "transformers_version": "4.49.0"
+  },
+  "cache_key": "9fd26d946058fbd440112d508ab76304cae5102a842e350e2ad90f00d579a4a2"
+}

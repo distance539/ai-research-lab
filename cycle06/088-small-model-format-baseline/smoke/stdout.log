@@ -1,0 +1,4 @@
+{"idx": 400, "contract": "plain", "tokens": 2, "seconds": 0.063, "format": true, "correct": true}
+{"idx": 400, "contract": "json", "tokens": 10, "seconds": 0.207, "format": false, "correct": true}
+{"idx": 615, "contract": "plain", "tokens": 2, "seconds": 0.062, "format": true, "correct": false}
+{"idx": 615, "contract": "json", "tokens": 2, "seconds": 0.067, "format": false, "correct": true}

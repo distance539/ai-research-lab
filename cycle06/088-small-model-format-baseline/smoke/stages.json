@@ -1,0 +1,7 @@
+{
+  "download": "passed; hash-verified cache",
+  "preprocess": "passed; no truncation",
+  "inference": "passed",
+  "evaluation": "passed",
+  "exit_code": 0
+}
