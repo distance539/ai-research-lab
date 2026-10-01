@@ -1,0 +1,15 @@
+{
+  "os": "macOS-26.6-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "numpy": "1.26.4",
+  "pyarrow": "25.0.1",
+  "device": "cpu",
+  "threads": 4,
+  "total_seconds": 14.232516375370324,
+  "inference_seconds": 12.77935354039073,
+  "peak_rss_bytes": 1259552768,
+  "gpu_memory": "not measured; CPU only"
+}

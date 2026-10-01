@@ -1,0 +1,93 @@
+{
+  "plain": {
+    "n": 64,
+    "format_count": 64,
+    "correct_count": 57,
+    "joint_count": 57,
+    "format_rate": 1.0,
+    "content_proxy_accuracy": 0.890625,
+    "joint_accuracy": 0.890625,
+    "correct_given_format": 0.890625,
+    "conditional_denominator": 64,
+    "buckets": {
+      "F0C0": 0,
+      "F0C1": 0,
+      "F1C0": 7,
+      "F1C1": 57
+    },
+    "label_states": {
+      "unique": 64,
+      "missing": 0,
+      "ambiguous": 0
+    },
+    "per_class": {
+      "negative": {
+        "n": 31,
+        "correct": 26
+      },
+      "positive": {
+        "n": 33,
+        "correct": 31
+      }
+    },
+    "input_tokens": 4546,
+    "generated_tokens_including_eos": 128,
+    "limit_stops": 0
+  },
+  "json": {
+    "n": 64,
+    "format_count": 0,
+    "correct_count": 50,
+    "joint_count": 0,
+    "format_rate": 0.0,
+    "content_proxy_accuracy": 0.78125,
+    "joint_accuracy": 0.0,
+    "correct_given_format": null,
+    "conditional_denominator": 0,
+    "buckets": {
+      "F0C0": 14,
+      "F0C1": 50,
+      "F1C0": 0,
+      "F1C1": 0
+    },
+    "label_states": {
+      "unique": 63,
+      "missing": 1,
+      "ambiguous": 0
+    },
+    "per_class": {
+      "negative": {
+        "n": 31,
+        "correct": 29
+      },
+      "positive": {
+        "n": 33,
+        "correct": 21
+      }
+    },
+    "input_tokens": 5250,
+    "generated_tokens_including_eos": 422,
+    "limit_stops": 1
+  },
+  "paired": {
+    "format": {
+      "json_gain": 0,
+      "tie": 0,
+      "json_loss": 64
+    },
+    "content_proxy": {
+      "json_gain": 4,
+      "tie": 49,
+      "json_loss": 11
+    },
+    "joint": {
+      "json_gain": 0,
+      "tie": 7,
+      "json_loss": 57
+    }
+  },
+  "constant_baselines": {
+    "negative": 0.484375,
+    "positive": 0.515625
+  }
+}
