@@ -1,0 +1,18 @@
+{
+  "input_ids": [
+    1,
+    72
+  ],
+  "last_hidden": [
+    1,
+    72,
+    576
+  ],
+  "logits": [
+    1,
+    72,
+    49152
+  ],
+  "hidden_states_count": 31,
+  "first_next_token_argmax": 16185
+}

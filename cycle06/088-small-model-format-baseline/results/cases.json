@@ -1,0 +1,106 @@
+{
+  "plain": {
+    "F0C0": null,
+    "F0C1": null,
+    "F1C0": {
+      "idx": 322,
+      "gold": 0,
+      "contract": "plain",
+      "sentence_sha256": "3127fb37f334a89225749e35d8aa60b197db5f95ce63e9e624dcb9edbea24ec8",
+      "prompt_sha256": "7c0c8edae5cd6833901f4cb463a84759b2c6a6023e21632d7fd45bc27f77e7ee",
+      "input_length": 57,
+      "generated_ids": [
+        16185,
+        2
+      ],
+      "output": "positive",
+      "output_with_special_tokens": "positive<|im_end|>",
+      "stop": "eos",
+      "seconds": 0.05249366629868746,
+      "extracted": "positive",
+      "label_state": "unique",
+      "format": true,
+      "content_proxy": false,
+      "joint": false,
+      "bucket": "F1C0"
+    },
+    "F1C1": {
+      "idx": 34,
+      "gold": 0,
+      "contract": "plain",
+      "sentence_sha256": "aa91b5a62f2fb19e0d31c40c68f8421240ab7c16deb9c549ecf937d8e0004b90",
+      "prompt_sha256": "a4f0da90acf09b1057cd270f801c55cdc7b66780f6289301e321bc0ba74984ca",
+      "input_length": 72,
+      "generated_ids": [
+        17728,
+        2
+      ],
+      "output": "negative",
+      "output_with_special_tokens": "negative<|im_end|>",
+      "stop": "eos",
+      "seconds": 0.05878587532788515,
+      "extracted": "negative",
+      "label_state": "unique",
+      "format": true,
+      "content_proxy": true,
+      "joint": true,
+      "bucket": "F1C1"
+    }
+  },
+  "json": {
+    "F0C0": {
+      "idx": 123,
+      "gold": 1,
+      "contract": "json",
+      "sentence_sha256": "b893b6fb50fe7e78a53fd3a00c4d14cb4ef2b5bb21efe373be3ac18119f9e04f",
+      "prompt_sha256": "c7f5b6b55dedbbe906c5e5902b2be2fa5e497a2643f46203451f758a48066975",
+      "input_length": 72,
+      "generated_ids": [
+        42529,
+        2
+      ],
+      "output": "Negative",
+      "output_with_special_tokens": "Negative<|im_end|>",
+      "stop": "eos",
+      "seconds": 0.05870329029858112,
+      "extracted": "negative",
+      "label_state": "unique",
+      "format": false,
+      "content_proxy": false,
+      "joint": false,
+      "bucket": "F0C0"
+    },
+    "F0C1": {
+      "idx": 34,
+      "gold": 0,
+      "contract": "json",
+      "sentence_sha256": "aa91b5a62f2fb19e0d31c40c68f8421240ab7c16deb9c549ecf937d8e0004b90",
+      "prompt_sha256": "a90f7769c6556f028d5f7bf62eacee5881f74734d22df0b84b03e8d76e933d80",
+      "input_length": 83,
+      "generated_ids": [
+        504,
+        19025,
+        282,
+        451,
+        7704,
+        2523,
+        314,
+        3524,
+        30,
+        2
+      ],
+      "output": "The sentiment of this movie review is negative.",
+      "output_with_special_tokens": "The sentiment of this movie review is negative.<|im_end|>",
+      "stop": "eos",
+      "seconds": 0.18369845859706402,
+      "extracted": "negative",
+      "label_state": "unique",
+      "format": false,
+      "content_proxy": true,
+      "joint": false,
+      "bucket": "F0C1"
+    },
+    "F1C0": null,
+    "F1C1": null
+  }
+}
