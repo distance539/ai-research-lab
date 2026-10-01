@@ -1,0 +1,33 @@
+{
+  "path_convention": "run from extracted code directory; cache path supplied by caller",
+  "runs": [
+    {
+      "phase": "initial_development",
+      "command": "python run.py --cache CACHE --out initial_development",
+      "exit_code": 0,
+      "note": "intended smoke but omitted --smoke; full development run preserved"
+    },
+    {
+      "phase": "smoke",
+      "command": "python run.py --cache CACHE --out smoke --smoke",
+      "exit_code": 0,
+      "resource_decision": "0.9121 seconds total, 1248690176B RSS; linear projection29.19s under900s and4GiB"
+    },
+    {
+      "phase": "formal",
+      "command": "python run.py --cache CACHE --out results",
+      "exit_code": 0
+    },
+    {
+      "phase": "audit",
+      "command": "python audit.py --cache CACHE --out results",
+      "exit_code": 0
+    },
+    {
+      "phase": "environment_export_attempt",
+      "command": "python -m pip freeze",
+      "exit_code": 1,
+      "note": "venv has no pip module; recovered with importlib.metadata, no environment modification"
+    }
+  ]
+}
