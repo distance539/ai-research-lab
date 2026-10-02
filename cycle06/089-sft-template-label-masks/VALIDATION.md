@@ -1,0 +1,7 @@
+# Validation scope
+
+2026-10-02. Core run.py/prepare.py/scoring.py/config/resources/PROTOCOL hash identity was recorded before smoke and formal run; unchanged afterward. audit.py, role_audit.py and documentation were added after formal execution without modifying training/inference. Both experimental runs exit0; first public downloads in restricted sandbox exit7, authorized public retries exit0. No aborted training or score-guided tuning. Raw stdout in smoke/results; original workspace copies in article verification/.
+
+Independent audit48 outputs/8steps/8real sequences passed. Model/data17resources fixed by SHA256. Installed4Transformers source files + torch SGD byte equal to official fixed commits. Formal baseline48 includes16before/16full/16assistant; before predictions additionally compared to088 fixed results. Both final states saved outside distributable code; SHA256 in checkpoints.json. Per-token IDs and tokens in private trace can be regenerated; unknown data license prevents public inclusion. Public masks preserve positions/role regions without reversible review tokens.
+
+Archive and anonymous-public-copy verification are outside code to avoid circular manifests; each validates source manifest/AST/help/offline audit and real minimal entry using the existing hash-verified resource cache. Model checkpoints aren't required to be redistributed because entry regenerates them. Cross-platform identical floating results remain unverified. No new human labels, significance test, proof of generalization, or final confirmation evaluation.

@@ -1,0 +1,197 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "idx": 11576,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 78
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 80,
+          "im_end_position": 91
+        }
+      ],
+      "answer_start": 84,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 34510,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 72
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 74,
+          "im_end_position": 85
+        }
+      ],
+      "answer_start": 78,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 23748,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 76
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 78,
+          "im_end_position": 89
+        }
+      ],
+      "answer_start": 82,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 63861,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 75
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 77,
+          "im_end_position": 88
+        }
+      ],
+      "answer_start": 81,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 61034,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 59
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 61,
+          "im_end_position": 72
+        }
+      ],
+      "answer_start": 65,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 53891,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 65
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 67,
+          "im_end_position": 78
+        }
+      ],
+      "answer_start": 71,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 45531,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 64
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 66,
+          "im_end_position": 77
+        }
+      ],
+      "answer_start": 70,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    },
+    {
+      "idx": 5912,
+      "roles": [
+        {
+          "role": "system",
+          "im_start_position": 0,
+          "im_end_position": 9
+        },
+        {
+          "role": "user",
+          "im_start_position": 11,
+          "im_end_position": 83
+        },
+        {
+          "role": "assistant",
+          "im_start_position": 85,
+          "im_end_position": 96
+        }
+      ],
+      "answer_start": 89,
+      "response_supervision": 8,
+      "wrong_id_based_mask_supervision": 7,
+      "wrong_id_based_mask_loses_eos": true
+    }
+  ]
+}

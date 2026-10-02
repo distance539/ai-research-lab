@@ -1,0 +1,28 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/llama/modeling_llama.py",
+    "sha256": "d313bd9b9565638f0780fbd8158ddf69ff77334b38462f50945efdd64140bbfb",
+    "installed_same": true
+  },
+  {
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/generation/utils.py",
+    "sha256": "77c5fc139dc27cf10e0311d732976c14b7d89ef517e39108ba84ace8797d3383",
+    "installed_same": true
+  },
+  {
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/tokenization_utils_base.py",
+    "sha256": "a3c07a2d7637c1eefe8ade3d0fd789d755937240ff79b5825ed9fb12b327a416",
+    "installed_same": true
+  },
+  {
+    "source": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/loss/loss_utils.py",
+    "sha256": "dbe6ae00dff2b5f2873caa6176a7719b0adaacdc9aa7a9355100f61dcc3f140f",
+    "installed_same": true
+  },
+  {
+    "source": "https://raw.githubusercontent.com/pytorch/pytorch/2236df1770800ffea5697b11b0bb0d910b2e59e1/torch/optim/sgd.py",
+    "sha256": "a04e861dff594bf5be0497cb259d2bbcd608f2483e7694190d5da9d7eff74a1e",
+    "installed_same": true,
+    "license": "BSD-style; upstream LICENSE"
+  }
+]

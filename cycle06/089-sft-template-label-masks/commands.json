@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-02",
+  "relative_to": "code directory; original runs used workspace-relative equivalent paths",
+  "commands": [
+    {
+      "command": "curl public pinned SST2 train and loss_utils.py (sandbox)",
+      "exit_code": 7,
+      "stderr": "Failed to connect to 127.0.0.1 port 32221",
+      "note": "public network access retried with authorized execution; exit0 and hash verification"
+    },
+    {
+      "command": "python run.py --cache CACHE --out smoke --private PRIVATE --smoke",
+      "exit_code": 0,
+      "log": "smoke/stdout.log"
+    },
+    {
+      "command": "python run.py --cache CACHE --out results --private PRIVATE",
+      "exit_code": 0,
+      "log": "results/stdout.log"
+    },
+    {
+      "command": "python audit.py --cache CACHE --out results",
+      "exit_code": 0,
+      "output": "results/audit.json"
+    },
+    {
+      "command": "python role_audit.py --cache CACHE",
+      "exit_code": 0,
+      "output": "role_audit.json"
+    }
+  ]
+}
