@@ -1,0 +1,20 @@
+[
+  {
+    "arm": "full",
+    "filename": "smoke-full-state.pt",
+    "sha256": "bc2fffe28cbed19d452873c3e4e21a70d21c3864e14ef8235d397a81c23875da",
+    "bytes": 538169670,
+    "q_proj_max_abs_change": 6.109476089477539e-07,
+    "training_seconds": 0.4859358752146363,
+    "parameters": 134515008
+  },
+  {
+    "arm": "assistant",
+    "filename": "smoke-assistant-state.pt",
+    "sha256": "5a68a41eeaa377923480e4977838792b92255d768b465532a3d17c0f548f5d43",
+    "bytes": 538171114,
+    "q_proj_max_abs_change": 8.046627044677734e-07,
+    "training_seconds": 0.3643881669268012,
+    "parameters": 134515008
+  }
+]

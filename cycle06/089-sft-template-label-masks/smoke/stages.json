@@ -1,0 +1,7 @@
+{
+  "download": "passed; all hash locked resources verified",
+  "preprocessing": "passed; prefix identity, answer/EOS, overlap, masks, truncation audited",
+  "training": "passed; both arms, all parameters, four steps each (smoke one)",
+  "evaluation": "passed; before and both final states, development only",
+  "exit_code": 0
+}

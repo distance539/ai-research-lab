@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "predictions": 12,
+  "training_steps": 2,
+  "mask_sequences": 2,
+  "max_manual_loss_error": 4.76837158203125e-07,
+  "supervised_tokens": {
+    "full": 176,
+    "assistant": 16
+  },
+  "recomputed": {
+    "before": {
+      "plain": {
+        "n": 2,
+        "format_count": 2,
+        "correct_count": 1,
+        "joint_count": 1
+      },
+      "json": {
+        "n": 2,
+        "format_count": 0,
+        "correct_count": 2,
+        "joint_count": 0
+      }
+    },
+    "full": {
+      "plain": {
+        "n": 2,
+        "format_count": 2,
+        "correct_count": 1,
+        "joint_count": 1
+      },
+      "json": {
+        "n": 2,
+        "format_count": 0,
+        "correct_count": 2,
+        "joint_count": 0
+      }
+    },
+    "assistant": {
+      "plain": {
+        "n": 2,
+        "format_count": 2,
+        "correct_count": 1,
+        "joint_count": 1
+      },
+      "json": {
+        "n": 2,
+        "format_count": 0,
+        "correct_count": 2,
+        "joint_count": 0
+      }
+    }
+  },
+  "scope": "independent masks, shifted-target counts, truncation, source labels, decoded outputs, F/C/J; gradient values checked from saved logs, real backward assertions in run.py"
+}

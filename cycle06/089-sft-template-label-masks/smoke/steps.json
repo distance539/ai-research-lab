@@ -1,0 +1,58 @@
+[
+  {
+    "arm": "full",
+    "step": 1,
+    "idx": [
+      11576,
+      34510
+    ],
+    "loss": 3.1792891025543213,
+    "manual_ce": 3.179288625717163,
+    "difference": 4.76837158203125e-07,
+    "supervised_tokens": 176,
+    "input_tokens": 178,
+    "padding_tokens": 6,
+    "gradient_norm_before_clip": 10.995972633361816,
+    "clip_scale": 0.0909423788509275,
+    "ignored_logit_grad_max": 0.0,
+    "active_logit_grad_l1": 1.2846381664276123,
+    "prompt_embedding_grad_l1": 97.67955017089844,
+    "input_shape": [
+      2,
+      92
+    ],
+    "logits_shape": [
+      2,
+      92,
+      49152
+    ]
+  },
+  {
+    "arm": "assistant",
+    "step": 1,
+    "idx": [
+      11576,
+      34510
+    ],
+    "loss": 0.8639073371887207,
+    "manual_ce": 0.8639073371887207,
+    "difference": 0.0,
+    "supervised_tokens": 16,
+    "input_tokens": 178,
+    "padding_tokens": 6,
+    "gradient_norm_before_clip": 24.445173263549805,
+    "clip_scale": 0.04090786955407799,
+    "ignored_logit_grad_max": 0.0,
+    "active_logit_grad_l1": 0.5359638929367065,
+    "prompt_embedding_grad_l1": 190.1088409423828,
+    "input_shape": [
+      2,
+      92
+    ],
+    "logits_shape": [
+      2,
+      92,
+      49152
+    ]
+  }
+]
