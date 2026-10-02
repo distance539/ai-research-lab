@@ -1,0 +1,20 @@
+[
+  {
+    "arm": "full",
+    "filename": "results-full-state.pt",
+    "sha256": "ca8ccb872dedf0841810175072be04f1f33a414755715691a4d82a0460f775a3",
+    "bytes": 538170222,
+    "q_proj_max_abs_change": 2.1085143089294434e-06,
+    "training_seconds": 1.4351603332906961,
+    "parameters": 134515008
+  },
+  {
+    "arm": "assistant",
+    "filename": "results-assistant-state.pt",
+    "sha256": "2f106fa7461dbb8042c806c72304ffdbe8fc45226d02ed28b4408717acc2a10f",
+    "bytes": 538171730,
+    "q_proj_max_abs_change": 2.4959444999694824e-06,
+    "training_seconds": 1.2953785005956888,
+    "parameters": 134515008
+  }
+]

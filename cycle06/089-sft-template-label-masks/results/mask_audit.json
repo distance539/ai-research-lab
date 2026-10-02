@@ -1,0 +1,4418 @@
+[
+  {
+    "idx": 11576,
+    "gold": 0,
+    "prefix": 84,
+    "eos": 91,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "8f84527bed1159329e2df26cc89ce42c4bab94e72bc8bddc637b6baecc29ab9b",
+    "sequence_length": 92,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 72,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 73,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 74,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 75,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 76,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 77,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 78,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 79,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 80,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 81,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 82,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 83,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 84,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 85,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 86,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 87,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 88,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 89,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 90,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 91,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 34510,
+    "gold": 1,
+    "prefix": 78,
+    "eos": 85,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "04ee07af880d1a6210355c8d26e80a66ee3b21552dc3c22dba151c134ede14c0",
+    "sequence_length": 86,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 72,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 73,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 74,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 75,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 76,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 77,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 78,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 79,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 80,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 81,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 82,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 83,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 84,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 85,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 23748,
+    "gold": 1,
+    "prefix": 82,
+    "eos": 89,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "1e17bc699beec3951c77df448f7201021f1add242d7b0fdd4a49bdf2561bca19",
+    "sequence_length": 90,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 72,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 73,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 74,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 75,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 76,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 77,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 78,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 79,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 80,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 81,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 82,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 83,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 84,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 85,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 86,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 87,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 88,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 89,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 63861,
+    "gold": 1,
+    "prefix": 81,
+    "eos": 88,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "f31d5b96a16c9bcb57be58404273470a446ece91993df3acf8e5e1781bcc1dcf",
+    "sequence_length": 89,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 72,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 73,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 74,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 75,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 76,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 77,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 78,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 79,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 80,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 81,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 82,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 83,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 84,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 85,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 86,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 87,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 88,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 61034,
+    "gold": 1,
+    "prefix": 65,
+    "eos": 72,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "a436435e527496e432b8a5d76d230791da89071cb9d9dbada484e353729c1c31",
+    "sequence_length": 73,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 66,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 67,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 68,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 69,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 70,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 71,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 72,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 53891,
+    "gold": 0,
+    "prefix": 71,
+    "eos": 78,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "9f1093b899be6452070304e881bb8b0eb7760533308ae5620741580184c2ab7e",
+    "sequence_length": 79,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 72,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 73,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 74,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 75,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 76,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 77,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 78,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 45531,
+    "gold": 0,
+    "prefix": 70,
+    "eos": 77,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "a429a188b4097413fd50c92f17a5f7298a46c84fa371fc50cc2ee58c9581d47e",
+    "sequence_length": 78,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 71,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 72,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 73,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 74,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 75,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 76,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 77,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  },
+  {
+    "idx": 5912,
+    "gold": 0,
+    "prefix": 89,
+    "eos": 96,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "bdbbb2b62cd8735bf8820fe1b7325c6ca7953adf6eea052f71b742897adf822f",
+    "sequence_length": 97,
+    "positions": [
+      {
+        "position": 0,
+        "region": "prompt",
+        "full_label_active": false,
+        "assistant_label_active": false
+      },
+      {
+        "position": 1,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 2,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 3,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 4,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 5,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 6,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 7,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 8,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 9,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 10,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 11,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 12,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 13,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 14,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 15,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 16,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 17,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 18,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 19,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 20,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 21,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 22,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 23,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 24,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 25,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 26,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 27,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 28,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 29,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 30,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 31,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 32,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 33,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 34,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 35,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 36,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 37,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 38,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 39,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 40,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 41,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 42,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 43,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 44,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 45,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 46,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 47,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 48,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 49,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 50,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 51,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 52,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 53,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 54,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 55,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 56,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 57,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 58,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 59,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 60,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 61,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 62,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 63,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 64,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 65,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 66,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 67,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 68,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 69,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 70,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 71,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 72,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 73,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 74,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 75,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 76,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 77,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 78,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 79,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 80,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 81,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 82,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 83,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 84,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 85,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 86,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 87,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 88,
+        "region": "prompt",
+        "full_label_active": true,
+        "assistant_label_active": false
+      },
+      {
+        "position": 89,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 90,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 91,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 92,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 93,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 94,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 95,
+        "region": "answer",
+        "full_label_active": true,
+        "assistant_label_active": true
+      },
+      {
+        "position": 96,
+        "region": "eos",
+        "full_label_active": true,
+        "assistant_label_active": true
+      }
+    ],
+    "truncation": [
+      {
+        "limit": 64,
+        "retained_answer_targets": 0,
+        "lost_targets": 8,
+        "eos_retained": false
+      },
+      {
+        "limit": 96,
+        "retained_answer_targets": 7,
+        "lost_targets": 1,
+        "eos_retained": false
+      },
+      {
+        "limit": 128,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      },
+      {
+        "limit": 256,
+        "retained_answer_targets": 8,
+        "lost_targets": 0,
+        "eos_retained": true
+      }
+    ]
+  }
+]

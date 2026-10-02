@@ -1,0 +1,281 @@
+{
+  "before": {
+    "plain": {
+      "n": 8,
+      "format_count": 8,
+      "correct_count": 6,
+      "joint_count": 6,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.75,
+      "joint_accuracy": 0.75,
+      "correct_given_format": 0.75,
+      "conditional_denominator": 8,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 2,
+        "F1C1": 6
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 3
+        },
+        "positive": {
+          "n": 4,
+          "correct": 3
+        }
+      },
+      "input_tokens": 542,
+      "generated_tokens_including_eos": 16,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 8,
+      "format_count": 0,
+      "correct_count": 6,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 0.75,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 2,
+        "F0C1": 6,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 4
+        },
+        "positive": {
+          "n": 4,
+          "correct": 2
+        }
+      },
+      "input_tokens": 630,
+      "generated_tokens_including_eos": 40,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 8
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 6,
+        "json_loss": 1
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 2,
+        "json_loss": 6
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    }
+  },
+  "full": {
+    "plain": {
+      "n": 8,
+      "format_count": 8,
+      "correct_count": 7,
+      "joint_count": 7,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.875,
+      "joint_accuracy": 0.875,
+      "correct_given_format": 0.875,
+      "conditional_denominator": 8,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 7
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 3
+        },
+        "positive": {
+          "n": 4,
+          "correct": 4
+        }
+      },
+      "input_tokens": 542,
+      "generated_tokens_including_eos": 16,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 8,
+      "format_count": 0,
+      "correct_count": 6,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 0.75,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 2,
+        "F0C1": 6,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 4
+        },
+        "positive": {
+          "n": 4,
+          "correct": 2
+        }
+      },
+      "input_tokens": 630,
+      "generated_tokens_including_eos": 40,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 8
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 5,
+        "json_loss": 2
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 7
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    }
+  },
+  "assistant": {
+    "plain": {
+      "n": 8,
+      "format_count": 8,
+      "correct_count": 7,
+      "joint_count": 7,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.875,
+      "joint_accuracy": 0.875,
+      "correct_given_format": 0.875,
+      "conditional_denominator": 8,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 7
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 3
+        },
+        "positive": {
+          "n": 4,
+          "correct": 4
+        }
+      },
+      "input_tokens": 542,
+      "generated_tokens_including_eos": 16,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 8,
+      "format_count": 0,
+      "correct_count": 6,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 0.75,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 2,
+        "F0C1": 6,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 8,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 4,
+          "correct": 4
+        },
+        "positive": {
+          "n": 4,
+          "correct": 2
+        }
+      },
+      "input_tokens": 630,
+      "generated_tokens_including_eos": 40,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 8
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 5,
+        "json_loss": 2
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 7
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    }
+  }
+}
