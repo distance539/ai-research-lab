@@ -1,0 +1,386 @@
+[
+  {
+    "idx": 11576,
+    "gold": 0,
+    "prefix": 84,
+    "eos": 91,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "8f84527bed1159329e2df26cc89ce42c4bab94e72bc8bddc637b6baecc29ab9b",
+    "length": 92,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 34510,
+    "gold": 1,
+    "prefix": 78,
+    "eos": 85,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "04ee07af880d1a6210355c8d26e80a66ee3b21552dc3c22dba151c134ede14c0",
+    "length": 86,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 53891,
+    "gold": 0,
+    "prefix": 71,
+    "eos": 78,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "9f1093b899be6452070304e881bb8b0eb7760533308ae5620741580184c2ab7e",
+    "length": 79,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 23748,
+    "gold": 1,
+    "prefix": 82,
+    "eos": 89,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "1e17bc699beec3951c77df448f7201021f1add242d7b0fdd4a49bdf2561bca19",
+    "length": 90,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 45531,
+    "gold": 0,
+    "prefix": 70,
+    "eos": 77,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "a429a188b4097413fd50c92f17a5f7298a46c84fa371fc50cc2ee58c9581d47e",
+    "length": 78,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 63861,
+    "gold": 1,
+    "prefix": 81,
+    "eos": 88,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "f31d5b96a16c9bcb57be58404273470a446ece91993df3acf8e5e1781bcc1dcf",
+    "length": 89,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 5912,
+    "gold": 0,
+    "prefix": 89,
+    "eos": 96,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "bdbbb2b62cd8735bf8820fe1b7325c6ca7953adf6eea052f71b742897adf822f",
+    "length": 97,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 61034,
+    "gold": 1,
+    "prefix": 65,
+    "eos": 72,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "a436435e527496e432b8a5d76d230791da89071cb9d9dbada484e353729c1c31",
+    "length": 73,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 14659,
+    "gold": 0,
+    "prefix": 64,
+    "eos": 71,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "ba3f66d0f7c76a0f593aa2501d5cac700423561aa4f538912641da08975e15a5",
+    "length": 72,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 4289,
+    "gold": 1,
+    "prefix": 64,
+    "eos": 71,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "758afdd880fc5d447f2ec2ee123eb1a39be6d39f4cb2dfbfe95879e37b46b147",
+    "length": 72,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 18469,
+    "gold": 0,
+    "prefix": 64,
+    "eos": 71,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "1665139aa7ce31c6ba7c5073de0453ef2963e9967e134fd94d554f5eeeffffd6",
+    "length": 72,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 52030,
+    "gold": 1,
+    "prefix": 94,
+    "eos": 101,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "958752d612ce422d56e9f490c8a069675bbb0d0bf78aa82624db905aa2fd8244",
+    "length": 102,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 58748,
+    "gold": 0,
+    "prefix": 74,
+    "eos": 81,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "ca2f77a1a239462c7952039c6fb2f2bc769715fa06f4cf7d71b6beacf494590d",
+    "length": 82,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 56379,
+    "gold": 1,
+    "prefix": 69,
+    "eos": 76,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "e5521379cec3dfb9553e32b7fd409b76874dd87a4917632eae8e07b26b63da37",
+    "length": 77,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 12142,
+    "gold": 0,
+    "prefix": 67,
+    "eos": 74,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "e1fb1aeeef9d554a65cc568b95c15a086b5abcd40d9007ffd5c46e3d145705e9",
+    "length": 75,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 49731,
+    "gold": 1,
+    "prefix": 80,
+    "eos": 87,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "2ba4cdedfa75dc285e0d779a7ca3416b0d169df992d0e7770ffa0ebebf2b13d9",
+    "length": 88,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 31160,
+    "gold": 0,
+    "prefix": 78,
+    "eos": 85,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "b869949f27822380a0d63969ac0d566032f65bea1d1948df9bd9659a52668f66",
+    "length": 86,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 53659,
+    "gold": 1,
+    "prefix": 69,
+    "eos": 76,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "33844495c2010c4d12dfd09bee4664ce6b73e7e5e4d36b757ba750a200e97f3e",
+    "length": 77,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 3869,
+    "gold": 0,
+    "prefix": 65,
+    "eos": 72,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "f2a3cfc0f0e8563512305d2ec14b912ea3d4d0c15771bc2fab14cb07096a443e",
+    "length": 73,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 24291,
+    "gold": 1,
+    "prefix": 63,
+    "eos": 70,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "ae0bfbcdbf80b41f36a187573e2a159c5662ce8c91557ae606f3da67d31e7a14",
+    "length": 71,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 13231,
+    "gold": 0,
+    "prefix": 79,
+    "eos": 86,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "de7ef4ef7c39b14c54de8849190d10c42f3dec1ed423e6ceb23349dee9e5d1d8",
+    "length": 87,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 20882,
+    "gold": 1,
+    "prefix": 86,
+    "eos": 93,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "87a4e6e2798c26011da153e2fd67b05e15e3ab15dc61bfd54032fd7ddb4f86ae",
+    "length": 94,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 6506,
+    "gold": 0,
+    "prefix": 94,
+    "eos": 101,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "8eb1c0c5c1d7f92985776da8537aafd27f574af110ab2cb83e37c86ea67a64d3",
+    "length": 102,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 1580,
+    "gold": 1,
+    "prefix": 73,
+    "eos": 80,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "777eb30e639d974aad468f3e0064b049fc3f5815f8646057b478b01a5e06aa72",
+    "length": 81,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 20972,
+    "gold": 0,
+    "prefix": 63,
+    "eos": 70,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "168a8f5ef59e1ae673b488d58ac431b07f009d8759efdfc85293b8e5e5355384",
+    "length": 71,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 46292,
+    "gold": 1,
+    "prefix": 73,
+    "eos": 80,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "a60095a3680b453ea8ff914cd3fc051ccdea770c56501e9834317fe311bbd853",
+    "length": 81,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 46844,
+    "gold": 0,
+    "prefix": 62,
+    "eos": 69,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "43fe87b39a4be268dea53caaefe85246e9cae794c62c7f97157026d2bd5d112f",
+    "length": 70,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 33093,
+    "gold": 1,
+    "prefix": 62,
+    "eos": 69,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "8aa82120cba70037e60a80635f0cad8b73c93133304607fa6ccea7c48d17bc1b",
+    "length": 70,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 47196,
+    "gold": 0,
+    "prefix": 70,
+    "eos": 77,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "34a73b874c8af58ea96645355b634a4896c6d76d3aaa3497b1aa01906ca01bbf",
+    "length": 78,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 5943,
+    "gold": 1,
+    "prefix": 66,
+    "eos": 73,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "79607b2c9c6001228002c55e5e952df320154f5abf210529416619c03c21fe0a",
+    "length": 74,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 60186,
+    "gold": 0,
+    "prefix": 70,
+    "eos": 77,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "80d815f34ef66586be48cf332959fec7d43f2908c9929ff6cde1dbe97f6b0583",
+    "length": 78,
+    "answer_tokens": 8
+  },
+  {
+    "idx": 8283,
+    "gold": 1,
+    "prefix": 114,
+    "eos": 121,
+    "template_tail_removed": [
+      198
+    ],
+    "sentence_sha256": "b66ac72a078189fc603abe5a11938fa7f916af4fd50cce53a5084f970496b1a5",
+    "length": 122,
+    "answer_tokens": 8
+  }
+]

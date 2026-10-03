@@ -1,0 +1,29 @@
+{
+  "repeat8_short": {
+    "unique_rows": 8,
+    "exposures": 32,
+    "steps": 16,
+    "supervised_tokens": 256,
+    "input_tokens": 2736,
+    "padded_tokens": 2944,
+    "attention_cells": 271152
+  },
+  "repeat8": {
+    "unique_rows": 8,
+    "exposures": 128,
+    "steps": 64,
+    "supervised_tokens": 1024,
+    "input_tokens": 10944,
+    "padded_tokens": 11776,
+    "attention_cells": 1084608
+  },
+  "unique32": {
+    "unique_rows": 32,
+    "exposures": 128,
+    "steps": 64,
+    "supervised_tokens": 1024,
+    "input_tokens": 10556,
+    "padded_tokens": 11344,
+    "attention_cells": 1026752
+  }
+}

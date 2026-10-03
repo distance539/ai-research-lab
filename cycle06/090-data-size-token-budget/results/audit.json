@@ -1,0 +1,317 @@
+{
+  "status": "passed",
+  "predictions_checked": 512,
+  "steps_checked": 144,
+  "rows_reencoded": 32,
+  "equal_supervised_budget": true,
+  "paired": {
+    "repeat8->unique32": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "different_output_ids": []
+      },
+      "json": {
+        "format": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "different_output_ids": []
+      }
+    },
+    "before->repeat8_short": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 2,
+          "ties": 62,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 2,
+          "ties": 62,
+          "losses": 0
+        },
+        "different_output_ids": [
+          481,
+          553
+        ]
+      },
+      "json": {
+        "format": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 12,
+          "ties": 43,
+          "losses": 9
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "different_output_ids": [
+          615,
+          650,
+          136,
+          723,
+          481,
+          798,
+          815,
+          119,
+          802,
+          198,
+          385,
+          569,
+          490,
+          636,
+          252,
+          143,
+          732,
+          222,
+          690,
+          720,
+          239,
+          110,
+          274,
+          578,
+          237,
+          525,
+          209,
+          647,
+          553,
+          472,
+          736,
+          436,
+          322,
+          329,
+          571,
+          228,
+          111,
+          295,
+          170,
+          825,
+          420,
+          365,
+          342,
+          495,
+          263,
+          123,
+          205
+        ]
+      }
+    },
+    "repeat8_short->repeat8": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 64,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 5,
+          "ties": 28,
+          "losses": 31
+        },
+        "joint": {
+          "wins": 5,
+          "ties": 28,
+          "losses": 31
+        },
+        "different_output_ids": [
+          400,
+          615,
+          106,
+          481,
+          815,
+          198,
+          569,
+          345,
+          283,
+          636,
+          143,
+          732,
+          222,
+          611,
+          720,
+          239,
+          287,
+          708,
+          41,
+          80,
+          525,
+          553,
+          472,
+          640,
+          322,
+          228,
+          295,
+          170,
+          825,
+          420,
+          365,
+          495,
+          261,
+          263,
+          123,
+          205
+        ]
+      },
+      "json": {
+        "format": {
+          "wins": 64,
+          "ties": 0,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 7,
+          "ties": 55,
+          "losses": 2
+        },
+        "joint": {
+          "wins": 58,
+          "ties": 6,
+          "losses": 0
+        },
+        "different_output_ids": [
+          400,
+          615,
+          106,
+          650,
+          474,
+          136,
+          723,
+          481,
+          798,
+          815,
+          119,
+          802,
+          198,
+          385,
+          569,
+          345,
+          490,
+          283,
+          636,
+          252,
+          143,
+          732,
+          222,
+          611,
+          690,
+          720,
+          239,
+          587,
+          287,
+          708,
+          41,
+          110,
+          274,
+          80,
+          578,
+          237,
+          525,
+          209,
+          34,
+          647,
+          178,
+          553,
+          472,
+          736,
+          640,
+          436,
+          322,
+          836,
+          329,
+          571,
+          228,
+          111,
+          295,
+          170,
+          825,
+          420,
+          365,
+          586,
+          342,
+          495,
+          261,
+          263,
+          123,
+          205
+        ]
+      }
+    }
+  },
+  "train_nll": {
+    "before": {
+      "small8": 1.028290994299823,
+      "pool32": 1.0078930713934824,
+      "new24": 1.0010937637580355
+    },
+    "repeat8_short": {
+      "small8": 0.6661498974572169,
+      "pool32": 0.6507365142110757,
+      "new24": 0.6455987197956953
+    },
+    "repeat8": {
+      "small8": 0.16131157486597658,
+      "pool32": 0.15783329115697597,
+      "new24": 0.15667386325397578
+    },
+    "unique32": {
+      "small8": 0.17201300410852127,
+      "pool32": 0.1630557591915931,
+      "new24": 0.16007001088595038
+    }
+  },
+  "plain_outputs": {
+    "before": {
+      "positive": 36,
+      "negative": 28
+    },
+    "repeat8_short": {
+      "positive": 38,
+      "negative": 26
+    },
+    "repeat8": {
+      "negative": 62,
+      "positive": 2
+    },
+    "unique32": {
+      "negative": 62,
+      "positive": 2
+    }
+  },
+  "max_ce_error": 1.1920928955078125e-07
+}

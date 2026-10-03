@@ -1,0 +1,29 @@
+[
+  {
+    "arm": "repeat8_short",
+    "filename": "results-repeat8_short-state.pt",
+    "sha256": "56be7416fe706082d596b9fa017d057e992a6bbc200d1b270dff3e4681611564",
+    "bytes": 538172834,
+    "q_proj_max_abs_change": 1.1444091796875e-05,
+    "training_seconds": 5.448525750078261,
+    "parameters": 134515008
+  },
+  {
+    "arm": "repeat8",
+    "filename": "results-repeat8-state.pt",
+    "sha256": "1db837f4b2ba5d95f2a8eaa25d87a1e9ac60f75af339997d339d739ee053d37f",
+    "bytes": 538171114,
+    "q_proj_max_abs_change": 4.823505878448486e-05,
+    "training_seconds": 20.41636420879513,
+    "parameters": 134515008
+  },
+  {
+    "arm": "unique32",
+    "filename": "results-unique32-state.pt",
+    "sha256": "b66e6627b091c8ce77afeb3e8e98cad420c8ebe54abe7efde08a25fbe23ea96d",
+    "bytes": 538171454,
+    "q_proj_max_abs_change": 4.881620407104492e-05,
+    "training_seconds": 20.71326670795679,
+    "parameters": 134515008
+  }
+]
