@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "predictions_checked": 16,
+  "steps_checked": 6,
+  "rows_reencoded": 32,
+  "equal_supervised_budget": true,
+  "paired": {
+    "repeat8->unique32": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      },
+      "json": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      }
+    },
+    "before->repeat8_short": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      },
+      "json": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      }
+    },
+    "repeat8_short->repeat8": {
+      "plain": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      },
+      "json": {
+        "format": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "content_proxy": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "joint": {
+          "wins": 0,
+          "ties": 2,
+          "losses": 0
+        },
+        "different_output_ids": []
+      }
+    }
+  },
+  "train_nll": {
+    "before": {
+      "small8": 1.028290994299823,
+      "pool32": 1.0078930713934824,
+      "new24": 1.0010937637580355
+    },
+    "repeat8_short": {
+      "small8": 0.9780123161654046,
+      "pool32": 0.9583517784976721,
+      "new24": 0.9517982659417612
+    },
+    "repeat8": {
+      "small8": 0.9780123161654046,
+      "pool32": 0.9583517784976721,
+      "new24": 0.9517982659417612
+    },
+    "unique32": {
+      "small8": 0.9780123161654046,
+      "pool32": 0.9583517784976721,
+      "new24": 0.9517982659417612
+    }
+  },
+  "plain_outputs": {
+    "before": {
+      "positive": 2
+    },
+    "repeat8_short": {
+      "positive": 2
+    },
+    "repeat8": {
+      "positive": 2
+    },
+    "unique32": {
+      "positive": 2
+    }
+  },
+  "max_ce_error": 1.1920928955078125e-07
+}

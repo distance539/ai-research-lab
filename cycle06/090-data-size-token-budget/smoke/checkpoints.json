@@ -1,0 +1,29 @@
+[
+  {
+    "arm": "repeat8_short",
+    "filename": "smoke-repeat8_short-state.pt",
+    "sha256": "b3163ea7ee253843f316686067b6f40e2c0327a8088c2afeeaf95aae3151ab5c",
+    "bytes": 538172282,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.8302331250160933,
+    "parameters": 134515008
+  },
+  {
+    "arm": "repeat8",
+    "filename": "smoke-repeat8-state.pt",
+    "sha256": "3353ce9b2c94bb8ba2eece16c64ef58f625fe635c8d094b4447808b493fbbdaa",
+    "bytes": 538170498,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.6639209585264325,
+    "parameters": 134515008
+  },
+  {
+    "arm": "unique32",
+    "filename": "smoke-unique32-state.pt",
+    "sha256": "98b21743058ebbe14cc7457664814ce5d88ebaef41129ebec5b85e3a20364a2b",
+    "bytes": 538170774,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.6377429161220789,
+    "parameters": 134515008
+  }
+]

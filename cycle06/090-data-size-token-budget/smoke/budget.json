@@ -1,0 +1,29 @@
+{
+  "repeat8_short": {
+    "unique_rows": 4,
+    "exposures": 4,
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128
+  },
+  "repeat8": {
+    "unique_rows": 4,
+    "exposures": 4,
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128
+  },
+  "unique32": {
+    "unique_rows": 4,
+    "exposures": 4,
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128
+  }
+}
