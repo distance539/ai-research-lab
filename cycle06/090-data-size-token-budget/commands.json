@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-03",
+  "relative_to": "code/; CACHE is user-selected pinned resource cache, PRIVATE local checkpoint folder",
+  "commands": [
+    {
+      "command": "python run.py --cache CACHE --out smoke --private PRIVATE --smoke",
+      "exit_code": 0,
+      "stdout": "smoke/stdout.log",
+      "stderr": "smoke/stderr.log"
+    },
+    {
+      "command": "python run.py --cache CACHE --out results --private PRIVATE",
+      "exit_code": 0,
+      "stdout": "results/stdout.log",
+      "stderr": "results/stderr.log"
+    },
+    {
+      "command": "python audit.py --cache CACHE --out results",
+      "exit_code": 0,
+      "output": "results/audit.json"
+    }
+  ]
+}
