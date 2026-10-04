@@ -1,0 +1,38 @@
+[
+  {
+    "arm": "target_only",
+    "filename": "results-target_only-state.pt",
+    "sha256": "fc7e2dd5554793b719019872d47df076e67df677bcd3f5723bc4fd5e7d626efb",
+    "bytes": 538172282,
+    "q_proj_max_abs_change": 4.881620407104492e-05,
+    "training_seconds": 20.903547333553433,
+    "parameters": 134515008
+  },
+  {
+    "arm": "replay25",
+    "filename": "results-replay25-state.pt",
+    "sha256": "7ad81cdee70d438180d387ae24c0a529315b3e04a536bae9b6b878b7e666911b",
+    "bytes": 538171454,
+    "q_proj_max_abs_change": 3.618001937866211e-05,
+    "training_seconds": 38.79735537432134,
+    "parameters": 134515008
+  },
+  {
+    "arm": "replay50",
+    "filename": "results-replay50-state.pt",
+    "sha256": "9c1d1b3591359660911cb0b35e19cbe913ae7988b4fbbfc84ee8d9f9e6cad89c",
+    "bytes": 538171454,
+    "q_proj_max_abs_change": 2.4080276489257812e-05,
+    "training_seconds": 60.88675345852971,
+    "parameters": 134515008
+  },
+  {
+    "arm": "target_half",
+    "filename": "results-target_half-state.pt",
+    "sha256": "f9af75a56a274d9c9f4adfd855eb3287d950b6f51b46f5c4067972936c747693",
+    "bytes": 538172282,
+    "q_proj_max_abs_change": 2.47955322265625e-05,
+    "training_seconds": 10.47031258419156,
+    "parameters": 134515008
+  }
+]

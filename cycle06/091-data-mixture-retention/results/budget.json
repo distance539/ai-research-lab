@@ -1,0 +1,78 @@
+{
+  "target_only": {
+    "steps": 64,
+    "supervised_tokens": 1024,
+    "input_tokens": 10556,
+    "padded_tokens": 11344,
+    "attention_cells": 1026752,
+    "by_task": {
+      "target": {
+        "steps": 64,
+        "exposures": 128,
+        "supervised_tokens": 1024
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "replay25": {
+    "steps": 64,
+    "supervised_tokens": 1024,
+    "input_tokens": 25477,
+    "padded_tokens": 28316,
+    "attention_cells": 4488912,
+    "by_task": {
+      "target": {
+        "steps": 48,
+        "exposures": 96,
+        "supervised_tokens": 768
+      },
+      "news": {
+        "steps": 16,
+        "exposures": 128,
+        "supervised_tokens": 256
+      }
+    }
+  },
+  "replay50": {
+    "steps": 64,
+    "supervised_tokens": 1024,
+    "input_tokens": 40398,
+    "padded_tokens": 45288,
+    "attention_cells": 7951072,
+    "by_task": {
+      "target": {
+        "steps": 32,
+        "exposures": 64,
+        "supervised_tokens": 512
+      },
+      "news": {
+        "steps": 32,
+        "exposures": 256,
+        "supervised_tokens": 512
+      }
+    }
+  },
+  "target_half": {
+    "steps": 32,
+    "supervised_tokens": 512,
+    "input_tokens": 5278,
+    "padded_tokens": 5672,
+    "attention_cells": 513376,
+    "by_task": {
+      "target": {
+        "steps": 32,
+        "exposures": 64,
+        "supervised_tokens": 512
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  }
+}

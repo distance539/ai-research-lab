@@ -1,0 +1,214 @@
+{
+  "target_only": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 64,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 5,
+        "tie": 30,
+        "loss": 29
+      },
+      "joint": {
+        "win": 5,
+        "tie": 30,
+        "loss": 29
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 64,
+        "tie": 0,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 12,
+        "tie": 48,
+        "loss": 4
+      },
+      "joint": {
+        "win": 58,
+        "tie": 6,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 31,
+        "loss": 1
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      }
+    }
+  },
+  "replay25": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 64,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 5,
+        "tie": 31,
+        "loss": 28
+      },
+      "joint": {
+        "win": 5,
+        "tie": 31,
+        "loss": 28
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 64,
+        "tie": 0,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 13,
+        "tie": 46,
+        "loss": 5
+      },
+      "joint": {
+        "win": 58,
+        "tie": 6,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 1,
+        "tie": 31,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      }
+    }
+  },
+  "replay50": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 64,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 5,
+        "tie": 31,
+        "loss": 28
+      },
+      "joint": {
+        "win": 5,
+        "tie": 31,
+        "loss": 28
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 59,
+        "tie": 5,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 13,
+        "tie": 42,
+        "loss": 9
+      },
+      "joint": {
+        "win": 51,
+        "tie": 13,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 2,
+        "tie": 30,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 2,
+        "tie": 25,
+        "loss": 5
+      },
+      "joint": {
+        "win": 2,
+        "tie": 25,
+        "loss": 5
+      }
+    }
+  },
+  "target_half": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 64,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 3,
+        "tie": 56,
+        "loss": 5
+      },
+      "joint": {
+        "win": 3,
+        "tie": 56,
+        "loss": 5
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 61,
+        "tie": 3,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 13,
+        "tie": 42,
+        "loss": 9
+      },
+      "joint": {
+        "win": 51,
+        "tie": 13,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 32,
+        "loss": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "rule": "news joint >= baseline-1; then max target JSON joint; ties lower replay fraction",
+  "eligible": [
+    "target_only",
+    "replay25"
+  ],
+  "selected_development_only": "target_only",
+  "confirmation_inference": false
+}

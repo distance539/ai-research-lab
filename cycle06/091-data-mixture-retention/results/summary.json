@@ -1,0 +1,507 @@
+{
+  "before": {
+    "plain": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 57,
+      "joint_count": 57,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.890625,
+      "joint_accuracy": 0.890625,
+      "correct_given_format": 0.890625,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 7,
+        "F1C1": 57
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 26
+        },
+        "positive": {
+          "n": 33,
+          "correct": 31
+        }
+      },
+      "input_tokens": 4546,
+      "generated_tokens_including_eos": 128,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 64,
+      "format_count": 0,
+      "correct_count": 50,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 0.78125,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 14,
+        "F0C1": 50,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 63,
+        "missing": 1,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 29
+        },
+        "positive": {
+          "n": 33,
+          "correct": 21
+        }
+      },
+      "input_tokens": 5250,
+      "generated_tokens_including_eos": 422,
+      "limit_stops": 1
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 64
+      },
+      "content_proxy": {
+        "json_gain": 4,
+        "tie": 49,
+        "json_loss": 11
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 7,
+        "json_loss": 57
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.484375,
+      "positive": 0.515625
+    },
+    "news": {
+      "n": 32,
+      "format_count": 30,
+      "content_proxy_count": 8,
+      "joint_count": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 102
+    }
+  },
+  "target_only": {
+    "plain": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 33,
+      "joint_count": 33,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.515625,
+      "joint_accuracy": 0.515625,
+      "correct_given_format": 0.515625,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 31,
+        "F1C1": 33
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 31
+        },
+        "positive": {
+          "n": 33,
+          "correct": 2
+        }
+      },
+      "input_tokens": 4546,
+      "generated_tokens_including_eos": 128,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 58,
+      "joint_count": 58,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.90625,
+      "joint_accuracy": 0.90625,
+      "correct_given_format": 0.90625,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 6,
+        "F1C1": 58
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 26
+        },
+        "positive": {
+          "n": 33,
+          "correct": 32
+        }
+      },
+      "input_tokens": 5250,
+      "generated_tokens_including_eos": 512,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 64,
+        "json_loss": 0
+      },
+      "content_proxy": {
+        "json_gain": 30,
+        "tie": 29,
+        "json_loss": 5
+      },
+      "joint": {
+        "json_gain": 30,
+        "tie": 29,
+        "json_loss": 5
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.484375,
+      "positive": 0.515625
+    },
+    "news": {
+      "n": 32,
+      "format_count": 29,
+      "content_proxy_count": 8,
+      "joint_count": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 132
+    }
+  },
+  "replay25": {
+    "plain": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 34,
+      "joint_count": 34,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.53125,
+      "joint_accuracy": 0.53125,
+      "correct_given_format": 0.53125,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 30,
+        "F1C1": 34
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 31
+        },
+        "positive": {
+          "n": 33,
+          "correct": 3
+        }
+      },
+      "input_tokens": 4546,
+      "generated_tokens_including_eos": 128,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 58,
+      "joint_count": 58,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.90625,
+      "joint_accuracy": 0.90625,
+      "correct_given_format": 0.90625,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 6,
+        "F1C1": 58
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 25
+        },
+        "positive": {
+          "n": 33,
+          "correct": 33
+        }
+      },
+      "input_tokens": 5250,
+      "generated_tokens_including_eos": 512,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 64,
+        "json_loss": 0
+      },
+      "content_proxy": {
+        "json_gain": 30,
+        "tie": 28,
+        "json_loss": 6
+      },
+      "joint": {
+        "json_gain": 30,
+        "tie": 28,
+        "json_loss": 6
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.484375,
+      "positive": 0.515625
+    },
+    "news": {
+      "n": 32,
+      "format_count": 31,
+      "content_proxy_count": 8,
+      "joint_count": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 68
+    }
+  },
+  "replay50": {
+    "plain": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 34,
+      "joint_count": 34,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.53125,
+      "joint_accuracy": 0.53125,
+      "correct_given_format": 0.53125,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 30,
+        "F1C1": 34
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 31
+        },
+        "positive": {
+          "n": 33,
+          "correct": 3
+        }
+      },
+      "input_tokens": 4546,
+      "generated_tokens_including_eos": 128,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 64,
+      "format_count": 59,
+      "correct_count": 54,
+      "joint_count": 51,
+      "format_rate": 0.921875,
+      "content_proxy_accuracy": 0.84375,
+      "joint_accuracy": 0.796875,
+      "correct_given_format": 0.864406779661017,
+      "conditional_denominator": 59,
+      "buckets": {
+        "F0C0": 2,
+        "F0C1": 3,
+        "F1C0": 8,
+        "F1C1": 51
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 21
+        },
+        "positive": {
+          "n": 33,
+          "correct": 33
+        }
+      },
+      "input_tokens": 5250,
+      "generated_tokens_including_eos": 521,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 59,
+        "json_loss": 5
+      },
+      "content_proxy": {
+        "json_gain": 30,
+        "tie": 24,
+        "json_loss": 10
+      },
+      "joint": {
+        "json_gain": 28,
+        "tie": 25,
+        "json_loss": 11
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.484375,
+      "positive": 0.515625
+    },
+    "news": {
+      "n": 32,
+      "format_count": 32,
+      "content_proxy_count": 5,
+      "joint_count": 5,
+      "input_tokens": 3884,
+      "generated_tokens": 64
+    }
+  },
+  "target_half": {
+    "plain": {
+      "n": 64,
+      "format_count": 64,
+      "correct_count": 55,
+      "joint_count": 55,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.859375,
+      "joint_accuracy": 0.859375,
+      "correct_given_format": 0.859375,
+      "conditional_denominator": 64,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 9,
+        "F1C1": 55
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 29
+        },
+        "positive": {
+          "n": 33,
+          "correct": 26
+        }
+      },
+      "input_tokens": 4546,
+      "generated_tokens_including_eos": 128,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 64,
+      "format_count": 61,
+      "correct_count": 54,
+      "joint_count": 51,
+      "format_rate": 0.953125,
+      "content_proxy_accuracy": 0.84375,
+      "joint_accuracy": 0.796875,
+      "correct_given_format": 0.8360655737704918,
+      "conditional_denominator": 61,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 3,
+        "F1C0": 10,
+        "F1C1": 51
+      },
+      "label_states": {
+        "unique": 64,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 31,
+          "correct": 21
+        },
+        "positive": {
+          "n": 33,
+          "correct": 33
+        }
+      },
+      "input_tokens": 5250,
+      "generated_tokens_including_eos": 541,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 61,
+        "json_loss": 3
+      },
+      "content_proxy": {
+        "json_gain": 7,
+        "tie": 49,
+        "json_loss": 8
+      },
+      "joint": {
+        "json_gain": 6,
+        "tie": 48,
+        "json_loss": 10
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.484375,
+      "positive": 0.515625
+    },
+    "news": {
+      "n": 32,
+      "format_count": 30,
+      "content_proxy_count": 8,
+      "joint_count": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 102
+    }
+  }
+}

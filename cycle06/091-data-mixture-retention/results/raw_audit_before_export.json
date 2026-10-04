@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "predictions": 800,
+  "steps": 224,
+  "training_rows_reencoded": 64,
+  "fully_reparsed_predictions": 800,
+  "redacted_predictions": 0,
+  "max_manual_ce_error": 2.384185791015625e-07,
+  "all_main_supervised_tokens_equal": true,
+  "confirmation_inference": false,
+  "source_hashes_unchanged": true,
+  "raw_predictions_sha256": "980897e8f05971896a2b8c8c0353ad8b0c469e2abeb82467e77e0034548ca943"
+}

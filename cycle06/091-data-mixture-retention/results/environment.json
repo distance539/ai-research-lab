@@ -1,0 +1,12 @@
+{
+  "os": "macOS-26.6-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "seconds_after_imports": 223.41077533364296,
+  "peak_rss_bytes": 5634686976,
+  "gpu_memory": "not measured; CPU only"
+}

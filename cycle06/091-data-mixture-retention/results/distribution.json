@@ -1,0 +1,29 @@
+{
+  "raw_predictions_sha256": "980897e8f05971896a2b8c8c0353ad8b0c469e2abeb82467e77e0034548ca943",
+  "public_predictions_sha256": "cd1066d250245b890a0e16a2690c97e8adeef19d2bea5a6c6692f6630b00590e",
+  "redacted_rows": [
+    {
+      "stage": "before",
+      "idx": 1799
+    },
+    {
+      "stage": "target_only",
+      "idx": 2868
+    },
+    {
+      "stage": "target_only",
+      "idx": 1799
+    },
+    {
+      "stage": "replay25",
+      "idx": 1799
+    },
+    {
+      "stage": "target_half",
+      "idx": 1799
+    }
+  ],
+  "redacted_count": 5,
+  "raw_local_filename": "results-raw-predictions.jsonl",
+  "raw_audit": "raw_audit_before_export.json"
+}
