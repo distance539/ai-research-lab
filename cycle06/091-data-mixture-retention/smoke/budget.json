@@ -1,0 +1,78 @@
+{
+  "target_only": {
+    "steps": 4,
+    "supervised_tokens": 64,
+    "input_tokens": 684,
+    "padded_tokens": 736,
+    "attention_cells": 67788,
+    "by_task": {
+      "target": {
+        "steps": 4,
+        "exposures": 8,
+        "supervised_tokens": 64
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "replay25": {
+    "steps": 4,
+    "supervised_tokens": 64,
+    "input_tokens": 1811,
+    "padded_tokens": 2158,
+    "attention_cells": 504478,
+    "by_task": {
+      "target": {
+        "steps": 3,
+        "exposures": 6,
+        "supervised_tokens": 48
+      },
+      "news": {
+        "steps": 1,
+        "exposures": 8,
+        "supervised_tokens": 16
+      }
+    }
+  },
+  "replay50": {
+    "steps": 4,
+    "supervised_tokens": 64,
+    "input_tokens": 2611,
+    "padded_tokens": 3024,
+    "attention_cells": 625816,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 2,
+        "exposures": 16,
+        "supervised_tokens": 32
+      }
+    }
+  },
+  "target_half": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  }
+}

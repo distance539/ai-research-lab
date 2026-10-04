@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "predictions": 40,
+  "steps": 14,
+  "training_rows_reencoded": 64,
+  "max_manual_ce_error": 2.384185791015625e-07,
+  "all_main_supervised_tokens_equal": true,
+  "confirmation_inference": false,
+  "source_hashes_unchanged": true
+}

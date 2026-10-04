@@ -1,0 +1,214 @@
+{
+  "target_only": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "replay25": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "replay50": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "target_half": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  }
+}

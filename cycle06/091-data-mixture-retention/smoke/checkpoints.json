@@ -1,0 +1,38 @@
+[
+  {
+    "arm": "target_only",
+    "filename": "smoke-target_only-state.pt",
+    "sha256": "7b2b38aff182bad0a846bdc208c71ee5ce6e4ecc45dc8a1bbc3e9822031ad47a",
+    "bytes": 538171730,
+    "q_proj_max_abs_change": 2.5480985641479492e-06,
+    "training_seconds": 1.5144882090389729,
+    "parameters": 134515008
+  },
+  {
+    "arm": "replay25",
+    "filename": "smoke-replay25-state.pt",
+    "sha256": "81bc4bf5f9a4fb8935180d9da8f1fc221de644b85c19cd005c3eb0d2c218789c",
+    "bytes": 538170774,
+    "q_proj_max_abs_change": 1.780688762664795e-06,
+    "training_seconds": 3.1502544162794948,
+    "parameters": 134515008
+  },
+  {
+    "arm": "replay50",
+    "filename": "smoke-replay50-state.pt",
+    "sha256": "9533d71f91cc1e5a38d39ff7e4dd8def54f86db38fb15ecd36de1688e87a0f0a",
+    "bytes": 538170774,
+    "q_proj_max_abs_change": 1.0132789611816406e-06,
+    "training_seconds": 4.228215957991779,
+    "parameters": 134515008
+  },
+  {
+    "arm": "target_half",
+    "filename": "smoke-target_half-state.pt",
+    "sha256": "a3bc2838ae5ceba85fe0c916431a70bf36a377566f525e2925236c783d9fafcd",
+    "bytes": 538171730,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.6324115423485637,
+    "parameters": 134515008
+  }
+]
