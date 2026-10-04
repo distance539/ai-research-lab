@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-04T09:06:22.190439+08:00",
+  "smoke_exit_code": 0,
+  "conservative_seconds_smoke_times_20": 382.29607000947,
+  "time_budget_seconds": 1200,
+  "rss_bytes": 5302763520,
+  "rss_budget_bytes": 6442450944,
+  "passed": true
+}
