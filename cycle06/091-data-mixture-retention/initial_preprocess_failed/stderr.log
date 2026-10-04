@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "<workspace>/drafts/research-trends/2026-10-04_091_data_mixture_retention/code/run.py", line 59, in <module>
+    try:main(a)
+        ^^^^^^^
+  File "<workspace>/drafts/research-trends/2026-10-04_091_data_mixture_retention/code/run.py", line 16, in main
+    tt=[dict(build(tok,c,r),task='target') for r in tr];nn=[news_build(tok,c,r) for r in news];assert all(len(r['ids'])-r['prefix']==8 for r in tt)
+                                                            ^^^^^^^^^^^^^^^^^^^
+  File "<workspace>/drafts/research-trends/2026-10-04_091_data_mixture_retention/code/mixture.py", line 14, in news_build
+    assert tok.decode(ids[len(prefix):eos])==target and len(ids)-len(prefix)==2 and len(ids)<=c['max_train_tokens']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
