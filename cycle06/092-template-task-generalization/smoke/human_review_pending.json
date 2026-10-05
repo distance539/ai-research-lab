@@ -1,0 +1,178 @@
+[
+  {
+    "template": "json_original",
+    "task": "sst2",
+    "idx": 400,
+    "gold": 1,
+    "source_sha256": "c99e9670deed20b7390159fd88a673f8829cbafd4eb6d491c7564199846fef56",
+    "prompt_sha256": "c4a8ee8b5cc62793248f38e33d413bae5870a6c51c9e5b54d007dd82e831e4ba",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "json_original",
+    "task": "sst2",
+    "idx": 615,
+    "gold": 0,
+    "source_sha256": "2fb4b1d65f1a2afdbbb2fd7ef462152a3e200031abeb719a305f673888d93fa5",
+    "prompt_sha256": "d791739feec52b159318c82c47849d252e9211e974d84cb55b5c47a822cfb344",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "json_paraphrase",
+    "task": "sst2",
+    "idx": 400,
+    "gold": 1,
+    "source_sha256": "c99e9670deed20b7390159fd88a673f8829cbafd4eb6d491c7564199846fef56",
+    "prompt_sha256": "787906a17e0fd5a66ba4b5dba7cd1ce5d4847477f8e027b5081fe240f553bcf9",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "json_paraphrase",
+    "task": "sst2",
+    "idx": 615,
+    "gold": 0,
+    "source_sha256": "2fb4b1d65f1a2afdbbb2fd7ef462152a3e200031abeb719a305f673888d93fa5",
+    "prompt_sha256": "204dad5fdfdbc06aa321c195e1ea0d1cb533b4ca932df1a491662282881ffc87",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "json_reordered",
+    "task": "sst2",
+    "idx": 400,
+    "gold": 1,
+    "source_sha256": "c99e9670deed20b7390159fd88a673f8829cbafd4eb6d491c7564199846fef56",
+    "prompt_sha256": "701ba1c8bd3031ab5fcb083cc4bbd2fd0ff86377683e2c005c103b7b594180c1",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "json_reordered",
+    "task": "sst2",
+    "idx": 615,
+    "gold": 0,
+    "source_sha256": "2fb4b1d65f1a2afdbbb2fd7ef462152a3e200031abeb719a305f673888d93fa5",
+    "prompt_sha256": "12aae8315db7f5174b895816041eade6c4ad40e38149364a68bb42769a57a792",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "plain_original",
+    "task": "sst2",
+    "idx": 400,
+    "gold": 1,
+    "source_sha256": "c99e9670deed20b7390159fd88a673f8829cbafd4eb6d491c7564199846fef56",
+    "prompt_sha256": "19012d5b8bf8607d7d62e4dbdb89f32c919769f0d2aea56461cf1a992dce6909",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "plain_original",
+    "task": "sst2",
+    "idx": 615,
+    "gold": 0,
+    "source_sha256": "2fb4b1d65f1a2afdbbb2fd7ef462152a3e200031abeb719a305f673888d93fa5",
+    "prompt_sha256": "4b4bb0b9315b0ddce15926cb1650e2398a18d57198332316e01ef3f935370683",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_original",
+    "task": "news",
+    "idx": 2853,
+    "gold": 0,
+    "source_sha256": "1bbec762c3c68f2da9c225a28a2ee65f2bc95268a09c098bf050b69ea0ebac83",
+    "prompt_sha256": "bdf501a4e147210cba32820679500699952f2aa0b73762833145e1e419292807",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_original",
+    "task": "news",
+    "idx": 6223,
+    "gold": 1,
+    "source_sha256": "cb3305e1d700fdea261e4f37d7473d38d97acb046f8a609eb8484dd800a4682b",
+    "prompt_sha256": "0c6d8c6261656d422330e3247a65a90360a931b9d869382515987f815d4451e3",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_original",
+    "task": "news",
+    "idx": 6970,
+    "gold": 2,
+    "source_sha256": "0e7993447af792dabf610f18421f15b2fd64ef5e64685442fe9afd785295fd18",
+    "prompt_sha256": "975b34a2b6cbbd6009823b678c14d18d406c93cc987808754a3b8958c3d311f1",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_original",
+    "task": "news",
+    "idx": 1503,
+    "gold": 3,
+    "source_sha256": "12d49f62a9e5035fd7d783407c224407098281bf0a7620d9626803c244940ba7",
+    "prompt_sha256": "756730a6a9ec9b38f3937ab82f51a558bb44df1574a97e502df15466919ee328",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_paraphrase",
+    "task": "news",
+    "idx": 2853,
+    "gold": 0,
+    "source_sha256": "1bbec762c3c68f2da9c225a28a2ee65f2bc95268a09c098bf050b69ea0ebac83",
+    "prompt_sha256": "fa58767cb6c229288b3bce94182db3d929e542b989cc501ffce0f1304b41acef",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_paraphrase",
+    "task": "news",
+    "idx": 6223,
+    "gold": 1,
+    "source_sha256": "cb3305e1d700fdea261e4f37d7473d38d97acb046f8a609eb8484dd800a4682b",
+    "prompt_sha256": "9040ad8b70977696377ed62203de33220860edb7d17561fa77569fe15a3ef66f",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_paraphrase",
+    "task": "news",
+    "idx": 6970,
+    "gold": 2,
+    "source_sha256": "0e7993447af792dabf610f18421f15b2fd64ef5e64685442fe9afd785295fd18",
+    "prompt_sha256": "8761c83030ecaeac00866bc172b69fded1b0bfa4864d2adc974a45632e991f2a",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  {
+    "template": "news_paraphrase",
+    "task": "news",
+    "idx": 1503,
+    "gold": 3,
+    "source_sha256": "12d49f62a9e5035fd7d783407c224407098281bf0a7620d9626803c244940ba7",
+    "prompt_sha256": "e2a94fa9b59a5c56490aa4a3a725c7717f855c5af91ccbc797e0f4c4803d368f",
+    "human_decision": "",
+    "reviewer": "",
+    "reviewed_at": ""
+  }
+]

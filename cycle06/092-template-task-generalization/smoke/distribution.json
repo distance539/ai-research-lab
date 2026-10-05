@@ -1,0 +1,7 @@
+{
+  "raw_sha256": "847032bb0b71d0d48f51f1d039d4df6369884d8b976f73bfce3f009969ac50fc",
+  "raw_count": 32,
+  "public_full_count": 32,
+  "redactions": [],
+  "rule": "8consecutive source words; excludes raw input/source/tokenIDs for inputs"
+}

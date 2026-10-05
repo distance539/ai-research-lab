@@ -1,0 +1,8 @@
+{
+  "mode": "regenerated091target_only",
+  "file_sha256": "ec691eff73d5ed81f4ba3b54272a2af46d3a9e0618a607872e8051ab220b0028",
+  "checkpoint_filename": "smoke-target_only-state.pt",
+  "steps_this_run": 64,
+  "seconds": 22.330634167417884,
+  "state_sha256": "10af612eb88611e2a211b6315efb5ea6f97030346b58fb3dc55d20dc181b28df"
+}

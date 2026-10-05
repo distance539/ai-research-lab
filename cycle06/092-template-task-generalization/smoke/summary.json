@@ -1,0 +1,114 @@
+{
+  "before": {
+    "json_original": {
+      "n": 2,
+      "format": 0,
+      "content_proxy": 2,
+      "joint": 0,
+      "input_tokens": 181,
+      "generated_tokens": 12,
+      "length_stops": 0
+    },
+    "json_paraphrase": {
+      "n": 2,
+      "format": 0,
+      "content_proxy": 1,
+      "joint": 0,
+      "input_tokens": 185,
+      "generated_tokens": 22,
+      "length_stops": 0
+    },
+    "json_reordered": {
+      "n": 2,
+      "format": 0,
+      "content_proxy": 1,
+      "joint": 0,
+      "input_tokens": 181,
+      "generated_tokens": 20,
+      "length_stops": 0
+    },
+    "plain_original": {
+      "n": 2,
+      "format": 2,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 159,
+      "generated_tokens": 4,
+      "length_stops": 0
+    },
+    "news_original": {
+      "n": 4,
+      "format": 4,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8,
+      "length_stops": 0
+    },
+    "news_paraphrase": {
+      "n": 4,
+      "format": 4,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 491,
+      "generated_tokens": 8,
+      "length_stops": 0
+    }
+  },
+  "after": {
+    "json_original": {
+      "n": 2,
+      "format": 2,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 181,
+      "generated_tokens": 16,
+      "length_stops": 0
+    },
+    "json_paraphrase": {
+      "n": 2,
+      "format": 2,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 185,
+      "generated_tokens": 16,
+      "length_stops": 0
+    },
+    "json_reordered": {
+      "n": 2,
+      "format": 2,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 181,
+      "generated_tokens": 16,
+      "length_stops": 0
+    },
+    "plain_original": {
+      "n": 2,
+      "format": 2,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 159,
+      "generated_tokens": 4,
+      "length_stops": 0
+    },
+    "news_original": {
+      "n": 4,
+      "format": 4,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8,
+      "length_stops": 0
+    },
+    "news_paraphrase": {
+      "n": 4,
+      "format": 4,
+      "content_proxy": 1,
+      "joint": 1,
+      "input_tokens": 491,
+      "generated_tokens": 8,
+      "length_stops": 0
+    }
+  }
+}
