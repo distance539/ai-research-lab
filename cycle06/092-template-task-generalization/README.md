@@ -1,6 +1,6 @@
 # 092 — 模板换一下还会吗：96条开发样本的探索实验
 
-**Technical reproduction passed; human label-preservation review PENDING. Overall article acceptance incomplete.** No human gold, unseen-task or general improvement claim.
+**Technical reproduction passed; human user confirmed label-preservation review passed on2026-10-05.** No human gold, unseen-task or general improvement claim.
 
 Same32SST2 training rows and64development rows as090/091, plus32balanced AG News development rows. Two fixed model states, six templates,640generations.192confirmation rows never inferred. Frozen091selected target_only checkpoint. News is absent from its incremental training but already used for091selection; not blind new-task evaluation.
 
@@ -40,6 +40,6 @@ Actual formal run reused hash-verified091checkpoint:92.6810s after imports/1,712
 
 ## Audits and human review
 
-Independent audit.py reconstructs every prompt/gold from pinned raw data, parses F/C/J independently, recomputes pairs/aggregates, checks source/cache identity and no192reserved rows. Full local640row raw audit passed. Public632full outputs+8redactions (>=8consecutive source words) due unknown data license;8rows keep hash/derived counts but cannot be independently reparsed from public file alone. Regenerate for full raw audit. No raw source/input tokenIDs distributed. Review packet generated before inference with320prompt/sample combinations, no model outputs; human_decision/reviewer/reviewed_at empty. Guide HUMAN_REVIEW.md. Publication of numerical evidence does not claim human acceptance.
+Independent audit.py reconstructs every prompt/gold from pinned raw data, parses F/C/J independently, recomputes pairs/aggregates, checks source/cache identity and no192reserved rows. Full local640row raw audit passed. Public632full outputs+8redactions (>=8consecutive source words) due unknown data license;8rows keep hash/derived counts but cannot be independently reparsed from public file alone. Regenerate for full raw audit. No raw source/input tokenIDs distributed. Review packet generated before inference with320prompt/sample combinations and no model outputs. The user subsequently confirmed the human review passed. human_review_confirmation.json records the direct statement and packet hashes. Original empty row forms and execution-time pending logs remain historical evidence; no individual annotations or exact review-completion time were invented. Guide HUMAN_REVIEW.md. This retrospective review does not create a blind final test.
 
 SOURCE_MAP.md pins5official files with licenses and local mappings. All needed self-written helpers copied from091fixed public commit7bd49bd7d6c1cd950d58506cfe7d4e962d161c85; newrun/templates/audit independent. Only execution identity files existed during inference; audit/docs added afterward, no inference source modified. Archive/remote validations maintained outside source package to avoid circular hashes.

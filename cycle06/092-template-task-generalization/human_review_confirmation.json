@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "evidence_type": "direct human user confirmation in this chat",
+  "reviewer": "user of this chat",
+  "user_statement": "可以,真人审查通过了",
+  "recorded_at": "2026-10-05T23:28:48.832787+08:00",
+  "review_completed_at": "not supplied; confirmation recorded on2026-10-05 Asia/Shanghai",
+  "scope": "092 template semantic and label-preservation review,96 source samples/320 template-sample combinations",
+  "scope_basis": "user responded to the outstanding092human-review request",
+  "review_mode": "retrospective confirmation after exploratory model run",
+  "packet_sha256": "3386aca3278c4b31745e8c893378b345bcaef03093f2d24659c6c9af59549503",
+  "public_packet_sha256": "80da4bf206f572cc05179c0720a14d9906bcae4cae00c2127d6498f77370e272",
+  "per_row_decisions": "not supplied separately; original blank forms retained, no per-row decisions fabricated",
+  "limits": [
+    "does not create human gold model-output labels",
+    "does not convert development data into unseen confirmation",
+    "original pending status in run logs describes execution-time state"
+  ]
+}
