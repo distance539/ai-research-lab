@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "rows": 640,
+  "fully_reparsed": 632,
+  "redacted_not_reparsed": 8,
+  "prompt_and_gold_reconstruction": true,
+  "independent_metrics_and_pairs": true,
+  "source_identity": true,
+  "reserved_inference": false,
+  "parser_fixtures": 8,
+  "human_label_preservation": "pending;automated identity is not human review"
+}

@@ -1,0 +1,282 @@
+{
+  "before/json_original -> after/json_original": {
+    "format": {
+      "win": 64,
+      "tie": 0,
+      "loss": 0,
+      "delta_count": 64
+    },
+    "content_proxy": {
+      "win": 12,
+      "tie": 48,
+      "loss": 4,
+      "delta_count": 8
+    },
+    "joint": {
+      "win": 58,
+      "tie": 6,
+      "loss": 0,
+      "delta_count": 58
+    }
+  },
+  "before/json_paraphrase -> after/json_paraphrase": {
+    "format": {
+      "win": 64,
+      "tie": 0,
+      "loss": 0,
+      "delta_count": 64
+    },
+    "content_proxy": {
+      "win": 6,
+      "tie": 56,
+      "loss": 2,
+      "delta_count": 4
+    },
+    "joint": {
+      "win": 58,
+      "tie": 6,
+      "loss": 0,
+      "delta_count": 58
+    }
+  },
+  "before/json_reordered -> after/json_reordered": {
+    "format": {
+      "win": 64,
+      "tie": 0,
+      "loss": 0,
+      "delta_count": 64
+    },
+    "content_proxy": {
+      "win": 5,
+      "tie": 56,
+      "loss": 3,
+      "delta_count": 2
+    },
+    "joint": {
+      "win": 55,
+      "tie": 9,
+      "loss": 0,
+      "delta_count": 55
+    }
+  },
+  "before/plain_original -> after/plain_original": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 5,
+      "tie": 30,
+      "loss": 29,
+      "delta_count": -24
+    },
+    "joint": {
+      "win": 5,
+      "tie": 30,
+      "loss": 29,
+      "delta_count": -24
+    }
+  },
+  "before/news_original -> after/news_original": {
+    "format": {
+      "win": 0,
+      "tie": 31,
+      "loss": 1,
+      "delta_count": -1
+    },
+    "content_proxy": {
+      "win": 0,
+      "tie": 32,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "joint": {
+      "win": 0,
+      "tie": 32,
+      "loss": 0,
+      "delta_count": 0
+    }
+  },
+  "before/news_paraphrase -> after/news_paraphrase": {
+    "format": {
+      "win": 0,
+      "tie": 30,
+      "loss": 2,
+      "delta_count": -2
+    },
+    "content_proxy": {
+      "win": 0,
+      "tie": 31,
+      "loss": 1,
+      "delta_count": -1
+    },
+    "joint": {
+      "win": 0,
+      "tie": 31,
+      "loss": 1,
+      "delta_count": -1
+    }
+  },
+  "before/json_original -> before/json_paraphrase": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 13,
+      "tie": 42,
+      "loss": 9,
+      "delta_count": 4
+    },
+    "joint": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    }
+  },
+  "before/json_original -> before/json_reordered": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 13,
+      "tie": 41,
+      "loss": 10,
+      "delta_count": 3
+    },
+    "joint": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    }
+  },
+  "before/json_original -> before/plain_original": {
+    "format": {
+      "win": 64,
+      "tie": 0,
+      "loss": 0,
+      "delta_count": 64
+    },
+    "content_proxy": {
+      "win": 11,
+      "tie": 49,
+      "loss": 4,
+      "delta_count": 7
+    },
+    "joint": {
+      "win": 57,
+      "tie": 7,
+      "loss": 0,
+      "delta_count": 57
+    }
+  },
+  "after/json_original -> after/json_paraphrase": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 1,
+      "tie": 62,
+      "loss": 1,
+      "delta_count": 0
+    },
+    "joint": {
+      "win": 1,
+      "tie": 62,
+      "loss": 1,
+      "delta_count": 0
+    }
+  },
+  "after/json_original -> after/json_reordered": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 1,
+      "tie": 59,
+      "loss": 4,
+      "delta_count": -3
+    },
+    "joint": {
+      "win": 1,
+      "tie": 59,
+      "loss": 4,
+      "delta_count": -3
+    }
+  },
+  "after/json_original -> after/plain_original": {
+    "format": {
+      "win": 0,
+      "tie": 64,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 5,
+      "tie": 29,
+      "loss": 30,
+      "delta_count": -25
+    },
+    "joint": {
+      "win": 5,
+      "tie": 29,
+      "loss": 30,
+      "delta_count": -25
+    }
+  },
+  "before/news_original -> before/news_paraphrase": {
+    "format": {
+      "win": 1,
+      "tie": 31,
+      "loss": 0,
+      "delta_count": 1
+    },
+    "content_proxy": {
+      "win": 0,
+      "tie": 32,
+      "loss": 0,
+      "delta_count": 0
+    },
+    "joint": {
+      "win": 0,
+      "tie": 32,
+      "loss": 0,
+      "delta_count": 0
+    }
+  },
+  "after/news_original -> after/news_paraphrase": {
+    "format": {
+      "win": 1,
+      "tie": 30,
+      "loss": 1,
+      "delta_count": 0
+    },
+    "content_proxy": {
+      "win": 0,
+      "tie": 31,
+      "loss": 1,
+      "delta_count": -1
+    },
+    "joint": {
+      "win": 0,
+      "tie": 31,
+      "loss": 1,
+      "delta_count": -1
+    }
+  }
+}

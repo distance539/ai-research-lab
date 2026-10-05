@@ -1,0 +1,8 @@
+{
+  "download": "passed;20resource hashes verified",
+  "preprocessing": "passed;original text/labels held constant;human semantic review pending",
+  "training": "passed;reuse091target_only",
+  "inference": "passed;640generations",
+  "evaluation": "automated F/C/J passed;human review pending",
+  "exit_code": 0
+}

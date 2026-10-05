@@ -1,0 +1,48 @@
+{
+  "raw_sha256": "86e765637bb832361fa082a5c972bc7bf7ca51b18638c550117d6e5657627945",
+  "raw_count": 640,
+  "public_full_count": 632,
+  "redactions": [
+    {
+      "stage": "before",
+      "template": "json_paraphrase",
+      "idx": 553
+    },
+    {
+      "stage": "before",
+      "template": "json_reordered",
+      "idx": 106
+    },
+    {
+      "stage": "before",
+      "template": "json_reordered",
+      "idx": 553
+    },
+    {
+      "stage": "before",
+      "template": "news_original",
+      "idx": 1799
+    },
+    {
+      "stage": "after",
+      "template": "news_original",
+      "idx": 2868
+    },
+    {
+      "stage": "after",
+      "template": "news_original",
+      "idx": 1799
+    },
+    {
+      "stage": "after",
+      "template": "news_paraphrase",
+      "idx": 4298
+    },
+    {
+      "stage": "after",
+      "template": "news_paraphrase",
+      "idx": 1799
+    }
+  ],
+  "rule": "8consecutive source words; excludes raw input/source/tokenIDs for inputs"
+}

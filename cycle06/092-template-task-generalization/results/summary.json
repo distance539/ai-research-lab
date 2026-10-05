@@ -1,0 +1,114 @@
+{
+  "before": {
+    "json_original": {
+      "n": 64,
+      "format": 0,
+      "content_proxy": 50,
+      "joint": 0,
+      "input_tokens": 5250,
+      "generated_tokens": 422,
+      "length_stops": 1
+    },
+    "json_paraphrase": {
+      "n": 64,
+      "format": 0,
+      "content_proxy": 54,
+      "joint": 0,
+      "input_tokens": 5378,
+      "generated_tokens": 1076,
+      "length_stops": 17
+    },
+    "json_reordered": {
+      "n": 64,
+      "format": 0,
+      "content_proxy": 53,
+      "joint": 0,
+      "input_tokens": 5250,
+      "generated_tokens": 689,
+      "length_stops": 2
+    },
+    "plain_original": {
+      "n": 64,
+      "format": 64,
+      "content_proxy": 57,
+      "joint": 57,
+      "input_tokens": 4546,
+      "generated_tokens": 128,
+      "length_stops": 0
+    },
+    "news_original": {
+      "n": 32,
+      "format": 30,
+      "content_proxy": 8,
+      "joint": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 102,
+      "length_stops": 1
+    },
+    "news_paraphrase": {
+      "n": 32,
+      "format": 31,
+      "content_proxy": 8,
+      "joint": 8,
+      "input_tokens": 3980,
+      "generated_tokens": 72,
+      "length_stops": 0
+    }
+  },
+  "after": {
+    "json_original": {
+      "n": 64,
+      "format": 64,
+      "content_proxy": 58,
+      "joint": 58,
+      "input_tokens": 5250,
+      "generated_tokens": 512,
+      "length_stops": 0
+    },
+    "json_paraphrase": {
+      "n": 64,
+      "format": 64,
+      "content_proxy": 58,
+      "joint": 58,
+      "input_tokens": 5378,
+      "generated_tokens": 512,
+      "length_stops": 0
+    },
+    "json_reordered": {
+      "n": 64,
+      "format": 64,
+      "content_proxy": 55,
+      "joint": 55,
+      "input_tokens": 5250,
+      "generated_tokens": 512,
+      "length_stops": 0
+    },
+    "plain_original": {
+      "n": 64,
+      "format": 64,
+      "content_proxy": 33,
+      "joint": 33,
+      "input_tokens": 4546,
+      "generated_tokens": 128,
+      "length_stops": 0
+    },
+    "news_original": {
+      "n": 32,
+      "format": 29,
+      "content_proxy": 8,
+      "joint": 8,
+      "input_tokens": 3884,
+      "generated_tokens": 132,
+      "length_stops": 2
+    },
+    "news_paraphrase": {
+      "n": 32,
+      "format": 29,
+      "content_proxy": 7,
+      "joint": 7,
+      "input_tokens": 3980,
+      "generated_tokens": 126,
+      "length_stops": 2
+    }
+  }
+}
