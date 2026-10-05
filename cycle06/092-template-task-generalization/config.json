@@ -1,0 +1,68 @@
+{
+  "seed": 92,
+  "count": 64,
+  "confirmation_count": 128,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "attention": "eager",
+  "max_input_tokens": 512,
+  "system": "You are a helpful assistant.",
+  "task": "Classify the sentiment of this movie review as positive or negative.",
+  "contracts": {
+    "plain": "Reply with exactly one lowercase word: positive or negative.",
+    "json": "Reply with only a JSON object with exactly one key, sentiment, whose value is positive or negative in lowercase."
+  },
+  "decoding": {
+    "max_new_tokens": 32,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true
+  },
+  "walltime_budget_seconds": 1200,
+  "rss_budget_bytes": 6442450944,
+  "split_seed": 88,
+  "train_count": 32,
+  "eval_count": 64,
+  "batch_size": 2,
+  "steps": 64,
+  "lr": 0.001,
+  "max_train_tokens": 256,
+  "truncation_audit_lengths": [
+    64,
+    96,
+    128,
+    256
+  ],
+  "optimizer": "SGD",
+  "momentum": 0,
+  "weight_decay": 0,
+  "clip_norm": 1.0,
+  "train_seed": 89,
+  "arms": {
+    "target_only": {
+      "pattern": [
+        "target"
+      ],
+      "steps": 64
+    }
+  },
+  "news_train_per_class": 8,
+  "news_dev_per_class": 8,
+  "news_reserved_per_class": 16,
+  "news_seed": 91,
+  "news_task": "Classify this news article. A = World; B = Sports; C = Business; D = Science and Technology.",
+  "news_contract": "Reply with exactly one uppercase letter: A, B, C, or D.",
+  "news_max_train_tokens": 512,
+  "checkpoint_training_seed": 91,
+  "templates": [
+    "json_original",
+    "json_paraphrase",
+    "json_reordered",
+    "plain_original",
+    "news_original",
+    "news_paraphrase"
+  ],
+  "inherited_checkpoint_sha256": "fc7e2dd5554793b719019872d47df076e67df677bcd3f5723bc4fd5e7d626efb",
+  "parent_commit": "7bd49bd7d6c1cd950d58506cfe7d4e962d161c85"
+}

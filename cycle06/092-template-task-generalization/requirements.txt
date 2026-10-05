@@ -1,0 +1,8 @@
+torch==2.6.0
+transformers==4.49.0
+tokenizers==0.21.4
+safetensors==0.8.0
+huggingface-hub==0.36.2
+numpy==1.26.4
+pyarrow==25.0.1
+Jinja2==3.1.6

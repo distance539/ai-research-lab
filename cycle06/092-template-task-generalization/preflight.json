@@ -1,0 +1,9 @@
+{
+  "smoke_exit_code": 0,
+  "same_parameter_hash_as091": "10af612eb88611e2a211b6315efb5ea6f97030346b58fb3dc55d20dc181b28df",
+  "smoke_seconds": 27.413932499475777,
+  "smoke_rss_bytes": 2847473664,
+  "conservative_full_estimate_seconds": 548.2786499895155,
+  "budget_seconds": 1200,
+  "passed": true
+}

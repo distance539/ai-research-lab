@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-05",
+  "path_convention": "CACHE,PRIVATE,CK are reader-supplied paths",
+  "commands": [
+    {
+      "command": "python run.py --cache CACHE --out smoke --private PRIVATE --smoke",
+      "exit_code": 0,
+      "stdout": "smoke/stdout.log",
+      "stderr": "smoke/stderr.log"
+    },
+    {
+      "command": "python run.py --cache CACHE --out results --private PRIVATE --checkpoint CK",
+      "exit_code": 0,
+      "stdout": "results/stdout.log",
+      "stderr": "results/stderr.log"
+    },
+    {
+      "command": "python audit.py --cache CACHE --out results --raw PRIVATE/results-raw-predictions.jsonl --report results/raw_audit.json",
+      "exit_code": 0
+    },
+    {
+      "command": "python audit.py --cache CACHE --out results",
+      "exit_code": 0
+    }
+  ],
+  "non_experiment_issues": [
+    "First anonymous source-verification request blocked by sandbox network; network-authorized retry",
+    "First private review HTML preparation used system python3 and failed UTF8 decoding; explicit existing Python3.12 runtime succeeded; model experiment unaffected"
+  ]
+}
