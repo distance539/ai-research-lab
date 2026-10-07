@@ -1,0 +1,11 @@
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+Overwriting default num_fewshot of sst2 from None to 0
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 1340.46it/s]
+Running loglikelihood requests:   0%|          | 0/4 [00:00<?, ?it/s]Running loglikelihood requests: 100%|██████████| 4/4 [00:00<00:00, 40.34it/s]
+fatal: not a git repository (or any of the parent directories): .git
+{"mode": "official", "rows": 2, "seconds": 5.989411375485361, "rss": 1311195136, "status": "passed"}

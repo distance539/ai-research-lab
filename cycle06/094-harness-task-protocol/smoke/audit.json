@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 2,
+  "candidate_requests": 4,
+  "max_score_error": 0.0,
+  "aggregate_recomputed": 0.5,
+  "correct": 1.0,
+  "no_confirmation": true,
+  "official_raw_sha256": "5f7599e71488d02490d3e98ddf17df89b613078582f59c60f31dcfabeac85038",
+  "raw_distribution": "original review text, prompt and context IDs retained private, public derived scores only"
+}

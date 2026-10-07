@@ -1,0 +1,7 @@
+{
+  "sst2": {
+    "alias": "sst2",
+    "acc,none": 0.5,
+    "acc_stderr,none": "N/A"
+  }
+}

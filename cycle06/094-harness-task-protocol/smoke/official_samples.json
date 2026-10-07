@@ -1,0 +1,32 @@
+[
+  {
+    "idx": 400,
+    "gold": 1,
+    "scores": [
+      -3.8741276264190674,
+      -4.765127658843994
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "3b21f85589410dd70feb2bd5cedc59ae19d84d1cee96edbf5ff0238a5f20c997",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 615,
+    "gold": 0,
+    "scores": [
+      -6.351698875427246,
+      -7.288684844970703
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "67f37e19097dbaaafcf629660c1c4af0ec263402d093c1a382607f1ea89b92ed",
+    "max_score_error": 0.0
+  }
+]

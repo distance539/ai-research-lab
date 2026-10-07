@@ -1,0 +1,44 @@
+{
+  "original_yaml": {
+    "tag": "glue",
+    "task": "sst2",
+    "dataset_path": "nyu-mll/glue",
+    "dataset_name": "sst2",
+    "output_type": "multiple_choice",
+    "training_split": "train",
+    "validation_split": "validation",
+    "doc_to_text": "{{sentence}}\nQuestion: Is this sentence positive or negative?\nAnswer:",
+    "doc_to_target": "label",
+    "doc_to_choice": [
+      "negative",
+      "positive"
+    ],
+    "metric_list": [
+      {
+        "metric": "acc"
+      }
+    ],
+    "metadata": {
+      "version": 1.0
+    },
+    "custom_dataset": "local_dataset: offline transport only"
+  },
+  "num_fewshot": 0,
+  "target_delimiter": " ",
+  "fewshot_split": null,
+  "training_split": "train",
+  "fewshot_actual_samples": 0,
+  "apply_chat_template": false,
+  "add_bos_token": false,
+  "output_type": "multiple_choice",
+  "metric_aggregation": {
+    "acc": "mean"
+  },
+  "filter": "none/take_first",
+  "length_normalization": false,
+  "eos_scored": false,
+  "generation": false,
+  "max_length": 512,
+  "batch_size": 1,
+  "task_version": 1.0
+}
