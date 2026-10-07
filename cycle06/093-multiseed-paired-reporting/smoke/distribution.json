@@ -1,0 +1,8 @@
+{
+  "raw_predictions_sha256": "7d3734f588393a133493959987b8fd1db85d69fffcba2835d2b5c9f7cd7b1e59",
+  "public_predictions_sha256": "7d3734f588393a133493959987b8fd1db85d69fffcba2835d2b5c9f7cd7b1e59",
+  "redacted_rows": [],
+  "redacted_count": 0,
+  "raw_local_filename": "smoke-raw-predictions.jsonl",
+  "raw_audit": "raw_audit_before_export.json"
+}

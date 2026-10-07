@@ -1,0 +1,267 @@
+{
+  "fixed93": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "fixed94": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "shuffle93": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "shuffle94": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  },
+  "shuffle95": {
+    "target_plain": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "target_json": {
+      "format": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 2,
+        "loss": 0
+      }
+    },
+    "news_letter": {
+      "format": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "content_proxy": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      },
+      "joint": {
+        "win": 0,
+        "tie": 4,
+        "loss": 0
+      }
+    }
+  }
+}

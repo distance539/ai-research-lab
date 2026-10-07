@@ -1,0 +1,733 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 9300,
+  "interval_scope": "conditional fixed checkpoint, descriptive development sensitivity, iid SST rows; class-stratified news; no selection correction",
+  "results": {
+    "json": {
+      "format": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "content_proxy": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "joint": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 0,
+            "after_count": 0,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      }
+    },
+    "plain": {
+      "format": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 2,
+            "after_count": 2,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "content_proxy": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "joint": {
+        "arms": {
+          "fixed93": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 2,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 2,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      }
+    },
+    "letter": {
+      "format": {
+        "arms": {
+          "fixed93": {
+            "n": 4,
+            "before_count": 4,
+            "after_count": 4,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 4,
+            "before_count": 4,
+            "after_count": 4,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 4,
+            "before_count": 4,
+            "after_count": 4,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 4,
+            "before_count": 4,
+            "after_count": 4,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 4,
+            "before_count": 4,
+            "after_count": 4,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "content_proxy": {
+        "arms": {
+          "fixed93": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      },
+      "joint": {
+        "arms": {
+          "fixed93": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "fixed94": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle93": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle94": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          },
+          "shuffle95": {
+            "n": 4,
+            "before_count": 1,
+            "after_count": 1,
+            "delta": 0.0,
+            "win": 0,
+            "tie": 4,
+            "loss": 0,
+            "conditional_paired_percentile95": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "three_shuffle_seeds": {
+          "mean_delta": 0.0,
+          "sample_sd_delta": 0.0,
+          "min_delta": 0.0,
+          "max_delta": 0.0,
+          "seeds": [
+            93,
+            94,
+            95
+          ]
+        }
+      }
+    }
+  }
+}

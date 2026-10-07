@@ -1,0 +1,608 @@
+{
+  "before": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  },
+  "fixed93": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  },
+  "fixed94": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  },
+  "shuffle93": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  },
+  "shuffle94": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  },
+  "shuffle95": {
+    "plain": {
+      "n": 2,
+      "format_count": 2,
+      "correct_count": 1,
+      "joint_count": 1,
+      "format_rate": 1.0,
+      "content_proxy_accuracy": 0.5,
+      "joint_accuracy": 0.5,
+      "correct_given_format": 0.5,
+      "conditional_denominator": 2,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 0,
+        "F1C0": 1,
+        "F1C1": 1
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 0
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 159,
+      "generated_tokens_including_eos": 4,
+      "limit_stops": 0
+    },
+    "json": {
+      "n": 2,
+      "format_count": 0,
+      "correct_count": 2,
+      "joint_count": 0,
+      "format_rate": 0.0,
+      "content_proxy_accuracy": 1.0,
+      "joint_accuracy": 0.0,
+      "correct_given_format": null,
+      "conditional_denominator": 0,
+      "buckets": {
+        "F0C0": 0,
+        "F0C1": 2,
+        "F1C0": 0,
+        "F1C1": 0
+      },
+      "label_states": {
+        "unique": 2,
+        "missing": 0,
+        "ambiguous": 0
+      },
+      "per_class": {
+        "negative": {
+          "n": 1,
+          "correct": 1
+        },
+        "positive": {
+          "n": 1,
+          "correct": 1
+        }
+      },
+      "input_tokens": 181,
+      "generated_tokens_including_eos": 12,
+      "limit_stops": 0
+    },
+    "paired": {
+      "format": {
+        "json_gain": 0,
+        "tie": 0,
+        "json_loss": 2
+      },
+      "content_proxy": {
+        "json_gain": 1,
+        "tie": 1,
+        "json_loss": 0
+      },
+      "joint": {
+        "json_gain": 0,
+        "tie": 1,
+        "json_loss": 1
+      }
+    },
+    "constant_baselines": {
+      "negative": 0.5,
+      "positive": 0.5
+    },
+    "news": {
+      "n": 4,
+      "format_count": 4,
+      "content_proxy_count": 1,
+      "joint_count": 1,
+      "input_tokens": 479,
+      "generated_tokens": 8
+    }
+  }
+}

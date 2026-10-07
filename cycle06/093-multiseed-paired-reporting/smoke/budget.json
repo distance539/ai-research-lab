@@ -1,0 +1,97 @@
+{
+  "fixed93": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "fixed94": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 347,
+    "padded_tokens": 364,
+    "attention_cells": 33128,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "shuffle93": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 316,
+    "padded_tokens": 316,
+    "attention_cells": 25160,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "shuffle94": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 294,
+    "padded_tokens": 302,
+    "attention_cells": 22826,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  },
+  "shuffle95": {
+    "steps": 2,
+    "supervised_tokens": 32,
+    "input_tokens": 316,
+    "padded_tokens": 336,
+    "attention_cells": 28240,
+    "by_task": {
+      "target": {
+        "steps": 2,
+        "exposures": 4,
+        "supervised_tokens": 32
+      },
+      "news": {
+        "steps": 0,
+        "exposures": 0,
+        "supervised_tokens": 0
+      }
+    }
+  }
+}

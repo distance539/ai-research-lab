@@ -1,0 +1,52 @@
+[
+  {
+    "arm": "fixed93",
+    "filename": "smoke-fixed93-state.pt",
+    "sha256": "38af3a65b33499edc636c210cfee9c177ab665e658ef49218424ef792123c037",
+    "bytes": 538170498,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.9829977918416262,
+    "parameters": 134515008,
+    "state_sha256": "7c5679562e1f4719eecc4d144d636d81a9bbc6150f309fd85c29b3dfeae7c2a7"
+  },
+  {
+    "arm": "fixed94",
+    "filename": "smoke-fixed94-state.pt",
+    "sha256": "82a8bfa10025b7db92d1f6d5481e01ceb257e41464b5bf77f3120427b5c2dbc5",
+    "bytes": 538170498,
+    "q_proj_max_abs_change": 1.30385160446167e-06,
+    "training_seconds": 0.8755041668191552,
+    "parameters": 134515008,
+    "state_sha256": "7c5679562e1f4719eecc4d144d636d81a9bbc6150f309fd85c29b3dfeae7c2a7"
+  },
+  {
+    "arm": "shuffle93",
+    "filename": "smoke-shuffle93-state.pt",
+    "sha256": "f8b3b87d88cf131acc7e8e892c424361b0f05a81072a82d35ea4e9afa8b7f20a",
+    "bytes": 538171114,
+    "q_proj_max_abs_change": 1.5497207641601562e-06,
+    "training_seconds": 0.6962098330259323,
+    "parameters": 134515008,
+    "state_sha256": "bcfe5d744a44bb18b74bf170d68ee6f707b821cd475f7d6c0aed100f3cc82613"
+  },
+  {
+    "arm": "shuffle94",
+    "filename": "smoke-shuffle94-state.pt",
+    "sha256": "9ed411f7bc09264de6d136cd67cf26e869b94655fccdaa8b0636b7db34331de4",
+    "bytes": 538171114,
+    "q_proj_max_abs_change": 1.1846423149108887e-06,
+    "training_seconds": 0.7092342497780919,
+    "parameters": 134515008,
+    "state_sha256": "7b098e0bc836bf3015a6234af37c7da1e60e0947dcf284e1d437f012ed0e86d4"
+  },
+  {
+    "arm": "shuffle95",
+    "filename": "smoke-shuffle95-state.pt",
+    "sha256": "3d15b228054266cdbf1f0859fc73a5d347d5efab1d96582b3b413dc12cdf177a",
+    "bytes": 538171114,
+    "q_proj_max_abs_change": 1.1920928955078125e-06,
+    "training_seconds": 0.8358344594016671,
+    "parameters": 134515008,
+    "state_sha256": "d4e951cffb0ca0dcc553b307524b93f7d117ace84f162e1af2874b6321114cf6"
+  }
+]

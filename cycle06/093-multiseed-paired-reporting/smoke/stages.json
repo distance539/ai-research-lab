@@ -1,0 +1,7 @@
+{
+  "download": "passed; all locked resources hash verified",
+  "preprocessing": "passed; disjoint rows, target8/news2 answer tokens, no truncation",
+  "training": "passed;five arms complete",
+  "evaluation": "passed;development only, no confirmation",
+  "exit_code": 0
+}
