@@ -1,0 +1,51 @@
+{
+  "resources": {
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md": "b67282cc0ee148ca5fad017275f5559095cca4252a76a4ae7688377935c862fc",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/validation-00000-of-00001.parquet": "fb00fe008f6828f86ba2beda8415a4cf5da0c884f21c5f238c87131b5aa19529",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/train-00000-of-00001.parquet": "c7921283b75a42e685f50edecb96798607ea0fcbfd0739ee8975f22c12d55f09",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/README.md": "073f689c80fc6b3366d583eb570a05be2140b01ff2fdd706c416e14d0d2d5d5a",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/validation-00000-of-00001.parquet": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/train-00000-of-00001.parquet": "66a253e67968acfabcbe49dbe9da964b42ac1c851c40ab760e8c8942efdb3229"
+  },
+  "harness": {
+    "repository": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "version": "0.4.9.2",
+    "commit": "ad3f4d0cad1cfcdb815f1e795f7947e49ed9f2e9",
+    "license": "MIT"
+  },
+  "config": {
+    "seed": 94,
+    "threads": 4,
+    "max_length": 512,
+    "batch_size": 1,
+    "num_fewshot": 0,
+    "apply_chat_template": false,
+    "add_bos_token": false,
+    "development_rule": "first64 sorted by SHA256('88:'+idx)",
+    "confirmation_rule": "next128, no inference",
+    "manual_rows": 4,
+    "walltime_budget_seconds": 600,
+    "rss_budget_bytes": 4294967296,
+    "primary_metric": "acc,none",
+    "selection": "none; no model or prompt tuning"
+  },
+  "task_yaml_sha256": "891cf952087669400f1ab9cb80007de1b4f395c52b8f13a153afb1f5af136807",
+  "code_hashes": {
+    "run.py": "505e409c9f3439e7caf340208a81826a5d5dde22a4077f282a8f3a8a70b5731f",
+    "prepare.py": "a519f964e3082cde59cdd0f2a6a15454d64093b2a05811e8415219178d6c68bd",
+    "config.json": "11abe70a6d801beda4bbcf0fa55b6a6cf294d71e67bfb2b1cb2b411fd9f68a1a",
+    "official_sst2.yaml": "891cf952087669400f1ab9cb80007de1b4f395c52b8f13a153afb1f5af136807",
+    "PROTOCOL.md": "0aa6b93f19387e66ddab0c4949bb10b2d52ce923b2406440646b17ab93a0f59e"
+  },
+  "inference_cache": "disabled; key saved for future use",
+  "key": "15d4dab8b2ea5c4c2682e70b414f3bb807e86cbf3464acb2409d4ba007e77ac7"
+}
