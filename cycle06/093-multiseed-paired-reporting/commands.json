@@ -1,0 +1,12 @@
+[
+  {
+    "phase": "smoke",
+    "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache CACHE --out smoke --private PRIVATE --smoke",
+    "exit_code": 0
+  },
+  {
+    "phase": "formal",
+    "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache CACHE --out results --private PRIVATE",
+    "exit_code": 0
+  }
+]

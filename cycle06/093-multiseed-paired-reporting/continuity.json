@@ -1,0 +1,6 @@
+{
+  "prior_public_commit": "7bd49bd7d6c1cd950d58506cfe7d4e962d161c85",
+  "baseline160_prompts_labels_scores_identical": true,
+  "fixed160_prompts_labels_scores_identical": true,
+  "all64_training_steps_losses_gradients_identical": true
+}
