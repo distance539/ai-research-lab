@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "manual_rows": 4,
+  "manual_seconds": 0.9256312074139714,
+  "manual_peak_rss_bytes": 1308147712,
+  "conservative_formal_seconds_estimate": 119.24039727449417,
+  "budget_seconds": 600,
+  "budget_rss_bytes": 4294967296,
+  "human_review": "pending; separate acceptance gate"
+}

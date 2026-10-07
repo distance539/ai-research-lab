@@ -1,0 +1,28 @@
+[
+  {
+    "phase": "manual4",
+    "command": "python run.py --cache CACHE --out manual --private PRIVATE/manual --mode manual",
+    "exit_code": 0
+  },
+  {
+    "phase": "initial_smoke2",
+    "command": "python run.py --cache CACHE --out smoke --private PRIVATE/smoke --smoke",
+    "exit_code": 0
+  },
+  {
+    "phase": "initial_formal64",
+    "command": "python run.py --cache CACHE --out results --private PRIVATE/results",
+    "exit_code": 1,
+    "reason": "logged doc_id mismatch; inference completed; full failure retained locally"
+  },
+  {
+    "phase": "sorted_formal64",
+    "command": "python run.py --cache CACHE --out results --private PRIVATE/results_sorted",
+    "exit_code": 0
+  },
+  {
+    "phase": "final_smoke2",
+    "command": "python run.py --cache CACHE --out smoke --private PRIVATE/smoke_sorted --smoke",
+    "exit_code": 0
+  }
+]

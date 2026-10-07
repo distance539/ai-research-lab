@@ -1,0 +1,12 @@
+[
+  {
+    "split": "train",
+    "rows": 67349,
+    "all_rows_sentence_label_idx_equal": true
+  },
+  {
+    "split": "validation",
+    "rows": 872,
+    "all_rows_sentence_label_idx_equal": true
+  }
+]

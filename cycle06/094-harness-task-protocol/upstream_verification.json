@@ -1,0 +1,42 @@
+[
+  {
+    "path": "lm_eval/tasks/glue/sst2/default.yaml",
+    "sha256": "891cf952087669400f1ab9cb80007de1b4f395c52b8f13a153afb1f5af136807",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/api/task.py",
+    "sha256": "859a4872626c353c849f49fafe6a8d147a8e7e003db9c7070a004380eccd95f5",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/api/model.py",
+    "sha256": "35cc201705660db9140b5080a54b4e2be7d72f0e213214824e482e8e465afa6a",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/models/huggingface.py",
+    "sha256": "22b77fa3a3de48488a3460993d7c753f0717913fff2bb8fff15c2b8c76a6221d",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/api/metrics.py",
+    "sha256": "8fe93fa985848e8723d6b3e4e39e841c0ff3ea0237d8c110708d2cddbc34f414",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/evaluator.py",
+    "sha256": "6c8818eab15c3b1b43bdc7c55d053942e469d0449e7cd0079762152cef44faac",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "lm_eval/api/samplers.py",
+    "sha256": "e9320a0e36f942a6ab2bc9e7619c9ab22ff42cea68c6c323a16ecd633f274e51",
+    "installed_byte_equal": true
+  },
+  {
+    "path": "docs/task_guide.md",
+    "sha256": "b16a131beac02ef7a2569494a7f45f13763fa60d459ef8343910f4d418e79cf9",
+    "installed_byte_equal": null
+  }
+]

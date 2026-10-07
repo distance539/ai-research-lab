@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-10-07T19:18:17.681864+08:00",
+  "status": "pending",
+  "scope": "first four independently scored development rows; arithmetic only, not human semantic labels",
+  "source": "cycle6 outline 094 人工重算少量题目，再运行官方入口",
+  "question_sent": true,
+  "reviewer": null,
+  "response": null,
+  "sequence_deviation": "Human response not yet received. Official functional validation will proceed in parallel; do not claim human-before-official sequence or quality passed until genuine review is recorded. No score-based configuration selection."
+}

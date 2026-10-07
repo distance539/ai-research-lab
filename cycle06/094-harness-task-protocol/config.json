@@ -1,0 +1,8 @@
+{
+  "seed": 94, "threads": 4, "max_length": 512, "batch_size": 1,
+  "num_fewshot": 0, "apply_chat_template": false, "add_bos_token": false,
+  "development_rule": "first64 sorted by SHA256('88:'+idx)",
+  "confirmation_rule": "next128, no inference", "manual_rows": 4,
+  "walltime_budget_seconds": 600, "rss_budget_bytes": 4294967296,
+  "primary_metric": "acc,none", "selection": "none; no model or prompt tuning"
+}

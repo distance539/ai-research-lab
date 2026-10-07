@@ -1,0 +1,312 @@
+{
+  "mismatches": 61,
+  "rows": [
+    {
+      "logged_doc_id": 400,
+      "source_idx": 34,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 615,
+      "source_idx": 41,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 106,
+      "source_idx": 80,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 650,
+      "source_idx": 106,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 474,
+      "source_idx": 110,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 136,
+      "source_idx": 111,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 723,
+      "source_idx": 119,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 481,
+      "source_idx": 123,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 798,
+      "source_idx": 136,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 815,
+      "source_idx": 143,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 119,
+      "source_idx": 170,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 802,
+      "source_idx": 178,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 385,
+      "source_idx": 205,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 569,
+      "source_idx": 209,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 345,
+      "source_idx": 222,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 490,
+      "source_idx": 228,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 283,
+      "source_idx": 237,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 636,
+      "source_idx": 239,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 143,
+      "source_idx": 261,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 732,
+      "source_idx": 263,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 222,
+      "source_idx": 274,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 611,
+      "source_idx": 283,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 690,
+      "source_idx": 287,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 720,
+      "source_idx": 295,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 239,
+      "source_idx": 322,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 587,
+      "source_idx": 329,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 287,
+      "source_idx": 342,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 708,
+      "source_idx": 345,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 41,
+      "source_idx": 365,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 110,
+      "source_idx": 385,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 274,
+      "source_idx": 400,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 80,
+      "source_idx": 420,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 578,
+      "source_idx": 436,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 237,
+      "source_idx": 472,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 525,
+      "source_idx": 474,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 209,
+      "source_idx": 481,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 34,
+      "source_idx": 490,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 647,
+      "source_idx": 495,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 178,
+      "source_idx": 525,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 472,
+      "source_idx": 569,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 736,
+      "source_idx": 571,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 640,
+      "source_idx": 578,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 436,
+      "source_idx": 586,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 322,
+      "source_idx": 587,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 836,
+      "source_idx": 611,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 329,
+      "source_idx": 615,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 571,
+      "source_idx": 636,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 228,
+      "source_idx": 640,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 111,
+      "source_idx": 647,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 295,
+      "source_idx": 650,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 170,
+      "source_idx": 690,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 825,
+      "source_idx": 708,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 420,
+      "source_idx": 720,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 365,
+      "source_idx": 723,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 586,
+      "source_idx": 732,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 342,
+      "source_idx": 736,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 495,
+      "source_idx": 798,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 261,
+      "source_idx": 802,
+      "gold": 0
+    },
+    {
+      "logged_doc_id": 263,
+      "source_idx": 815,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 123,
+      "source_idx": 825,
+      "gold": 1
+    },
+    {
+      "logged_doc_id": 205,
+      "source_idx": 836,
+      "gold": 0
+    }
+  ],
+  "scores_by_source_idx_equal_after_fix": true,
+  "initial_accuracy": 0.5
+}
