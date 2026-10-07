@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "predictions": 960,
+  "fully_reparsed": 949,
+  "redacted_not_reparsed": 11,
+  "training_steps": 320,
+  "resources": 20,
+  "fixed_control_state_and_outputs_equal": true,
+  "three_shuffled_states_distinct": true,
+  "max_manual_ce_error": 1.1920928955078125e-07,
+  "paired_delta_checks": "independent arithmetic passed",
+  "bootstrap_replay": "same frozen implementation deterministic replay passed",
+  "bootstrap_limit": "not an independent coverage proof",
+  "confirmation_inference": false,
+  "predictions_sha256": "e00c552e2e71286fcdd0b4f0e83abe2a3bf6f26db89a65a56eab9c71f3b51b12"
+}

@@ -1,0 +1,53 @@
+{
+  "raw_predictions_sha256": "a013cf02a004a9ace0ccbd45279592acbcf8204f493cd628a0c4473f314365b3",
+  "public_predictions_sha256": "e00c552e2e71286fcdd0b4f0e83abe2a3bf6f26db89a65a56eab9c71f3b51b12",
+  "redacted_rows": [
+    {
+      "stage": "before",
+      "idx": 1799
+    },
+    {
+      "stage": "fixed93",
+      "idx": 2868
+    },
+    {
+      "stage": "fixed93",
+      "idx": 1799
+    },
+    {
+      "stage": "fixed94",
+      "idx": 2868
+    },
+    {
+      "stage": "fixed94",
+      "idx": 1799
+    },
+    {
+      "stage": "shuffle93",
+      "idx": 2868
+    },
+    {
+      "stage": "shuffle93",
+      "idx": 1799
+    },
+    {
+      "stage": "shuffle94",
+      "idx": 2868
+    },
+    {
+      "stage": "shuffle94",
+      "idx": 1799
+    },
+    {
+      "stage": "shuffle95",
+      "idx": 2868
+    },
+    {
+      "stage": "shuffle95",
+      "idx": 1799
+    }
+  ],
+  "redacted_count": 11,
+  "raw_local_filename": "results-raw-predictions.jsonl",
+  "raw_audit": "raw_audit_before_export.json"
+}
