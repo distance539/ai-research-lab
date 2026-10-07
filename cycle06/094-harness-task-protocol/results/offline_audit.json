@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "rows": 64,
+  "correct": 32,
+  "accuracy": 0.5,
+  "max_likelihood_error": 0.0,
+  "token_boundary_shape_and_arithmetic": "passed",
+  "gold_ids_prompts": "passed",
+  "confirmation_inference": false,
+  "human_review": "separate; this is machine audit"
+}

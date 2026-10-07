@@ -1,0 +1,7 @@
+{
+  "download": "hash-verified cached pinned files",
+  "preprocess": "passed; no truncation",
+  "inference": "passed; real pretrained model",
+  "evaluation": "official entry and independent comparison passed",
+  "exit_code": 0
+}

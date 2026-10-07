@@ -1,0 +1,962 @@
+[
+  {
+    "idx": 34,
+    "gold": 0,
+    "scores": [
+      -6.868671894073486,
+      -7.626634120941162
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "2669aa545064739f6075efbee6a934ffc2b63f76a1c03cc5fa901101a2457330",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 41,
+    "gold": 1,
+    "scores": [
+      -2.203728199005127,
+      -3.1666054725646973
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "b0f0904b10581e458907638b12c280a94e50c11a254bd815c11f687335b746fd",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 80,
+    "gold": 1,
+    "scores": [
+      -3.010781764984131,
+      -4.006388187408447
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "4e0f1b2ee17d10d6f60080755520e01a9353e83c4fab3dac0d762e35b08cb344",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 106,
+    "gold": 1,
+    "scores": [
+      -2.9267070293426514,
+      -3.4737651348114014
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "bd0213366fe0a2da7d253b92380fe1813b1abe835b081aba03f4765d30ededa4",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 110,
+    "gold": 0,
+    "scores": [
+      -2.281588315963745,
+      -3.199460744857788
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "f3063c326acfb2891bae4c2ae2dcd7cf4d16f81a94846f0684bec225c5d59aaf",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 111,
+    "gold": 0,
+    "scores": [
+      -1.3736028671264648,
+      -2.702305793762207
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "900d8b6c7dd2f1e8f04275369f654712dd722046fa2e12a491caa49c5504676a",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 119,
+    "gold": 0,
+    "scores": [
+      -2.9375901222229004,
+      -4.108825206756592
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "50ef4dc313eac988094b88fe9079c04e02635ea817622bb8209b6a86df27278c",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 123,
+    "gold": 1,
+    "scores": [
+      -2.1261401176452637,
+      -2.8761849403381348
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "f7b7b4e1af1b8c3fca0e951e3fc1a36a429193ab2a7952fb6c79ee4b5254c2d0",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 136,
+    "gold": 0,
+    "scores": [
+      -1.0247786045074463,
+      -2.5344603061676025
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "fa5bc7fb184dece440e63d4bdb929e128120ff62223d1991e0f6cf543331e901",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 143,
+    "gold": 1,
+    "scores": [
+      -2.083954095840454,
+      -3.020885705947876
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "bd587a557eeaaeb13ac00d6371139ce8ac7cb694c7c26b6868eb851b7dbb0748",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 170,
+    "gold": 1,
+    "scores": [
+      -6.316734313964844,
+      -6.202959060668945
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "a8f60476c2f550b297e1200489e2908927bb4912ac9d4c844a9a0e6e654ef71b",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 178,
+    "gold": 0,
+    "scores": [
+      -1.2314271926879883,
+      -2.8132123947143555
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "6d4f2c7e06b4f1b98fc784e25c3a467bb081c29c3158964d7681a7ad21ee73a9",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 198,
+    "gold": 1,
+    "scores": [
+      -3.0727086067199707,
+      -3.8925747871398926
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "8716dcbb76caacbec242a198219a91e50ac3dc25eb66cd997d426a2cbe7db464",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 205,
+    "gold": 1,
+    "scores": [
+      -1.5767263174057007,
+      -2.559070110321045
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "a61a8936581d3f2f151bd25ed07f30ce225671a1f9126951b14b00dc560008dc",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 209,
+    "gold": 0,
+    "scores": [
+      -5.3929924964904785,
+      -6.2755303382873535
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "a567cdf28b0a5189b7fad28b887223d01105df7a79e745b41dd3e866279dc35e",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 222,
+    "gold": 1,
+    "scores": [
+      -8.607667922973633,
+      -8.466580390930176
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "daaf2191e0594b7979ca6e9302642fde63417a7e9ffbc783671a29d5f02499e6",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 228,
+    "gold": 1,
+    "scores": [
+      -1.438691258430481,
+      -2.4725208282470703
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "2c4f541cf92c7a416324edab72b9a81f74e695eb90d06a55617d82cf63e166f3",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 237,
+    "gold": 0,
+    "scores": [
+      -1.8786289691925049,
+      -3.28985333442688
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "728cd3aee1019d3ea41f5cfff2f21e9c3533de826d962535d8dc5c6679a15c35",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 239,
+    "gold": 1,
+    "scores": [
+      -5.725793838500977,
+      -5.884321212768555
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "de3be10c0d51714981416be9fc76751f8f7ba1ae49ee376655380476519e35d4",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 252,
+    "gold": 1,
+    "scores": [
+      -1.3468986749649048,
+      -2.044877529144287
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "8835a9f56ad9c6471e4f3bf967c5364381d7ccf20b3900dc80bf8acf5cec6959",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 261,
+    "gold": 1,
+    "scores": [
+      -4.138187408447266,
+      -5.243683815002441
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "a9a62e3d1aacac4b507e1be1b48df897a70f59c36f61792cd0c52b3a8dc7ced3",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 263,
+    "gold": 1,
+    "scores": [
+      -2.2499654293060303,
+      -3.43139910697937
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "b2bbdc5222cf2472eb33838b47f9a344f9ce9ff6ff0c9b847a975298ccc21b28",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 274,
+    "gold": 0,
+    "scores": [
+      -6.6499786376953125,
+      -7.291006088256836
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "4f69ceef30cc301431930366fc1636205f9bce72de31845302b3931c6de40f3d",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 283,
+    "gold": 1,
+    "scores": [
+      -3.5181145668029785,
+      -4.436437129974365
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "f8f13882b6bc42360535f2c4016294b85dc25dc5c2f24550c4f7428699af3536",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 287,
+    "gold": 1,
+    "scores": [
+      -4.913909912109375,
+      -5.584310531616211
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "4e8ba4d9ed50a4bb270b7b95262ee87d779a8fc0dbf4b42605158149b03c614d",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 295,
+    "gold": 1,
+    "scores": [
+      -1.220839500427246,
+      -2.112002372741699
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "27df9a88394d4f3cee098136a6714cbede3a31a14b3526f09d1232ace60cde9f",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 322,
+    "gold": 0,
+    "scores": [
+      -3.236736536026001,
+      -3.7599756717681885
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "d85949a7f0be9959d484e517d2ee796f5db7cb9ffabf283cd76f0015a69d8e1c",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 329,
+    "gold": 0,
+    "scores": [
+      -9.193946838378906,
+      -9.08591365814209
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "ac2c74c03b060ddc1887c5bf2c3bb663889f1ee15a16498337ed8b872d18e665",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 342,
+    "gold": 0,
+    "scores": [
+      -1.977610468864441,
+      -3.1633214950561523
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "e8ec9dcf636cf6af279c91f7758b2aad7ba9ee63ab5ecb7af7ecf08e0972b435",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 345,
+    "gold": 1,
+    "scores": [
+      -2.7794971466064453,
+      -3.794248580932617
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "617d6573907877d6b27eab3e3f3a2fadb1961ea4ad08b2083dddcf7f31baf9f0",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 365,
+    "gold": 0,
+    "scores": [
+      -3.2429118156433105,
+      -4.3019328117370605
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "9872eaf2d7a3b64885e91e8abfa54cc4cf2288354c050f0e35d6ef4ce5f39bba",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 385,
+    "gold": 0,
+    "scores": [
+      -1.102463960647583,
+      -2.9692585468292236
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "67ca60eae05718b9f875746532872880f3045a4f3145fc5b05baa2d4a2b4c2d0",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 400,
+    "gold": 1,
+    "scores": [
+      -3.8741276264190674,
+      -4.765127658843994
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "3b21f85589410dd70feb2bd5cedc59ae19d84d1cee96edbf5ff0238a5f20c997",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 420,
+    "gold": 0,
+    "scores": [
+      -1.666841745376587,
+      -2.799226999282837
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "df41c9d3921c305a87bdd3fafc2da757dfee6847cfa6e5b896ba1a8380a06e65",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 436,
+    "gold": 0,
+    "scores": [
+      -1.317742943763733,
+      -2.6364283561706543
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "a9e3196a2a18868fdf771ce52f3779cd3ae91fb6c71b2ec772684a2646551c99",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 472,
+    "gold": 1,
+    "scores": [
+      -1.888443112373352,
+      -2.983022689819336
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "e3c735ef67a7570d6543a2e950d48e93cc48e1c7d383d370e8acd05a1b444951",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 474,
+    "gold": 0,
+    "scores": [
+      -1.9521005153656006,
+      -3.2181460857391357
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "6b2ce6bfa2afb21508c480d5e0585072daf701d551c183480a6370bd4ae20893",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 481,
+    "gold": 1,
+    "scores": [
+      -1.055027961730957,
+      -2.160336494445801
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "394205fe7fa0443666eec777617155f74c51cc7905fccdea6c2e09a2ef97e87d",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 490,
+    "gold": 0,
+    "scores": [
+      -3.11236572265625,
+      -4.078010559082031
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "4411fe0cd2bb8aab0551e3d195c7d1c9d98c071e238874c58513bdc08b1bd31c",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 495,
+    "gold": 1,
+    "scores": [
+      -1.3422050476074219,
+      -3.268613815307617
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "93c03837594fa802df4cc9b33242fa08a75029443c9645f792fbdbfe022651bc",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 525,
+    "gold": 1,
+    "scores": [
+      -1.5069234371185303,
+      -2.538440465927124
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "ff1363f43a7ab42815d4a84f9311fcc2a130ace58f434065cec731dea2ee23c0",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 553,
+    "gold": 1,
+    "scores": [
+      -2.744065761566162,
+      -3.0858054161071777
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "569b43d7525a8945a8901fcd34b98e857ba5772339be533ab55589d2d7757b15",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 569,
+    "gold": 1,
+    "scores": [
+      -1.811269760131836,
+      -2.5788402557373047
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "97bfe8750b23f87b010c3fb5e7f6fc37637145538131e5a5d115eb0da500755b",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 571,
+    "gold": 0,
+    "scores": [
+      -5.501231670379639,
+      -6.3995041847229
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "273eeadddd521007b76f034438229478aabf9939a857b02bcf2c864f50366eca",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 578,
+    "gold": 0,
+    "scores": [
+      -1.9747165441513062,
+      -3.3419995307922363
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "39f1e81b3d14b5813bc70898becc76b52447799c23042bac4f69be20e4fa8f23",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 586,
+    "gold": 0,
+    "scores": [
+      -2.2353579998016357,
+      -3.6954782009124756
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "9f076394b5f9b026d0b4ec6d452df4fc5c876c06bce3791e6a9d2e247f1ad5cf",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 587,
+    "gold": 0,
+    "scores": [
+      -2.5965142250061035,
+      -4.124048709869385
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "e0800cd534bff27e75d867689d0fbb6be44845004c793d94c88aea3c1aebf103",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 611,
+    "gold": 1,
+    "scores": [
+      -1.5021846294403076,
+      -3.1114156246185303
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "0e1b7196ad18f534777d70c835797a99237fb4606620626e87f33e2d626000fd",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 615,
+    "gold": 0,
+    "scores": [
+      -6.351698875427246,
+      -7.288684844970703
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "67f37e19097dbaaafcf629660c1c4af0ec263402d093c1a382607f1ea89b92ed",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 636,
+    "gold": 1,
+    "scores": [
+      -2.827501058578491,
+      -3.4932496547698975
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "2277019a05b0f46ae9bbb1b0ef7df9032e95d03c2228fe691345c9492a620af9",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 640,
+    "gold": 1,
+    "scores": [
+      -1.3281623125076294,
+      -2.4615259170532227
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "96c9293e128ebae4b6c32fc9d0f87546d30c8768abe7c4cf1101df74e4e847fe",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 647,
+    "gold": 0,
+    "scores": [
+      -1.2784168720245361,
+      -2.9966509342193604
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "94f1130e69919f7ed9293748c3015eaf8490f99babc393248836d43645aa3b3e",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 650,
+    "gold": 0,
+    "scores": [
+      -1.3008216619491577,
+      -2.9927010536193848
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "d480d00b8ed8643daf7e680a93c685e423d3ef4554da794aafcfa04098b7c8a5",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 690,
+    "gold": 0,
+    "scores": [
+      -4.420709609985352,
+      -5.120179176330566
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "3287a7ca1bdcdeff18901c64594c2226f0d21c195f86f7989c47460421c40e19",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 708,
+    "gold": 1,
+    "scores": [
+      -2.4541587829589844,
+      -2.6818504333496094
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "0809e1dd42b908eb2640d8600a1f3c042233c1c817852b24a7faa002414cd25f",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 720,
+    "gold": 1,
+    "scores": [
+      -0.8495684266090393,
+      -2.380160331726074
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "40a126814ab846ff8f24acde986fa9ca7b74172424495e81c3ebee0a5f7f09f7",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 723,
+    "gold": 1,
+    "scores": [
+      -1.6621276140213013,
+      -2.848464012145996
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "4a33b7c723f4b15e1c06013ec2b802e42fc9ff2846513a01252a44855522140c",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 732,
+    "gold": 0,
+    "scores": [
+      -1.4415632486343384,
+      -3.2364087104797363
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "33756dbcad73b14c2917559c291d2a282cbf8eddde3e6dd5ec2551470b1a19e6",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 736,
+    "gold": 0,
+    "scores": [
+      -0.8280828595161438,
+      -2.574390172958374
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "c645fd057d2e42e07c9a11b7d9b1e3e085a6f9c8c2df347a4a2da8253d6da1a1",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 798,
+    "gold": 0,
+    "scores": [
+      -3.114659309387207,
+      -4.598505020141602
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "41e8657eff37f03dfae32c6f1ddc5f6f62047324c028044e8e8e4f9594206094",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 802,
+    "gold": 0,
+    "scores": [
+      -3.1336374282836914,
+      -3.7176856994628906
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "04dd0e7c65beb318c87402d3a9bb5a75e0d28eb2a45274a6bd256e218d36c52a",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 815,
+    "gold": 1,
+    "scores": [
+      -1.5585216283798218,
+      -2.1388936042785645
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "5a9cdc79941adf3c86247ac373577d7ae39dd75d48e4cefe00e24fc166d5a96c",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 825,
+    "gold": 1,
+    "scores": [
+      -1.6809325218200684,
+      -2.510972499847412
+    ],
+    "is_greedy": [
+      true,
+      false
+    ],
+    "acc": 0.0,
+    "context_sha256": "eab3fa0594dc161d26366665de1b89e82f0cbf9d0e869e984e5e914dfc2c891b",
+    "max_score_error": 0.0
+  },
+  {
+    "idx": 836,
+    "gold": 0,
+    "scores": [
+      -1.5851882696151733,
+      -3.291804790496826
+    ],
+    "is_greedy": [
+      false,
+      false
+    ],
+    "acc": 1.0,
+    "context_sha256": "900a20a8353d505d53547d9897ed54364052bd2b855bf87febb1dd15e3a92291",
+    "max_score_error": 0.0
+  }
+]
