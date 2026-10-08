@@ -1,0 +1,125 @@
+{
+  "conditions": {
+    "zero": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "positive_predictions": 0,
+      "context_tokens_min": 36,
+      "context_tokens_max": 51,
+      "candidate_input_tokens": 174
+    },
+    "A_forward": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "positive_predictions": 0,
+      "context_tokens_min": 208,
+      "context_tokens_max": 223,
+      "candidate_input_tokens": 862
+    },
+    "A_reverse": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "positive_predictions": 0,
+      "context_tokens_min": 208,
+      "context_tokens_max": 223,
+      "candidate_input_tokens": 862
+    },
+    "B_forward": {
+      "n": 2,
+      "correct": 1,
+      "accuracy": 0.5,
+      "positive_predictions": 0,
+      "context_tokens_min": 208,
+      "context_tokens_max": 223,
+      "candidate_input_tokens": 862
+    },
+    "B_reverse": {
+      "n": 2,
+      "correct": 2,
+      "accuracy": 1.0,
+      "positive_predictions": 1,
+      "context_tokens_min": 208,
+      "context_tokens_max": 223,
+      "candidate_input_tokens": 862
+    }
+  },
+  "paired_contrasts": {
+    "A_forward minus zero": {
+      "n": 2,
+      "gains": 0,
+      "losses": 0,
+      "prediction_flips": 0,
+      "changed_ids": [],
+      "accuracy_delta": 0.0
+    },
+    "A_reverse minus zero": {
+      "n": 2,
+      "gains": 0,
+      "losses": 0,
+      "prediction_flips": 0,
+      "changed_ids": [],
+      "accuracy_delta": 0.0
+    },
+    "B_forward minus zero": {
+      "n": 2,
+      "gains": 0,
+      "losses": 0,
+      "prediction_flips": 0,
+      "changed_ids": [],
+      "accuracy_delta": 0.0
+    },
+    "B_reverse minus zero": {
+      "n": 2,
+      "gains": 1,
+      "losses": 0,
+      "prediction_flips": 1,
+      "changed_ids": [
+        400
+      ],
+      "accuracy_delta": 0.5
+    },
+    "A_reverse minus A_forward": {
+      "n": 2,
+      "gains": 0,
+      "losses": 0,
+      "prediction_flips": 0,
+      "changed_ids": [],
+      "accuracy_delta": 0.0
+    },
+    "B_reverse minus B_forward": {
+      "n": 2,
+      "gains": 1,
+      "losses": 0,
+      "prediction_flips": 1,
+      "changed_ids": [
+        400
+      ],
+      "accuracy_delta": 0.5
+    },
+    "B_forward minus A_forward": {
+      "n": 2,
+      "gains": 0,
+      "losses": 0,
+      "prediction_flips": 0,
+      "changed_ids": [],
+      "accuracy_delta": 0.0
+    },
+    "B_reverse minus A_reverse": {
+      "n": 2,
+      "gains": 1,
+      "losses": 0,
+      "prediction_flips": 1,
+      "changed_ids": [
+        400
+      ],
+      "accuracy_delta": 0.5
+    }
+  },
+  "independent_units": 2,
+  "outputs": 10,
+  "selection_of_best": "none",
+  "heldout_inference": false
+}
