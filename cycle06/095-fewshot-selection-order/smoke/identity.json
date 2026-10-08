@@ -1,0 +1,74 @@
+{
+  "plan_sha256": "ab5e8f2cec4da50b936e04103321f736ac03775a16637388eca0dc4c7cb4219a",
+  "resources": {
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+    "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md": "b67282cc0ee148ca5fad017275f5559095cca4252a76a4ae7688377935c862fc",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/validation-00000-of-00001.parquet": "fb00fe008f6828f86ba2beda8415a4cf5da0c884f21c5f238c87131b5aa19529",
+    "sst2/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/train-00000-of-00001.parquet": "c7921283b75a42e685f50edecb96798607ea0fcbfd0739ee8975f22c12d55f09",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/README.md": "073f689c80fc6b3366d583eb570a05be2140b01ff2fdd706c416e14d0d2d5d5a",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/validation-00000-of-00001.parquet": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b",
+    "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/train-00000-of-00001.parquet": "66a253e67968acfabcbe49dbe9da964b42ac1c851c40ab760e8c8942efdb3229"
+  },
+  "code": {
+    "run.py": "862e6392e4d8ddc2d8783af9108a652440e9ea2a8886715bd8466eaeb4f1e02c",
+    "prepare.py": "a519f964e3082cde59cdd0f2a6a15454d64093b2a05811e8415219178d6c68bd"
+  },
+  "protocol_sha256": "ba5135c64e063e9e0196b615359a2338a503c35e4e73978a8af9bc8450d46d4d",
+  "config": {
+    "seed": 95,
+    "threads": 4,
+    "max_length": 512,
+    "demo_block_tokens": 42,
+    "walltime_budget_seconds": 1200,
+    "rss_budget_bytes": 4294967296,
+    "conditions": [
+      "zero",
+      "A_forward",
+      "A_reverse",
+      "B_forward",
+      "B_reverse"
+    ]
+  },
+  "selected": [
+    400,
+    615
+  ],
+  "conditions": {
+    "zero": [],
+    "A_forward": [
+      20082,
+      65639,
+      45932,
+      20386
+    ],
+    "A_reverse": [
+      20386,
+      45932,
+      65639,
+      20082
+    ],
+    "B_forward": [
+      55505,
+      56993,
+      56230,
+      61285
+    ],
+    "B_reverse": [
+      61285,
+      56230,
+      56993,
+      55505
+    ]
+  },
+  "inference_cache": "disabled",
+  "harness_commit": "ad3f4d0cad1cfcdb815f1e795f7947e49ed9f2e9",
+  "key": "acc83ae5f0811080c60fd313ab7141ffd3ef55e90283cf947327bae2cc9b1d15"
+}
