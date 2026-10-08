@@ -1,0 +1,8 @@
+{
+  "projected_full_seconds": 816.9558832468465,
+  "budget_seconds": 600,
+  "peak_rss_bytes": 1589133312,
+  "rss_budget_bytes": 4294967296,
+  "formula": "fixed setup once + 2x32x per-condition scoring/evaluation time; excludes imports/download",
+  "smoke": true
+}

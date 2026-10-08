@@ -1,0 +1,55 @@
+{
+  "os": "macOS-26.6-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "harness": "0.4.9.2",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "elapsed_after_import_seconds": 16.691055958159268,
+  "peak_rss_bytes": 1589133312,
+  "gpu_memory": "not measured; CPU only",
+  "timing": {
+    "zero": {
+      "setup_seconds": 0.5802484583109617,
+      "independent_seconds": 0.21845833398401737,
+      "official_seconds": 2.0249442905187607,
+      "seconds": 2.823651375249028,
+      "official_accuracy": 0.5,
+      "raw_sha256": "1d6a8aab29d673935fde905de15556bf3155efbf3678151b946b4cf9dc2a411e"
+    },
+    "A_forward": {
+      "setup_seconds": 0.5853222906589508,
+      "independent_seconds": 0.45967575069516897,
+      "official_seconds": 2.1168159591034055,
+      "seconds": 3.1618141252547503,
+      "official_accuracy": 0.5,
+      "raw_sha256": "45deecfdbd599c82878f1828ccc338132079e613f2a13d1e751459f1c9a528ac"
+    },
+    "A_reverse": {
+      "setup_seconds": 0.584926082752645,
+      "independent_seconds": 0.3816463751718402,
+      "official_seconds": 2.090165083296597,
+      "seconds": 3.056737666018307,
+      "official_accuracy": 0.5,
+      "raw_sha256": "7edc563386d81b5a9f5aaf02e3bbc9123cc1eef78ee1307f116792a56c449ae6"
+    },
+    "B_forward": {
+      "setup_seconds": 0.6539893336594105,
+      "independent_seconds": 0.40095637552440166,
+      "official_seconds": 2.3468209160491824,
+      "seconds": 3.4017667090520263,
+      "official_accuracy": 0.5,
+      "raw_sha256": "044576eb2a9eae63f56c131631ff45af5dc5a9c76eb55e33b33bf00448c146b9"
+    },
+    "B_reverse": {
+      "setup_seconds": 0.6102502904832363,
+      "independent_seconds": 0.3914863336831331,
+      "official_seconds": 2.286861000582576,
+      "seconds": 3.2885977076366544,
+      "official_accuracy": 1.0,
+      "raw_sha256": "3f4c5d5b3c2ff5a930b5afa445fb2a5d4d32b6c8e3870b8ecc8af0f4bcf18e5c"
+    }
+  }
+}
