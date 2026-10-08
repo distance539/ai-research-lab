@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "conditions": 5,
+  "paired_questions": 64,
+  "candidate_scores": 640,
+  "max_score_error": 0,
+  "prompt_identity_token_boundaries_gold_and_arithmetic": "passed",
+  "demonstrations_train_only_no_exact_overlap": "passed",
+  "paired_statistics": "passed",
+  "equal_fewshot_context_length": "passed",
+  "confirmation_inference": false,
+  "human_review": "not performed or claimed",
+  "records_sha256": "f0d584a29062cadb0619ab6902c5c8e53d1693a32e7d6cc9d19854b76e33402c",
+  "audit_source_sha256": "d5cfca008de5fd807d6e1084b38a8acef5351ef0ef1810ff078b71f125184537"
+}

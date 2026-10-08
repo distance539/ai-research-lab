@@ -1,0 +1,10 @@
+{
+  "resource_hashes": "passed",
+  "plan_before_inference": "passed",
+  "inference": "passed",
+  "official_independent_score_parity": "passed",
+  "max_score_error": 0.0,
+  "equal_fewshot_token_budget": "passed",
+  "confirmation_inference": false,
+  "exit_code": 0
+}
