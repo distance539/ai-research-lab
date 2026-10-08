@@ -1,0 +1,9 @@
+{
+  "seed": 95,
+  "threads": 4,
+  "max_length": 512,
+  "demo_block_tokens": 42,
+  "walltime_budget_seconds": 1200,
+  "rss_budget_bytes": 4294967296,
+  "conditions": ["zero", "A_forward", "A_reverse", "B_forward", "B_reverse"]
+}

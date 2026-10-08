@@ -1,0 +1,44 @@
+{
+  "commands": [
+    {
+      "command": "python run.py --cache CACHE --plan-only",
+      "exit_code": 0,
+      "purpose": "freeze plan before inference"
+    },
+    {
+      "command": "python run.py --cache CACHE --out smoke-budget-failed --private PRIVATE1 --smoke",
+      "exit_code": 1,
+      "log": "verification_logs/smoke_initial.log",
+      "purpose": "first resource projection failed; source snapshot local"
+    },
+    {
+      "command": "python run.py --cache CACHE --out smoke-budget-recheck --private PRIVATE2 --smoke",
+      "exit_code": 1,
+      "log": "verification_logs/smoke_second.log",
+      "purpose": "revised projection still exceeded600s"
+    },
+    {
+      "command": "python run.py --cache CACHE --out smoke --private PRIVATE3 --smoke",
+      "exit_code": 0,
+      "log": "verification_logs/smoke_passed.log",
+      "purpose": "1200s budget, unchanged scientific plan"
+    },
+    {
+      "command": "python run.py --cache CACHE --out results --private PRIVATE4",
+      "exit_code": 0,
+      "log": "verification_logs/full.log",
+      "purpose": "all64 x5"
+    },
+    {
+      "command": "python audit.py --cache CACHE --out results",
+      "exit_code": 0,
+      "log": "verification_logs/audit.log"
+    },
+    {
+      "command": "python -m unittest discover -s CODE -p test_*.py -v",
+      "exit_code": 0,
+      "tests_passed": 8
+    }
+  ],
+  "path_note": "CACHE/PRIVATE/CODE are explicit user-supplied directories, not hidden modules; raw logs retained in enclosing local article."
+}
