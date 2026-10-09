@@ -1,0 +1,13 @@
+{
+  "seed": 96,
+  "threads": 4,
+  "max_length": 512,
+  "walltime_budget_seconds": 1200,
+  "rss_budget_bytes": 4294967296,
+  "smoke_questions": 2,
+  "metrics": [
+    "sum",
+    "token_mean",
+    "character_mean"
+  ]
+}
