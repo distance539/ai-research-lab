@@ -1,0 +1,18 @@
+{
+  "name": "smoke-final",
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<verified-resource-cache>",
+    "--out",
+    "smoke",
+    "--smoke"
+  ],
+  "cwd": "source directory",
+  "started_at": "2026-10-09T09:10:05.755255+08:00",
+  "elapsed_wall_seconds": 8.831148147583008,
+  "exit_code": 0,
+  "log": "smoke/run.log",
+  "log_sha256": "dd9ec682fdc24988747537c59b5052df12a449b49c4783038bd5c8f3d69bc417"
+}

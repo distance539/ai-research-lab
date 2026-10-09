@@ -1,0 +1,144 @@
+{
+  "conditions": {
+    "official_text": {
+      "n": 2,
+      "correct": {
+        "sum": 1,
+        "token_mean": 1,
+        "character_mean": 1
+      },
+      "positive": 0,
+      "first_position": 2,
+      "context_tokens_range": [
+        36,
+        51
+      ],
+      "candidate_input_tokens": 174,
+      "continuation_lengths": [
+        1
+      ]
+    },
+    "listed_text_forward": {
+      "n": 2,
+      "correct": {
+        "sum": 1,
+        "token_mean": 1,
+        "character_mean": 1
+      },
+      "positive": 0,
+      "first_position": 2,
+      "context_tokens_range": [
+        44,
+        59
+      ],
+      "candidate_input_tokens": 206,
+      "continuation_lengths": [
+        1
+      ]
+    },
+    "listed_text_reverse": {
+      "n": 2,
+      "correct": {
+        "sum": 1,
+        "token_mean": 1,
+        "character_mean": 1
+      },
+      "positive": 0,
+      "first_position": 0,
+      "context_tokens_range": [
+        44,
+        59
+      ],
+      "candidate_input_tokens": 206,
+      "continuation_lengths": [
+        1
+      ]
+    },
+    "listed_letter_forward": {
+      "n": 2,
+      "correct": {
+        "sum": 1,
+        "token_mean": 1,
+        "character_mean": 1
+      },
+      "positive": 0,
+      "first_position": 2,
+      "context_tokens_range": [
+        44,
+        59
+      ],
+      "candidate_input_tokens": 206,
+      "continuation_lengths": [
+        1
+      ]
+    },
+    "listed_letter_reverse": {
+      "n": 2,
+      "correct": {
+        "sum": 1,
+        "token_mean": 1,
+        "character_mean": 1
+      },
+      "positive": 2,
+      "first_position": 2,
+      "context_tokens_range": [
+        44,
+        59
+      ],
+      "candidate_input_tokens": 206,
+      "continuation_lengths": [
+        1
+      ]
+    }
+  },
+  "pairs": {
+    "listed_text_reverse minus listed_text_forward": {
+      "gains": [],
+      "losses": [],
+      "flips": [],
+      "delta": 0.0
+    },
+    "listed_letter_reverse minus listed_letter_forward": {
+      "gains": [
+        400
+      ],
+      "losses": [
+        615
+      ],
+      "flips": [
+        400,
+        615
+      ],
+      "delta": 0.0
+    },
+    "listed_letter_forward minus listed_text_forward": {
+      "gains": [],
+      "losses": [],
+      "flips": [],
+      "delta": 0.0
+    },
+    "listed_letter_reverse minus listed_text_reverse": {
+      "gains": [
+        400
+      ],
+      "losses": [
+        615
+      ],
+      "flips": [
+        400,
+        615
+      ],
+      "delta": 0.0
+    },
+    "listed_text_forward minus official_text": {
+      "gains": [],
+      "losses": [],
+      "flips": [],
+      "delta": 0.0
+    }
+  },
+  "independent_questions": 2,
+  "rows": 10,
+  "candidate_scores": 20,
+  "confirmation_inference": false
+}

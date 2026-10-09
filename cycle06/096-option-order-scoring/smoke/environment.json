@@ -1,0 +1,22 @@
+{
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "harness": "0.4.9.2",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "elapsed_after_import_seconds": 4.773032665994833,
+  "peak_rss_bytes": 1369161728,
+  "gpu_memory": "not measured; CPU only",
+  "setup_seconds": 0.3988867910011322,
+  "condition_seconds": {
+    "official_text": 0.907021375001932,
+    "listed_text_forward": 0.9167829170037294,
+    "listed_text_reverse": 0.8457472920053988,
+    "listed_letter_forward": 0.8515750000005937,
+    "listed_letter_reverse": 0.8495794170012232
+  },
+  "projected_full_seconds": 280.12407085582527
+}

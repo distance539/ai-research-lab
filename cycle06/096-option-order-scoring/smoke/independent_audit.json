@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "rows": 10,
+  "questions": 2,
+  "candidate_scores": 20,
+  "counts": {
+    "official_text": {
+      "sum": 1,
+      "token_mean": 1,
+      "character_mean": 1
+    },
+    "listed_text_forward": {
+      "sum": 1,
+      "token_mean": 1,
+      "character_mean": 1
+    },
+    "listed_text_reverse": {
+      "sum": 1,
+      "token_mean": 1,
+      "character_mean": 1
+    },
+    "listed_letter_forward": {
+      "sum": 1,
+      "token_mean": 1,
+      "character_mean": 1
+    },
+    "listed_letter_reverse": {
+      "sum": 1,
+      "token_mean": 1,
+      "character_mean": 1
+    }
+  },
+  "max_official_error": 0,
+  "input_sha256": {
+    "records.json": "70cb6b0617decf992a6c55bf210b2899c03e83a6e50324d6221b42d77cca3559",
+    "summary.json": "b253b231f3942a8641120c783f5bf059bc1841dc31d7ab31420076db69baf0b1",
+    "identity.json": "e6f4eb12fecb4a5bcc489cb70a7baad3413325bde59545c7a31682ba4d35fc9b"
+  },
+  "script_sha256": "b350954ce1b35c7ce060734b4a96d2197e549212c9629ffa915e5beae2426935",
+  "human_review": false
+}
