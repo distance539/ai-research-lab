@@ -1,0 +1,17 @@
+{
+  "name": "formal",
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<verified-resource-cache>",
+    "--out",
+    "results"
+  ],
+  "cwd": "source directory",
+  "started_at": "2026-10-09T09:10:59.803439+08:00",
+  "elapsed_wall_seconds": 47.12122869491577,
+  "exit_code": 0,
+  "log": "results/run.log",
+  "log_sha256": "dc71f536cb0719c651d08ce8ba3381e413eb38fbf9da715b5bf3ba02cdda4b63"
+}

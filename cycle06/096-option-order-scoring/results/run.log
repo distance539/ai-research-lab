@@ -1,0 +1,49 @@
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+[Task: sst2] metric acc_norm is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc_norm is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"condition": "official_text", "n": 64, "seconds": 8.769319125000038, "correct": 32}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+[Task: sst2] metric acc_norm is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc_norm is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_text_forward", "n": 64, "seconds": 9.216571834003844, "correct": 31}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+[Task: sst2] metric acc_norm is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc_norm is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_text_reverse", "n": 64, "seconds": 8.422989624996262, "correct": 32}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+[Task: sst2] metric acc_norm is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc_norm is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_letter_forward", "n": 64, "seconds": 8.325616207999701, "correct": 32}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+[Task: sst2] metric acc_norm is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc_norm is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_letter_reverse", "n": 64, "seconds": 8.401482458000828, "correct": 33}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

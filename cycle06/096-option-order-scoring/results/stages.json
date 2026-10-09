@@ -1,0 +1,9 @@
+{
+  "download": "cached resources verified",
+  "preprocess": "passed",
+  "inference": "passed",
+  "evaluation": "passed",
+  "max_score_error": 0.0,
+  "confirmation_inference": false,
+  "exit_code": 0
+}
