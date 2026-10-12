@@ -1,0 +1,18 @@
+{
+  "name": "smoke",
+  "started_at": "2026-10-10T09:01:28.360337+08:00",
+  "elapsed_wall_seconds": 5.773451089859009,
+  "exit_code": 0,
+  "log_sha256": "20008103543c86b6761e74a9a2be194a53f6b45593a84da34e493dfc1b56a033",
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "smoke",
+    "--smoke"
+  ],
+  "command_note": "Machine paths replaced with explicit portable cache placeholder; exact invocation retained in local verification_logs."
+}

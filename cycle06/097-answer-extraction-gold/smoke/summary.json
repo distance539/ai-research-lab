@@ -1,0 +1,27 @@
+{
+  "n": 2,
+  "counts": {
+    "exact": 0,
+    "json_format": 0,
+    "json_correct": 0,
+    "regex_correct": 2
+  },
+  "paired": {
+    "regex_gain": [
+      400,
+      615
+    ],
+    "regex_loss": []
+  },
+  "length_stops": 0,
+  "tokens": {
+    "input": 181,
+    "generated_including_eos": 12
+  },
+  "human": {
+    "status": "pending",
+    "n_completed": 0,
+    "error_rates": null
+  },
+  "confirmation_inference": false
+}
