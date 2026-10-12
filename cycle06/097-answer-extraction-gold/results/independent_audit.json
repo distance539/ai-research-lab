@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "n": 64,
+  "fully_reparsed": 64,
+  "redacted_ids": [],
+  "redacted_boundary": "only derived arithmetic checked for redacted rows; full local audit separately saved",
+  "counts": {
+    "exact": 0,
+    "json_format": 0,
+    "json_correct": 0,
+    "regex_correct": 50
+  },
+  "script_sha256": "00799b108b2e1e91482ab979fd5a75abc8b573a8a07137e024d39be6a2fa65fb",
+  "inputs": {
+    "records.json": "d6d8527c25287fcf812a436d0c944bbee5cbef825aa80ca0d57e9fb33b081a1b",
+    "summary.json": "1414e3315c57a099152fadd08136ece165f9ded51889fbc52f65425b061142c6",
+    "identity.json": "0358a0344df4e20b3cc20e42083d205aacc8b9e0335a5310e10a34c3ca855eed"
+  },
+  "human_review": "not performed by this script"
+}

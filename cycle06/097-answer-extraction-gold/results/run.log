@@ -1,0 +1,72 @@
+{"idx": 400, "seconds": 0.31117050000466406, "generated": 10}
+{"idx": 615, "seconds": 0.07561162501224317, "generated": 2}
+{"idx": 106, "seconds": 0.32122287500533275, "generated": 10}
+{"idx": 650, "seconds": 0.16455766701255925, "generated": 2}
+{"idx": 474, "seconds": 0.3293829999747686, "generated": 10}
+{"idx": 136, "seconds": 0.06274462500005029, "generated": 2}
+{"idx": 723, "seconds": 0.0658142080064863, "generated": 2}
+{"idx": 481, "seconds": 0.06429949999437667, "generated": 2}
+{"idx": 798, "seconds": 0.0751489170070272, "generated": 2}
+{"idx": 815, "seconds": 0.2135710000002291, "generated": 10}
+{"idx": 119, "seconds": 0.07548195801791735, "generated": 2}
+{"idx": 802, "seconds": 0.08320049999747425, "generated": 2}
+{"idx": 198, "seconds": 0.23425041700829752, "generated": 10}
+{"idx": 385, "seconds": 0.2433770000061486, "generated": 10}
+{"idx": 569, "seconds": 0.06529154098825529, "generated": 2}
+{"idx": 345, "seconds": 0.21799254199140705, "generated": 10}
+{"idx": 490, "seconds": 0.06540520800626837, "generated": 2}
+{"idx": 283, "seconds": 0.21668074998888187, "generated": 10}
+{"idx": 636, "seconds": 0.18742420899798162, "generated": 10}
+{"idx": 252, "seconds": 0.18994937499519438, "generated": 10}
+{"idx": 143, "seconds": 0.06331829199916683, "generated": 2}
+{"idx": 732, "seconds": 0.189010917005362, "generated": 10}
+{"idx": 222, "seconds": 0.09442662500077859, "generated": 2}
+{"idx": 611, "seconds": 0.20390833300189115, "generated": 10}
+{"idx": 690, "seconds": 0.06190045800758526, "generated": 2}
+{"idx": 720, "seconds": 0.07898837499669753, "generated": 2}
+{"idx": 239, "seconds": 0.20095741702243686, "generated": 10}
+{"idx": 587, "seconds": 0.2073613750108052, "generated": 10}
+{"idx": 287, "seconds": 0.20066829200368375, "generated": 10}
+{"idx": 708, "seconds": 0.20485541701782495, "generated": 10}
+{"idx": 41, "seconds": 0.1729654999799095, "generated": 7}
+{"idx": 110, "seconds": 0.06768879102310166, "generated": 2}
+{"idx": 274, "seconds": 0.24455199998919852, "generated": 10}
+{"idx": 80, "seconds": 0.20818962500197813, "generated": 10}
+{"idx": 578, "seconds": 0.0788292920042295, "generated": 2}
+{"idx": 237, "seconds": 0.08548374997917563, "generated": 2}
+{"idx": 525, "seconds": 0.08462091599358246, "generated": 2}
+{"idx": 209, "seconds": 0.2061804170079995, "generated": 10}
+{"idx": 34, "seconds": 0.20042479201219976, "generated": 10}
+{"idx": 647, "seconds": 0.06251045802491717, "generated": 2}
+{"idx": 178, "seconds": 0.19194141597836278, "generated": 10}
+{"idx": 553, "seconds": 0.556750165997073, "generated": 32}
+{"idx": 472, "seconds": 0.06970399999408983, "generated": 2}
+{"idx": 736, "seconds": 0.06058637498063035, "generated": 2}
+{"idx": 640, "seconds": 0.19480716600082815, "generated": 10}
+{"idx": 436, "seconds": 0.060542166989762336, "generated": 2}
+{"idx": 322, "seconds": 0.061627832998055965, "generated": 2}
+{"idx": 836, "seconds": 0.19994720802060328, "generated": 10}
+{"idx": 329, "seconds": 0.20391112499055453, "generated": 10}
+{"idx": 571, "seconds": 0.19365266599925235, "generated": 10}
+{"idx": 228, "seconds": 0.20440262500778772, "generated": 10}
+{"idx": 111, "seconds": 0.0595446249935776, "generated": 2}
+{"idx": 295, "seconds": 0.0605830000131391, "generated": 2}
+{"idx": 170, "seconds": 0.19438258299487643, "generated": 10}
+{"idx": 825, "seconds": 0.08814933299436234, "generated": 2}
+{"idx": 420, "seconds": 0.2517280419997405, "generated": 13}
+{"idx": 365, "seconds": 0.06321154200122692, "generated": 2}
+{"idx": 586, "seconds": 0.2067611670063343, "generated": 10}
+{"idx": 342, "seconds": 0.06400187499821186, "generated": 2}
+{"idx": 495, "seconds": 0.06260012500570156, "generated": 2}
+{"idx": 261, "seconds": 0.20388291700510308, "generated": 10}
+{"idx": 263, "seconds": 0.20485700000426732, "generated": 10}
+{"idx": 123, "seconds": 0.070628375018714, "generated": 2}
+{"idx": 205, "seconds": 0.2069214999792166, "generated": 10}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

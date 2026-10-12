@@ -1,0 +1,9 @@
+{
+  "download": "verified12 cached files",
+  "preprocess": "passed; no truncation",
+  "inference": "passed",
+  "automatic_evaluation": "passed",
+  "human_evaluation": "pending",
+  "confirmation_inference": false,
+  "exit_code": 0
+}

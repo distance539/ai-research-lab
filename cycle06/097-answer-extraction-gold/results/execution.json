@@ -1,0 +1,17 @@
+{
+  "name": "formal",
+  "started_at": "2026-10-10T09:02:19.740621+08:00",
+  "elapsed_wall_seconds": 14.690278768539429,
+  "exit_code": 0,
+  "log_sha256": "abc4f1c5d975a3457ca63cb0a284622fd30eb4bf2cc395d628e4b3f0d65346bf",
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "results"
+  ],
+  "command_note": "Machine paths replaced with explicit portable cache placeholder; exact invocation retained in local verification_logs."
+}

@@ -1,0 +1,6 @@
+{
+  "raw_records_sha256": "d6d8527c25287fcf812a436d0c944bbee5cbef825aa80ca0d57e9fb33b081a1b",
+  "redacted_ids": [],
+  "reason": "SST2 license unknown; no source reviews/full prompts or 8-word copied spans redistributed",
+  "raw_audit": "full local raw audit required; public audit reports its reduced parsing scope"
+}

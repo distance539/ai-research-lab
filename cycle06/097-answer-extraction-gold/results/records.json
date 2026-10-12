@@ -1,0 +1,1924 @@
+[
+  {
+    "idx": 400,
+    "gold": 1,
+    "sentence_sha256": "c99e9670deed20b7390159fd88a673f8829cbafd4eb6d491c7564199846fef56",
+    "prompt_sha256": "c4a8ee8b5cc62793248f38e33d413bae5870a6c51c9e5b54d007dd82e831e4ba",
+    "input_length": 83,
+    "input_shape": [
+      1,
+      83
+    ],
+    "first_logits_shape": [
+      1,
+      83,
+      49152
+    ],
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.31117050000466406
+  },
+  {
+    "idx": 615,
+    "gold": 0,
+    "sentence_sha256": "2fb4b1d65f1a2afdbbb2fd7ef462152a3e200031abeb719a305f673888d93fa5",
+    "prompt_sha256": "d791739feec52b159318c82c47849d252e9211e974d84cb55b5c47a822cfb344",
+    "input_length": 98,
+    "input_shape": [
+      1,
+      98
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.07561162501224317
+  },
+  {
+    "idx": 106,
+    "gold": 1,
+    "sentence_sha256": "ac7144d20f9d5cd37df0544c56a6623aac4bb9d2fdc486d4aabedf70fa5c42ce",
+    "prompt_sha256": "ea5954cd8098edc6abe23733e8c5df23211dd77679fae685e8b5d3941aa81f06",
+    "input_length": 81,
+    "input_shape": [
+      1,
+      81
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.32122287500533275
+  },
+  {
+    "idx": 650,
+    "gold": 0,
+    "sentence_sha256": "50a747a5d0b423d85849567d3dd044589aefcff220a1a333e2d77a483a254646",
+    "prompt_sha256": "8f6a4821e897f960c7b1ec2feea86515706d10da093ed5d19f7a27462665716d",
+    "input_length": 71,
+    "input_shape": [
+      1,
+      71
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.16455766701255925
+  },
+  {
+    "idx": 474,
+    "gold": 0,
+    "sentence_sha256": "ba0843989e91c927f5224db083989c8ded8c1c6e978ca7d04e1931d10a6204a3",
+    "prompt_sha256": "8ecd3264eaf6464192058151d725751e61622c58802c6a4488c01cf7e445fac5",
+    "input_length": 72,
+    "input_shape": [
+      1,
+      72
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.3293829999747686
+  },
+  {
+    "idx": 136,
+    "gold": 0,
+    "sentence_sha256": "7d5fd14bb51fbf0472c8bff462b93448f24b79a381b2dea3ae920353a8862a7a",
+    "prompt_sha256": "bdf985769ef4fc353fc7a02e19c965f8a40e68657b15c95cfa69291ea6389c45",
+    "input_length": 74,
+    "input_shape": [
+      1,
+      74
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06274462500005029
+  },
+  {
+    "idx": 723,
+    "gold": 1,
+    "sentence_sha256": "5d676f05636148695be0ac215ce8187fb9418aa9d73c3a99b6eeb8076d41ad3c",
+    "prompt_sha256": "94abbcde5d956fb452ecf3f6ed83b86f41b8ebe460ee055bf507489000b26233",
+    "input_length": 84,
+    "input_shape": [
+      1,
+      84
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.0658142080064863
+  },
+  {
+    "idx": 481,
+    "gold": 1,
+    "sentence_sha256": "d0ab4c3e0432d9ad7e3d570a7af43c59e8ef07efab66b851523473d7a4c8057a",
+    "prompt_sha256": "0c949901d4686afb5752a7b9af3145aaf0624b32f89247fb9e71a4e3fed779c8",
+    "input_length": 67,
+    "input_shape": [
+      1,
+      67
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06429949999437667
+  },
+  {
+    "idx": 798,
+    "gold": 0,
+    "sentence_sha256": "1e6f2584481179b4f0ef67526d7fb7e43e113d8d33f96c4b7f7fe9f09d3b127c",
+    "prompt_sha256": "f9d327712e136b45e3e24bfc38d208bd593eef1e5b3a7f63c4747c31cb393bec",
+    "input_length": 103,
+    "input_shape": [
+      1,
+      103
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.0751489170070272
+  },
+  {
+    "idx": 815,
+    "gold": 1,
+    "sentence_sha256": "1c75524fcfbadba8d2b4f9eb9c39fcdbfc0c25ddae2c68fdf02af38285638c04",
+    "prompt_sha256": "e2a548b181990e40e930adb6fe2d8ebbd64143c3ef84b6f440a1ba9acf0b6b28",
+    "input_length": 70,
+    "input_shape": [
+      1,
+      70
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.2135710000002291
+  },
+  {
+    "idx": 119,
+    "gold": 0,
+    "sentence_sha256": "ac9be9c308a8bcf803bbd5184e56147d558f38ff93216c3b37203b1e04dd86ee",
+    "prompt_sha256": "78c1a3138d31777dfb3f416c77208106007472b9dfd5eb3977e719e30ca920be",
+    "input_length": 78,
+    "input_shape": [
+      1,
+      78
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.07548195801791735
+  },
+  {
+    "idx": 802,
+    "gold": 0,
+    "sentence_sha256": "163500a4d81f254d017d097f3ea3b3767362535e6989d62307763845bd087828",
+    "prompt_sha256": "ba1804b8c1eed02097b9f7d0e0f545c76da1b34110e0b4645184a8f6a28dd713",
+    "input_length": 80,
+    "input_shape": [
+      1,
+      80
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.08320049999747425
+  },
+  {
+    "idx": 198,
+    "gold": 1,
+    "sentence_sha256": "b33e41ea740c7cfd700adb4ee4b452ab8b8e55ffcc8b332579ba4ee5bcf6a1c2",
+    "prompt_sha256": "c13b32647ce0588e66186ff4d67ca33e3332e63311f3d6571c63bc5650a1eeb9",
+    "input_length": 97,
+    "input_shape": [
+      1,
+      97
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.23425041700829752
+  },
+  {
+    "idx": 385,
+    "gold": 0,
+    "sentence_sha256": "bae66540b5de3120fd5ea3a0691009dc81873b567abc270147174a044f1a35cb",
+    "prompt_sha256": "cd8462ad6df9f5b2f1acd1c67934d80cac3d3d120fbb4e80d992f554965e042e",
+    "input_length": 95,
+    "input_shape": [
+      1,
+      95
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.2433770000061486
+  },
+  {
+    "idx": 569,
+    "gold": 1,
+    "sentence_sha256": "7513fceff3520b8eb905aaf6d2c93b8997ef1a79e48e950ee8089f078d69d839",
+    "prompt_sha256": "1027c9e621274c4c347b73327a77c22ac9a6ee16f30828b453ed35ed989434e7",
+    "input_length": 78,
+    "input_shape": [
+      1,
+      78
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.06529154098825529
+  },
+  {
+    "idx": 345,
+    "gold": 1,
+    "sentence_sha256": "db810065670193c20b57e7fd856a0ca706692f22d0969ad64121e9b854e6e65c",
+    "prompt_sha256": "79dc5bb2c7dee0d58b8f8b8843949e19ceb832f06f986edfde43097be2fe793f",
+    "input_length": 106,
+    "input_shape": [
+      1,
+      106
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.21799254199140705
+  },
+  {
+    "idx": 490,
+    "gold": 0,
+    "sentence_sha256": "a6fd1b2c0df534ef400ed226c190b47c50d4110bd83732ed20dd7259479652df",
+    "prompt_sha256": "c6203fca69a715fec3a8873ac601198e361c95aa1491c120504e66752808b493",
+    "input_length": 68,
+    "input_shape": [
+      1,
+      68
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.06540520800626837
+  },
+  {
+    "idx": 283,
+    "gold": 1,
+    "sentence_sha256": "e50a844ecde9aa58de14dd14fc0f354ae132029c191e9b54c5c8962700f1601a",
+    "prompt_sha256": "e5de98af7e6496e0549c84b78bdc9ad8ad3c41eb87fd1d7f26a531776db2b229",
+    "input_length": 81,
+    "input_shape": [
+      1,
+      81
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.21668074998888187
+  },
+  {
+    "idx": 636,
+    "gold": 1,
+    "sentence_sha256": "40327e695447242d369943e230736f85e9c6e5fc50984414d8270ab311f04a01",
+    "prompt_sha256": "bf9b934a8e8b3e91b7af2ef05fa43c43fa1b9debad030bfc2f9b468f2e5726cd",
+    "input_length": 86,
+    "input_shape": [
+      1,
+      86
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.18742420899798162
+  },
+  {
+    "idx": 252,
+    "gold": 1,
+    "sentence_sha256": "f33dc343be349f7805baed7b76e263241eebae8a22db85ccd47f52b15e516d0b",
+    "prompt_sha256": "a442e3940b22a1462739705517540828a8a64f6ef9f68dbfd6759101bd0fc4bd",
+    "input_length": 73,
+    "input_shape": [
+      1,
+      73
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.18994937499519438
+  },
+  {
+    "idx": 143,
+    "gold": 1,
+    "sentence_sha256": "e6fb844950228ebd0909d9a2ae5332ebdb505c2f83516a1e1b539268d6262b93",
+    "prompt_sha256": "788a724b43eb3d6abed6d38e82cd6e40d369052b3ae7b84e31806a335b96873a",
+    "input_length": 74,
+    "input_shape": [
+      1,
+      74
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06331829199916683
+  },
+  {
+    "idx": 732,
+    "gold": 0,
+    "sentence_sha256": "a15ceb1ffa34d719baabbf87027b2027e0541026b3e3594ce01ed39de4fd9956",
+    "prompt_sha256": "926ededde59f3ba1f334384cfe13c558b0fd67838af84ce25d2015155e3d9881",
+    "input_length": 80,
+    "input_shape": [
+      1,
+      80
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.189010917005362
+  },
+  {
+    "idx": 222,
+    "gold": 1,
+    "sentence_sha256": "d8fa8617adcc26209220943fed7c1a85d3b5d594802f3ed70d867b04bae34275",
+    "prompt_sha256": "4f6d7d52cf2f992bce4daa8988b4db5086aa0ca68cf11b65eebb143fc0a326a2",
+    "input_length": 97,
+    "input_shape": [
+      1,
+      97
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.09442662500077859
+  },
+  {
+    "idx": 611,
+    "gold": 1,
+    "sentence_sha256": "18e105ceb343504a386abe2c36ce5771c5d7cb037288b18c644d7f708fbae80e",
+    "prompt_sha256": "fed52f3e25c68a56e78ac864182241657bb94616b48627606831bd9cb18fd414",
+    "input_length": 71,
+    "input_shape": [
+      1,
+      71
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20390833300189115
+  },
+  {
+    "idx": 690,
+    "gold": 0,
+    "sentence_sha256": "da34a2e9745aa097111ae3df57e386553829c5b4540d7b9bf0cd7b8abf4add21",
+    "prompt_sha256": "ac9bdbf233f853719fa9e2727d042079a5ecb764641d32e846f6b8ab31c2a7e8",
+    "input_length": 77,
+    "input_shape": [
+      1,
+      77
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.06190045800758526
+  },
+  {
+    "idx": 720,
+    "gold": 1,
+    "sentence_sha256": "af15ecf54170d66e287b852d79cb57ce308022abe038ee3038eabec03e9b3f15",
+    "prompt_sha256": "f1d93b06858e9543585c4b1fdf3503c93a44a03032d305aae4c3aedcc7acc621",
+    "input_length": 88,
+    "input_shape": [
+      1,
+      88
+    ],
+    "first_logits_shape": null,
+    "output": "Positive",
+    "output_sha256": "14e9f4e33cfe528659fd19eb54f49e70abc9232c0439e52e8ecbc0a160f8285f",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "Positive",
+    "seconds": 0.07898837499669753
+  },
+  {
+    "idx": 239,
+    "gold": 1,
+    "sentence_sha256": "5ccaa453bcb74b27a2e02d53de5a0011de6df8e0671532d23abb1a14f4b4d3bb",
+    "prompt_sha256": "24000f59d2c244984450921fe8d7c046f74d89515e991aff65782f6abdab9fb6",
+    "input_length": 78,
+    "input_shape": [
+      1,
+      78
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20095741702243686
+  },
+  {
+    "idx": 587,
+    "gold": 0,
+    "sentence_sha256": "c3fb8d79645e42614fb2d23e9bd898f134c5132ab8b8d6050cb4f6ff34f578e3",
+    "prompt_sha256": "d2dcd6ded1eb3148151d693c2b4dc469d698449d36f58ae2c4fd69bb71aa3dfe",
+    "input_length": 84,
+    "input_shape": [
+      1,
+      84
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.2073613750108052
+  },
+  {
+    "idx": 287,
+    "gold": 1,
+    "sentence_sha256": "80f521a4e322da01ee55113f943483d512fb24a9e01836c8586e19c7a698188d",
+    "prompt_sha256": "733d4b8e123a11821d53dc873ed1794e55ebb6a78d2c1e54d16b9f42fa38edaa",
+    "input_length": 106,
+    "input_shape": [
+      1,
+      106
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20066829200368375
+  },
+  {
+    "idx": 708,
+    "gold": 1,
+    "sentence_sha256": "41444a2db72d32f87c8831971ac3763c0d9a4e9ec3700388176ef1c04c0ba562",
+    "prompt_sha256": "0cfef6232f4ec17b1a04f4c744fc3e9f14276f778851746e5064003e27017011",
+    "input_length": 84,
+    "input_shape": [
+      1,
+      84
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20485541701782495
+  },
+  {
+    "idx": 41,
+    "gold": 1,
+    "sentence_sha256": "74193ac4ebaca8d20e2e92f8eb106d353859ca938b09a99158610386b67e22f1",
+    "prompt_sha256": "1c743276305bf357a30e40049f1b07aadcb88874ce73415d214e74d3e2b3e71e",
+    "input_length": 82,
+    "input_shape": [
+      1,
+      82
+    ],
+    "first_logits_shape": null,
+    "output": "This movie review is positive.",
+    "output_sha256": "467daddd2b261ee7ace32b1f9223313af6843cecc00d643dc7e43bf431561a8b",
+    "generated_length": 7,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.1729654999799095
+  },
+  {
+    "idx": 110,
+    "gold": 0,
+    "sentence_sha256": "144e5adb76a616b4d9c585bd52fb822446fb09c22ea341e229d4645f899bf8b4",
+    "prompt_sha256": "fbc76872f817792ed239a34b5c67d70a765f312fec675e903710bb262ad1d851",
+    "input_length": 72,
+    "input_shape": [
+      1,
+      72
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06768879102310166
+  },
+  {
+    "idx": 274,
+    "gold": 0,
+    "sentence_sha256": "de414b09d341f5c7e09121576aad99f4ca12027ed7fdf1615ce4d2788a8dcf62",
+    "prompt_sha256": "067a6ebc55c4eb873638dd9e7d9a6b786a3daebc613df6aacc2b0e6da5dfd1f8",
+    "input_length": 108,
+    "input_shape": [
+      1,
+      108
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.24455199998919852
+  },
+  {
+    "idx": 80,
+    "gold": 1,
+    "sentence_sha256": "f822f85e613c10b2e1aad5f4c727f967530b3f8f7fb00329e34ebf928a453a05",
+    "prompt_sha256": "96e2aa05d8775916bda1592ec8c80410ae4a7943306cd1e0b6e97571332d5778",
+    "input_length": 82,
+    "input_shape": [
+      1,
+      82
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20818962500197813
+  },
+  {
+    "idx": 578,
+    "gold": 0,
+    "sentence_sha256": "5e111da0fb2dc4e68e33c2e4cd0ac6d9c189f067d2cd1e314843acee8ec5457d",
+    "prompt_sha256": "3a8cf9a283ff972b7ceed1016af04f4c9b628bc19f58ea03d8a22d066c3bc5a2",
+    "input_length": 66,
+    "input_shape": [
+      1,
+      66
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.0788292920042295
+  },
+  {
+    "idx": 237,
+    "gold": 0,
+    "sentence_sha256": "709e701bcce0a04c172f9384d2873481a7de202d119340118296bb78047de400",
+    "prompt_sha256": "f123a23315230525c6c5afabfcd607448fe29bdd534c45df84748194631a2509",
+    "input_length": 80,
+    "input_shape": [
+      1,
+      80
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.08548374997917563
+  },
+  {
+    "idx": 525,
+    "gold": 1,
+    "sentence_sha256": "64be3ea4b3b6a240791be94bcb789a6bf48935e35e7da3f5836d43200e84e95b",
+    "prompt_sha256": "ad95f41b873eb9a745ab30bb9412fe912f63b20c37215f82004eb10586cee7d3",
+    "input_length": 73,
+    "input_shape": [
+      1,
+      73
+    ],
+    "first_logits_shape": null,
+    "output": "Positive",
+    "output_sha256": "14e9f4e33cfe528659fd19eb54f49e70abc9232c0439e52e8ecbc0a160f8285f",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "Positive",
+    "seconds": 0.08462091599358246
+  },
+  {
+    "idx": 209,
+    "gold": 0,
+    "sentence_sha256": "0354619e3a3e8e94742acba0130c41cb727db710a81dd476505c13c12682f405",
+    "prompt_sha256": "1c9c68e6984edfc1315756108fc0a33456d2c16998d137798f4ce728d58beafb",
+    "input_length": 90,
+    "input_shape": [
+      1,
+      90
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.2061804170079995
+  },
+  {
+    "idx": 34,
+    "gold": 0,
+    "sentence_sha256": "aa91b5a62f2fb19e0d31c40c68f8421240ab7c16deb9c549ecf937d8e0004b90",
+    "prompt_sha256": "a90f7769c6556f028d5f7bf62eacee5881f74734d22df0b84b03e8d76e933d80",
+    "input_length": 83,
+    "input_shape": [
+      1,
+      83
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.20042479201219976
+  },
+  {
+    "idx": 647,
+    "gold": 0,
+    "sentence_sha256": "e4797fe5fc6216afe9bc918ce7c40e0135fe6c9651ea83972cf1e8cecff34415",
+    "prompt_sha256": "f76acef7fde786226952cb4a5c0e50ac210286e49d89625bc95277fc4a581a73",
+    "input_length": 69,
+    "input_shape": [
+      1,
+      69
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06251045802491717
+  },
+  {
+    "idx": 178,
+    "gold": 0,
+    "sentence_sha256": "e16195f862babe15c9564c122546c4db961d2e36819e4d4831c6d25c9edfe31e",
+    "prompt_sha256": "40ab911a432abb8d717c947500de96e8a339ce4a9e219d15f34d09cc4cd17b32",
+    "input_length": 80,
+    "input_shape": [
+      1,
+      80
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.19194141597836278
+  },
+  {
+    "idx": 553,
+    "gold": 1,
+    "sentence_sha256": "f847835db84802177e3dd4da3d81750605c64a5a75b8ac63bf927b22566d018d",
+    "prompt_sha256": "4a95d71c88c95470f1e54e1393aaa92773e031aa1e052582c249964bcc348e2b",
+    "input_length": 86,
+    "input_shape": [
+      1,
+      86
+    ],
+    "first_logits_shape": null,
+    "output": "```json\n{\n  \"sentiment\": \"positive\",\n  \"rating\": 4.5,\n  \"outcome\": \"positive\"\n}\n",
+    "output_sha256": "0a5a25100402d610487d56bad6aff870882f41f82f2114d725ac1516dd5ef9cd",
+    "generated_length": 32,
+    "stop": "length",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 2,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.556750165997073
+  },
+  {
+    "idx": 472,
+    "gold": 1,
+    "sentence_sha256": "29fa900c45f36618e5734b54b99166ac851909e69fe8deb70de970e545a29c70",
+    "prompt_sha256": "5b9e5b7c71be40125c7a0ea2f3866eb4a115541e00b4303fc48f0e445c15e720",
+    "input_length": 90,
+    "input_shape": [
+      1,
+      90
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06970399999408983
+  },
+  {
+    "idx": 736,
+    "gold": 0,
+    "sentence_sha256": "ab898f57cf0dbffaea9d1fd223ffd9f2ae4c5fe89a7796553a4259b04dea2628",
+    "prompt_sha256": "9873af71deb1131374f94ef5ad637d7c2350f6a788287f85084546fb5e96f454",
+    "input_length": 80,
+    "input_shape": [
+      1,
+      80
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.06058637498063035
+  },
+  {
+    "idx": 640,
+    "gold": 1,
+    "sentence_sha256": "7d985091e26c7e8d3becf034d7e171d65284c3b9290027e92d10bdad98a148c4",
+    "prompt_sha256": "34f7bc0d6eef129e5735937410ae1f0a074b89a51cbe771305afe1a8e285df0a",
+    "input_length": 83,
+    "input_shape": [
+      1,
+      83
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.19480716600082815
+  },
+  {
+    "idx": 436,
+    "gold": 0,
+    "sentence_sha256": "b2884f44943d1b0b7793a06081397bf3d6b864eeb8a3d6abf69b4d75ab74b8d5",
+    "prompt_sha256": "dae608b26976e19f3d457626aa8e679aefdb857be805fe3c4059f5be2f3cfa31",
+    "input_length": 76,
+    "input_shape": [
+      1,
+      76
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.060542166989762336
+  },
+  {
+    "idx": 322,
+    "gold": 0,
+    "sentence_sha256": "3127fb37f334a89225749e35d8aa60b197db5f95ce63e9e624dcb9edbea24ec8",
+    "prompt_sha256": "b0ee1fe1b83d79a4455ab3329f94547fccd527451593a62ae522573ac402aa5b",
+    "input_length": 68,
+    "input_shape": [
+      1,
+      68
+    ],
+    "first_logits_shape": null,
+    "output": "Positive",
+    "output_sha256": "14e9f4e33cfe528659fd19eb54f49e70abc9232c0439e52e8ecbc0a160f8285f",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": false,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "Positive",
+    "seconds": 0.061627832998055965
+  },
+  {
+    "idx": 836,
+    "gold": 0,
+    "sentence_sha256": "74015775dc916b92ba97e293fa6a8e8330adf754da21d56b27062aad94227842",
+    "prompt_sha256": "f065ed9d216ee2bd9b35b5db4c6887a1e47a6adbcc6a6aade1695954f15cfb31",
+    "input_length": 87,
+    "input_shape": [
+      1,
+      87
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.19994720802060328
+  },
+  {
+    "idx": 329,
+    "gold": 0,
+    "sentence_sha256": "207a1d51d8768d712f476a5411a67ffe1e046283c2987f257a7c42f18b55400e",
+    "prompt_sha256": "3b85e5fcf7ab03df18a1ea8a24272478fd961abbde171c2e706bf1a1ecb47d66",
+    "input_length": 87,
+    "input_shape": [
+      1,
+      87
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.20391112499055453
+  },
+  {
+    "idx": 571,
+    "gold": 0,
+    "sentence_sha256": "a806360bb199f9782aa013e65f0956d0f719bd2bc1eb56c5c96777c4d91d118f",
+    "prompt_sha256": "a89be645dea8c545bbce67d16934ad3a2fa228be8a2d090426cb9e82dc01712d",
+    "input_length": 98,
+    "input_shape": [
+      1,
+      98
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.19365266599925235
+  },
+  {
+    "idx": 228,
+    "gold": 1,
+    "sentence_sha256": "239025d81f8bb3dce8f45eb935a0e966ecdcfac01a6393982ef07c9c377ab7d7",
+    "prompt_sha256": "e356cab606e86761cbc6f364b3de4b0af32b0cbbc82f8db547dc27b577a84a5f",
+    "input_length": 77,
+    "input_shape": [
+      1,
+      77
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20440262500778772
+  },
+  {
+    "idx": 111,
+    "gold": 0,
+    "sentence_sha256": "727c72127b4100f8c0267d3ab71db60395cc72cf206b9abe256ab1bbe2a9fce7",
+    "prompt_sha256": "a6d9f9ec6737cae80bffef9b1081225ccce78fa51edda4038fb6882fa2f7dd19",
+    "input_length": 78,
+    "input_shape": [
+      1,
+      78
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.0595446249935776
+  },
+  {
+    "idx": 295,
+    "gold": 1,
+    "sentence_sha256": "19966d58a8891245d7ef2bd6af33f3f98296f4b914f2157f1c4c681b11a43401",
+    "prompt_sha256": "078c8aef910176cb2b20accd056417fc00bc5ae9216d92971cd26ae85c15bfb9",
+    "input_length": 73,
+    "input_shape": [
+      1,
+      73
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.0605830000131391
+  },
+  {
+    "idx": 170,
+    "gold": 1,
+    "sentence_sha256": "de45c280bd541a307c6b9a0725293070583d6c0577a399e828ae6b56c2060f55",
+    "prompt_sha256": "b24fff83ad0ff4a7fe682d5e35281d840ad12519eb750bb7d4521513fadaf5d4",
+    "input_length": 71,
+    "input_shape": [
+      1,
+      71
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.19438258299487643
+  },
+  {
+    "idx": 825,
+    "gold": 1,
+    "sentence_sha256": "5e88916958ac4ded725ae3b1c648138de12db2a6c1d95f7ff8e0758dc307587d",
+    "prompt_sha256": "32bcbec742a498651aad060223dc19f734422c11a9983fac0245ac5565c395ef",
+    "input_length": 90,
+    "input_shape": [
+      1,
+      90
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.08814933299436234
+  },
+  {
+    "idx": 420,
+    "gold": 0,
+    "sentence_sha256": "0667e133231702fb0004b6debd067b9e13d0c75db8a32d91d1b19412cbf9e5bf",
+    "prompt_sha256": "9ab88c1f8e61cecd2a60aa1cdf04df1ce38f3aecb05606c229a2b0980694f9bf",
+    "input_length": 77,
+    "input_shape": [
+      1,
+      77
+    ],
+    "first_logits_shape": null,
+    "output": "One of the most irritating cartoons you will see this year.",
+    "output_sha256": "649643642461fe80939735107c563da648a7c6bec75fe148db9b9e4b6d0c3bc2",
+    "generated_length": 13,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": null,
+      "regex_correct": false,
+      "unique_label": null,
+      "hit_count": 0,
+      "distinct_labels": []
+    },
+    "official_extracted": "[invalid]",
+    "seconds": 0.2517280419997405
+  },
+  {
+    "idx": 365,
+    "gold": 0,
+    "sentence_sha256": "1815993e245e7373a885576f356eeaab1b8adf50fd76593c13c99fc38570f811",
+    "prompt_sha256": "a7ddb4002bbb3b27469934bee274721c86d14b04ad8de1f59fcb571d7418b082",
+    "input_length": 87,
+    "input_shape": [
+      1,
+      87
+    ],
+    "first_logits_shape": null,
+    "output": "negative",
+    "output_sha256": "09f04951af4cd503877815fd30f98e3af8d3d50a0972e83a4aaa42f4fba59761",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.06321154200122692
+  },
+  {
+    "idx": 586,
+    "gold": 0,
+    "sentence_sha256": "c4c94a1932147946d5180311c039d060c9f2ecb41683795337971ded6a097491",
+    "prompt_sha256": "e3ac2b308decd66d1b5036298f123a0148270f149bd22156d7f3e4f8308f8784",
+    "input_length": 85,
+    "input_shape": [
+      1,
+      85
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.2067611670063343
+  },
+  {
+    "idx": 342,
+    "gold": 0,
+    "sentence_sha256": "b3ca7a1c447389718cbc00b0668bc382530e3c0b48608c0ed80101bce89527cb",
+    "prompt_sha256": "114f0afd393410eed095617aef3518b54362d15c54f75a6e4dea6bab0286f8ad",
+    "input_length": 94,
+    "input_shape": [
+      1,
+      94
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": true,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06400187499821186
+  },
+  {
+    "idx": 495,
+    "gold": 1,
+    "sentence_sha256": "27ec4173f87b21701f1fb5724f7cb57bef2172acf841e2bf2b684af8139849d1",
+    "prompt_sha256": "a0664604c61250234e6e81d06fe2106e0eecb116214dddf8b556ecf86f6f800b",
+    "input_length": 83,
+    "input_shape": [
+      1,
+      83
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.06260012500570156
+  },
+  {
+    "idx": 261,
+    "gold": 1,
+    "sentence_sha256": "b8d05f5a452d920040d1bf34e72195769887cbb389dd2bd21b4a586bd0a00264",
+    "prompt_sha256": "8acd13ccceeea8db744e4a2e79ab5435eff358c522d8d7956934f7cc6bc61671",
+    "input_length": 84,
+    "input_shape": [
+      1,
+      84
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.20388291700510308
+  },
+  {
+    "idx": 263,
+    "gold": 1,
+    "sentence_sha256": "29c04a6d3620ad945e4e72b48f40228a0e25e3d1e0cdd8cd3a29531864e8b508",
+    "prompt_sha256": "e90df766b49fa4a8a392d496d72e00b99dab3cf744827bf4360a62bdee25a860",
+    "input_length": 84,
+    "input_shape": [
+      1,
+      84
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is negative.",
+    "output_sha256": "45278f11d7c393fe0a375977230f33b725a04ebaabdc5ff6b9ef4b9fb41e09a3",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "negative",
+    "seconds": 0.20485700000426732
+  },
+  {
+    "idx": 123,
+    "gold": 1,
+    "sentence_sha256": "b893b6fb50fe7e78a53fd3a00c4d14cb4ef2b5bb21efe373be3ac18119f9e04f",
+    "prompt_sha256": "c7f5b6b55dedbbe906c5e5902b2be2fa5e497a2643f46203451f758a48066975",
+    "input_length": 72,
+    "input_shape": [
+      1,
+      72
+    ],
+    "first_logits_shape": null,
+    "output": "Negative",
+    "output_sha256": "9f7bdabb344db3f84c06366f045184d9a2ae82b8bf97c4b2ee6e413fe4ee5e68",
+    "generated_length": 2,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "negative",
+      "regex_correct": false,
+      "unique_label": "negative",
+      "hit_count": 1,
+      "distinct_labels": [
+        "negative"
+      ]
+    },
+    "official_extracted": "Negative",
+    "seconds": 0.070628375018714
+  },
+  {
+    "idx": 205,
+    "gold": 1,
+    "sentence_sha256": "8ac2240352f4cfe5aa58befca6c6eaaa91b841fca5b7eaa1060419e7529d5665",
+    "prompt_sha256": "c32611fe7d8533093f4a78a7156a7191d11cf1351a282e258de05278ee337846",
+    "input_length": 71,
+    "input_shape": [
+      1,
+      71
+    ],
+    "first_logits_shape": null,
+    "output": "The sentiment of this movie review is positive.",
+    "output_sha256": "86681a1258c87c018b71b91bc80529fdf0a2119c18e85a9cc0ecf2ec63e13dbd",
+    "generated_length": 10,
+    "stop": "eos",
+    "scores": {
+      "exact": false,
+      "json_format": false,
+      "json_correct": false,
+      "first_label": "positive",
+      "regex_correct": true,
+      "unique_label": "positive",
+      "hit_count": 1,
+      "distinct_labels": [
+        "positive"
+      ]
+    },
+    "official_extracted": "positive",
+    "seconds": 0.2069214999792166
+  }
+]
