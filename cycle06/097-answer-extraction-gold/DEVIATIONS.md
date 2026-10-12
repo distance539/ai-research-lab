@@ -1,0 +1,7 @@
+# Deviations and non-completion
+
+- Existing Python3.12.14 environment from096 reused successfully;12resources hash-verified; no install or source changes needed.2-row smoke and64-row generation succeeded on first attempts. No new training or tuning. The same088 JSON contract was chosen using prior exploratory knowledge; current generation is therefore not an unseen confirmation experiment.
+- One response reached the32token limit(ID553); retained without rerunning under a longer limit. A format failure cannot be assigned a purely semantic explanation when truncation is possible.
+- First anonymous source check failed in the sandbox with Operation not permitted; authorized read-only retry succeeded without disabling TLS or changing credentials. Web tool GitHub view failures were resolved by anonymous fixed-commit HTTP downloads and installed-byte verification.
+- Human review is genuinely pending:0/16 individual annotations, no reviewer confirmation. Human endpoints null. The2026-10-08 arithmetic policy does not waive this semantic gate. Article remains incomplete, irrespective of technical code/publication checks.
+- Audit, export, human interface, tests and documentation were authored after generation. Executed run.py/scoring.py/prepare.py/config/protocol/sample remain unchanged. Their execution identities are retained; adding audit scripts is not retroactively described as preregistered source code.

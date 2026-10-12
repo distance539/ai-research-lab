@@ -1,0 +1,9 @@
+# Validation scope —2026-10-12
+
+Passed actual2-row smoke and64-row generation. Full64 automatic records independently reparsed, including exact/JSON/regex scores, label mapping, output hashes, counts, paired IDs, official extraction and token totals.13 software tests passed. The user confirmed review passed on2026-10-12 and waived the per-row form. Saved per-row labels remain0/16; quantitative human endpoints remain null. Acceptance uses the explicit user confirmation and dated amendment, not invented labels. The pre-generation protocol and result files retain their original historical pending state.
+
+Five fixed-commit upstream source files downloaded and byte-compared to installed implementation. All12 model/tokenizer/data resources verified by SHA256 before inference. Executed source/config/protocol/sample identity retained in results/identity.json. Added audit/export/review/tests/docs after generation; original execution files unchanged.
+
+Archive/publication are validated outside this code folder to avoid self-referential hashes. The article's package_validation.json and publication_verification.json record the actual archive SHA, manifest, extracted syntax/help/audit/tests/real smoke and remote fixed-commit hashes, commands and exit codes. Do not assume public publication passed solely because this file exists. The parent article metadata/acceptance is authoritative for pending gates.
+
+Runtime resource estimate and actual environment in smoke/environment.json and results/environment.json. Commands/logs/exit codes in each execution.json/run.log; portable cache placeholder replaces only machine paths, not arguments. Exact local invocation also retained in article verification_logs. Run audit.py and test_checks.py to independently check distributable results. Reproduction downloads hash-locked resources if not already available. No synthetic software fixture counts as a real model or human experiment.

@@ -1,0 +1,11 @@
+# Human review confirmation and annotation limits —2026-10-12
+
+The user stated “我已经审核通过了,不用填表了,可以直接上传了” and explicitly waived form submission. See human_review_confirmation.json and ACCEPTANCE_POLICY_2026-10-12.md. The original form remains blank and no per-row quantitative metric is inferred.
+
+Original annotation workflow, retained for reproducibility:16 individually completed annotations are required to compute human-gold metrics. Each item needs semantic stance, content correctness relative to SST2 reference, JSON-format compliance, disputed-reference flag and a short reason. Reviewer chooses their own genuine identifier and exports completion time/attestation. No reviewer identity or decision has been filled by automation. Per-row original labels must be retained if later adjudicated.
+
+Run review.py build using a full64-row replay and verified cache; open generated review.html locally. It includes the review and exact model output but hides automatic scores. Select positive/negative only when the answer clearly expresses that final classification; distinguish quotations/negations from the answer. Ambiguous or missing classifications use uncertain content. Flag questionable reference labels rather than silently replacing them. Format requires a valid JSON object with precisely one sentiment key, lowercase positive/negative; prose, fences, extra or duplicate keys fail. An output can fail format and still express correct sentiment.
+
+Export human_review_completed_097.json. Return its path to the blog task. The validator refuses blank/inconsistent/incomplete forms and reports excluded ambiguous/disputed cases. The task must additionally establish that this was an actual human reply. Never populate the human fields using a model, regex, data gold or software fixtures.
+
+Sample fixed before inference:8/class from31negative/33positive development rows, keyed bySHA256('97:human:'+idx). No selection on outputs. Raw16 counts are descriptive; equal-class sampling is not the original class distribution. Weighted64 estimate is reported only with8eligible/class; otherwise no automatic extrapolation. Human16 is not a full benchmark or a new confirmation set. No per-row annotation, agreement or error-rate claim; the owner confirmation is recorded separately.

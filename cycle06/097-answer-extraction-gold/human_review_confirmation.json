@@ -1,0 +1,22 @@
+{
+  "topic_index": 97,
+  "status": "confirmed_by_user",
+  "user_statement": "我已经审核通过了,不用填表了,可以直接上传了",
+  "reviewer": "user of this chat",
+  "recorded_at": "2026-10-12T12:02:18.328384+08:00",
+  "actual_review_completed_at": null,
+  "scope": "User confirms review passed for the current 097 task, waives submitting the per-row form, and explicitly authorizes public upload to the established repository.",
+  "per_row_annotations_supplied": false,
+  "per_row_completed_count_in_saved_form": 0,
+  "human_gold_metrics": null,
+  "limitations": "No individual labels, reasons, adjudications, exact completion time, or quantitative human agreement/error rate were supplied or inferred.",
+  "input_sha256": {
+    "review_sample.json": "8c0ee9b66781d9bd2a27c3e4f37c2efa21cee351d8387ab65d8a1ffa1f5bcfb5",
+    "human_review_pending.json": "15814b696d985159ba64efa06991594f12f4985c5fa7c52c627c49cae424fda8",
+    "results/records.json": "d6d8527c25287fcf812a436d0c944bbee5cbef825aa80ca0d57e9fb33b081a1b",
+    "PROTOCOL.md": "b2c54ee9f12db84f253eac1e87bd34c37ce88e39e80dc152cb3b1a2de50d7085"
+  },
+  "additional_user_statement": "我已经审核通过了,不用填表了,可以直接上传了",
+  "additional_statement_source_thread": "01a1287e-0927-74d2-a202-a4500cbac9ed",
+  "public_upload_explicitly_authorized": true
+}
