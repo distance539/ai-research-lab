@@ -1,0 +1,13 @@
+{"stage": "shuffle93", "idx": 400, "joint": true, "input_tokens": 83, "generated_tokens": 8, "seconds": 0.2256677079712972}
+{"stage": "shuffle93", "idx": 615, "joint": false, "input_tokens": 98, "generated_tokens": 8, "seconds": 0.1720020420034416}
+{"stage": "shuffle94", "idx": 400, "joint": true, "input_tokens": 83, "generated_tokens": 8, "seconds": 0.16460320900660008}
+{"stage": "shuffle94", "idx": 615, "joint": false, "input_tokens": 98, "generated_tokens": 8, "seconds": 0.1760157920070924}
+{"n": 2, "A_correct": 1, "B_correct": 1, "difference": 0.0, "cells": {"A0B0": 1, "A0B1": 0, "A1B0": 0, "A1B1": 1}, "B_wins": 0, "B_losses": 0, "ties": 2, "discordant_ids": [], "paired_percentile_interval": [0.0, 0.0], "unpaired_WRONG_FOR_THIS_DESIGN_interval": [-1.0, 1.0], "paired_bootstrap_se": 0.0, "unpaired_bootstrap_se": 0.49969325995324587, "exact_discordant_binomial_p": 1.0, "paired_distribution_exactly_matches_direct_indexing": true, "replicates": 20000, "seed": 9800, "method": "percentile", "input_sha256": "1dd46940bb618bcc014810458a2d9c48cae8a55a94977a6d9d0a6920e87c96df", "covariance_sample": 0.5, "paired_variance_mean": 0.0, "independent_variance_mean": 0.5, "interpretation": "Exploratory row-conditional sensitivity only; not blind confirmation, equivalence, or seed population inference."}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

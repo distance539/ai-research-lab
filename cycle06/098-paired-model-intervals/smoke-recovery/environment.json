@@ -1,0 +1,27 @@
+{
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "seconds_after_imports": 2.6203390840091743,
+  "peak_rss_bytes": 1542422528,
+  "gpu_memory": "not measured; CPU",
+  "shape": {
+    "input": [
+      1,
+      83
+    ],
+    "logits": [
+      1,
+      83,
+      49152
+    ]
+  },
+  "outputs": 4,
+  "all_equal_to_frozen093_except_seconds": true,
+  "input_tokens": 362,
+  "generated_tokens_including_eos": 32
+}

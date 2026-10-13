@@ -1,0 +1,8 @@
+{
+  "download": "passed: pinned model/data/source hashes checked",
+  "preprocessing": "passed: same source IDs and untouched confirmation set",
+  "training": "not run; frozen 093 checkpoints reused",
+  "inference": "passed: real checkpoint generation",
+  "evaluation": "passed: exact cached tokens and scores, paired statistics audited",
+  "exit_code": 0
+}
