@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "n": 64,
+  "input_sha256": "60c47758a539098f3994cd477431ba90ca4c500b0da1f41ae97f653b569a0245",
+  "summary_sha256": "26d3764efe52a91f2ce90dc5d2fd3803e2235c3033740310816ad18cef84c34e",
+  "correct": [
+    58,
+    57
+  ],
+  "independent_exact_p": 1.0,
+  "analytic_empirical_bootstrap_interval": [
+    -0.046875,
+    -0.0
+  ],
+  "human_semantic_review": false
+}
