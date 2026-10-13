@@ -1,0 +1,38 @@
+{
+  "n": 64,
+  "A_correct": 58,
+  "B_correct": 57,
+  "difference": -0.015625,
+  "cells": {
+    "A0B0": 6,
+    "A0B1": 0,
+    "A1B0": 1,
+    "A1B1": 57
+  },
+  "B_wins": 0,
+  "B_losses": 1,
+  "ties": 63,
+  "discordant_ids": [
+    481
+  ],
+  "paired_percentile_interval": [
+    -0.046875,
+    0.0
+  ],
+  "unpaired_WRONG_FOR_THIS_DESIGN_interval": [
+    -0.125,
+    0.09375
+  ],
+  "paired_bootstrap_se": 0.015446573766883312,
+  "unpaired_bootstrap_se": 0.05331468093503417,
+  "exact_discordant_binomial_p": 1.0,
+  "paired_distribution_exactly_matches_direct_indexing": true,
+  "replicates": 20000,
+  "seed": 9800,
+  "method": "percentile",
+  "input_sha256": "84a782da07c29ad30eacdca91c03becb8ff80fe339201782e54efc4062fc3370",
+  "covariance_sample": 0.08482142857142856,
+  "paired_variance_mean": 0.000244140625,
+  "independent_variance_mean": 0.002894810267857143,
+  "interpretation": "Exploratory row-conditional sensitivity only; not blind confirmation, equivalence, or seed population inference."
+}
