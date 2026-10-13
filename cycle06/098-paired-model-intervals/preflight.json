@@ -1,0 +1,8 @@
+{
+  "smoke_seconds": 2.6203390840091743,
+  "smoke_peak_rss_bytes": 1542422528,
+  "conservative_32x_seconds": 83.85085068829358,
+  "seconds_cap": 1200,
+  "rss_cap": 6442450944,
+  "passed": true
+}

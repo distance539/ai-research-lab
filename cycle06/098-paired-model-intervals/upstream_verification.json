@@ -1,0 +1,80 @@
+[
+  {
+    "repository": "huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "path": "src/transformers/tokenization_utils_base.py",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/tokenization_utils_base.py",
+    "http_status": 200,
+    "sha256": "a3c07a2d7637c1eefe8ade3d0fd789d755937240ff79b5825ed9fb12b327a416",
+    "installed_bytes_equal": true,
+    "anchors": {
+      "apply_chat_template": [
+        1527,
+        1758
+      ]
+    }
+  },
+  {
+    "repository": "huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "path": "src/transformers/models/llama/modeling_llama.py",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/llama/modeling_llama.py",
+    "http_status": 200,
+    "sha256": "d313bd9b9565638f0780fbd8158ddf69ff77334b38462f50945efdd64140bbfb",
+    "installed_bytes_equal": true,
+    "anchors": {
+      "LlamaForCausalLM": [
+        752,
+        875
+      ]
+    }
+  },
+  {
+    "repository": "huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "path": "src/transformers/generation/utils.py",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/generation/utils.py",
+    "http_status": 200,
+    "sha256": "77c5fc139dc27cf10e0311d732976c14b7d89ef517e39108ba84ace8797d3383",
+    "installed_bytes_equal": true,
+    "anchors": {
+      "generate": [
+        1879,
+        2372
+      ]
+    }
+  },
+  {
+    "repository": "scipy/scipy",
+    "commit": "44e4ebaac992fde33f04638b99629d23973cb9b2",
+    "path": "scipy/stats/_resampling.py",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/44e4ebaac992fde33f04638b99629d23973cb9b2/scipy/stats/_resampling.py",
+    "http_status": 200,
+    "sha256": "e0fce8a671305146553243d995c065e1f75d3aed47099a259daf223a63de9d77",
+    "installed_bytes_equal": true,
+    "anchors": {
+      "_bootstrap_resample": [
+        62,
+        70
+      ],
+      "_bootstrap_iv": [
+        159,
+        253
+      ],
+      "bootstrap": [
+        279,
+        660
+      ]
+    }
+  },
+  {
+    "repository": "scipy/scipy",
+    "commit": "44e4ebaac992fde33f04638b99629d23973cb9b2",
+    "path": "LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/scipy/scipy/44e4ebaac992fde33f04638b99629d23973cb9b2/LICENSE.txt",
+    "http_status": 200,
+    "sha256": "c29fb8e5936f33237a8b15256b4c6e93037f05bbf58c3d7b5755aede4c200173",
+    "installed_bytes_equal": false,
+    "anchors": {}
+  }
+]

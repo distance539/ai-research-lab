@@ -1,0 +1,14 @@
+{
+  "A": "shuffle93",
+  "B": "shuffle94",
+  "metric": "joint",
+  "n": 64,
+  "bootstrap_seed": 9800,
+  "bootstrap_replicates": 20000,
+  "confidence_level": 0.95,
+  "method": "percentile",
+  "unit": "SST2 validation row; movie/document IDs unavailable",
+  "scope": "exploratory existing development data; old outcomes already observed",
+  "seconds_budget": 1200,
+  "rss_budget_bytes": 6442450944
+}

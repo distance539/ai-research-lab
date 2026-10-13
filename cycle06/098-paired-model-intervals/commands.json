@@ -1,0 +1,66 @@
+[
+  {
+    "stage": "smoke-recovery",
+    "exit_code": 0,
+    "wall_seconds": 7.123355,
+    "recorded_at": "2026-10-13T09:08:36.098794+08:00",
+    "local_receipt_name": "smoke-recovery.json",
+    "command": "python run.py --infer --smoke --cache CACHE --checkpoints CHECKPOINTS --out smoke-recovery"
+  },
+  {
+    "stage": "formal",
+    "exit_code": 0,
+    "wall_seconds": 25.698595709000003,
+    "recorded_at": "2026-10-13T09:09:36.586548+08:00",
+    "local_receipt_name": "formal.json",
+    "command": "python run.py --infer --cache CACHE --checkpoints CHECKPOINTS --out formal"
+  },
+  {
+    "stage": "stats",
+    "exit_code": 0,
+    "wall_seconds": 0.64909825,
+    "recorded_at": "2026-10-13T09:07:25.860858+08:00",
+    "local_receipt_name": "stats.json",
+    "command": "python run.py --out results"
+  },
+  {
+    "stage": "independent-audit",
+    "exit_code": 0,
+    "wall_seconds": 0.040500792,
+    "recorded_at": "2026-10-13T09:07:25.938492+08:00",
+    "local_receipt_name": "independent-audit.json",
+    "command": "python audit.py --summary results/summary.json --out results/independent_audit.json"
+  },
+  {
+    "stage": "formal-audit",
+    "exit_code": 0,
+    "wall_seconds": 0.040201208,
+    "recorded_at": "2026-10-13T09:12:30.823025+08:00",
+    "local_receipt_name": "formal-audit.json",
+    "command": "python audit.py --predictions formal/records.json --summary formal/summary.json --out formal/independent_audit.json"
+  },
+  {
+    "stage": "tests",
+    "exit_code": 0,
+    "wall_seconds": 0.066284084,
+    "recorded_at": "2026-10-13T09:08:51.254147+08:00",
+    "local_receipt_name": "tests.json",
+    "command": "python test_checks.py"
+  },
+  {
+    "stage": "fetch-parent",
+    "exit_code": 0,
+    "wall_seconds": 14.358425959,
+    "recorded_at": "2026-10-13T09:07:25.110997+08:00",
+    "local_receipt_name": "fetch-parent.json",
+    "command": "python fetch_parent.py --out PARENT"
+  },
+  {
+    "stage": "sources",
+    "exit_code": 0,
+    "wall_seconds": 7.212786208,
+    "recorded_at": "2026-10-13T09:08:40.527578+08:00",
+    "local_receipt_name": "sources.json",
+    "command": "independent external source check; evidence upstream_verification.json"
+  }
+]

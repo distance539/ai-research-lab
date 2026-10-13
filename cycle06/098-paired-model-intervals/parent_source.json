@@ -1,0 +1,32 @@
+{
+  "commit": "3f8d3355564d0b85411892a9ca73cea2db1ae1a9",
+  "path": "cycle06/093-multiseed-paired-reporting",
+  "repository": "https://github.com/distance539/ai-research-lab",
+  "files": {
+    "run.py": "5b72874c59bffd7a846eaecbeee3a5fdd0a51fe42db2084f127eb5f6a5f01162",
+    "schedule.py": "9b9f4cbb0eed51ed011d796f543c081b0fe0d6516c07be9dc5056b3c196ce6c1",
+    "analysis.py": "15099c69de599032b7124229bb379f1f0315efca9b91caad46894b0b6d916b29",
+    "common.py": "9ea77a15962d3566c55ff9b056d5975c15a18b495d0a820092ceee7e3b03ab05",
+    "mixture.py": "3f4dfaaee21cd13ea330e96fc50f733c030c5ce6aeddcd35b09ac18aad72029d",
+    "scoring.py": "7eadc77b35b20ee9f33bd56ad2586964da9f93fe781a9d197fe587163b0ed348",
+    "prepare.py": "a519f964e3082cde59cdd0f2a6a15454d64093b2a05811e8415219178d6c68bd",
+    "config.json": "f54dbbfd171f0e52625b73363ca7c62c57b0098ecbfd768cb7b36ca583d7f3cb",
+    "resources.lock.json": "7332c5376894ddcc35a5df91c5606b9fd0f3e34c7ee56b74bcdb51247377c8bd",
+    "PROTOCOL.md": "9a35508673f931da4e4e082d9244aa4081a8ddd488c66879ad5c411a54c38926",
+    "requirements.txt": "45cb49479a1cfd979714c7451b106fa92eccf7551a6ced4e79773ca0b9dcc906",
+    "environment.lock.txt": "6424a1aba8c15ff92559f64dba96ad3e57006049b331239dd07c96625f689f5d",
+    "results/predictions.jsonl": "e00c552e2e71286fcdd0b4f0e83abe2a3bf6f26db89a65a56eab9c71f3b51b12",
+    "results/checkpoints.json": "1a6338075d49985319da4968d18eb873d784a80a8e20ab58e0c527b9b89fa940",
+    "results/identity.json": "2f750630dca918c08b4cc49731a604f70508e55bb7b5d63c59b44e269a2b2ebc",
+    "results/split.json": "911e89ed17f0166fdc9988f89ae7daccdb7c7ff10b99f99f9b4eb82845a002e3"
+  },
+  "selection": {
+    "stage": [
+      "shuffle93",
+      "shuffle94"
+    ],
+    "contract": "json",
+    "task": "target"
+  },
+  "cached_predictions_sha256": "60c47758a539098f3994cd477431ba90ca4c500b0da1f41ae97f653b569a0245"
+}
