@@ -1,0 +1,127 @@
+{
+  "started_at": "2026-10-14T01:13:49.630672+00:00",
+  "phase": "development",
+  "smoke": true,
+  "selected": [
+    400,
+    615
+  ],
+  "conditions": [
+    "zero",
+    "A_forward",
+    "A_reverse",
+    "B_forward",
+    "B_reverse",
+    "listed_text_forward",
+    "listed_text_reverse",
+    "listed_letter_forward",
+    "listed_letter_reverse",
+    "short_text"
+  ],
+  "frozen_inputs": {
+    "run.py": "e90c47286b0415b59335ad7c46a5c21394442c8cb078149b51de42d397581419",
+    "spec.py": "cf242f67eb0f62df6b74620379e8bf02f222be6fcdfcb597354b840994e1e5d6",
+    "prepare.py": "a519f964e3082cde59cdd0f2a6a15454d64093b2a05811e8415219178d6c68bd",
+    "common.py": "8babfffcfdfeb119392113e24c0c730662527d4bb94abd6fde09363ad4b3a3a4",
+    "select.py": "3fd2cd6e51be0718d716c5f87eec6e4d0ff4606993c65196ef62ec0cfe2b9c2f",
+    "analyze.py": "cf19ece61af0552c9669fe05d9aadbfab9670586d5b730df0e0044f7f390b733",
+    "audit.py": "bc9405902778edf47f07b96801ac3872c2bd336e7ae0451b69a4328b4cc06d88",
+    "config.json": "3379505befdb182832a77a6c6d27915f248cb23efe7ac037f8df2d2f857c21e6",
+    "plan.json": "ab5e8f2cec4da50b936e04103321f736ac03775a16637388eca0dc4c7cb4219a",
+    "resources.lock.json": "48ca06cbf139dc577e65db6d391554325267ead061a61345fb22dcf067c697d3",
+    "official_sst2.yaml": "891cf952087669400f1ab9cb80007de1b4f395c52b8f13a153afb1f5af136807",
+    "PROTOCOL.md": "5f4114d25c48aa9d361dbfb1d03a239aec16c1f09c16ea9bdb3f2753de1f5a45"
+  },
+  "resources": {
+    "model": {
+      "id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "tokenizer_revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+      "license": "Apache-2.0"
+    },
+    "transformers": {
+      "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+      "version": "4.49.0",
+      "license": "Apache-2.0"
+    },
+    "files": {
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/README.md",
+        "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+        "bytes": 6772
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/config.json",
+        "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+        "bytes": 861
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/generation_config.json",
+        "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+        "bytes": 132
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/merges.txt",
+        "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+        "bytes": 466391
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/model.safetensors",
+        "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+        "bytes": 269060552
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/special_tokens_map.json",
+        "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+        "bytes": 655
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer.json",
+        "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+        "bytes": 2104556
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/tokenizer_config.json",
+        "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+        "bytes": 3764
+      },
+      "models/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json": {
+        "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct/resolve/12fd25f77366fa6b3b4b768ec3050bf629380bac/vocab.json",
+        "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+        "bytes": 800662
+      },
+      "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/README.md": {
+        "url": "https://huggingface.co/datasets/nyu-mll/glue/resolve/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/README.md",
+        "sha256": "073f689c80fc6b3366d583eb570a05be2140b01ff2fdd706c416e14d0d2d5d5a",
+        "bytes": 35296
+      },
+      "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/validation-00000-of-00001.parquet": {
+        "url": "https://huggingface.co/datasets/nyu-mll/glue/resolve/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/validation-00000-of-00001.parquet",
+        "sha256": "a1371f3b3a7b0bcefa8388799a9359dc3ce76c349cc0079507a7991364fd2a9b",
+        "bytes": 72819
+      },
+      "glue/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/train-00000-of-00001.parquet": {
+        "url": "https://huggingface.co/datasets/nyu-mll/glue/resolve/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/sst2/train-00000-of-00001.parquet",
+        "sha256": "66a253e67968acfabcbe49dbe9da964b42ac1c851c40ab760e8c8942efdb3229",
+        "bytes": 3110468
+      }
+    },
+    "harness": {
+      "repository": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "version": "0.4.9.2",
+      "commit": "ad3f4d0cad1cfcdb815f1e795f7947e49ed9f2e9",
+      "license": "MIT"
+    },
+    "glue": {
+      "id": "nyu-mll/glue",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c",
+      "configuration": "sst2",
+      "license": "unknown; raw dataset not redistributed"
+    }
+  },
+  "prompt_definition_sha256": "cf242f67eb0f62df6b74620379e8bf02f222be6fcdfcb597354b840994e1e5d6",
+  "decoding": "teacher-forced two candidates; no generation/chat/BOS/EOS; sum loglikelihood",
+  "cache": "disabled; all inference real",
+  "selection_sha256": null,
+  "cache_key": "bcb18ae2235f4a96c5d7ab27a3ed9ef71fde28055f47a5396d650695433e15d3"
+}

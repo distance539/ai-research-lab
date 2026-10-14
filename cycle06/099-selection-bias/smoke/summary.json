@@ -1,0 +1,102 @@
+{
+  "zero": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 174,
+    "context_tokens_range": [
+      36,
+      51
+    ]
+  },
+  "A_forward": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 862,
+    "context_tokens_range": [
+      208,
+      223
+    ]
+  },
+  "A_reverse": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 862,
+    "context_tokens_range": [
+      208,
+      223
+    ]
+  },
+  "B_forward": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 862,
+    "context_tokens_range": [
+      208,
+      223
+    ]
+  },
+  "B_reverse": {
+    "n": 2,
+    "correct": 2,
+    "accuracy": 1.0,
+    "candidate_input_tokens": 862,
+    "context_tokens_range": [
+      208,
+      223
+    ]
+  },
+  "listed_text_forward": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 206,
+    "context_tokens_range": [
+      44,
+      59
+    ]
+  },
+  "listed_text_reverse": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 206,
+    "context_tokens_range": [
+      44,
+      59
+    ]
+  },
+  "listed_letter_forward": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 206,
+    "context_tokens_range": [
+      44,
+      59
+    ]
+  },
+  "listed_letter_reverse": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 206,
+    "context_tokens_range": [
+      44,
+      59
+    ]
+  },
+  "short_text": {
+    "n": 2,
+    "correct": 1,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 146,
+    "context_tokens_range": [
+      29,
+      44
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "harness": "0.4.9.2",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "seconds_after_imports": 11.988247083965689,
+  "peak_rss_bytes": 1800093696,
+  "gpu_memory": "not measured; CPU",
+  "setup_seconds": 0.7772304170066491,
+  "condition_seconds": {
+    "zero": 1.2949150420026854,
+    "A_forward": 1.5026545000146143,
+    "A_reverse": 1.1960509160417132,
+    "B_forward": 1.2198454999597743,
+    "B_reverse": 1.1602139580063522,
+    "listed_text_forward": 0.8723617499927059,
+    "listed_text_reverse": 0.9530081249540672,
+    "listed_letter_forward": 1.1528310419525951,
+    "listed_letter_reverse": 0.9639134170138277,
+    "short_text": 0.8875234580482356
+  },
+  "projected_development_seconds": 717.7895637281472,
+  "projection_formula": "setup +2x32x sum of2-row ten-condition scoring times",
+  "first_shape": [
+    1,
+    36,
+    49152
+  ]
+}
