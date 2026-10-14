@@ -1,0 +1,102 @@
+{
+  "zero": {
+    "n": 64,
+    "correct": 32,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 4506,
+    "context_tokens_range": [
+      19,
+      61
+    ]
+  },
+  "A_forward": {
+    "n": 64,
+    "correct": 31,
+    "accuracy": 0.484375,
+    "candidate_input_tokens": 26522,
+    "context_tokens_range": [
+      191,
+      233
+    ]
+  },
+  "A_reverse": {
+    "n": 64,
+    "correct": 37,
+    "accuracy": 0.578125,
+    "candidate_input_tokens": 26522,
+    "context_tokens_range": [
+      191,
+      233
+    ]
+  },
+  "B_forward": {
+    "n": 64,
+    "correct": 33,
+    "accuracy": 0.515625,
+    "candidate_input_tokens": 26522,
+    "context_tokens_range": [
+      191,
+      233
+    ]
+  },
+  "B_reverse": {
+    "n": 64,
+    "correct": 44,
+    "accuracy": 0.6875,
+    "candidate_input_tokens": 26522,
+    "context_tokens_range": [
+      191,
+      233
+    ]
+  },
+  "listed_text_forward": {
+    "n": 64,
+    "correct": 31,
+    "accuracy": 0.484375,
+    "candidate_input_tokens": 5530,
+    "context_tokens_range": [
+      27,
+      69
+    ]
+  },
+  "listed_text_reverse": {
+    "n": 64,
+    "correct": 32,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 5530,
+    "context_tokens_range": [
+      27,
+      69
+    ]
+  },
+  "listed_letter_forward": {
+    "n": 64,
+    "correct": 32,
+    "accuracy": 0.5,
+    "candidate_input_tokens": 5530,
+    "context_tokens_range": [
+      27,
+      69
+    ]
+  },
+  "listed_letter_reverse": {
+    "n": 64,
+    "correct": 33,
+    "accuracy": 0.515625,
+    "candidate_input_tokens": 5530,
+    "context_tokens_range": [
+      27,
+      69
+    ]
+  },
+  "short_text": {
+    "n": 64,
+    "correct": 52,
+    "accuracy": 0.8125,
+    "candidate_input_tokens": 3588,
+    "context_tokens_range": [
+      12,
+      54
+    ]
+  }
+}

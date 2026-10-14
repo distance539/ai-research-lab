@@ -1,0 +1,52 @@
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "zero", "phase": "development", "n": 64, "correct": 32, "seconds": 8.820417249982711}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "A_forward", "phase": "development", "n": 64, "correct": 31, "seconds": 19.25874937500339}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "A_reverse", "phase": "development", "n": 64, "correct": 37, "seconds": 19.143709500029217}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "B_forward", "phase": "development", "n": 64, "correct": 33, "seconds": 19.77142324997112}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "B_reverse", "phase": "development", "n": 64, "correct": 44, "seconds": 19.237249083002098}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_text_forward", "phase": "development", "n": 64, "correct": 31, "seconds": 8.930886540969368}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_text_reverse", "phase": "development", "n": 64, "correct": 32, "seconds": 9.504586374969222}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_letter_forward", "phase": "development", "n": 64, "correct": 32, "seconds": 9.157512541976757}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "listed_letter_reverse", "phase": "development", "n": 64, "correct": 33, "seconds": 9.023836833017413}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "short_text", "phase": "development", "n": 64, "correct": 52, "seconds": 8.178700584045146}
