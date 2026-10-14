@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "development_counts": {
+    "zero": 32,
+    "A_forward": 31,
+    "A_reverse": 37,
+    "B_forward": 33,
+    "B_reverse": 44,
+    "listed_text_forward": 31,
+    "listed_text_reverse": 32,
+    "listed_letter_forward": 32,
+    "listed_letter_reverse": 33,
+    "short_text": 52
+  },
+  "winner": "short_text",
+  "n": 128,
+  "gains": 28,
+  "losses": 4,
+  "delta": 0.1875,
+  "exact_empirical_bootstrap_95": [
+    0.109375,
+    0.265625
+  ],
+  "numerical_interval_tolerance": 0.0078125,
+  "input_hashes": {
+    "development/records.json": "e2091503169acca553a71cff3fc7fb6bd2e579bc0e38d6052ad529d9583c2861",
+    "selection.json": "c7b994753eb0b3126719f59d5a903bd35c64c17cc1acbf7b20826aa8e92f17a8",
+    "confirmation/records.json": "c98225caf27c0dfe885df7949c28d77a8df9ec1d849f2183de46b6717c0e8d5a",
+    "confirmation/analysis.json": "9df09626886123c94c69ebd49ae0c29ed6bc794fcc0a50aabb23916d5161c863"
+  },
+  "no_human_semantic_judgment": true
+}

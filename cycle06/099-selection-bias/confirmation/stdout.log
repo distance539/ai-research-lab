@@ -1,0 +1,12 @@
+`pretrained` model kwarg is not of type `str`. Many other model arguments may be ignored. Please do not launch via accelerate or use `parallelize=True` if passing an existing model this way.
+Passed an already-initialized model through `pretrained`, assuming single-process call to evaluate() or custom distributed integration
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "zero", "phase": "confirmation", "n": 128, "correct": 65, "seconds": 16.86950854101451}
+[Task: sst2] metric acc is defined, but aggregation is not. using default aggregation=mean
+[Task: sst2] metric acc is defined, but higher_is_better is not. using default higher_is_better=True
+sst2: Custom kwargs can be passed to `--metadata` in console (as json string) or to the TaskManager.
+For example --metadata='{"max_seq_lengths":[4096, 8192]}'. For details see task Readme.
+{"condition": "short_text", "phase": "confirmation", "n": 128, "correct": 89, "seconds": 15.707558166992385}

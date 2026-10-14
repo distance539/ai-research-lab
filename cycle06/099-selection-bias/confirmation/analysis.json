@@ -1,0 +1,225 @@
+{
+  "n": 128,
+  "baseline": "zero",
+  "winner": "short_text",
+  "baseline_correct": 65,
+  "winner_correct": 89,
+  "delta": 0.1875,
+  "gains": [
+    10,
+    67,
+    117,
+    150,
+    151,
+    204,
+    270,
+    308,
+    327,
+    373,
+    428,
+    435,
+    443,
+    455,
+    466,
+    488,
+    504,
+    628,
+    660,
+    666,
+    671,
+    680,
+    686,
+    718,
+    740,
+    784,
+    794,
+    868
+  ],
+  "losses": [
+    173,
+    312,
+    527,
+    764
+  ],
+  "ties": 96,
+  "paired_percentile_95": [
+    0.109375,
+    0.265625
+  ],
+  "official_direct_all_resamples_equal": true,
+  "resamples": 20000,
+  "seed": 9900,
+  "histogram": [
+    {
+      "delta": 0.015625,
+      "count": 1
+    },
+    {
+      "delta": 0.03125,
+      "count": 1
+    },
+    {
+      "delta": 0.0390625,
+      "count": 2
+    },
+    {
+      "delta": 0.046875,
+      "count": 2
+    },
+    {
+      "delta": 0.0546875,
+      "count": 11
+    },
+    {
+      "delta": 0.0625,
+      "count": 14
+    },
+    {
+      "delta": 0.0703125,
+      "count": 19
+    },
+    {
+      "delta": 0.078125,
+      "count": 45
+    },
+    {
+      "delta": 0.0859375,
+      "count": 51
+    },
+    {
+      "delta": 0.09375,
+      "count": 123
+    },
+    {
+      "delta": 0.1015625,
+      "count": 181
+    },
+    {
+      "delta": 0.109375,
+      "count": 232
+    },
+    {
+      "delta": 0.1171875,
+      "count": 345
+    },
+    {
+      "delta": 0.125,
+      "count": 451
+    },
+    {
+      "delta": 0.1328125,
+      "count": 652
+    },
+    {
+      "delta": 0.140625,
+      "count": 777
+    },
+    {
+      "delta": 0.1484375,
+      "count": 1008
+    },
+    {
+      "delta": 0.15625,
+      "count": 1145
+    },
+    {
+      "delta": 0.1640625,
+      "count": 1243
+    },
+    {
+      "delta": 0.171875,
+      "count": 1405
+    },
+    {
+      "delta": 0.1796875,
+      "count": 1480
+    },
+    {
+      "delta": 0.1875,
+      "count": 1534
+    },
+    {
+      "delta": 0.1953125,
+      "count": 1544
+    },
+    {
+      "delta": 0.203125,
+      "count": 1399
+    },
+    {
+      "delta": 0.2109375,
+      "count": 1269
+    },
+    {
+      "delta": 0.21875,
+      "count": 1154
+    },
+    {
+      "delta": 0.2265625,
+      "count": 932
+    },
+    {
+      "delta": 0.234375,
+      "count": 744
+    },
+    {
+      "delta": 0.2421875,
+      "count": 636
+    },
+    {
+      "delta": 0.25,
+      "count": 491
+    },
+    {
+      "delta": 0.2578125,
+      "count": 385
+    },
+    {
+      "delta": 0.265625,
+      "count": 255
+    },
+    {
+      "delta": 0.2734375,
+      "count": 166
+    },
+    {
+      "delta": 0.28125,
+      "count": 123
+    },
+    {
+      "delta": 0.2890625,
+      "count": 68
+    },
+    {
+      "delta": 0.296875,
+      "count": 44
+    },
+    {
+      "delta": 0.3046875,
+      "count": 33
+    },
+    {
+      "delta": 0.3125,
+      "count": 19
+    },
+    {
+      "delta": 0.3203125,
+      "count": 8
+    },
+    {
+      "delta": 0.328125,
+      "count": 5
+    },
+    {
+      "delta": 0.3359375,
+      "count": 2
+    },
+    {
+      "delta": 0.3671875,
+      "count": 1
+    }
+  ],
+  "constant_positive_correct": 64,
+  "interpretation": "fixed selected pipeline, row-conditional; not a search-wide interval or bias decomposition",
+  "input_sha256": "c98225caf27c0dfe885df7949c28d77a8df9ec1d849f2183de46b6717c0e8d5a"
+}
