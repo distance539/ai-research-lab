@@ -1,0 +1,37 @@
+{
+  "tests": [
+    {
+      "case": "candidate_sum",
+      "passed": true
+    },
+    {
+      "case": "prediction",
+      "passed": true
+    },
+    {
+      "case": "semantic_mapping",
+      "passed": true
+    },
+    {
+      "case": "duplicate_id",
+      "passed": true
+    },
+    {
+      "case": "gold_disagreement",
+      "passed": true
+    },
+    {
+      "case": "missing_row",
+      "passed": true
+    },
+    {
+      "case": "holdout_leakage",
+      "passed": true
+    },
+    {
+      "case": "incomplete_search_rejected",
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

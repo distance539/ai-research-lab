@@ -1,0 +1,25 @@
+{
+  "seed": 99,
+  "threads": 4,
+  "max_length": 512,
+  "walltime_budget_seconds": 1200,
+  "rss_budget_bytes": 4294967296,
+  "bootstrap_seed": 9900,
+  "resamples": 20000,
+  "conditions": [
+    "zero",
+    "A_forward",
+    "A_reverse",
+    "B_forward",
+    "B_reverse",
+    "listed_text_forward",
+    "listed_text_reverse",
+    "listed_letter_forward",
+    "listed_letter_reverse",
+    "short_text"
+  ],
+  "baseline": "zero",
+  "primary_metric": "semantic_accuracy",
+  "selection": "max development correct; tie by listed condition order",
+  "confirmation": "128 reserved rows; selected winner and zero baseline only; no retuning"
+}

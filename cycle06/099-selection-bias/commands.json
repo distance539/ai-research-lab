@@ -1,0 +1,172 @@
+[
+  {
+    "command": [
+      "python",
+      "prepare.py",
+      "--cache",
+      "./cache"
+    ],
+    "started_at": "2026-10-14T01:09:44.030569+00:00",
+    "finished_at": "2026-10-14T01:09:44.239774+00:00",
+    "wall_seconds": 0.209224458,
+    "exit_code": 0,
+    "log": "verification_logs/prepare.log",
+    "log_sha256": "e4387838b0763f6e1a4969d610ad880eed9e66413522e04a903e44993c492de1",
+    "name": "prepare",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "./cache",
+      "--phase",
+      "development",
+      "--smoke",
+      "--out",
+      "smoke"
+    ],
+    "started_at": "2026-10-14T01:10:29.079751+00:00",
+    "finished_at": "2026-10-14T01:10:43.128222+00:00",
+    "wall_seconds": 14.048504875,
+    "exit_code": 1,
+    "log": "verification_logs/smoke.log",
+    "log_sha256": "07ac5e63c80d4f57ca0cc086a35c76f996b925fb321fc75d2c52c51d185a259a",
+    "name": "smoke",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "./cache",
+      "--phase",
+      "development",
+      "--smoke",
+      "--out",
+      "smoke"
+    ],
+    "started_at": "2026-10-14T01:12:57.625325+00:00",
+    "finished_at": "2026-10-14T01:14:02.110766+00:00",
+    "wall_seconds": 64.485497208,
+    "exit_code": 0,
+    "log": "verification_logs/smoke_recovery.log",
+    "log_sha256": "d1763a6bdb9fec4991844d1d54f4767f6f73d88cafad855bbf8982a6b17a7d73",
+    "name": "smoke_recovery",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "./cache",
+      "--phase",
+      "development",
+      "--out",
+      "development"
+    ],
+    "started_at": "2026-10-14T01:14:12.164491+00:00",
+    "finished_at": "2026-10-14T01:16:27.355091+00:00",
+    "wall_seconds": 135.190681667,
+    "exit_code": 0,
+    "log": "verification_logs/development.log",
+    "log_sha256": "1b8794f7ef1110517282028137cd32c0f7e9000266bdb635e57254046ec365aa",
+    "name": "development",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "select.py"
+    ],
+    "started_at": "2026-10-14T01:16:38.650481+00:00",
+    "finished_at": "2026-10-14T01:16:38.728494+00:00",
+    "wall_seconds": 0.078035542,
+    "exit_code": 0,
+    "log": "verification_logs/select.log",
+    "log_sha256": "4c60faba634b24c3c7a1ee4ff39b2c7fd5b8cfdd0fbbeefc4220ac25fcea1a1d",
+    "name": "select",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "test_checks.py"
+    ],
+    "started_at": "2026-10-14T01:16:38.821528+00:00",
+    "finished_at": "2026-10-14T01:16:38.862402+00:00",
+    "wall_seconds": 0.040897917,
+    "exit_code": 1,
+    "log": "verification_logs/tests.log",
+    "log_sha256": "7b61cda6e1d7faa0f305b66dadd1738f83edf08c73684d7e8d86a1053dde6676",
+    "name": "tests",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "test_checks.py"
+    ],
+    "started_at": "2026-10-14T01:16:55.580843+00:00",
+    "finished_at": "2026-10-14T01:16:55.706970+00:00",
+    "wall_seconds": 0.126145083,
+    "exit_code": 0,
+    "log": "verification_logs/tests_recovery.log",
+    "log_sha256": "79b6b3ca7894110b953ba61413bae24b5dcc0de8c7a0f5670d57b752e78dd209",
+    "name": "tests_recovery",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "./cache",
+      "--phase",
+      "confirmation",
+      "--out",
+      "confirmation"
+    ],
+    "started_at": "2026-10-14T01:16:55.775955+00:00",
+    "finished_at": "2026-10-14T01:17:33.132575+00:00",
+    "wall_seconds": 37.356664,
+    "exit_code": 0,
+    "log": "verification_logs/confirmation.log",
+    "log_sha256": "c8159ebaf853a30158aed8895d7ea720bdfcdabe7b1c299130a431e2ec6658d8",
+    "name": "confirmation",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "analyze.py"
+    ],
+    "started_at": "2026-10-14T01:18:55.464334+00:00",
+    "finished_at": "2026-10-14T01:18:56.143738+00:00",
+    "wall_seconds": 0.679422167,
+    "exit_code": 0,
+    "log": "verification_logs/analysis.log",
+    "log_sha256": "c37bf72361b18339ea4b40d0cd5b9e4ee6784868a8c4b8da07265f03f3df61be",
+    "name": "analysis",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  },
+  {
+    "command": [
+      "python",
+      "audit.py",
+      "--out",
+      "confirmation/independent_audit.json"
+    ],
+    "started_at": "2026-10-14T01:19:28.302502+00:00",
+    "finished_at": "2026-10-14T01:19:28.380839+00:00",
+    "wall_seconds": 0.0783645,
+    "exit_code": 0,
+    "log": "verification_logs/audit.log",
+    "log_sha256": "9549597f3ccc8c3ed195657fe7e81a28f395ff27ca238a48fb4cf1297d1bfe75",
+    "name": "audit",
+    "log_note": "Full original execution metadata in local verification_logs; public stdout in phase folders; first failures path-anonymized in FAILURES.md"
+  }
+]
