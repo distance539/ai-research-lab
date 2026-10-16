@@ -1,0 +1,26 @@
+[
+  {
+    "file": "ioi_dataset.py",
+    "repository": "redwoodresearch/Easy-Transformer",
+    "commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+    "sha256": "94a72de90e426382322fd690669024a0d2d4bd72a45ed9ce820a99ae9173d231",
+    "access_date": "2026-10-16",
+    "installed_equals_official": null
+  },
+  {
+    "file": "ioi_utils.py",
+    "repository": "redwoodresearch/Easy-Transformer",
+    "commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+    "sha256": "240b59125b4f36a6589411bd5ae20da742a161535764256db2ce6a645f1c1dba",
+    "access_date": "2026-10-16",
+    "installed_equals_official": null
+  },
+  {
+    "file": "modeling_gpt2.py",
+    "repository": "huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "sha256": "212442d35dccdae408abef8534a496bf45ae15c4579326eb1a2b1bdc4aa79395",
+    "access_date": "2026-10-16",
+    "installed_equals_official": true
+  }
+]
