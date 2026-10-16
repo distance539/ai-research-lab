@@ -1,0 +1,65 @@
+{
+  "overall": {
+    "n": 64,
+    "mean_logit_diff": 4.445986390113831,
+    "positive": 64,
+    "top1_correct": 64,
+    "mean_io_prob": 0.5998398559167981,
+    "mean_s_prob": 0.01324643367797762,
+    "mean_pair_prob": 0.9693193761631846,
+    "min_logit_diff": 0.4892463684082031,
+    "max_logit_diff": 7.699394226074219
+  },
+  "cells": {
+    "0-ABBA": {
+      "n": 16,
+      "mean_logit_diff": 4.996687412261963,
+      "positive": 16,
+      "top1_correct": 16,
+      "mean_io_prob": 0.6634510532021523,
+      "mean_s_prob": 0.008869488456184627,
+      "mean_pair_prob": 0.9836322031915188,
+      "min_logit_diff": 2.1284942626953125,
+      "max_logit_diff": 7.699394226074219
+    },
+    "0-BABA": {
+      "n": 16,
+      "mean_logit_diff": 3.8084447383880615,
+      "positive": 16,
+      "top1_correct": 16,
+      "mean_io_prob": 0.5337824178859591,
+      "mean_s_prob": 0.020661262882640585,
+      "mean_pair_prob": 0.9460429511964321,
+      "min_logit_diff": 0.4892463684082031,
+      "max_logit_diff": 5.9333038330078125
+    },
+    "1-ABBA": {
+      "n": 16,
+      "mean_logit_diff": 4.685181617736816,
+      "positive": 16,
+      "top1_correct": 16,
+      "mean_io_prob": 0.6350222546607256,
+      "mean_s_prob": 0.009368632770929253,
+      "mean_pair_prob": 0.9820169173181057,
+      "min_logit_diff": 2.3399200439453125,
+      "max_logit_diff": 7.10333251953125
+    },
+    "1-BABA": {
+      "n": 16,
+      "mean_logit_diff": 4.2936317920684814,
+      "positive": 16,
+      "top1_correct": 16,
+      "mean_io_prob": 0.5671036979183555,
+      "mean_s_prob": 0.014086350602156017,
+      "mean_pair_prob": 0.965585432946682,
+      "min_logit_diff": 1.25811767578125,
+      "max_logit_diff": 6.634735107421875
+    }
+  },
+  "setup_seconds": 3.1427080830326304,
+  "inference_seconds": 1.8776799159822986,
+  "total_seconds_after_imports": 5.020387958036736,
+  "peak_rss_bytes": 1604501504,
+  "projected_full_seconds": 5.020387999014929,
+  "readout_max_error": 0.0
+}

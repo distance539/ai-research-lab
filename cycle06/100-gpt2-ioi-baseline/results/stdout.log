@@ -1,0 +1,73 @@
+row 0 diff 4.733181
+row 1 diff 2.149994
+row 2 diff 3.264778
+row 3 diff 5.933304
+row 4 diff 5.485626
+row 5 diff 3.221531
+row 6 diff 5.483639
+row 7 diff 2.510296
+row 8 diff 0.489246
+row 9 diff 3.677082
+row 10 diff 4.525272
+row 11 diff 2.532047
+row 12 diff 2.926979
+row 13 diff 5.795872
+row 14 diff 5.014702
+row 15 diff 3.191566
+row 16 diff 4.861771
+row 17 diff 2.898277
+row 18 diff 5.401016
+row 19 diff 5.561546
+row 20 diff 4.292534
+row 21 diff 5.594177
+row 22 diff 7.699394
+row 23 diff 2.128494
+row 24 diff 3.402287
+row 25 diff 5.80497
+row 26 diff 4.508736
+row 27 diff 5.811558
+row 28 diff 6.140202
+row 29 diff 6.019318
+row 30 diff 4.479874
+row 31 diff 5.342846
+row 32 diff 5.193336
+row 33 diff 2.408302
+row 34 diff 3.068642
+row 35 diff 6.634735
+row 36 diff 6.448112
+row 37 diff 3.204491
+row 38 diff 5.195015
+row 39 diff 4.005672
+row 40 diff 1.258118
+row 41 diff 3.420876
+row 42 diff 5.202026
+row 43 diff 3.382172
+row 44 diff 3.529129
+row 45 diff 6.550301
+row 46 diff 5.656387
+row 47 diff 3.540794
+row 48 diff 4.39698
+row 49 diff 2.33992
+row 50 diff 4.264229
+row 51 diff 5.615364
+row 52 diff 4.741737
+row 53 diff 4.979324
+row 54 diff 7.103333
+row 55 diff 2.670586
+row 56 diff 3.354866
+row 57 diff 4.637596
+row 58 diff 4.00148
+row 59 diff 5.337799
+row 60 diff 5.875984
+row 61 diff 6.0327
+row 62 diff 4.349922
+row 63 diff 5.261086
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"overall": {"n": 64, "mean_logit_diff": 4.445986390113831, "positive": 64, "top1_correct": 64, "mean_io_prob": 0.5998398559167981, "mean_s_prob": 0.01324643367797762, "mean_pair_prob": 0.9693193761631846, "min_logit_diff": 0.4892463684082031, "max_logit_diff": 7.699394226074219}, "cells": {"0-ABBA": {"n": 16, "mean_logit_diff": 4.996687412261963, "positive": 16, "top1_correct": 16, "mean_io_prob": 0.6634510532021523, "mean_s_prob": 0.008869488456184627, "mean_pair_prob": 0.9836322031915188, "min_logit_diff": 2.1284942626953125, "max_logit_diff": 7.699394226074219}, "0-BABA": {"n": 16, "mean_logit_diff": 3.8084447383880615, "positive": 16, "top1_correct": 16, "mean_io_prob": 0.5337824178859591, "mean_s_prob": 0.020661262882640585, "mean_pair_prob": 0.9460429511964321, "min_logit_diff": 0.4892463684082031, "max_logit_diff": 5.9333038330078125}, "1-ABBA": {"n": 16, "mean_logit_diff": 4.685181617736816, "positive": 16, "top1_correct": 16, "mean_io_prob": 0.6350222546607256, "mean_s_prob": 0.009368632770929253, "mean_pair_prob": 0.9820169173181057, "min_logit_diff": 2.3399200439453125, "max_logit_diff": 7.10333251953125}, "1-BABA": {"n": 16, "mean_logit_diff": 4.2936317920684814, "positive": 16, "top1_correct": 16, "mean_io_prob": 0.5671036979183555, "mean_s_prob": 0.014086350602156017, "mean_pair_prob": 0.965585432946682, "min_logit_diff": 1.25811767578125, "max_logit_diff": 6.634735107421875}}, "setup_seconds": 3.1427080830326304, "inference_seconds": 1.8776799159822986, "total_seconds_after_imports": 5.020387958036736, "peak_rss_bytes": 1604501504, "projected_full_seconds": 5.020387999014929, "readout_max_error": 0.0}
