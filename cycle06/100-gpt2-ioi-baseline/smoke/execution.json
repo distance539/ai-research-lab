@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "./cache",
+    "--out",
+    "smoke",
+    "--smoke"
+  ],
+  "started_at": "2026-10-16T01:03:21.685892+00:00",
+  "wall_seconds": 3.386895833,
+  "exit_code": 0
+}

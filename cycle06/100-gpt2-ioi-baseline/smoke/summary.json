@@ -1,0 +1,32 @@
+{
+  "overall": {
+    "n": 2,
+    "mean_logit_diff": 3.441587448120117,
+    "positive": 2,
+    "top1_correct": 2,
+    "mean_io_prob": 0.48501215875148773,
+    "mean_s_prob": 0.021788039011880755,
+    "mean_pair_prob": 0.943473219871521,
+    "min_logit_diff": 2.149993896484375,
+    "max_logit_diff": 4.733180999755859
+  },
+  "cells": {
+    "0-BABA": {
+      "n": 2,
+      "mean_logit_diff": 3.441587448120117,
+      "positive": 2,
+      "top1_correct": 2,
+      "mean_io_prob": 0.48501215875148773,
+      "mean_s_prob": 0.021788039011880755,
+      "mean_pair_prob": 0.943473219871521,
+      "min_logit_diff": 2.149993896484375,
+      "max_logit_diff": 4.733180999755859
+    }
+  },
+  "setup_seconds": 2.9420529999770224,
+  "inference_seconds": 0.06004825001582503,
+  "total_seconds_after_imports": 3.0021015000529587,
+  "peak_rss_bytes": 1605337088,
+  "projected_full_seconds": 4.8635970004834235,
+  "readout_max_error": 0.0
+}
