@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./run.py", line 50, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "./run.py", line 34, in main
+    direct=model.lm_head(hidden);err=(direct-v).abs().max().item();assert err<1e-4
+                                                                          ^^^^^^^^
+AssertionError

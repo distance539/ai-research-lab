@@ -1,0 +1,6 @@
+{
+  "single_vector_vs_batched_max_error": 0.00016021728515625,
+  "same_shape_readout_max_error": 0.0,
+  "float64_vs_float32_max_error": 0.00016021728515625,
+  "max_logit_magnitude": 85.28097534179688
+}
