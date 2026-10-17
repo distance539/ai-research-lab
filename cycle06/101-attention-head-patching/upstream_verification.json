@@ -1,0 +1,22 @@
+[
+  {
+    "file": "modeling_gpt2.py",
+    "repository": "https://github.com/huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/gpt2/modeling_gpt2.py",
+    "sha256": "212442d35dccdae408abef8534a496bf45ae15c4579326eb1a2b1bdc4aa79395",
+    "license": "Apache-2.0",
+    "verified_at": "2026-10-17T09:09:10.468915+08:00",
+    "installed_bytes_equal": true
+  },
+  {
+    "file": "patching.py",
+    "repository": "https://github.com/TransformerLensOrg/TransformerLens",
+    "commit": "bd55eab6737584685b921fdfcd15f191579e64b1",
+    "url": "https://raw.githubusercontent.com/TransformerLensOrg/TransformerLens/bd55eab6737584685b921fdfcd15f191579e64b1/transformer_lens/patching.py",
+    "sha256": "2200d7a49b222c6e811d5c762b435b4817f91623d76d176b6069659f4a74c432",
+    "license": "MIT",
+    "verified_at": "2026-10-17T09:09:10.469692+08:00",
+    "installed_bytes_equal": null
+  }
+]
