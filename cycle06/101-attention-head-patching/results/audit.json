@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "rows": 16,
+  "grid_cells": 39168,
+  "mean_gap": 8.590664863586426,
+  "top_end_head": [
+    8,
+    10
+  ],
+  "strong_negative_gains_below_minus_0_001": 3142,
+  "pre_corruption_max_gain": 6.103515625e-05,
+  "checks": [
+    "sample identities",
+    "one token corruption",
+    "fixed candidate identities",
+    "full-state exact",
+    "selfpatch exact",
+    "official readout",
+    "projected delta equivalence",
+    "parent baseline agreement",
+    "complete unique grid",
+    "raw arithmetic",
+    "all END rankings and ratios",
+    "causal negative controls"
+  ],
+  "inputs": {
+    "records.json": "64078ef24bd9bd6e3afa70c061422d7bd51b3c312f3b84fdf927b95f0ef136a4",
+    "patches.json": "291f7116dfc8d609a26a84a678d2f46acde1d980c9a74a4e566b5a852548677a",
+    "summary.json": "9f1f16fced90066aad56fb54dd0594b7801635ce6774b617ac646f7c44313b1d"
+  },
+  "script_sha256": "690b114c3469d5a03f9c6df18dc41d60d26b40177dcdc3a129a63237d1351d7d"
+}

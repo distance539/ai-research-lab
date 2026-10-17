@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "./cache",
+    "--out",
+    "results"
+  ],
+  "started_at": "2026-10-17T01:04:52.680583+00:00",
+  "wall_seconds": 190.645995,
+  "exit_code": 0
+}

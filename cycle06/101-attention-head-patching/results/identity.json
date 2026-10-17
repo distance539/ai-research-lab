@@ -1,0 +1,25 @@
+{
+  "plan_sha256": "2a58f788f799485e9bcc2f97b447cd3a8e5bab3e9d14b72517221ff23536d9c7",
+  "resources_sha256": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+  "mode": "formal",
+  "sample_ids": [
+    0,
+    1,
+    2,
+    3,
+    16,
+    17,
+    18,
+    19,
+    32,
+    33,
+    34,
+    35,
+    48,
+    49,
+    50,
+    51
+  ],
+  "cache_key": "52714ad18bd0025bd9ecc549cb2a36f9c9ea5a0228083eefa4759ba0a38df984",
+  "reuse_output_cache": false
+}
