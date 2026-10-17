@@ -1,0 +1,21 @@
+row 0 layer 0 seconds 1.198
+row 0 layer 1 seconds 1.971
+row 0 layer 2 seconds 2.758
+row 0 layer 3 seconds 3.54
+row 0 layer 4 seconds 4.317
+row 0 layer 5 seconds 5.104
+row 0 layer 6 seconds 5.887
+row 0 layer 7 seconds 6.672
+row 0 layer 8 seconds 7.457
+row 0 layer 9 seconds 8.242
+row 0 layer 10 seconds 9.022
+row 0 layer 11 seconds 9.803
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"elapsed_seconds_after_imports": 14.831865749903955, "setup_seconds": 5.015545916976407, "peak_rss_bytes": 1595293696, "projected_full_seconds": 162.07666324381717, "rows": 1, "patches": 2160}
