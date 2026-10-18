@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-10-18T09:03:40.481203+08:00",
+  "files": {
+    "config.json": "f32c35a3e2c727e0a3687a1d88952452dd03368045f70cb351a2bfeb5226a6c4",
+    "samples.json": "f44d3aac80d6c2db4cb66bf2ffd03e55be897099b9cf340fe0dd78f3d6c6a7a1",
+    "run.py": "2867ff12c4f7087a569d640beb22e932a22aa0d2e2a953c7ec5f3d9925638ae9",
+    "analyze.py": "1be852cadd672578501077ac200a42e4d7062f5d9bf1d49f9af4589a74e6c85d",
+    "audit.py": "161574f9a211fedeaea08584489411226a6e95335eac3ab175282258bf008817",
+    "test_checks.py": "bbd5b4d9461b14f0de84d685d8da9cefce4cc9a80854ef8f5f8be64a8a2077fb",
+    "prepare.py": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e",
+    "PROTOCOL.md": "62266ce6edaaa390ce6705582a3d1b126161e7c4dd6ba10e3f7e941317af2ff7",
+    "resources.lock.json": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+    "rebuild_samples.py": "300fefe58c37bf595ec639e809abe3813e97bec801350eaa5848953c8735a6fc",
+    "parent_summary.json": "9f1f16fced90066aad56fb54dd0594b7801635ce6774b617ac646f7c44313b1d",
+    "parent_baseline.json": "4abcf862a94d90b5400d274d0c53661a31532ed0d791db1adfb2c70a517b3f53"
+  },
+  "parent_commit": "f11bee494cc9b9597cbbc3e4e0a078555e6a456d",
+  "inference_started": false
+}

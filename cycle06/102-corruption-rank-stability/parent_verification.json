@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-18T09:11:26.147329+08:00",
+  "commit": "f11bee494cc9b9597cbbc3e4e0a078555e6a456d",
+  "files": [
+    {
+      "file": "run.py",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f11bee494cc9b9597cbbc3e4e0a078555e6a456d/cycle06/101-attention-head-patching/run.py",
+      "sha256": "d7393a87988dd18d24d4330ef9dfd534ef47c1ff36c0fe641894229bf58ac442",
+      "equal_parent": true,
+      "unchanged_local": false
+    },
+    {
+      "file": "samples.json",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f11bee494cc9b9597cbbc3e4e0a078555e6a456d/cycle06/101-attention-head-patching/samples.json",
+      "sha256": "f44d3aac80d6c2db4cb66bf2ffd03e55be897099b9cf340fe0dd78f3d6c6a7a1",
+      "equal_parent": true,
+      "unchanged_local": true
+    },
+    {
+      "file": "resources.lock.json",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f11bee494cc9b9597cbbc3e4e0a078555e6a456d/cycle06/101-attention-head-patching/resources.lock.json",
+      "sha256": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+      "equal_parent": true,
+      "unchanged_local": true
+    },
+    {
+      "file": "results/summary.json",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f11bee494cc9b9597cbbc3e4e0a078555e6a456d/cycle06/101-attention-head-patching/results/summary.json",
+      "sha256": "9f1f16fced90066aad56fb54dd0594b7801635ce6774b617ac646f7c44313b1d",
+      "equal_parent": true,
+      "unchanged_local": true
+    },
+    {
+      "file": "prepare.py",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f11bee494cc9b9597cbbc3e4e0a078555e6a456d/cycle06/101-attention-head-patching/prepare.py",
+      "sha256": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e",
+      "equal_parent": true,
+      "unchanged_local": true
+    }
+  ]
+}

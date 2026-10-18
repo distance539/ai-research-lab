@@ -1,0 +1,95 @@
+{
+  "seed": 101,
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "upstream_commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+  "threads": 4,
+  "dtype": "float32",
+  "device": "cpu",
+  "attention": "eager",
+  "batch_size": 32,
+  "prepend_bos": false,
+  "max_tokens": 128,
+  "budget_seconds": 1800,
+  "budget_rss_bytes": 4294967296,
+  "names": [
+    "Michael",
+    "Christopher",
+    "Jessica",
+    "Matthew",
+    "Ashley",
+    "Jennifer",
+    "Joshua",
+    "Amanda"
+  ],
+  "pairs": [
+    [
+      "Michael",
+      "Christopher"
+    ],
+    [
+      "Christopher",
+      "Jessica"
+    ],
+    [
+      "Jessica",
+      "Matthew"
+    ],
+    [
+      "Matthew",
+      "Ashley"
+    ],
+    [
+      "Ashley",
+      "Jennifer"
+    ],
+    [
+      "Jennifer",
+      "Joshua"
+    ],
+    [
+      "Joshua",
+      "Amanda"
+    ],
+    [
+      "Amanda",
+      "Michael"
+    ]
+  ],
+  "template_indices": [
+    0,
+    1
+  ],
+  "place": "store",
+  "object": "ring",
+  "heldout_names": [
+    "Daniel",
+    "David",
+    "James",
+    "Robert",
+    "John",
+    "Joseph",
+    "Andrew",
+    "Ryan"
+  ],
+  "heldout_template_indices": [
+    2,
+    3
+  ],
+  "heldout_inferred": false,
+  "selected_pair_ids": [
+    0,
+    1
+  ],
+  "smoke_ids": [
+    0
+  ],
+  "corruption": [
+    "s2_flip",
+    "global_swap"
+  ],
+  "scope": "16 development samples x 2 corruptions x all 12 layers x 12 heads x every token",
+  "score": "original clean IO minus original clean subject",
+  "normalization": "ratio of mean gains to mean clean-corrupt gap; no clipping",
+  "top_k": 10
+}
