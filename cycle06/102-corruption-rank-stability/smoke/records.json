@@ -1,0 +1,260 @@
+[
+  {
+    "id": 0,
+    "template_index": 0,
+    "order": "BABA",
+    "pair_id": 0,
+    "swapped": false,
+    "IO": "Michael",
+    "S": "Christopher",
+    "prompt": "Then, Christopher and Michael went to the store. Christopher gave a ring to",
+    "answer": " Michael",
+    "distractor": " Christopher",
+    "condition": "s2_flip",
+    "changed_positions": [
+      10
+    ],
+    "clean_ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "corrupt_ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "corrupt_prompt": "Then, Christopher and Michael went to the store. Michael gave a ring to",
+    "tokens": [
+      "Then",
+      ",",
+      "\u0120Christopher",
+      "\u0120and",
+      "\u0120Michael",
+      "\u0120went",
+      "\u0120to",
+      "\u0120the",
+      "\u0120store",
+      ".",
+      "\u0120Christopher",
+      "\u0120gave",
+      "\u0120a",
+      "\u0120ring",
+      "\u0120to"
+    ],
+    "io_id": 3899,
+    "s_id": 12803,
+    "s2_position": 10,
+    "io_position": 4,
+    "end_position": 14,
+    "clean": {
+      "io_logit": -54.43842697143555,
+      "s_logit": -59.1716194152832,
+      "diff": 4.733192443847656,
+      "p_io": 0.6446225047111511,
+      "top1_id": 3899
+    },
+    "corrupt": {
+      "io_logit": -64.45055389404297,
+      "s_logit": -61.55226516723633,
+      "diff": -2.8982887268066406,
+      "p_io": 0.023084361106157303,
+      "top1_id": 12803
+    },
+    "full": {
+      "io_logit": -54.43842697143555,
+      "s_logit": -59.1716194152832,
+      "diff": 4.733192443847656,
+      "p_io": 0.6446225047111511,
+      "top1_id": 3899
+    },
+    "self": {
+      "io_logit": -64.45055389404297,
+      "s_logit": -61.55226516723633,
+      "diff": -2.8982887268066406,
+      "p_io": 0.023084361106157303,
+      "top1_id": 12803
+    },
+    "batch_clean": {
+      "io_logit": -54.43842315673828,
+      "s_logit": -59.171607971191406,
+      "diff": 4.733184814453125,
+      "p_io": 0.6446219086647034,
+      "top1_id": 3899
+    },
+    "batch_corrupt": {
+      "io_logit": -64.45056915283203,
+      "s_logit": -61.552310943603516,
+      "diff": -2.8982582092285156,
+      "p_io": 0.023084944114089012,
+      "top1_id": 12803
+    },
+    "official_readout_max_error": 0.00016021728515625,
+    "full_max_error": 0.0,
+    "self_max_error": 0.0,
+    "projected_delta_max_error": 3.0517578125e-05,
+    "batch_max_error": 0.0001983642578125,
+    "z_shape": [
+      1,
+      15,
+      12,
+      64
+    ],
+    "cache_bytes": 599040,
+    "seconds": 9.694185165921226
+  },
+  {
+    "id": 0,
+    "template_index": 0,
+    "order": "BABA",
+    "pair_id": 0,
+    "swapped": false,
+    "IO": "Michael",
+    "S": "Christopher",
+    "prompt": "Then, Christopher and Michael went to the store. Christopher gave a ring to",
+    "answer": " Michael",
+    "distractor": " Christopher",
+    "condition": "global_swap",
+    "changed_positions": [
+      2,
+      4,
+      10
+    ],
+    "clean_ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "corrupt_ids": [
+      6423,
+      11,
+      3899,
+      290,
+      12803,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "corrupt_prompt": "Then, Michael and Christopher went to the store. Michael gave a ring to",
+    "tokens": [
+      "Then",
+      ",",
+      "\u0120Christopher",
+      "\u0120and",
+      "\u0120Michael",
+      "\u0120went",
+      "\u0120to",
+      "\u0120the",
+      "\u0120store",
+      ".",
+      "\u0120Christopher",
+      "\u0120gave",
+      "\u0120a",
+      "\u0120ring",
+      "\u0120to"
+    ],
+    "io_id": 3899,
+    "s_id": 12803,
+    "s2_position": 10,
+    "io_position": 4,
+    "end_position": 14,
+    "clean": {
+      "io_logit": -54.43842697143555,
+      "s_logit": -59.1716194152832,
+      "diff": 4.733192443847656,
+      "p_io": 0.6446225047111511,
+      "top1_id": 3899
+    },
+    "corrupt": {
+      "io_logit": -58.418243408203125,
+      "s_logit": -56.26820755004883,
+      "diff": -2.150035858154297,
+      "p_io": 0.037904027849435806,
+      "top1_id": 12803
+    },
+    "full": {
+      "io_logit": -54.43842697143555,
+      "s_logit": -59.1716194152832,
+      "diff": 4.733192443847656,
+      "p_io": 0.6446225047111511,
+      "top1_id": 3899
+    },
+    "self": {
+      "io_logit": -58.418243408203125,
+      "s_logit": -56.26820755004883,
+      "diff": -2.150035858154297,
+      "p_io": 0.037904027849435806,
+      "top1_id": 12803
+    },
+    "batch_clean": {
+      "io_logit": -54.43842315673828,
+      "s_logit": -59.171607971191406,
+      "diff": 4.733184814453125,
+      "p_io": 0.6446219086647034,
+      "top1_id": 3899
+    },
+    "batch_corrupt": {
+      "io_logit": -58.4182243347168,
+      "s_logit": -56.26824188232422,
+      "diff": -2.149982452392578,
+      "p_io": 0.03790482506155968,
+      "top1_id": 12803
+    },
+    "official_readout_max_error": 0.00016021728515625,
+    "full_max_error": 0.0,
+    "self_max_error": 0.0,
+    "projected_delta_max_error": 2.288818359375e-05,
+    "batch_max_error": 0.0001983642578125,
+    "z_shape": [
+      1,
+      15,
+      12,
+      64
+    ],
+    "cache_bytes": 599040,
+    "seconds": 9.829336834023707
+  }
+]

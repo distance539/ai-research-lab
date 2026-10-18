@@ -1,0 +1,7 @@
+{
+  "download": "passed",
+  "preprocessing": "passed",
+  "inference": "passed",
+  "evaluation": "passed",
+  "training": "not applicable"
+}

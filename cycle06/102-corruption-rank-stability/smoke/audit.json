@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "conditions": {
+    "s2_flip": {
+      "passed": true,
+      "rows": 1,
+      "grid_cells": 2160,
+      "mean_gap": 7.631443023681641,
+      "top_end_head": [
+        9,
+        9
+      ],
+      "strong_negative_gains_below_minus_0_001": 180,
+      "pre_corruption_max_gain": 3.814697265625e-05,
+      "checks": [
+        "sample identities",
+        "explicit counterfactual token substitution",
+        "fixed candidate identities",
+        "full-state exact",
+        "selfpatch exact",
+        "official readout",
+        "projected delta equivalence",
+        "parent baseline agreement",
+        "complete unique grid",
+        "raw arithmetic",
+        "all END rankings and ratios",
+        "causal negative controls"
+      ]
+    },
+    "global_swap": {
+      "passed": true,
+      "rows": 1,
+      "grid_cells": 2160,
+      "mean_gap": 6.883167266845703,
+      "top_end_head": [
+        9,
+        9
+      ],
+      "strong_negative_gains_below_minus_0_001": 429,
+      "pre_corruption_max_gain": 3.0517578125e-05,
+      "checks": [
+        "sample identities",
+        "explicit counterfactual token substitution",
+        "fixed candidate identities",
+        "full-state exact",
+        "selfpatch exact",
+        "official readout",
+        "projected delta equivalence",
+        "parent baseline agreement",
+        "complete unique grid",
+        "raw arithmetic",
+        "all END rankings and ratios",
+        "causal negative controls"
+      ]
+    }
+  },
+  "ordinal_rank_correlation": 0.4189494413632345,
+  "top10_overlap": 0.7,
+  "parent101_reproduced": false,
+  "inputs": {
+    "records.json": "b183e9fb5046ab12d0f4b9b8896fa49b8c64359d7016550c13b2e634dc0c5ee9",
+    "patches.json": "1c4638472c4e18ff812651522255408041ff61db65c40ba78219bca999c44f9b",
+    "summary.json": "4fd5977f55d3ac37dcaa226b7ce9e9857a7893e4bd41352d69d82a9495869f22"
+  },
+  "script_sha256": "161574f9a211fedeaea08584489411226a6e95335eac3ab175282258bf008817"
+}

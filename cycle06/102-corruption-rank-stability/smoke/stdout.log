@@ -1,0 +1,25 @@
+row 0 s2_flip layer 0 seconds 1.16
+row 0 s2_flip layer 1 seconds 1.92
+row 0 s2_flip layer 2 seconds 2.677
+row 0 s2_flip layer 3 seconds 3.432
+row 0 s2_flip layer 4 seconds 4.192
+row 0 s2_flip layer 5 seconds 4.978
+row 0 s2_flip layer 6 seconds 5.757
+row 0 s2_flip layer 7 seconds 6.542
+row 0 s2_flip layer 8 seconds 7.327
+row 0 s2_flip layer 9 seconds 8.114
+row 0 s2_flip layer 10 seconds 8.907
+row 0 s2_flip layer 11 seconds 9.694
+row 0 global_swap layer 0 seconds 1.144
+row 0 global_swap layer 1 seconds 1.926
+row 0 global_swap layer 2 seconds 2.717
+row 0 global_swap layer 3 seconds 3.506
+row 0 global_swap layer 4 seconds 4.301
+row 0 global_swap layer 5 seconds 5.091
+row 0 global_swap layer 6 seconds 5.879
+row 0 global_swap layer 7 seconds 6.668
+row 0 global_swap layer 8 seconds 7.46
+row 0 global_swap layer 9 seconds 8.252
+row 0 global_swap layer 10 seconds 9.039
+row 0 global_swap layer 11 seconds 9.829
+{"elapsed_seconds_after_imports": 25.190155292046256, "setup_seconds": 5.626244666986167, "peak_rss_bytes": 1602502656, "projected_full_seconds": 318.6488146679476, "rows": 2, "samples": 1, "patches": 4320}
