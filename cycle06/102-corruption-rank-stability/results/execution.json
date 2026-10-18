@@ -1,0 +1,17 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "--cache",
+    "./cache",
+    "--out",
+    "results"
+  ],
+  "cwd": "code",
+  "started_at": "2026-10-18T09:04:55.468070+08:00",
+  "wall_seconds": 396.293925792,
+  "exit_code": 0,
+  "plan_sha256": "c186f9b2e2ed122d938bc13145c7914293046028a18a256db657e7284b674867",
+  "path_note": "execution used hash-verified shared model cache; machine-specific paths omitted here, exact local command archived outside code"
+}

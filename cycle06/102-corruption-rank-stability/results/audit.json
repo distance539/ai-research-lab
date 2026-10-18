@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "conditions": {
+    "s2_flip": {
+      "passed": true,
+      "rows": 16,
+      "grid_cells": 39168,
+      "mean_gap": 8.590664863586426,
+      "top_end_head": [
+        8,
+        10
+      ],
+      "strong_negative_gains_below_minus_0_001": 3142,
+      "pre_corruption_max_gain": 6.103515625e-05,
+      "checks": [
+        "sample identities",
+        "explicit counterfactual token substitution",
+        "fixed candidate identities",
+        "full-state exact",
+        "selfpatch exact",
+        "official readout",
+        "projected delta equivalence",
+        "parent baseline agreement",
+        "complete unique grid",
+        "raw arithmetic",
+        "all END rankings and ratios",
+        "causal negative controls"
+      ]
+    },
+    "global_swap": {
+      "passed": true,
+      "rows": 16,
+      "grid_cells": 39168,
+      "mean_gap": 8.590664863586426,
+      "top_end_head": [
+        9,
+        9
+      ],
+      "strong_negative_gains_below_minus_0_001": 6964,
+      "pre_corruption_max_gain": 6.103515625e-05,
+      "checks": [
+        "sample identities",
+        "explicit counterfactual token substitution",
+        "fixed candidate identities",
+        "full-state exact",
+        "selfpatch exact",
+        "official readout",
+        "projected delta equivalence",
+        "parent baseline agreement",
+        "complete unique grid",
+        "raw arithmetic",
+        "all END rankings and ratios",
+        "causal negative controls"
+      ]
+    }
+  },
+  "ordinal_rank_correlation": 0.8570090828711519,
+  "top10_overlap": 0.9,
+  "parent101_reproduced": true,
+  "inputs": {
+    "records.json": "9231d476387578abb85e5b4b2461fa47854135b898481c2da2f88b5a01b443df",
+    "patches.json": "47624250d1a9c0655a8b089bf60ffd3f4d63fbe21f0e21df7dfec3807a89fc21",
+    "summary.json": "f317b970170865534bb18deb90c6da8af725d101f8fcbd7e06ec37fda3a7b8e0"
+  },
+  "script_sha256": "161574f9a211fedeaea08584489411226a6e95335eac3ab175282258bf008817"
+}
