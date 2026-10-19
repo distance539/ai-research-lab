@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "--cache",
+    "./cache",
+    "--out",
+    "results"
+  ],
+  "cwd": "code",
+  "started_at": "2026-10-19T09:08:09.222950+08:00",
+  "wall_seconds": 11.991068499999999,
+  "exit_code": 0,
+  "path_note": "Shared hash-verified cache reused; exact local command outside distribution."
+}
