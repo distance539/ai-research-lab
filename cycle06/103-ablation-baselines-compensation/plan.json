@@ -1,0 +1,17 @@
+{
+  "frozen_at": "2026-10-19T09:06:56.584207+08:00",
+  "files": {
+    "config.json": "ad90bbb1a90da12dc05f19dee718b6e176dad8cad2ea9d743276a6733b98bc40",
+    "samples.json": "f44d3aac80d6c2db4cb66bf2ffd03e55be897099b9cf340fe0dd78f3d6c6a7a1",
+    "resources.lock.json": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+    "run.py": "0025fd2d0f50d3c04c25bb4d62f4c0b98601a6d6b551f35882cd05386b003e39",
+    "prepare.py": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e",
+    "analyze.py": "d61350122dbe71110fdbe0684a08c5933c6f0e72273587449aaabee8d19ac2cf",
+    "PROTOCOL.md": "9cd7081318d012c7c44248a54282f9e11b21309ede318ae02bac599662e18195",
+    "parent_summary.json": "f317b970170865534bb18deb90c6da8af725d101f8fcbd7e06ec37fda3a7b8e0",
+    "requirements.txt": "9f56134d24b2b00df61826ea89345e4b7cb88d62a3f4c2e07a48849bfe1355c2",
+    "environment.lock.txt": "3393804f481168ffadbbf8609280ed652456d969f4e09d93358abec551b9615b"
+  },
+  "selection": "102 s2_flip END ranking top3: A8.10 B8.6 C9.9; developmental only",
+  "confirmatory": false
+}
