@@ -1,0 +1,10 @@
+row 0 21 interventions 0.5467874580062926
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"elapsed_seconds_after_imports": 13.01817991596181, "setup_seconds": 12.470236915978603, "peak_rss_bytes": 1490157568, "projected_full_seconds": 21.237324915709905, "rows": 1, "interventions": 21, "reference_forwards": 12}

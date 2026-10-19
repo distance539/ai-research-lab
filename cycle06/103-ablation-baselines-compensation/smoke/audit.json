@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "rows": 1,
+  "interventions": 21,
+  "bank_rows": 12,
+  "input_sha256": {
+    "records.json": "061982cdca9126aafb986b21e444cc5e93c4b77da3411334113582c95b4e131a",
+    "reference_bank.json": "608f26557ddf8c68c92016d93e7ea2dbf52e5b7c578688debded58e0937c04b6",
+    "summary.json": "62ccdb157b86b18bbe1b97e0999d95b5c3d2973b8d534f67f579e47efc3fe1cb",
+    "identity.json": "3cfc6838d337993f88410af5f33582467baeba193a03fd1c9caacf8e5e52e45a"
+  },
+  "script_sha256": "e13b90b16878788b39126bbca70a65475dde1d2eef3faeeb6b4e3c2676d82b90",
+  "checks": [
+    "frozen inputs",
+    "selected heads",
+    "donor identity/permutations",
+    "all scalar candidate differences",
+    "all336 condition cells when formal",
+    "all vector means/norms/distances",
+    "paired interactions",
+    "aggregate means/counts",
+    "implementation controls"
+  ],
+  "not_verified": "full-vocabulary argmax requires model replay; no human semantic audit claimed"
+}

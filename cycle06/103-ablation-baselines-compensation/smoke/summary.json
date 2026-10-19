@@ -1,0 +1,224 @@
+{
+  "n": 1,
+  "mean_clean_diff": 4.733192443847656,
+  "conditions": {
+    "zero": {
+      "A": {
+        "mean_diff": 2.9707412719726562,
+        "mean_drop": 1.762451171875,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.5851056575775146
+      },
+      "B": {
+        "mean_diff": 2.3720245361328125,
+        "mean_drop": 2.3611679077148438,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.30058106780052185
+      },
+      "C": {
+        "mean_diff": 3.3062782287597656,
+        "mean_drop": 1.4269142150878906,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.4307039976119995
+      },
+      "AB": {
+        "mean_diff": 1.3474960327148438,
+        "mean_drop": 3.3856964111328125,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.3414812982082367
+      },
+      "AC": {
+        "mean_diff": 2.064056396484375,
+        "mean_drop": 2.6691360473632812,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.39371490478515625
+      },
+      "BC": {
+        "mean_diff": 2.1949615478515625,
+        "mean_drop": 2.5382308959960938,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.21179434657096863
+      },
+      "ABC": {
+        "mean_diff": 1.332763671875,
+        "mean_drop": 3.4004287719726562,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.25197625160217285
+      }
+    },
+    "mean_abc": {
+      "A": {
+        "mean_diff": 2.9315872192382812,
+        "mean_drop": 1.801605224609375,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.608020544052124
+      },
+      "B": {
+        "mean_diff": 2.0466690063476562,
+        "mean_drop": 2.6865234375,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.2227313220500946
+      },
+      "C": {
+        "mean_diff": 2.9396514892578125,
+        "mean_drop": 1.7935409545898438,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.4699772596359253
+      },
+      "AB": {
+        "mean_diff": 1.0705795288085938,
+        "mean_drop": 3.6626129150390625,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.2545764148235321
+      },
+      "AC": {
+        "mean_diff": 1.9604568481445312,
+        "mean_drop": 2.772735595703125,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.47143033146858215
+      },
+      "BC": {
+        "mean_diff": 1.8328933715820312,
+        "mean_drop": 2.900299072265625,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.19114580750465393
+      },
+      "ABC": {
+        "mean_diff": 1.2012405395507812,
+        "mean_drop": 3.531951904296875,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.24348312616348267
+      }
+    },
+    "resample_abc": {
+      "A": {
+        "mean_diff": 2.9123992919921875,
+        "mean_drop": 1.8207931518554688,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.5866047143936157
+      },
+      "B": {
+        "mean_diff": 1.9780197143554688,
+        "mean_drop": 2.7551727294921875,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.20313486456871033
+      },
+      "C": {
+        "mean_diff": 2.7936019897460938,
+        "mean_drop": 1.9395904541015625,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.4314834475517273
+      },
+      "AB": {
+        "mean_diff": 1.034027099609375,
+        "mean_drop": 3.6991653442382812,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.21960990130901337
+      },
+      "AC": {
+        "mean_diff": 1.8622055053710938,
+        "mean_drop": 2.8709869384765625,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.4228014051914215
+      },
+      "BC": {
+        "mean_diff": 1.6742935180664062,
+        "mean_drop": 3.05889892578125,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.1564616560935974
+      },
+      "ABC": {
+        "mean_diff": 1.0709075927734375,
+        "mean_drop": 3.6622848510742188,
+        "positive_diff": 1,
+        "vocab_correct": 1,
+        "mean_p_io": 0.18990713357925415
+      }
+    }
+  },
+  "interactions": {
+    "zero": {
+      "rows": [
+        {
+          "id": 0,
+          "I_AB": -0.7379226684570312,
+          "I_AC": -0.5202293395996094,
+          "I_BC": -1.2498512268066406,
+          "conditional_C_after_AB": 0.01473236083984375,
+          "conditional_C_minus_single": -1.4121818542480469,
+          "triple_minus_singles": -2.150104522705078
+        }
+      ],
+      "means": {
+        "I_AB": -0.7379226684570312,
+        "I_AC": -0.5202293395996094,
+        "I_BC": -1.2498512268066406,
+        "conditional_C_after_AB": 0.01473236083984375,
+        "conditional_C_minus_single": -1.4121818542480469,
+        "triple_minus_singles": -2.150104522705078
+      }
+    },
+    "mean_abc": {
+      "rows": [
+        {
+          "id": 0,
+          "I_AB": -0.8255157470703125,
+          "I_AC": -0.8224105834960938,
+          "I_BC": -1.5797653198242188,
+          "conditional_C_after_AB": -0.1306610107421875,
+          "conditional_C_minus_single": -1.9242019653320312,
+          "triple_minus_singles": -2.7497177124023438
+        }
+      ],
+      "means": {
+        "I_AB": -0.8255157470703125,
+        "I_AC": -0.8224105834960938,
+        "I_BC": -1.5797653198242188,
+        "conditional_C_after_AB": -0.1306610107421875,
+        "conditional_C_minus_single": -1.9242019653320312,
+        "triple_minus_singles": -2.7497177124023438
+      }
+    },
+    "resample_abc": {
+      "rows": [
+        {
+          "id": 0,
+          "I_AB": -0.876800537109375,
+          "I_AC": -0.8893966674804688,
+          "I_BC": -1.6358642578125,
+          "conditional_C_after_AB": -0.0368804931640625,
+          "conditional_C_minus_single": -1.976470947265625,
+          "triple_minus_singles": -2.853271484375
+        }
+      ],
+      "means": {
+        "I_AB": -0.876800537109375,
+        "I_AC": -0.8893966674804688,
+        "I_BC": -1.6358642578125,
+        "conditional_C_after_AB": -0.0368804931640625,
+        "conditional_C_minus_single": -1.976470947265625,
+        "triple_minus_singles": -2.853271484375
+      }
+    }
+  }
+}

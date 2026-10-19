@@ -1,0 +1,10 @@
+{
+  "plan_sha256": "ddf1f5ec91a8d07da43eec13d4aae648602a79519e9fd9d1a7732c85b3e5a8b1",
+  "resources_sha256": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+  "mode": "smoke",
+  "sample_ids": [
+    0
+  ],
+  "cache_key": "61da12512b78dd324223f76408007cfd03a4833d63f25f6f728e1ae8b9093e2d",
+  "reuse_output_cache": false
+}
