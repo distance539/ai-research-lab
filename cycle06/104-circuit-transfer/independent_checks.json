@@ -1,0 +1,42 @@
+[
+  {
+    "command": [
+      "python3",
+      "audit.py",
+      "results"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"passed\",\n  \"rows\": 256,\n  \"conditions\": 1024,\n  \"records_sha256\": \"1b8376b53f241b1a79cc1772c580bc15ab789a580b83a93f6d53756cc79c2f59\",\n  \"summary_sha256\": \"c91c517a81300cdec25be44d5866368035e4f02c27c47197b0bb7ac595afe9a8\",\n  \"plan_sha256\": \"8bb3ba15f497f2a98397eeffe192feac6bcea431710fcb1a6f8c628770d0bc0e\",\n  \"groups\": {\n    \"old_old\": {\n      \"drop\": 2.3870686292648315,\n      \"gain\": 5.38742595911026,\n      \"clean\": 4.445986390113831\n    },\n    \"new_old\": {\n      \"drop\": 1.719987690448761,\n      \"gain\": 3.8337828516960144,\n      \"clean\": 2.9470658898353577\n    },\n    \"old_new\": {\n      \"drop\": 1.9473759531974792,\n      \"gain\": 4.2065741419792175,\n      \"clean\": 3.8774818778038025\n    },\n    \"new_new\": {\n      \"drop\": 1.3604338765144348,\n      \"gain\": 2.9967095255851746,\n      \"clean\": 2.479495942592621\n    }\n  },\n  \"limits\": \"Full-vocabulary argmax requires model replay; no human semantic annotation claimed.\"\n}\n",
+    "stderr": "",
+    "seconds": 0.05955808300000001,
+    "at": "2026-10-20T09:11:03.895689+08:00"
+  },
+  {
+    "command": [
+      "python3",
+      "test_checks.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"passed\": [\"wrong_diff\", \"wrong_group\", \"extra_corruption\", \"wrong_end\", \"missing_row\", \"self_patch_failed\", \"short_activation\"], \"count\": 7}\n",
+    "stderr": "",
+    "seconds": 0.405314959,
+    "at": "2026-10-20T09:11:04.301680+08:00"
+  },
+  {
+    "command": [
+      "python",
+      "replay.py",
+      "--cache",
+      "./cache",
+      "--results",
+      "results",
+      "--out",
+      "results/independent_model_replay.json"
+    ],
+    "exit_code": 0,
+    "stdout": "{\"status\": \"passed\", \"conditions\": 1024, \"max_candidate_logit_error\": 6.866455078125e-05, \"max_probability_error\": 8.672475814819336e-06, \"all_argmax_equal\": true, \"seconds\": 32.22402887500357, \"records_sha256\": \"1b8376b53f241b1a79cc1772c580bc15ab789a580b83a93f6d53756cc79c2f59\"}\n",
+    "stderr": "",
+    "seconds": 34.435448584,
+    "at": "2026-10-20T09:11:38.737748+08:00"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "upstream_commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+  "threads": 4,
+  "dtype": "float32",
+  "device": "cpu",
+  "attention": "eager",
+  "batch_size": 1,
+  "prepend_bos": false,
+  "max_tokens": 128,
+  "names": [
+    "Michael",
+    "Christopher",
+    "Jessica",
+    "Matthew",
+    "Ashley",
+    "Jennifer",
+    "Joshua",
+    "Amanda"
+  ],
+  "heldout_names": [
+    "Daniel",
+    "David",
+    "James",
+    "Robert",
+    "John",
+    "Joseph",
+    "Andrew",
+    "Ryan"
+  ],
+  "place": "store",
+  "object": "ring",
+  "heads": {
+    "A": [
+      8,
+      10
+    ],
+    "B": [
+      8,
+      6
+    ],
+    "C": [
+      9,
+      9
+    ]
+  },
+  "seed": 104,
+  "budget_seconds": 300,
+  "budget_rss_bytes": 4294967296,
+  "template_groups": {
+    "old": [
+      0,
+      1
+    ],
+    "new": [
+      2,
+      3
+    ]
+  },
+  "groups": [
+    "old_old",
+    "new_old",
+    "old_new",
+    "new_new"
+  ],
+  "smoke_ids": [
+    0
+  ],
+  "scope": "256 controlled synthetic IOI prompts; 64 per name/template cell; frozen ABC heads END-only joint zero ablation and s2-flip restoration",
+  "parent_commit": "f32e06972933a5af37f791d7927c34e75644a74c",
+  "inference": "no generation or training; no BOS/padding/truncation; official full logits",
+  "primary": "mean clean-minus-zero logit difference per cell",
+  "secondary": [
+    "clean IO-S and vocab top1",
+    "raw restoration gain",
+    "ratio of mean gains to mean clean-corrupt gaps"
+  ],
+  "no_reselection": true
+}

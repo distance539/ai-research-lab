@@ -1,0 +1,36 @@
+[
+  {
+    "file": "modeling_gpt2.py",
+    "repository": "https://github.com/huggingface/transformers",
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/gpt2/modeling_gpt2.py",
+    "sha256": "212442d35dccdae408abef8534a496bf45ae15c4579326eb1a2b1bdc4aa79395",
+    "license": "Apache-2.0",
+    "verified_at": "2026-10-20T09:10:30.711068+08:00",
+    "installed_bytes_equal": true
+  },
+  {
+    "file": "ioi_dataset.py",
+    "url": "https://raw.githubusercontent.com/redwoodresearch/Easy-Transformer/ea15315dd24481e9e2ac5c3ef335d82907a1dc34/easy_transformer/ioi_dataset.py",
+    "commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+    "sha256": "94a72de90e426382322fd690669024a0d2d4bd72a45ed9ce820a99ae9173d231",
+    "license": "MIT",
+    "verified_at": "2026-10-20T09:10:32.357347+08:00"
+  },
+  {
+    "file": "ioi_utils.py",
+    "url": "https://raw.githubusercontent.com/redwoodresearch/Easy-Transformer/ea15315dd24481e9e2ac5c3ef335d82907a1dc34/easy_transformer/ioi_utils.py",
+    "commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+    "sha256": "240b59125b4f36a6589411bd5ae20da742a161535764256db2ce6a645f1c1dba",
+    "license": "MIT",
+    "verified_at": "2026-10-20T09:10:33.184492+08:00"
+  },
+  {
+    "file": "ioi_circuit_extraction.py",
+    "commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+    "url": "https://raw.githubusercontent.com/redwoodresearch/Easy-Transformer/ea15315dd24481e9e2ac5c3ef335d82907a1dc34/easy_transformer/ioi_circuit_extraction.py",
+    "license": "MIT",
+    "sha256": "dee72c8bbc9b31b8f1a3b73da0a75473284ddee804d3d48751c76793e0791f42",
+    "verified_at": "2026-10-20T09:10:34.019287+08:00"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "prepare.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f32e06972933a5af37f791d7927c34e75644a74c/cycle06/103-ablation-baselines-compensation/prepare.py",
+    "sha256": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e"
+  },
+  {
+    "file": "resources.lock.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f32e06972933a5af37f791d7927c34e75644a74c/cycle06/103-ablation-baselines-compensation/resources.lock.json",
+    "sha256": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7"
+  },
+  {
+    "file": "parent_config.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f32e06972933a5af37f791d7927c34e75644a74c/cycle06/103-ablation-baselines-compensation/config.json",
+    "sha256": "ad90bbb1a90da12dc05f19dee718b6e176dad8cad2ea9d743276a6733b98bc40"
+  },
+  {
+    "file": "parent_summary.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/f32e06972933a5af37f791d7927c34e75644a74c/cycle06/103-ablation-baselines-compensation/results/summary.json",
+    "sha256": "d4dbbeb81221895fb00b53ac87c205d3a128a90d4a752f22528de14fc59f6630"
+  }
+]

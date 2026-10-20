@@ -1,0 +1,21 @@
+{
+  "frozen_at": "2026-10-20T09:09:04.638535+08:00",
+  "files": {
+    "config.json": "ffb10601df44fa5c11ee928a9dbb2523b9426877ab25c75aa65b19b296a21e02",
+    "samples.json": "af7e347dd9befbb6f1d90c2882bf3815a63503d3d4f28af4eb3999709aad1b1d",
+    "PROTOCOL.md": "313596b7130a08dec5199f153260e08f305f6739221345575824af0a226a8222",
+    "run.py": "836d8dd67d63c0501c6ebdddddb2c51a3d730d63998b0f626a0fc8991e367f34",
+    "analyze.py": "b54ac1a4d3009240dead114916129b5b298cdc166942ecdc183655f7070aa339",
+    "audit.py": "156d2c862a3e4f21529684c339b6a627fd9fa4ff860be2f7581a5b38ce4b8bc5",
+    "test_checks.py": "217baacd54765e2c1b2a076943d2b926a42326493d0be433bef32c435748e136",
+    "prepare.py": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e",
+    "rebuild_samples.py": "caceb91b91643e1af820dbf0ef3c0f75bff87715b6650944acbe83ecf6dfa254",
+    "resources.lock.json": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+    "requirements.txt": "9f56134d24b2b00df61826ea89345e4b7cb88d62a3f4c2e07a48849bfe1355c2",
+    "environment.lock.txt": "3393804f481168ffadbbf8609280ed652456d969f4e09d93358abec551b9615b",
+    "parent_config.json": "ad90bbb1a90da12dc05f19dee718b6e176dad8cad2ea9d743276a6733b98bc40",
+    "parent_summary.json": "d4dbbeb81221895fb00b53ac87c205d3a128a90d4a752f22528de14fc59f6630"
+  },
+  "heldout_inference_before_freeze": false,
+  "smoke_only_old_old_row0": true
+}
