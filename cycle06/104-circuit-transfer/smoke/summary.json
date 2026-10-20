@@ -1,0 +1,33 @@
+{
+  "groups": {
+    "old_old": {
+      "n": 1,
+      "mean_diff": {
+        "clean": 4.733180999755859,
+        "zero": 1.33270263671875,
+        "corrupt": -2.8982772827148438,
+        "restored": 1.7491340637207031
+      },
+      "drop": 3.4004783630371094,
+      "gain": 4.647411346435547,
+      "gap": 7.631458282470703,
+      "recovery": 0.6089807707015252,
+      "positive_counts": {
+        "clean": 1,
+        "zero": 1,
+        "corrupt": 0,
+        "restored": 1
+      },
+      "top1_counts": {
+        "clean": 1,
+        "zero": 1,
+        "corrupt": 0,
+        "restored": 1
+      },
+      "drop_nonpositive_ids": [],
+      "gain_nonpositive_ids": []
+    }
+  },
+  "contrasts": {},
+  "inference": "dependent controlled cells; no population CI; no head reselection"
+}
