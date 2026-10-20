@@ -1,0 +1,9 @@
+{
+  "elapsed_seconds_after_imports": 62.11315450002439,
+  "setup_seconds": 1.8332524580182508,
+  "peak_rss_bytes": 1466384384,
+  "projected_full_seconds": 62.11315450002439,
+  "rows": 256,
+  "target_conditions": 1024,
+  "control_forwards": 1280
+}

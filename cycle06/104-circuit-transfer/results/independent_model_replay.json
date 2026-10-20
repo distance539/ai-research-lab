@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "conditions": 1024,
+  "max_candidate_logit_error": 6.866455078125e-05,
+  "max_probability_error": 8.672475814819336e-06,
+  "all_argmax_equal": true,
+  "seconds": 32.22402887500357,
+  "records_sha256": "1b8376b53f241b1a79cc1772c580bc15ab789a580b83a93f6d53756cc79c2f59",
+  "failed_clean": [
+    {
+      "id": 136,
+      "group": "old_new",
+      "prompt": "Then, Jennifer and Ashley were working at the store. Jennifer decided to give a ring to",
+      "io": " Ashley",
+      "top1": " her",
+      "diff": 0.8465576171875
+    },
+    {
+      "id": 161,
+      "group": "old_new",
+      "prompt": "Then, Michael and Christopher were thinking about going to the store. Michael wanted to give a ring to",
+      "io": " Christopher",
+      "top1": " the",
+      "diff": 1.5443191528320312
+    },
+    {
+      "id": 162,
+      "group": "old_new",
+      "prompt": "Then, Jessica and Christopher were thinking about going to the store. Jessica wanted to give a ring to",
+      "io": " Christopher",
+      "top1": " the",
+      "diff": 2.6581649780273438
+    },
+    {
+      "id": 165,
+      "group": "old_new",
+      "prompt": "Then, Jessica and Matthew were thinking about going to the store. Jessica wanted to give a ring to",
+      "io": " Matthew",
+      "top1": " the",
+      "diff": 2.9320297241210938
+    },
+    {
+      "id": 167,
+      "group": "old_new",
+      "prompt": "Then, Matthew and Ashley were thinking about going to the store. Matthew wanted to give a ring to",
+      "io": " Ashley",
+      "top1": " the",
+      "diff": 2.7538070678710938
+    },
+    {
+      "id": 168,
+      "group": "old_new",
+      "prompt": "Then, Jennifer and Ashley were thinking about going to the store. Jennifer wanted to give a ring to",
+      "io": " Ashley",
+      "top1": " her",
+      "diff": 0.7697296142578125
+    },
+    {
+      "id": 169,
+      "group": "old_new",
+      "prompt": "Then, Ashley and Jennifer were thinking about going to the store. Ashley wanted to give a ring to",
+      "io": " Jennifer",
+      "top1": " her",
+      "diff": 2.7224807739257812
+    },
+    {
+      "id": 177,
+      "group": "old_new",
+      "prompt": "Then, Christopher and Michael were thinking about going to the store. Michael wanted to give a ring to",
+      "io": " Christopher",
+      "top1": " the",
+      "diff": 1.4121017456054688
+    },
+    {
+      "id": 193,
+      "group": "new_new",
+      "prompt": "Then, Daniel and David were working at the store. Daniel decided to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 0.6339187622070312
+    },
+    {
+      "id": 194,
+      "group": "new_new",
+      "prompt": "Then, James and David were working at the store. James decided to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 0.87457275390625
+    },
+    {
+      "id": 210,
+      "group": "new_new",
+      "prompt": "Then, David and James were working at the store. James decided to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 0.17942047119140625
+    },
+    {
+      "id": 224,
+      "group": "new_new",
+      "prompt": "Then, David and Daniel were thinking about going to the store. David wanted to give a ring to",
+      "io": " Daniel",
+      "top1": " the",
+      "diff": 1.6546554565429688
+    },
+    {
+      "id": 225,
+      "group": "new_new",
+      "prompt": "Then, Daniel and David were thinking about going to the store. Daniel wanted to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 0.47985076904296875
+    },
+    {
+      "id": 226,
+      "group": "new_new",
+      "prompt": "Then, James and David were thinking about going to the store. James wanted to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 0.68865966796875
+    },
+    {
+      "id": 236,
+      "group": "new_new",
+      "prompt": "Then, Ryan and Andrew were thinking about going to the store. Ryan wanted to give a ring to",
+      "io": " Andrew",
+      "top1": " the",
+      "diff": 1.5654067993164062
+    },
+    {
+      "id": 239,
+      "group": "new_new",
+      "prompt": "Then, Ryan and Daniel were thinking about going to the store. Ryan wanted to give a ring to",
+      "io": " Daniel",
+      "top1": " the",
+      "diff": 1.7273178100585938
+    },
+    {
+      "id": 241,
+      "group": "new_new",
+      "prompt": "Then, David and Daniel were thinking about going to the store. Daniel wanted to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": 1.2235488891601562
+    },
+    {
+      "id": 242,
+      "group": "new_new",
+      "prompt": "Then, David and James were thinking about going to the store. James wanted to give a ring to",
+      "io": " David",
+      "top1": " the",
+      "diff": -0.44037628173828125
+    },
+    {
+      "id": 252,
+      "group": "new_new",
+      "prompt": "Then, Andrew and Ryan were thinking about going to the store. Ryan wanted to give a ring to",
+      "io": " Andrew",
+      "top1": " the",
+      "diff": 2.7535171508789062
+    }
+  ]
+}

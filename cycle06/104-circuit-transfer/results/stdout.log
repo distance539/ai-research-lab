@@ -1,0 +1,25 @@
+old_old 16 rows 4.578126290929504
+old_old 32 rows 7.645806915941648
+old_old 48 rows 11.687710165977478
+old_old 64 rows 15.444497999968007
+new_old 80 rows 18.241160165984184
+new_old 96 rows 21.019622790976427
+new_old 112 rows 25.365661000018008
+new_old 128 rows 29.433218249934725
+old_new 144 rows 33.55554858292453
+old_new 160 rows 37.81162375002168
+old_new 176 rows 41.924455332919024
+old_new 192 rows 45.90869183302857
+new_new 208 rows 49.858025791007094
+new_new 224 rows 53.95823474996723
+new_new 240 rows 58.1003714579856
+new_new 256 rows 62.07577491598204
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"elapsed_seconds_after_imports": 62.11315450002439, "setup_seconds": 1.8332524580182508, "peak_rss_bytes": 1466384384, "projected_full_seconds": 62.11315450002439, "rows": 256, "target_conditions": 1024, "control_forwards": 1280}

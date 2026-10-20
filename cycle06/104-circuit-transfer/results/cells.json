@@ -1,0 +1,194 @@
+[
+  {
+    "group": "new_new",
+    "template_index": 2,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 15,
+    "drop": 1.0483765602111816,
+    "gain": 3.4608712196350098,
+    "tokens": [
+      18
+    ]
+  },
+  {
+    "group": "new_new",
+    "template_index": 2,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 14,
+    "drop": 1.976449966430664,
+    "gain": 3.235896110534668,
+    "tokens": [
+      18
+    ]
+  },
+  {
+    "group": "new_new",
+    "template_index": 3,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 13,
+    "drop": 1.03910493850708,
+    "gain": 2.6690475940704346,
+    "tokens": [
+      20
+    ]
+  },
+  {
+    "group": "new_new",
+    "template_index": 3,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 11,
+    "drop": 1.3778040409088135,
+    "gain": 2.621023178100586,
+    "tokens": [
+      20
+    ]
+  },
+  {
+    "group": "new_old",
+    "template_index": 0,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 1.02933669090271,
+    "gain": 3.9915883541107178,
+    "tokens": [
+      15
+    ]
+  },
+  {
+    "group": "new_old",
+    "template_index": 0,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 2.368687868118286,
+    "gain": 3.456376314163208,
+    "tokens": [
+      15
+    ]
+  },
+  {
+    "group": "new_old",
+    "template_index": 1,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 1.0311298370361328,
+    "gain": 4.191702127456665,
+    "tokens": [
+      19
+    ]
+  },
+  {
+    "group": "new_old",
+    "template_index": 1,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 2.450796365737915,
+    "gain": 3.695464611053467,
+    "tokens": [
+      19
+    ]
+  },
+  {
+    "group": "old_new",
+    "template_index": 2,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 1.7898736000061035,
+    "gain": 4.961679697036743,
+    "tokens": [
+      18
+    ]
+  },
+  {
+    "group": "old_new",
+    "template_index": 2,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 15,
+    "drop": 2.578016996383667,
+    "gain": 4.583629608154297,
+    "tokens": [
+      18
+    ]
+  },
+  {
+    "group": "old_new",
+    "template_index": 3,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 15,
+    "drop": 1.7084927558898926,
+    "gain": 3.7316322326660156,
+    "tokens": [
+      20
+    ]
+  },
+  {
+    "group": "old_new",
+    "template_index": 3,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 10,
+    "drop": 1.713120460510254,
+    "gain": 3.5493550300598145,
+    "tokens": [
+      20
+    ]
+  },
+  {
+    "group": "old_old",
+    "template_index": 0,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 1.8323869705200195,
+    "gain": 5.991871356964111,
+    "tokens": [
+      15
+    ]
+  },
+  {
+    "group": "old_old",
+    "template_index": 0,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 3.0939509868621826,
+    "gain": 5.190068244934082,
+    "tokens": [
+      15
+    ]
+  },
+  {
+    "group": "old_old",
+    "template_index": 1,
+    "order": "ABBA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 1.7101058959960938,
+    "gain": 5.550547361373901,
+    "tokens": [
+      19
+    ]
+  },
+  {
+    "group": "old_old",
+    "template_index": 1,
+    "order": "BABA",
+    "n": 16,
+    "clean_top1": 16,
+    "drop": 2.9118306636810303,
+    "gain": 4.817216873168945,
+    "tokens": [
+      19
+    ]
+  }
+]
