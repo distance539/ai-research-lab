@@ -1,0 +1,134 @@
+{
+  "groups": {
+    "old_old": {
+      "n": 64,
+      "mean_diff": {
+        "clean": 4.445986390113831,
+        "zero": 2.058917760848999,
+        "corrupt": -4.445986390113831,
+        "restored": 0.9414395689964294
+      },
+      "drop": 2.3870686292648315,
+      "gain": 5.38742595911026,
+      "gap": 8.891972780227661,
+      "recovery": 0.6058752193989876,
+      "positive_counts": {
+        "clean": 64,
+        "zero": 60,
+        "corrupt": 0,
+        "restored": 48
+      },
+      "top1_counts": {
+        "clean": 64,
+        "zero": 56,
+        "corrupt": 0,
+        "restored": 46
+      },
+      "drop_nonpositive_ids": [],
+      "gain_nonpositive_ids": []
+    },
+    "new_old": {
+      "n": 64,
+      "mean_diff": {
+        "clean": 2.9470658898353577,
+        "zero": 1.2270781993865967,
+        "corrupt": -2.9470658898353577,
+        "restored": 0.8867169618606567
+      },
+      "drop": 1.719987690448761,
+      "gain": 3.8337828516960144,
+      "gap": 5.894131779670715,
+      "recovery": 0.6504406407944606,
+      "positive_counts": {
+        "clean": 64,
+        "zero": 53,
+        "corrupt": 0,
+        "restored": 48
+      },
+      "top1_counts": {
+        "clean": 64,
+        "zero": 43,
+        "corrupt": 0,
+        "restored": 47
+      },
+      "drop_nonpositive_ids": [],
+      "gain_nonpositive_ids": []
+    },
+    "old_new": {
+      "n": 64,
+      "mean_diff": {
+        "clean": 3.8774818778038025,
+        "zero": 1.9301059246063232,
+        "corrupt": -3.8774818778038025,
+        "restored": 0.32909226417541504
+      },
+      "drop": 1.9473759531974792,
+      "gain": 4.2065741419792175,
+      "gap": 7.754963755607605,
+      "recovery": 0.5424363381372929,
+      "positive_counts": {
+        "clean": 64,
+        "zero": 61,
+        "corrupt": 0,
+        "restored": 40
+      },
+      "top1_counts": {
+        "clean": 56,
+        "zero": 38,
+        "corrupt": 0,
+        "restored": 23
+      },
+      "drop_nonpositive_ids": [],
+      "gain_nonpositive_ids": []
+    },
+    "new_new": {
+      "n": 64,
+      "mean_diff": {
+        "clean": 2.479495942592621,
+        "zero": 1.119062066078186,
+        "corrupt": -2.479495942592621,
+        "restored": 0.5172135829925537
+      },
+      "drop": 1.3604338765144348,
+      "gain": 2.9967095255851746,
+      "gap": 4.958991885185242,
+      "recovery": 0.6042981305409483,
+      "positive_counts": {
+        "clean": 63,
+        "zero": 55,
+        "corrupt": 1,
+        "restored": 45
+      },
+      "top1_counts": {
+        "clean": 53,
+        "zero": 18,
+        "corrupt": 0,
+        "restored": 26
+      },
+      "drop_nonpositive_ids": [],
+      "gain_nonpositive_ids": []
+    }
+  },
+  "contrasts": {
+    "new_old": {
+      "drop": -0.6670809388160706,
+      "gain": -1.5536431074142456,
+      "clean_diff": -1.498920500278473
+    },
+    "old_new": {
+      "drop": -0.4396926760673523,
+      "gain": -1.1808518171310425,
+      "clean_diff": -0.5685045123100281
+    },
+    "new_new": {
+      "drop": -1.0266347527503967,
+      "gain": -2.3907164335250854,
+      "clean_diff": -1.9664904475212097
+    },
+    "factor_interaction": {
+      "drop": 0.08013886213302612,
+      "gain": 0.34377849102020264
+    }
+  },
+  "inference": "dependent controlled cells; no population CI; no head reselection"
+}

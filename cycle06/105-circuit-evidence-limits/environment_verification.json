@@ -1,0 +1,131 @@
+{
+  "verified_at": "2026-10-21T09:11:07.822657+08:00",
+  "status": "passed",
+  "packages": [
+    {
+      "package": "Jinja2",
+      "expected": "3.1.6",
+      "actual": "3.1.6"
+    },
+    {
+      "package": "MarkupSafe",
+      "expected": "3.0.4",
+      "actual": "3.0.4"
+    },
+    {
+      "package": "PyYAML",
+      "expected": "6.0.3",
+      "actual": "6.0.3"
+    },
+    {
+      "package": "certifi",
+      "expected": "2026.10.18",
+      "actual": "2026.10.18"
+    },
+    {
+      "package": "charset-normalizer",
+      "expected": "3.5.2",
+      "actual": "3.5.2"
+    },
+    {
+      "package": "filelock",
+      "expected": "4.2.3",
+      "actual": "4.2.3"
+    },
+    {
+      "package": "fsspec",
+      "expected": "2026.9.0",
+      "actual": "2026.9.0"
+    },
+    {
+      "package": "hf-xet",
+      "expected": "1.7.0",
+      "actual": "1.7.0"
+    },
+    {
+      "package": "huggingface_hub",
+      "expected": "0.36.2",
+      "actual": "0.36.2"
+    },
+    {
+      "package": "idna",
+      "expected": "3.20",
+      "actual": "3.20"
+    },
+    {
+      "package": "mpmath",
+      "expected": "1.3.0",
+      "actual": "1.3.0"
+    },
+    {
+      "package": "networkx",
+      "expected": "3.7",
+      "actual": "3.7"
+    },
+    {
+      "package": "numpy",
+      "expected": "1.26.4",
+      "actual": "1.26.4"
+    },
+    {
+      "package": "packaging",
+      "expected": "26.3",
+      "actual": "26.3"
+    },
+    {
+      "package": "regex",
+      "expected": "2026.9.29",
+      "actual": "2026.9.29"
+    },
+    {
+      "package": "requests",
+      "expected": "2.34.2",
+      "actual": "2.34.2"
+    },
+    {
+      "package": "safetensors",
+      "expected": "0.8.0",
+      "actual": "0.8.0"
+    },
+    {
+      "package": "setuptools",
+      "expected": "84.0.0",
+      "actual": "84.0.0"
+    },
+    {
+      "package": "sympy",
+      "expected": "1.13.1",
+      "actual": "1.13.1"
+    },
+    {
+      "package": "tokenizers",
+      "expected": "0.21.4",
+      "actual": "0.21.4"
+    },
+    {
+      "package": "torch",
+      "expected": "2.6.0",
+      "actual": "2.6.0"
+    },
+    {
+      "package": "tqdm",
+      "expected": "4.70.1",
+      "actual": "4.70.1"
+    },
+    {
+      "package": "transformers",
+      "expected": "4.49.0",
+      "actual": "4.49.0"
+    },
+    {
+      "package": "typing_extensions",
+      "expected": "4.16.0",
+      "actual": "4.16.0"
+    },
+    {
+      "package": "urllib3",
+      "expected": "2.8.0",
+      "actual": "2.8.0"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "model": "openai-community/gpt2",
+  "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "upstream_commit": "ea15315dd24481e9e2ac5c3ef335d82907a1dc34",
+  "threads": 4,
+  "dtype": "float32",
+  "device": "cpu",
+  "attention": "eager",
+  "batch_size": 1,
+  "prepend_bos": false,
+  "max_tokens": 128,
+  "names": [
+    "Michael",
+    "Christopher",
+    "Jessica",
+    "Matthew",
+    "Ashley",
+    "Jennifer",
+    "Joshua",
+    "Amanda"
+  ],
+  "heldout_names": [
+    "Daniel",
+    "David",
+    "James",
+    "Robert",
+    "John",
+    "Joseph",
+    "Andrew",
+    "Ryan"
+  ],
+  "place": "store",
+  "object": "ring",
+  "heads": {
+    "A": [
+      8,
+      10
+    ],
+    "B": [
+      8,
+      6
+    ],
+    "C": [
+      9,
+      9
+    ]
+  },
+  "seed": 105,
+  "budget_seconds": 900,
+  "budget_rss_bytes": 4294967296,
+  "template_groups": {
+    "old": [
+      0,
+      1
+    ],
+    "new": [
+      2,
+      3
+    ]
+  },
+  "groups": [
+    "old_old",
+    "new_old",
+    "old_new",
+    "new_new"
+  ],
+  "smoke_ids": [
+    0
+  ],
+  "scope": "256 already-observed synthetic IOI prompts; 144 END nodes only; retain frozen ABC and remove each of its eight subsets; all other nodes retained",
+  "parent_commit": "c22a61b35fd75eae8c753be427f3f2c89117efbb",
+  "inference": "official complete logits; no training/generation; no new heldout data",
+  "primary": "absolute gap of group mean IO-S logits between full and retained-END model; mean absolute per-row residual",
+  "secondary": [
+    "incompleteness gap for all eight K subsets",
+    "vocabulary top1 and sign changes",
+    "worst per-row residual by absolute value then id"
+  ],
+  "no_reselection": true,
+  "modes": [
+    "zero",
+    "mean_abc"
+  ],
+  "subsets": [
+    "",
+    "A",
+    "B",
+    "C",
+    "AB",
+    "AC",
+    "BC",
+    "ABC"
+  ],
+  "reference_names": [
+    "Michael",
+    "Christopher",
+    "Jessica"
+  ]
+}

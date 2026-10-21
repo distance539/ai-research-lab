@@ -1,0 +1,12 @@
+{
+  "frozen_at": "2026-10-21T09:02:29.557661+08:00",
+  "files": {
+    "config.json": "ecfb591f7ff5cb9a05256bd53b050a778a817e98cc332a029d2b0a4e46e6735d",
+    "samples.json": "af7e347dd9befbb6f1d90c2882bf3815a63503d3d4f28af4eb3999709aad1b1d",
+    "resources.lock.json": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7",
+    "run.py": "fcc18b0aea21b1b583727cbc57f1eb55abeb2a6a6a32808fcfbc36e199107751",
+    "analyze.py": "852bd2ef1b5654d77f11d05b85fc102aed26697a5b6ca8dca1e275193a61cd94",
+    "prepare.py": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e",
+    "PROTOCOL.md": "c6d70584d94d53c371f345348eaf2d10b8a56bda9ca5da1ecc0441d36c9101a6"
+  }
+}

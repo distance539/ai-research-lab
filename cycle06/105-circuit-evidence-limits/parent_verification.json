@@ -1,0 +1,22 @@
+[
+  {
+    "file": "prepare.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/c22a61b35fd75eae8c753be427f3f2c89117efbb/cycle06/104-circuit-transfer/prepare.py",
+    "sha256": "4a10606400bc784f2c5925773982a7f1bb9a639ed6756fbc8bfbcbd5a041aa1e"
+  },
+  {
+    "file": "resources.lock.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/c22a61b35fd75eae8c753be427f3f2c89117efbb/cycle06/104-circuit-transfer/resources.lock.json",
+    "sha256": "6eccb4c3340410ca95922b675c2a679e741ede8ebb3baf16ed6a13572b6302f7"
+  },
+  {
+    "file": "parent_config.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/c22a61b35fd75eae8c753be427f3f2c89117efbb/cycle06/104-circuit-transfer/config.json",
+    "sha256": "ffb10601df44fa5c11ee928a9dbb2523b9426877ab25c75aa65b19b296a21e02"
+  },
+  {
+    "file": "parent_summary.json",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/c22a61b35fd75eae8c753be427f3f2c89117efbb/cycle06/104-circuit-transfer/results/summary.json",
+    "sha256": "c91c517a81300cdec25be44d5866368035e4f02c27c47197b0bb7ac595afe9a8"
+  }
+]
