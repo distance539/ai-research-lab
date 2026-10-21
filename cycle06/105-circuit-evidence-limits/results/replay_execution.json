@@ -1,0 +1,16 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "replay.py",
+    "--cache",
+    "./cache",
+    "--results",
+    "results",
+    "--out",
+    "results/independent_model_replay.json"
+  ],
+  "started_at": "2026-10-21T09:07:47.311231+08:00",
+  "exit_code": 0,
+  "wall_seconds": 213.159927084
+}

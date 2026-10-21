@@ -1,0 +1,9 @@
+replayed 32
+replayed 64
+replayed 96
+replayed 128
+replayed 160
+replayed 192
+replayed 224
+replayed 256
+{"status": "passed", "conditions": 7936, "all_argmax_equal": true, "max_candidate_logit_error": 0.00018310546875, "max_probability_error": 8.821487426757812e-06, "max_float64_mean_error": 4.76837158203125e-07, "seconds": 210.56989637506194, "inputs": {"records.json": "29bfc8f052ba62f9baf827357e685eb701c00509b8d840d85eba514702aabefa", "means.json": "cb0d188e5ce96b714d3cf0b3da9f86f2717e789c9b643e596d583cdf9e0c6308", "references.json": "67885d63d44a04a08809c16fd713817951069ff566172920482a7e3e10cb743e"}}
