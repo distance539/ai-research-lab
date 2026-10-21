@@ -1,0 +1,10 @@
+{
+  "elapsed_seconds_after_imports": 4.182867165887728,
+  "setup_seconds": 3.444742790888995,
+  "peak_rss_bytes": 1466449920,
+  "projected_full_seconds": 192.40458279056475,
+  "rows": 1,
+  "unique_scored_forwards": 31,
+  "control_forwards": 4,
+  "reference_forwards": 24
+}

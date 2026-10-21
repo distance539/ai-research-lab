@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "rows": 1,
+  "saved_score_cells": 33,
+  "unique_scored_forwards": 31,
+  "inputs": {
+    "records.json": "aa0cecb1f68ee7b6a64a76bbb1a11cab0fb50bfb7625da0e01fc83ee81efd8d3",
+    "summary.json": "37165e565aaaf4240a57657408f6d5f80a58d71ab32d4b6c0a0d3c8ddeb8c3ff",
+    "means.json": "cb0d188e5ce96b714d3cf0b3da9f86f2717e789c9b643e596d583cdf9e0c6308",
+    "references.json": "67885d63d44a04a08809c16fd713817951069ff566172920482a7e3e10cb743e",
+    "identity.json": "1d10ec307f7ed3aee93a44745f21572b9a240346ae71ea3d77037ec0cb3e520e",
+    "runtime.json": "c5d8b3e2a947b178e235de75c15dacc58ebf7879cb2582708684f938d6b439aa"
+  },
+  "checks": [
+    "input identity",
+    "every logit subtraction",
+    "eight subset keys",
+    "all group means/MAE/counts",
+    "exhaustive gap maximum",
+    "counterexample selection",
+    "reference structure",
+    "controls/budget counts"
+  ],
+  "model_argmax_note": "arithmetic cannot prove unsaved-vocabulary argmax; replay.py independently executes model"
+}

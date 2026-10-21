@@ -1,0 +1,698 @@
+[
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      12803,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      17352,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Christopher went to the store. Jessica gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      17352,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Jessica went to the store. Christopher gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      17352,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Michael went to the store. Jessica gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      17352,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Jessica went to the store. Michael gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      3899,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Michael went to the store. Christopher gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 0,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      12803,
+      1816,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Christopher went to the store. Michael gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      10
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      12803,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      17352,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Christopher had a lot of fun at the store. Jessica gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      17352,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Jessica had a lot of fun at the store. Christopher gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      17352,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Michael had a lot of fun at the store. Jessica gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      17352,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Jessica had a lot of fun at the store. Michael gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      3899,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      12803,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Michael had a lot of fun at the store. Christopher gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 1,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      12803,
+      550,
+      257,
+      1256,
+      286,
+      1257,
+      379,
+      262,
+      3650,
+      13,
+      3899,
+      2921,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Christopher had a lot of fun at the store. Michael gave a ring to",
+    "name_positions": [
+      2,
+      4,
+      14
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      12803,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      17352,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Christopher were working at the store. Jessica decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      17352,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      12803,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Jessica were working at the store. Christopher decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      17352,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Michael were working at the store. Jessica decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      17352,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      3899,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Jessica were working at the store. Michael decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      3899,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      12803,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Michael were working at the store. Christopher decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 2,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      12803,
+      547,
+      1762,
+      379,
+      262,
+      3650,
+      13,
+      3899,
+      3066,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Christopher were working at the store. Michael decided to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      11
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      12803,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      17352,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Christopher were thinking about going to the store. Jessica wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      3899,
+      290,
+      17352,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Michael and Jessica were thinking about going to the store. Christopher wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      3899,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      17352,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Michael were thinking about going to the store. Jessica wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      12803,
+      290,
+      17352,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Christopher and Jessica were thinking about going to the store. Michael wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      3899,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      12803,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Michael were thinking about going to the store. Christopher wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  },
+  {
+    "template_index": 3,
+    "ids": [
+      6423,
+      11,
+      17352,
+      290,
+      12803,
+      547,
+      3612,
+      546,
+      1016,
+      284,
+      262,
+      3650,
+      13,
+      3899,
+      2227,
+      284,
+      1577,
+      257,
+      5858,
+      284
+    ],
+    "prompt": "Then, Jessica and Christopher were thinking about going to the store. Michael wanted to give a ring to",
+    "name_positions": [
+      2,
+      4,
+      13
+    ]
+  }
+]
