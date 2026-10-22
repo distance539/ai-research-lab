@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "tests": [
+    {
+      "case": "category",
+      "rejected": true
+    },
+    {
+      "case": "delta",
+      "rejected": true
+    },
+    {
+      "case": "truncation",
+      "rejected": true
+    },
+    {
+      "case": "duplicate_query",
+      "rejected": true
+    },
+    {
+      "case": "denominator",
+      "rejected": true
+    },
+    {
+      "case": "input_identity",
+      "rejected": true
+    },
+    {
+      "case": "registry_identity",
+      "rejected": true
+    },
+    {
+      "case": "confirmation_claim",
+      "rejected": true
+    }
+  ]
+}

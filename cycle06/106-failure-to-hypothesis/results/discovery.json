@@ -1,0 +1,42 @@
+{
+  "categories": {
+    "candidate_absent": 9,
+    "top10_miss": 8,
+    "hit_regression": 16,
+    "hit_gain": 20,
+    "hit_tie": 47
+  },
+  "queries": 100,
+  "eligible_queries": 91,
+  "truncation_association": [
+    {
+      "any_relevant_truncated": false,
+      "queries": 75,
+      "regressions": 17,
+      "regression_fraction": 0.22666666666666666,
+      "mean_delta": -0.007360749913233186
+    },
+    {
+      "any_relevant_truncated": true,
+      "queries": 16,
+      "regressions": 1,
+      "regression_fraction": 0.0625,
+      "mean_delta": 0.023418902319472325
+    }
+  ],
+  "not_causal": true,
+  "no_human_semantic_labels": true,
+  "regressions": 18,
+  "prior_logit_max_error": 0.0,
+  "prior_rank_equal": true,
+  "examples_rule": "one per nonempty class: smallest SHA256(106:query_id); illustrative, not population sample",
+  "inputs": {
+    "runs.json": "64ebf55c62cda5493f148c373393d3a720e57f9bfa8e8cb452250ac2ea42d044",
+    "per_query.json": "4273e4eee0a370cdd712ec259b2997ca44ce1c793193315cbd2fe028d2aef87d",
+    "pair_scores.csv": "ef4e609b6a720abf0882f698f9e14318f01d751219e298d3c8122e79cb0da07f"
+  },
+  "protocol_sha256": "5c4e81dc31cddbcd2c61a983733df587e5531047748961d8aa1934eedd451aee",
+  "registry_sha256": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+  "future_tests_executed": false,
+  "confirmation_queries_evaluated": 0
+}

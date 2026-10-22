@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "queries": 100,
+  "score_rows": 5000,
+  "independent_categories": {
+    "candidate_absent": 9,
+    "top10_miss": 8,
+    "hit_regression": 16,
+    "hit_gain": 20,
+    "hit_tie": 47
+  },
+  "input_sha256": {
+    "runs.json": "64ebf55c62cda5493f148c373393d3a720e57f9bfa8e8cb452250ac2ea42d044",
+    "per_query.json": "4273e4eee0a370cdd712ec259b2997ca44ce1c793193315cbd2fe028d2aef87d",
+    "pair_scores.csv": "ef4e609b6a720abf0882f698f9e14318f01d751219e298d3c8122e79cb0da07f"
+  },
+  "script_sha256": "c70be96fedb04c9f2efe16dc7b63a90ae80af6b6afc19b40ec132d2c76569225"
+}
