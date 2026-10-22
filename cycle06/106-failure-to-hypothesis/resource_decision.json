@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-22T09:10:30.847276+08:00",
+  "smoke_exit": 0,
+  "smoke_pairs": 50,
+  "inference_seconds": 1.2835283749736845,
+  "estimate_5000_pairs_seconds": 128.35283749736845,
+  "peak_rss_bytes": 801505280,
+  "budget_seconds": 900,
+  "budget_peak_rss": 4294967296,
+  "proceed": true
+}

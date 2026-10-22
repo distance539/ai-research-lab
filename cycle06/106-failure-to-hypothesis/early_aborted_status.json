@@ -1,0 +1,14 @@
+{
+  "command": [
+    "python",
+    "run.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "smoke"
+  ],
+  "exit_code": null,
+  "stages": {},
+  "smoke": false,
+  "elapsed_seconds": 6.688534333137795
+}

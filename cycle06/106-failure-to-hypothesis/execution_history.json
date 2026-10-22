@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-22T09:16:35.964880+08:00",
+  "runs": [
+    {
+      "command": "python run.py --cache <verified-cache> --out smoke",
+      "exit_code": 130,
+      "stage": "dependency import; no inference",
+      "record": "early_aborted_status.json",
+      "log": "early_aborted.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out smoke --smoke",
+      "exit_code": 0,
+      "record": "smoke/status.json",
+      "log": "smoke.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out results",
+      "exit_code": 0,
+      "record": "results/status.json",
+      "log": "development.log"
+    }
+  ],
+  "environment_repair": "Pinned numerical dependencies before inference; no scientific experiment selected by scores."
+}

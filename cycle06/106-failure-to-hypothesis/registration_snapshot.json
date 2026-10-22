@@ -1,0 +1,14 @@
+{
+  "registered_at": "2026-10-22T09:07:37.429061+08:00",
+  "files": {
+    "config.json": "0640b1646a449004bc086a13ce8623b4c5cb81a02d54c300169bce5fee1ca067",
+    "PROTOCOL.md": "5c4e81dc31cddbcd2c61a983733df587e5531047748961d8aa1934eedd451aee",
+    "research_registry.json": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+    "run.py": "08bb275ab506b72e39d57aa52a983ccaba91aaf1277aec1c277a7dea89c5d17a",
+    "discover.py": "b39a575a2f91b565f9ef773937dfea074824d2aa5b8ba33354ee3af7a35f3fc5",
+    "check_discovery.py": "c70be96fedb04c9f2efe16dc7b63a90ae80af6b6afc19b40ec132d2c76569225",
+    "input.lock.json": "31b86e6d07e0a77be0de6b938841c5f19e2320c5724d10906048dcd1abeb698c",
+    "model.lock.json": "a860140516105d4335eee16fd17bb933527b6e53075a39638fd8671c200c7fe4",
+    "resources.lock.json": "4036dbd9115444f1be27b7883d9a825606d5a8205eb9768d8c4c098d87e70454"
+  }
+}

@@ -1,0 +1,1 @@
+[{'case': 'category', 'rejected': True}, {'case': 'delta', 'rejected': True}, {'case': 'truncation', 'rejected': True}, {'case': 'duplicate_query', 'rejected': True}, {'case': 'denominator', 'rejected': True}, {'case': 'input_identity', 'rejected': True}, {'case': 'registry_identity', 'rejected': True}, {'case': 'confirmation_claim', 'rejected': True}]
