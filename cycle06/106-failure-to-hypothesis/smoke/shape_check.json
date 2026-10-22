@@ -1,0 +1,20 @@
+{
+  "input_ids": [
+    2,
+    512
+  ],
+  "last_hidden": [
+    2,
+    512,
+    384
+  ],
+  "logits": [
+    2,
+    1
+  ],
+  "predict": [
+    2
+  ],
+  "manual_logit_max_error": 0.0,
+  "training": false
+}
