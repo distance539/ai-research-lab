@@ -1,0 +1,34 @@
+{
+  "command": "python run.py --cache <verified-cache> --out smoke --smoke",
+  "exit_code": 0,
+  "stages": {
+    "download": {
+      "status": "passed",
+      "mode": "existing hash-verified cache; no confirmation qrels read"
+    },
+    "preprocessing": {
+      "status": "passed",
+      "queries": 4,
+      "pairs_per_condition": 8
+    },
+    "inference": {
+      "status": "passed",
+      "pairs": 32,
+      "seconds": 0.6675199142191559,
+      "conditions_seconds_with_token_audit": {
+        "original": 0.3166975409258157,
+        "identity": 0.1782843330875039,
+        "front": 0.1770715001039207,
+        "tail": 0.1807097909040749
+      }
+    },
+    "evaluation": {
+      "status": "passed",
+      "engine": "pytrec_eval-terrier0.5.10",
+      "label_status": "original qrels provisionally reused, no human approval asserted"
+    }
+  },
+  "semantic_review": "pending",
+  "smoke": true,
+  "elapsed_seconds": 3.782162332907319
+}
