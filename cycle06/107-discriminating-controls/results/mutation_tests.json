@@ -1,0 +1,30 @@
+[
+  {
+    "mutation": "score",
+    "rejected": true
+  },
+  {
+    "mutation": "candidate",
+    "rejected": true
+  },
+  {
+    "mutation": "identity",
+    "rejected": true
+  },
+  {
+    "mutation": "delta",
+    "rejected": true
+  },
+  {
+    "mutation": "token",
+    "rejected": true
+  },
+  {
+    "mutation": "confirmation",
+    "rejected": true
+  },
+  {
+    "mutation": "false_review",
+    "rejected": true
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "query_id": "454",
+    "doc_id": "4200695",
+    "group": "long",
+    "ndcg": {
+      "original": 1.0,
+      "identity": 1.0,
+      "front": 1.0,
+      "tail": 1.0
+    },
+    "rank": {
+      "original": 1,
+      "identity": 1,
+      "front": 1,
+      "tail": 1
+    },
+    "target_score": {
+      "original": 4.4600372314453125,
+      "identity": 4.4600372314453125,
+      "front": 3.624907970428467,
+      "tail": 4.326905250549316
+    },
+    "front_minus_tail": 0.0
+  },
+  {
+    "query_id": "30",
+    "doc_id": "24341590",
+    "group": "long",
+    "ndcg": {
+      "original": 1.0,
+      "identity": 1.0,
+      "front": 0.6309297535714575,
+      "tail": 1.0
+    },
+    "rank": {
+      "original": 1,
+      "identity": 1,
+      "front": 2,
+      "tail": 1
+    },
+    "target_score": {
+      "original": 4.870254993438721,
+      "identity": 4.870254993438721,
+      "front": 3.9222309589385986,
+      "tail": 4.870254993438721
+    },
+    "front_minus_tail": -0.36907024642854247
+  },
+  {
+    "query_id": "280",
+    "doc_id": "25001628",
+    "group": "short",
+    "ndcg": {
+      "original": 1.0,
+      "identity": 1.0,
+      "front": 1.0,
+      "tail": 1.0
+    },
+    "rank": {
+      "original": 1,
+      "identity": 1,
+      "front": 1,
+      "tail": 1
+    },
+    "target_score": {
+      "original": 5.811521530151367,
+      "identity": 5.811521530151367,
+      "front": 7.137649059295654,
+      "tail": 5.811521530151367
+    },
+    "front_minus_tail": 0.0
+  },
+  {
+    "query_id": "155",
+    "doc_id": "37549932",
+    "group": "short",
+    "ndcg": {
+      "original": 0.6309297535714575,
+      "identity": 0.6309297535714575,
+      "front": 0.43067655807339306,
+      "tail": 0.6309297535714575
+    },
+    "rank": {
+      "original": 2,
+      "identity": 2,
+      "front": 4,
+      "tail": 2
+    },
+    "target_score": {
+      "original": 3.6229076385498047,
+      "identity": 3.6229076385498047,
+      "front": 3.33549427986145,
+      "tail": 3.553701400756836
+    },
+    "front_minus_tail": -0.20025319549806447
+  }
+]
