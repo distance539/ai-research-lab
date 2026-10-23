@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "command": "python build_materials.py --cache <verified-cache>",
+      "exit_code": 1,
+      "stage": "pre-inference whitespace mapping",
+      "log": "article verification_logs/materials.log"
+    },
+    {
+      "command": "python build_materials.py --cache <verified-cache>",
+      "exit_code": 0,
+      "log": "article verification_logs/materials_corrected.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out smoke --smoke",
+      "exit_code": 0,
+      "log": "smoke.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out results",
+      "exit_code": 0,
+      "log": "development.log"
+    },
+    {
+      "command": "python audit.py --out results",
+      "exit_code": 0,
+      "log": "audit.log"
+    },
+    {
+      "command": "python test_audit.py --out results",
+      "exit_code": 0,
+      "result": "results/mutation_tests.json"
+    }
+  ]
+}

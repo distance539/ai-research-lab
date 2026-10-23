@@ -1,0 +1,63 @@
+{
+  "reviewer": null,
+  "reviewed_at": null,
+  "materials_sha256": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+  "decisions": [
+    {
+      "query_id": "454",
+      "condition": "front",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "454",
+      "condition": "tail",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "30",
+      "condition": "front",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "30",
+      "condition": "tail",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "280",
+      "condition": "front",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "280",
+      "condition": "tail",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "155",
+      "condition": "front",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    },
+    {
+      "query_id": "155",
+      "condition": "tail",
+      "label_preserved": null,
+      "transformation_valid": null,
+      "reason": null
+    }
+  ]
+}

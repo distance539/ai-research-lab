@@ -1,0 +1,29 @@
+{
+  "seed": 107,
+  "conditions": [
+    "original",
+    "identity",
+    "front",
+    "tail"
+  ],
+  "queries": [
+    "454",
+    "30",
+    "280",
+    "155"
+  ],
+  "top_k": 50,
+  "max_length": 512,
+  "batch_size": 16,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "prompt": "none",
+  "decode": "scalar logit; Identity activation",
+  "tie_break": "score DESC, doc ID string DESC",
+  "primary": "per-query nDCG10 front-minus-tail, then mean(long)-mean(short); diagnostic, no population inference",
+  "confirmation": "300 BEIR test queries not evaluated",
+  "human_review": "pending; all transformed relevance metrics provisional",
+  "budget_seconds": 1200,
+  "peak_rss_limit_bytes": 4294967296
+}

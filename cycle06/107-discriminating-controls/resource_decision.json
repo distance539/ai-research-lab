@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-10-23T01:01:30.996491+00:00",
+  "smoke_exit_code": 0,
+  "actual_smoke_pairs": 32,
+  "estimate_full_inference_seconds": 16.687997855478898,
+  "smoke_peak_rss_bytes": 586137600,
+  "decision": "run frozen800 pairs; human semantic review remains pending"
+}

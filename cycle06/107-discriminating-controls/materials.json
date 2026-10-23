@@ -1,0 +1,610 @@
+{
+  "created_at": "2026-10-23T00:58:27.140015+00:00",
+  "selection": "exactly one relevant document in fixed50; equal raw token count; front evidence fully retained and tail not for long; <=512 and all retained for short; two lowest SHA256(107-probe:+query_id) per stratum; no107 scores read",
+  "eligible": {
+    "long": [
+      "1125",
+      "1145",
+      "30",
+      "368",
+      "1050",
+      "104",
+      "283",
+      "591",
+      "160",
+      "454"
+    ],
+    "short": [
+      "881",
+      "201",
+      "537",
+      "308",
+      "9",
+      "925",
+      "665",
+      "448",
+      "1249",
+      "371",
+      "280",
+      "68",
+      "858",
+      "1138",
+      "258",
+      "815",
+      "1406",
+      "1263",
+      "309",
+      "1034",
+      "203",
+      "764",
+      "542",
+      "1276",
+      "1341",
+      "155",
+      "32",
+      "469",
+      "1136",
+      "717",
+      "990",
+      "156",
+      "779",
+      "835",
+      "667",
+      "671",
+      "461"
+    ]
+  },
+  "semantic_review_status": "pending",
+  "rows": [
+    {
+      "query_id": "454",
+      "doc_id": "4200695",
+      "group": "long",
+      "query": "General exercise therapy is more effective than scapular stabilizer exercises in reducing pain and improving function of the shoulder.",
+      "document": {
+        "doc_id": 4200695,
+        "title": "Effect of specific exercise strategy on need for surgery in patients with subacromial impingement syndrome: randomised controlled study",
+        "abstract": [
+          "OBJECTIVE To evaluate if a specific exercise strategy, targeting the rotator cuff and scapula stabilisers, improves shoulder function and pain more than unspecific exercises in patients with subacromial impingement syndrome, thereby decreasing the need for arthroscopic subacromial decompression.",
+          "DESIGN Randomised, participant and single assessor blinded, controlled study.",
+          "SETTING Department of orthopaedics in a Swedish university hospital.",
+          "PARTICIPANTS 102 patients with long standing (over six months) persistent subacromial impingement syndrome in whom earlier conservative treatment had failed, recruited through orthopaedic specialists.",
+          "INTERVENTIONS The specific exercise strategy consisted of strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers in combination with manual mobilisation.",
+          "The control exercise programme consisted of unspecific movement exercises for the neck and shoulder.",
+          "Patients in both groups received five to six individual guided treatment sessions during 12 weeks.",
+          "In between these supervised sessions the participants performed home exercises once or twice a day for 12 weeks.",
+          "MAIN OUTCOME MEASURES The primary outcome was the Constant-Murley shoulder assessment score evaluating shoulder function and pain.",
+          "Secondary outcomes were patients' global impression of change because of treatment and decision regarding surgery.",
+          "RESULTS Most (97, 95%) participants completed the 12 week study.",
+          "There was a significantly greater improvement in the Constant-Murley score in the specific exercise group than in the control exercise group (24 points (95% confidence interval 19 to 28.0) v 9 points (5 to 13); mean difference between group: 15 points (8.5 to 20.6)).",
+          "Significantly more patients in the specific exercise group reported successful outcome (defined as large improvement or recovered) in the patients' global assessment of change because of treatment: 69% (35/51) v 24% (11/46); odds ratio 7.6, 3.1 to 18.9; P<0.001.",
+          "A significantly lower proportion of patients in the specific exercise group subsequently chose to undergo surgery: 20% (10/51) v 63% (29/46); odds ratio 7.7, 3.1 to 19.4; P<0.001).",
+          "CONCLUSION A specific exercise strategy, focusing on strengthening eccentric exercises for the rotator cuff and concentric/eccentric exercises for the scapula stabilisers, is effective in reducing pain and improving shoulder function in patients with persistent subacromial impingement syndrome.",
+          "By extension, this exercise strategy reduces the need for arthroscopic subacromial decompression within the three month timeframe used in the study.",
+          "TRIAL REGISTRATION Clinical trials NCT01037673."
+        ],
+        "structured": true
+      },
+      "evidence_indices": [
+        11,
+        12,
+        14
+      ],
+      "orders": {
+        "original": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "identity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "front": [
+          11,
+          12,
+          14,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          15,
+          16
+        ],
+        "tail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          15,
+          16,
+          11,
+          12,
+          14
+        ]
+      },
+      "visibility": {
+        "original": {
+          "raw_tokens": 608,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 3,
+          "document_retained_char_end": 2355,
+          "input_ids_sha256": "7509b9209db3aa474399ad9940204d983231757fd6dbdcd35a6d1184d1dfb214"
+        },
+        "identity": {
+          "raw_tokens": 608,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 3,
+          "document_retained_char_end": 2355,
+          "input_ids_sha256": "7509b9209db3aa474399ad9940204d983231757fd6dbdcd35a6d1184d1dfb214"
+        },
+        "front": {
+          "raw_tokens": 608,
+          "retained_tokens": 512,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 3,
+          "evidence_sentences": 3,
+          "document_retained_char_end": 2481,
+          "input_ids_sha256": "2fab93e724a5b7d309834a7c35312f8e0b0291834371d76d37d177bb83458864"
+        },
+        "tail": {
+          "raw_tokens": 608,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 3,
+          "document_retained_char_end": 2422,
+          "input_ids_sha256": "ebc7ee4d72c22198645089001a38b4f3a44d39988b03dff0bcd048a90333083b"
+        }
+      },
+      "original_evidence": [
+        {
+          "sentences": [
+            11
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            12
+          ],
+          "label": "CONTRADICT"
+        },
+        {
+          "sentences": [
+            14
+          ],
+          "label": "CONTRADICT"
+        }
+      ]
+    },
+    {
+      "query_id": "30",
+      "doc_id": "24341590",
+      "group": "long",
+      "query": "A breast cancer patient's capacity to metabolize tamoxifen influences treatment outcome.",
+      "document": {
+        "doc_id": 24341590,
+        "title": "Association between CYP2D6 polymorphisms and outcomes among women with early stage breast cancer treated with tamoxifen.",
+        "abstract": [
+          "CONTEXT The growth inhibitory effect of tamoxifen, which is used for the treatment of hormone receptor-positive breast cancer, is mediated by its metabolites, 4-hydroxytamoxifen and endoxifen.",
+          "The formation of active metabolites is catalyzed by the polymorphic cytochrome P450 2D6 (CYP2D6) enzyme.",
+          "OBJECTIVE To determine whether CYP2D6 variation is associated with clinical outcomes in women receiving adjuvant tamoxifen.",
+          "DESIGN, SETTING, AND PATIENTS Retrospective analysis of German and US cohorts of patients treated with adjuvant tamoxifen for early stage breast cancer.",
+          "The 1325 patients had diagnoses between 1986 and 2005 of stage I through III breast cancer and were mainly postmenopausal (95.4%).",
+          "Last follow-up was in December 2008; inclusion criteria were hormone receptor positivity, no metastatic disease at diagnosis, adjuvant tamoxifen therapy, and no chemotherapy.",
+          "DNA from tumor tissue or blood was genotyped for CYP2D6 variants associated with reduced (*10, *41) or absent (*3, *4, *5) enzyme activity.",
+          "Women were classified as having an extensive (n=609), heterozygous extensive/intermediate (n=637), or poor (n=79) CYP2D6 metabolism.",
+          "MAIN OUTCOME MEASURES Time to recurrence, event-free survival, disease-free survival, and overall survival.",
+          "RESULTS Median follow-up was 6.3 years.",
+          "At 9 years of follow-up, the recurrence rates were 14.9% for extensive metabolizers, 20.9% for heterozygous extensive/intermediate metabolizers, and 29.0% for poor metabolizers, and all-cause mortality rates were 16.7%, 18.0%, and 22.8%, respectively.",
+          "Compared with extensive metabolizers, there was a significantly increased risk of recurrence for heterozygous extensive/intermediate metabolizers (time to recurrence adjusted hazard ratio [HR], 1.40; 95% confidence interval [CI], 1.04-1.90) and for poor metabolizers (time to recurrence HR, 1.90; 95% CI, 1.10-3.28).",
+          "Compared with extensive metabolizers, those with decreased CYP2D6 activity (heterozygous extensive/intermediate and poor metabolism) had worse event-free survival (HR, 1.33; 95% CI, 1.06-1.68) and disease-free survival (HR, 1.29; 95% CI, 1.03-1.61), but there was no significant difference in overall survival (HR, 1.15; 95% CI, 0.88-1.51).",
+          "CONCLUSION Among women with breast cancer treated with tamoxifen, there was an association between CYP2D6 variation and clinical outcomes, such that the presence of 2 functional CYP2D6 alleles was associated with better clinical outcomes and the presence of nonfunctional or reduced-function alleles with worse outcomes."
+        ],
+        "structured": true
+      },
+      "evidence_indices": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "orders": {
+        "original": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "identity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "front": [
+          10,
+          11,
+          12,
+          13,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "tail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "visibility": {
+        "original": {
+          "raw_tokens": 728,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 4,
+          "document_retained_char_end": 1903,
+          "input_ids_sha256": "6ea021f7f3944524bce09fed291d83450727f8b70d6bf658050f81e0b6cbe40a"
+        },
+        "identity": {
+          "raw_tokens": 728,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 4,
+          "document_retained_char_end": 1903,
+          "input_ids_sha256": "6ea021f7f3944524bce09fed291d83450727f8b70d6bf658050f81e0b6cbe40a"
+        },
+        "front": {
+          "raw_tokens": 728,
+          "retained_tokens": 512,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 4,
+          "evidence_sentences": 4,
+          "document_retained_char_end": 1817,
+          "input_ids_sha256": "02b2fec69e70060f508dfa66a6c3a45e460b8a232d27a81c87011d87228c1f22"
+        },
+        "tail": {
+          "raw_tokens": 728,
+          "retained_tokens": 512,
+          "evidence_fully_visible": false,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 4,
+          "document_retained_char_end": 1903,
+          "input_ids_sha256": "6ea021f7f3944524bce09fed291d83450727f8b70d6bf658050f81e0b6cbe40a"
+        }
+      },
+      "original_evidence": [
+        {
+          "sentences": [
+            10
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            11
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            12
+          ],
+          "label": "SUPPORT"
+        },
+        {
+          "sentences": [
+            13
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    },
+    {
+      "query_id": "280",
+      "doc_id": "25001628",
+      "group": "short",
+      "query": "Comparative transcriptome analysis identified new platelet proteins with structural features suggesting a role in platelet function.",
+      "document": {
+        "doc_id": 25001628,
+        "title": "Comparative gene expression profiling of in vitro differentiated megakaryocytes and erythroblasts identifies novel activatory and inhibitory platelet membrane proteins.",
+        "abstract": [
+          "To identify previously unknown platelet receptors we compared the transcriptomes of in vitro differentiated megakaryocytes (MKs) and erythroblasts (EBs).",
+          "RNA was obtained from purified, biologically paired MK and EB cultures and compared using cDNA microarrays.",
+          "Bioinformatical analysis of MK-up-regulated genes identified 151 transcripts encoding transmembrane domain-containing proteins.",
+          "Although many of these were known platelet genes, a number of previously unidentified or poorly characterized transcripts were also detected.",
+          "Many of these transcripts, including G6b, G6f, LRRC32, LAT2, and the G protein-coupled receptor SUCNR1, encode proteins with structural features or functions that suggest they may be involved in the modulation of platelet function.",
+          "Immunoblotting on platelets confirmed the presence of the encoded proteins, and flow cytometric analysis confirmed the expression of G6b, G6f, and LRRC32 on the surface of platelets.",
+          "Through comparative analysis of expression in platelets and other blood cells we demonstrated that G6b, G6f, and LRRC32 are restricted to the platelet lineage, whereas LAT2 and SUCNR1 were also detected in other blood cells.",
+          "The identification of the succinate receptor SUCNR1 in platelets is of particular interest, because physiologically relevant concentrations of succinate were shown to potentiate the effect of low doses of a variety of platelet agonists."
+        ],
+        "structured": false
+      },
+      "evidence_indices": [
+        6,
+        7
+      ],
+      "orders": {
+        "original": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "identity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "front": [
+          6,
+          7,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "tail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "visibility": {
+        "original": {
+          "raw_tokens": 376,
+          "retained_tokens": 376,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 2,
+          "document_retained_char_end": 1577,
+          "input_ids_sha256": "4f6c67f9cc0ee0c389e2444337e354daf475c784fd7fa142cef80194ff943fea"
+        },
+        "identity": {
+          "raw_tokens": 376,
+          "retained_tokens": 376,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 2,
+          "document_retained_char_end": 1577,
+          "input_ids_sha256": "4f6c67f9cc0ee0c389e2444337e354daf475c784fd7fa142cef80194ff943fea"
+        },
+        "front": {
+          "raw_tokens": 376,
+          "retained_tokens": 376,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 2,
+          "document_retained_char_end": 1577,
+          "input_ids_sha256": "92e1cee4027bedc929f4384bd7f06eaa7a522da52606313b9c4754083f110a2a"
+        },
+        "tail": {
+          "raw_tokens": 376,
+          "retained_tokens": 376,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 2,
+          "evidence_sentences": 2,
+          "document_retained_char_end": 1577,
+          "input_ids_sha256": "4f6c67f9cc0ee0c389e2444337e354daf475c784fd7fa142cef80194ff943fea"
+        }
+      },
+      "original_evidence": [
+        {
+          "sentences": [
+            6,
+            7
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    },
+    {
+      "query_id": "155",
+      "doc_id": "37549932",
+      "group": "short",
+      "query": "BCL-2 activation antagonizes the apoptotic effects of c-Myc.",
+      "document": {
+        "doc_id": 37549932,
+        "title": "Antiapoptotic BCL-2 is required for maintenance of a model leukemia.",
+        "abstract": [
+          "Resistance to apoptosis, often achieved by the overexpression of antiapoptotic proteins, is common and perhaps required in the genesis of cancer.",
+          "However, it remains uncertain whether apoptotic defects are essential for tumor maintenance.",
+          "To test this, we generated mice expressing a conditional BCL-2 gene and constitutive c-myc that develop lymphoblastic leukemia.",
+          "Eliminating BCL-2 yielded rapid loss of leukemic cells and significantly prolonged survival, formally validating BCL-2 as a rational target for cancer therapy.",
+          "Loss of this single molecule resulted in cell death, despite or perhaps attributable to the presence of other oncogenic events.",
+          "This suggests a generalizable model in which aberrations inherent to cancer generate tonic death signals that would otherwise kill the cell if not opposed by a requisite apoptotic defect(s)."
+        ],
+        "structured": false
+      },
+      "evidence_indices": [
+        3
+      ],
+      "orders": {
+        "original": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "identity": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "front": [
+          3,
+          0,
+          1,
+          2,
+          4,
+          5
+        ],
+        "tail": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          3
+        ]
+      },
+      "visibility": {
+        "original": {
+          "raw_tokens": 226,
+          "retained_tokens": 226,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 1,
+          "document_retained_char_end": 914,
+          "input_ids_sha256": "f76a0b9c2185612fd1ade06433093eae086b11eb453301156a2e90697016a449"
+        },
+        "identity": {
+          "raw_tokens": 226,
+          "retained_tokens": 226,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 1,
+          "document_retained_char_end": 914,
+          "input_ids_sha256": "f76a0b9c2185612fd1ade06433093eae086b11eb453301156a2e90697016a449"
+        },
+        "front": {
+          "raw_tokens": 226,
+          "retained_tokens": 226,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 1,
+          "document_retained_char_end": 914,
+          "input_ids_sha256": "d05648d1fc8156c6b39ed774363fa7fa411f82dce4f66ec8ddb6fda773ab2e31"
+        },
+        "tail": {
+          "raw_tokens": 226,
+          "retained_tokens": 226,
+          "evidence_fully_visible": true,
+          "evidence_visible_sentences": 1,
+          "evidence_sentences": 1,
+          "document_retained_char_end": 914,
+          "input_ids_sha256": "9fd333bbd7008ad0f390c2b137bac9b5e50f050a0c763bf3904ac8b7f5a212a0"
+        }
+      },
+      "original_evidence": [
+        {
+          "sentences": [
+            3
+          ],
+          "label": "SUPPORT"
+        }
+      ]
+    }
+  ]
+}

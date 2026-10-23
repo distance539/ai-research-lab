@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-23T01:07:03.826965+00:00",
+  "rows": [
+    {
+      "file": "beir_rerank.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/reranking/rerank.py",
+      "exit_code": 0,
+      "sha256": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5",
+      "error": null
+    },
+    {
+      "file": "CrossEncoder.py",
+      "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/cross_encoder/CrossEncoder.py",
+      "exit_code": 0,
+      "sha256": "87adb18b78e8ca525932635d604549c44251e205217be185428dc11fc52632b6",
+      "error": null
+    },
+    {
+      "file": "data.md",
+      "url": "https://raw.githubusercontent.com/allenai/scifact/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/doc/data.md",
+      "exit_code": 0,
+      "sha256": "f8f4cc2f7bf32347dd47d419be731a5d0eeb60ebb75423619e02919c7f337df7",
+      "error": null
+    },
+    {
+      "file": "model_card.md",
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/raw/233902d25c440f23af6f7d6e94d2946bac0bee0a/README.md",
+      "exit_code": 0,
+      "sha256": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa",
+      "error": null
+    },
+    {
+      "file": "paper.html",
+      "url": "https://aclanthology.org/2020.emnlp-main.609/",
+      "exit_code": 0,
+      "sha256": "a04cf738578e95dc042817f234c679d6000ff2c1f96652e56a42e6efe0e83545",
+      "error": null
+    },
+    {
+      "file": "parent_registry.json",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/cf8117a71bb7ed19591d1ce15c8caeaf41c0232d/cycle06/106-failure-to-hypothesis/research_registry.json",
+      "exit_code": 0,
+      "sha256": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+      "error": null
+    },
+    {
+      "file": "parent_candidates.json",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/cf8117a71bb7ed19591d1ce15c8caeaf41c0232d/cycle06/106-failure-to-hypothesis/inputs/candidates.json",
+      "exit_code": 0,
+      "sha256": "13a2509668ff1ca44386070840c6832b959f29cb37957ece421741f918478265",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "registered_at": "2026-10-23T01:00:14.109670+00:00",
+  "before_model_inference": true,
+  "files": {
+    "config.json": "8e8701f6ab036d87cf53834bbc41dd0bcd6bdee8245033308cb20cb0d03152b2",
+    "materials.json": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+    "PROTOCOL.md": "da0ca784e655da516fe592f83ddd0a2219a5b95f319ffa7e817fdd5a9b461ed8",
+    "research_registry.json": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+    "run.py": "33a896ecd7480af53fd4e48bf37bd9e670a6799651d536aad39cae468b7cce43",
+    "build_materials.py": "b9563f7a97d53436900a0517b2c36129901e64395c64f055dd2b623f7aaa808d"
+  }
+}

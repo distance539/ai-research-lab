@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "all scores, input identity, permutations, candidate sets, ranks, nDCG, paired differences, token totals; no human semantics",
+  "pairs": 800,
+  "group_delta": {
+    "long": -0.18453512321427123,
+    "short": -0.10012659774903224
+  },
+  "input_sha256": {
+    "runs.json": "25e10cecb4b2fcd455c7a7e3a1c9063c17b5c1cf2e25997d883e0293f7a38e1e",
+    "pairs.json": "2a878c579554aba2495d01cca4353e6c16ca79ac58f8115899ffa77711d4f464",
+    "per_query.json": "1449c6581cdf8212c3324e383097a328d58367963bbe835b8647ec791f4edaa7",
+    "summary.json": "a32628945874e00665fb4a8a11943c731c0ac1f491fab5e67a05eccd0d9e30ab",
+    "identity.json": "0b971c2a5af4721f55cbb2abf09e4130302739f417f2182a3e4f9404393d76a3"
+  },
+  "script_sha256": "9d325331dbbf4293051acbcbb9f9a97acce512945c82fd4c747de65ec8dc972f"
+}
