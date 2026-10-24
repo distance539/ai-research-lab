@@ -1,0 +1,9 @@
+{
+  "registered_at": "2026-10-24T10:09:46.734033+08:00",
+  "before108_inference": true,
+  "protocol_sha256": "4cba2345abf02a3f06759f172888eb58027de80ddbb90a8de9f11ffc3c646724",
+  "config_sha256": "dbbcc67cecf5ccb99da18d916cef855fcfc75db6fbedc90ebf61a4885a8cdf5e",
+  "registry_sha256": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+  "parent_commit": "cf8117a71bb7ed19591d1ce15c8caeaf41c0232d",
+  "confirmation_evaluated": false
+}

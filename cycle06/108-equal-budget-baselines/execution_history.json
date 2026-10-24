@@ -1,0 +1,42 @@
+{
+  "recorded_at": "2026-10-24T10:18:17.145851+08:00",
+  "failed_attempt": {
+    "command": "python run.py --cache <verified-cache> --out smoke --smoke",
+    "exit_code": 1,
+    "stage": "before model inference: temporary environment missing torch",
+    "recovery": "new temporary environment with exact requirements-observed.txt; public PyPI download after sandbox network denial; no data/code protocol change"
+  },
+  "runs": [
+    {
+      "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache <verified-cache> --out smoke --smoke",
+      "exit_code": 0,
+      "log": "smoke.log",
+      "log_sha256": "42adc95f5a905a00711609d04ffe364635f2dba10199cdff75390ee6048d2498",
+      "status": "smoke/status.json"
+    },
+    {
+      "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache <verified-cache> --out results",
+      "exit_code": 0,
+      "log": "development.log",
+      "log_sha256": "45be7d898d12a5c9d3f27f3a5909c46cf2fd6345e1188264f04017a57d5564d4",
+      "status": "results/status.json"
+    }
+  ],
+  "audit_commands": [
+    {
+      "command": "python ce_audit.py --out results",
+      "exit_code": 0,
+      "log": "ce_audit.py.log"
+    },
+    {
+      "command": "python audit.py --out results",
+      "exit_code": 0,
+      "log": "audit.py.log"
+    },
+    {
+      "command": "python test_audit.py --out results",
+      "exit_code": 0,
+      "log": "test_audit.py.log"
+    }
+  ]
+}

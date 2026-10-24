@@ -1,0 +1,7 @@
+{
+  "decided_at": "2026-10-24T10:13:05.909790+08:00",
+  "smoke_inference_seconds": 1.2929842500016093,
+  "estimated_full_seconds": 129.29842500016093,
+  "smoke_peak_rss_bytes": 839598080,
+  "decision": "run frozen100x50 oneCEpass andthreepolicies; no parameter search"
+}

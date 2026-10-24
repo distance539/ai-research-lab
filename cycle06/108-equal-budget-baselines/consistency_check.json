@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-10-24T10:18:17.145851+08:00",
+  "all_observed_dependencies_match": true,
+  "count": 34,
+  "parent_results_equal": true,
+  "parent_commit": "cf8117a71bb7ed19591d1ce15c8caeaf41c0232d",
+  "scope": "all5000CEscores andoriginal/oracle run maps; fresh108 model forward",
+  "raw_log_sha256": "45be7d898d12a5c9d3f27f3a5909c46cf2fd6345e1188264f04017a57d5564d4",
+  "registration_protocol_hash_matches": true
+}
