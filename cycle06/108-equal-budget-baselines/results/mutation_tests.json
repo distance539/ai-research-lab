@@ -1,0 +1,30 @@
+[
+  {
+    "mutation": "score",
+    "rejected": true
+  },
+  {
+    "mutation": "missing_candidate",
+    "rejected": true
+  },
+  {
+    "mutation": "delta",
+    "rejected": true
+  },
+  {
+    "mutation": "budget",
+    "rejected": true
+  },
+  {
+    "mutation": "confirmation",
+    "rejected": true
+  },
+  {
+    "mutation": "trace",
+    "rejected": true
+  },
+  {
+    "mutation": "tradeoff",
+    "rejected": true
+  }
+]
