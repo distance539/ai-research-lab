@@ -11,3 +11,6 @@ Smoke: same4 queries, each top2 original candidates plus relevant document, at m
 Hypothesis implications: selective long advantage with no short change is compatible with truncation story, not proof. Short effect shows order sensitivity without evidence loss. Null/negative long effect contradicts universal 'restoring evidence always helps'. Does not decide H_override, reserved108 fixed rank blend. No score-driven selection or dropping labels.
 
 Human gate:8front/tail judgements required, validity and relevance preservation. Review page shows original and changed complete text, original rationale highlights, no model scores. Until actual reply, semantic status pending, transformed nDCG provisional, article incomplete. Original-dataset rationales are NOT approval of our transforms. Reject/uncertain results retained with dated amendment before further study.
+
+## Dated acceptance addendum — 2026-10-24
+The user confirmed “我审核完了,都没问题” after being asked about all8 transforms. See human_review_confirmation.json for exact reply, scope and immutable material hashes. This completes the human gate without changing selection rules, inputs, labels, metrics or the pre-run protocol. Original pending forms/logs remain historical. No per-item rationale or independent blinding is claimed.
