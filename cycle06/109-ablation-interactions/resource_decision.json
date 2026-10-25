@@ -1,0 +1,6 @@
+{
+  "decided_at": "2026-10-25T09:05:39.530041+08:00",
+  "estimated_inference_seconds": 8.486182271735743,
+  "smoke_peak_rss_bytes": 582778880,
+  "decision": "run frozen400pairs; four cells from two real passes"
+}

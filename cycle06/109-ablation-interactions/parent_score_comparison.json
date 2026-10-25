@@ -1,0 +1,10 @@
+{
+  "parent_commit": "ae2ebdbfef3277e025c6f1085937d3e112abc5ff",
+  "conditions": [
+    "original",
+    "front"
+  ],
+  "pairs": 400,
+  "max_abs_error": 0.0,
+  "compared_after_new_inference": true
+}

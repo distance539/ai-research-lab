@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "queries": 4,
+  "pairs": 16,
+  "input_identity": {
+    "pairs.json": "d3cb19518eb98888d852ce168708e964863569990f7b60d92a64fac3400954fb",
+    "input.lock.json": "bfa9f6dbb086b9b6325382d3f093afb3a4aa8ebadeb09522fd065a0ed3560e83",
+    "config.json": "11aa645090f8c02efb29b1ce89e4562bef242a29ce3bf273fda583839b1a7602",
+    "materials.json": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f"
+  },
+  "script_sha256": "9cda7b275fca5617efdf86cc178827d5d5fdad859b9aedf2bdb10a7fd1b81f86",
+  "independent_metrics": "stdlib DCG + exact Fraction fusion magnitude check; no inference code imported",
+  "mean_interaction": 0.09226756160713562
+}

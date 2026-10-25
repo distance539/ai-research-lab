@@ -1,0 +1,49 @@
+[
+  {
+    "command": "python3 audit.py --out results",
+    "cwd": "workspace root (incorrect)",
+    "exit_code": 2,
+    "log": "local article verification_logs/failed_audit_wrong_cwd.log (not distributed; no execution occurred)",
+    "impact": "audit not executed; no experiment changes"
+  },
+  {
+    "command": [
+      "python3",
+      "audit.py",
+      "--out",
+      "smoke"
+    ],
+    "exit_code": 0,
+    "log": "smoke_audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "test_audit.py",
+      "--out",
+      "smoke"
+    ],
+    "exit_code": 0,
+    "log": "smoke_test_audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "audit.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "log": "results_audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "test_audit.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "log": "results_test_audit.py.log"
+  }
+]

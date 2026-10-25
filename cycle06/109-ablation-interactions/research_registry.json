@@ -1,0 +1,45 @@
+{
+  "registered_at": "2026-10-22T09:07:37.429061+08:00",
+  "status": "prospective protocol for106 replay and107-111 tests; hypotheses motivated by previously observed085/086 results",
+  "project_line": "SciFact fixed-candidate reranking; no switch to other project units through111",
+  "development": "085 fixed100 of809 BEIR train; all809 already observed by082-084; not fresh validation",
+  "confirmation": "300 BEIR test queries previously downloaded but never scored in082-087; reserved until111; no confirmation qrels loaded by106",
+  "main_hypothesis": "At the same50 candidates and one CrossEncoder scoring pass, fixed equal-weight rank fusion of RRF prior and CrossEncoder reduces override regressions and improves mean nDCG10 by at least0.01 vs CrossEncoder alone on confirmation. Primary comparison fixed before confirmation.",
+  "competing_explanations": [
+    {
+      "id": "H_truncation",
+      "prediction": "regressions concentrate where relevant candidate tokens were removed; label-preserving relevant-evidence retention should help selectively",
+      "falsifier": "many regressions survive without relevant truncation, or controlled retention fails to improve relative to matched control",
+      "caveat": "no truncation does not exclude all input representation problems; query-level association is not causality"
+    },
+    {
+      "id": "H_override",
+      "prediction": "cross-encoder overrides useful original ranks even with full relevant text; equal-cost prior rank fusion helps",
+      "falsifier": "fusion offers no stable improvement over both pureRRF and pureCrossEncoder or gains come only from extra candidate/compute budget",
+      "caveat": "a gain cannot by itself prove domain mismatch or lexical shortcut"
+    }
+  ],
+  "candidate_rule": "107 controls;108 compare pureRRF,pureCE,one fixed equal-weight reciprocal-rank blend with constant60;109 fixed2x2 context-preservation x blend if107 semantic review succeeds; no parameter search on confirmation",
+  "primary_metric": "mean paired nDCG@10 delta blend-minusCE; scientific success threshold>=0.01; must also report blend-minusRRF",
+  "secondary": [
+    "Recall50 invariant",
+    "win/tie/loss",
+    "top10 misses",
+    "token count and wall time",
+    "candidate/oracle loss"
+  ],
+  "budget": {
+    "106": "5x10 smoke then100x50 freshCE; inference<900s, peakRSS<4GiB",
+    "107_110": "at most4 frozen conditions x100x50 pairs per article; CPU total inference<=1200s/article, peakRSS<4GiB; no training",
+    "111": "only frozen primary pair andpureRRF on300confirmation; <=30000CEpairs; freeze final artifact first"
+  },
+  "stopping_rules": [
+    "No score-driven query exclusion or additional models.",
+    "If dependency/hash/control fails stop and retain incomplete.",
+    "If107 transformations lack actual semantic review, retain107 incomplete.",
+    "If budget exceeded stop, retain partial logs and amend before rerun; never call partial result full.",
+    "If confirmation gain<0.01 report not supporting registered practical threshold; no retuning/retesting confirmation."
+  ],
+  "uncertainty": "At111 report paired differences, acknowledge shared evidence-document dependence; resampling unit/group rule must be frozen using development structure before confirmation. No IID significance claim in106.",
+  "human_semantics": "106 categories deterministic qrels/rank/token predicates only. No new human gold or semantic labels.107 requires actual label-preservation review."
+}

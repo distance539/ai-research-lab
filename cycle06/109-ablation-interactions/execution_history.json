@@ -1,0 +1,66 @@
+{
+  "recorded_at": "2026-10-25T09:11:00.957905+08:00",
+  "runs": [
+    {
+      "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache <verified-cache> --out smoke --smoke",
+      "exit_code": 0,
+      "log": "smoke.log",
+      "log_sha256": "18826ac46f4aa4a5c7f07bc5f72877e16bb9389a62d1e7f8cd392c8f3079a931"
+    },
+    {
+      "command": "HF_HUB_OFFLINE=1 TOKENIZERS_PARALLELISM=false python run.py --cache <verified-cache> --out results",
+      "exit_code": 0,
+      "log": "development.log",
+      "log_sha256": "816655705239e10aec9ea71e54c46e6c6a925f70f57e711e510aa076b8065b0f"
+    }
+  ],
+  "audit_commands": [
+    {
+      "command": "python3 audit.py --out results",
+      "cwd": "workspace root (incorrect)",
+      "exit_code": 2,
+      "log": "local article verification_logs/failed_audit_wrong_cwd.log (not distributed; no execution occurred)",
+      "impact": "audit not executed; no experiment changes"
+    },
+    {
+      "command": [
+        "python3",
+        "audit.py",
+        "--out",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "log": "smoke_audit.py.log"
+    },
+    {
+      "command": [
+        "python3",
+        "test_audit.py",
+        "--out",
+        "smoke"
+      ],
+      "exit_code": 0,
+      "log": "smoke_test_audit.py.log"
+    },
+    {
+      "command": [
+        "python3",
+        "audit.py",
+        "--out",
+        "results"
+      ],
+      "exit_code": 0,
+      "log": "results_audit.py.log"
+    },
+    {
+      "command": [
+        "python3",
+        "test_audit.py",
+        "--out",
+        "results"
+      ],
+      "exit_code": 0,
+      "log": "results_test_audit.py.log"
+    }
+  ]
+}

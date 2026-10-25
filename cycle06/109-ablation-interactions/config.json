@@ -1,0 +1,33 @@
+{
+  "seed": 109,
+  "conditions": [
+    "original",
+    "front"
+  ],
+  "queries": [
+    "454",
+    "30",
+    "280",
+    "155"
+  ],
+  "top_k": 50,
+  "max_length": 512,
+  "batch_size": 16,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "prompt": "none",
+  "decode": "scalar logit; Identity activation",
+  "tie_break": "score DESC, doc ID string DESC",
+  "primary": "per-query interaction (Y11-Y10)-(Y01-Y00); report every query and conditional effects; descriptive only",
+  "confirmation": "300 BEIR test queries not evaluated",
+  "human_review": "107 confirmation2026-10-24 reused for byte-identical materials; no new transformation",
+  "budget_seconds": 1200,
+  "peak_rss_limit_bytes": 4294967296,
+  "factors": {
+    "A": "original0 / gold-evidence-front1",
+    "B": "CE0 / equal-weight prior+CE rank fusion1"
+  },
+  "fusion_constant": 60,
+  "auxiliary_shape_pairs": 4
+}

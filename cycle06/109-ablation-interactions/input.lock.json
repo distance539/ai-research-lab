@@ -1,0 +1,8 @@
+{
+  "files": {
+    "inputs/candidates.json": "13a2509668ff1ca44386070840c6832b959f29cb37957ece421741f918478265",
+    "inputs/qrels.json": "224e1a2160f951e1d94799102944b2a718b7af2ce94f8e41196ba2457fa81f67",
+    "materials.json": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+    "human_review_confirmation.json": "6e72a903fd7058edcc2c9313745d4f5488b52b441ead395052e1e5739409fd03"
+  }
+}

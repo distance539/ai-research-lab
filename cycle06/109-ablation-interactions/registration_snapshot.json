@@ -1,0 +1,11 @@
+{
+  "registered_at": "2026-10-25T09:04:18.401254+08:00",
+  "before109_model_scoring": true,
+  "protocol_sha256": "168bb5bd0c59d312bdc7305d89763dbfd1dc50b0f285804973e443038113d388",
+  "config_sha256": "11aa645090f8c02efb29b1ce89e4562bef242a29ce3bf273fda583839b1a7602",
+  "registry_sha256": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+  "materials_sha256": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+  "parent_commit": "ae2ebdbfef3277e025c6f1085937d3e112abc5ff",
+  "confirmation_evaluated": false,
+  "initial_chat_title_factor_proposal": "discarded before any109run to honor106registry"
+}
