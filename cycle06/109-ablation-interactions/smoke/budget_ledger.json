@@ -1,0 +1,16 @@
+{
+  "unique_scored_pairs": 16,
+  "cell_pair_uses": 32,
+  "extra_pairs_for_B": 0,
+  "auxiliary_shape_pairs": 4,
+  "training_tokens": 0,
+  "token_totals": {
+    "original": 3121,
+    "front": 3121
+  },
+  "inference_seconds": 0.3394472908694297,
+  "fusion_seconds": 3.083306364715099e-05,
+  "fusion_scope": "rank maps, reciprocal scores, sort and trace; excludes metrics/writes",
+  "retrieval_seconds": "not remeasured; fixed historical candidates",
+  "token_note": "same counts are verified; equal count is not identical content or FLOPs"
+}

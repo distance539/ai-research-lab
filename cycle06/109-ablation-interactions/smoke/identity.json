@@ -1,0 +1,121 @@
+{
+  "config": {
+    "seed": 109,
+    "conditions": [
+      "original",
+      "front"
+    ],
+    "queries": [
+      "454",
+      "30",
+      "280",
+      "155"
+    ],
+    "top_k": 50,
+    "max_length": 512,
+    "batch_size": 16,
+    "threads": 4,
+    "device": "cpu",
+    "dtype": "float32",
+    "prompt": "none",
+    "decode": "scalar logit; Identity activation",
+    "tie_break": "score DESC, doc ID string DESC",
+    "primary": "per-query interaction (Y11-Y10)-(Y01-Y00); report every query and conditional effects; descriptive only",
+    "confirmation": "300 BEIR test queries not evaluated",
+    "human_review": "107 confirmation2026-10-24 reused for byte-identical materials; no new transformation",
+    "budget_seconds": 1200,
+    "peak_rss_limit_bytes": 4294967296,
+    "factors": {
+      "A": "original0 / gold-evidence-front1",
+      "B": "CE0 / equal-weight prior+CE rank fusion1"
+    },
+    "fusion_constant": 60,
+    "auxiliary_shape_pairs": 4
+  },
+  "model": {
+    "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "tokenizer_revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/README.md",
+        "sha256": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa",
+        "bytes": 3673
+      },
+      "config.json": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/config.json",
+        "sha256": "380e02c93f431831be65d99a4e7e5f67c133985bf2e77d9d4eba46847190bacc",
+        "bytes": 794
+      },
+      "model.safetensors": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/model.safetensors",
+        "sha256": "821d1aa69520101d6e0737f78a042ae25b19e5cb9160701909d10434f4aeb0ae",
+        "bytes": 90870598
+      },
+      "special_tokens_map.json": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/special_tokens_map.json",
+        "sha256": "3c3507f36dff57bce437223db3b3081d1e2b52ec3e56ee55438193ecb2c94dd6",
+        "bytes": 132
+      },
+      "tokenizer.json": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer.json",
+        "sha256": "d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66",
+        "bytes": 711396
+      },
+      "tokenizer_config.json": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/tokenizer_config.json",
+        "sha256": "a5c2e5a7b1a29a0702cd28c08a399b5ecc110c263009d17f7e3b415f25905fd8",
+        "bytes": 1330
+      },
+      "vocab.txt": {
+        "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/resolve/233902d25c440f23af6f7d6e94d2946bac0bee0a/vocab.txt",
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+        "bytes": 231508
+      }
+    }
+  },
+  "resources": {
+    "beir_commit": "ef83d29307061c65d04b035b4f4e7c18bd8374af",
+    "scifact_commit": "68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+    "data_files": {
+      "scifact/corpus.jsonl": "dec31c8182f3d744c7d2c09423756fd1d17cbef75808db13ba01cc0aab4d1ac6",
+      "scifact/queries.jsonl": "8ff84a7c903f722981cd8d595c022660140c51867b27608a6d4910db86080313",
+      "scifact/qrels/train.tsv": "a53f2114831916c096b6c37d9e54da68cef4efdcdbd5ed46533601af972acf1d"
+    },
+    "resources": {
+      "scifact": {
+        "url": "https://public.ukp.informatik.tu-darmstadt.de/thakur/BEIR/datasets/scifact.zip",
+        "filename": "scifact.zip",
+        "sha256": "536e14446a0ba56ed1398ab1055f39fe852686ecad24a6306c80c490fa8e0165",
+        "bytes": 2816079
+      },
+      "original": {
+        "url": "https://scifact.s3-us-west-2.amazonaws.com/release/latest/data.tar.gz",
+        "filename": "scifact_original.tar.gz",
+        "sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+        "bytes": 3115079
+      }
+    },
+    "original_files": {
+      "downloads/data/corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+      "downloads/data/claims_train.jsonl": "f4c8fa82d8bd0653a9cc8d61a6ea48c25eacea64e90af5dbf390ebb1b74372f0"
+    }
+  },
+  "input_lock": {
+    "files": {
+      "inputs/candidates.json": "13a2509668ff1ca44386070840c6832b959f29cb37957ece421741f918478265",
+      "inputs/qrels.json": "224e1a2160f951e1d94799102944b2a718b7af2ce94f8e41196ba2457fa81f67",
+      "materials.json": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+      "human_review_confirmation.json": "6e72a903fd7058edcc2c9313745d4f5488b52b441ead395052e1e5739409fd03"
+    }
+  },
+  "code": {
+    "run.py": "316e24440051bd927f8745c85a5afb74b658d8011fdcc156ce4cef87475e943b",
+    "material_tools.py": "616a9135097740804e24c673599dfdcbb64a1df0650084eb8840e4dc46746128",
+    "common.py": "c78f7372f8c1f8ea1ea888017e74c1fd458fa38ee50f2b7b7103511bd2ac16d1",
+    "official_rerank.py": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5",
+    "prepare.py": "6038a9295e8c33ac6e9ad5ea110f75ccc80ee6c62c5c835aa9bfd2d3c6c6ef51"
+  },
+  "smoke": true,
+  "cache_key": "6f34dcfd753f41cd334f287d3997c87f1b93e285344499683045f6c4cfc2cf57"
+}

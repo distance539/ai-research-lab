@@ -1,0 +1,130 @@
+[
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "4200695",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "38493521",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "24341590",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "13069283",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "25001628",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "5238341",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "37549932",
+    "prior_rank": 1,
+    "ce_rank": 2,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "34436231",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "4200695",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "38493521",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "24341590",
+    "prior_rank": 1,
+    "ce_rank": 2,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "13069283",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "25001628",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "5238341",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "37549932",
+    "prior_rank": 1,
+    "ce_rank": 2,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "34436231",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  }
+]

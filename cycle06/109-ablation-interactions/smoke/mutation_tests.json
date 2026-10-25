@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "case": 0,
+      "file": "pairs.json",
+      "rejected": true
+    },
+    {
+      "case": 1,
+      "file": "pairs.json",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "file": "pairs.json",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "file": "per_query.json",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "file": "summary.json",
+      "rejected": true
+    },
+    {
+      "case": 5,
+      "file": "budget_ledger.json",
+      "rejected": true
+    },
+    {
+      "case": 6,
+      "file": "fusion_trace.json",
+      "rejected": true
+    }
+  ]
+}

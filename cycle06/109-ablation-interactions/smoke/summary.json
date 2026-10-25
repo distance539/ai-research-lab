@@ -1,0 +1,30 @@
+{
+  "queries": 4,
+  "pairs": 16,
+  "cell_means": {
+    "00": 0.9077324383928644,
+    "10": 0.8154648767857288,
+    "01": 1.0,
+    "11": 1.0
+  },
+  "mean_effects": {
+    "A_at_B0": -0.09226756160713562,
+    "A_at_B1": 0.0,
+    "B_at_A0": 0.09226756160713562,
+    "B_at_A1": 0.18453512321427123,
+    "interaction": 0.09226756160713562,
+    "A_average": -0.04613378080356781,
+    "B_average": 0.13840134241070343
+  },
+  "group_interaction": {
+    "long": 0.18453512321427123,
+    "short": 0.0
+  },
+  "token_totals": {
+    "original": 3121,
+    "front": 3121
+  },
+  "unchanged_negative_max_score_error": 0.0,
+  "confirmation_evaluated": false,
+  "interpretation": "four previously observed nonrandom oracle probes; descriptive; no population inference or success threshold claim"
+}
