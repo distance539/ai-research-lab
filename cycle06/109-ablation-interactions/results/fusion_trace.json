@@ -1,0 +1,3202 @@
+[
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "4200695",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "38493521",
+    "prior_rank": 2,
+    "ce_rank": 4,
+    "score": 0.031754032258064516
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "17691617",
+    "prior_rank": 3,
+    "ce_rank": 12,
+    "score": 0.02976190476190476
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "40631095",
+    "prior_rank": 4,
+    "ce_rank": 2,
+    "score": 0.031754032258064516
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "53779698",
+    "prior_rank": 5,
+    "ce_rank": 3,
+    "score": 0.03125763125763126
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "2028532",
+    "prior_rank": 6,
+    "ce_rank": 5,
+    "score": 0.030536130536130537
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "21053753",
+    "prior_rank": 7,
+    "ce_rank": 36,
+    "score": 0.025342039800995024
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "38882175",
+    "prior_rank": 8,
+    "ce_rank": 49,
+    "score": 0.02388019427954668
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "41161366",
+    "prior_rank": 9,
+    "ce_rank": 14,
+    "score": 0.028006267136701922
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "25761154",
+    "prior_rank": 10,
+    "ce_rank": 30,
+    "score": 0.025396825396825397
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "2825340",
+    "prior_rank": 11,
+    "ce_rank": 17,
+    "score": 0.027071520029266508
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "2820454",
+    "prior_rank": 12,
+    "ce_rank": 8,
+    "score": 0.028594771241830064
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "69045262",
+    "prior_rank": 13,
+    "ce_rank": 48,
+    "score": 0.02295788939624556
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "40817021",
+    "prior_rank": 14,
+    "ce_rank": 9,
+    "score": 0.028006267136701922
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "7198295",
+    "prior_rank": 15,
+    "ce_rank": 41,
+    "score": 0.023234323432343235
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "44586415",
+    "prior_rank": 16,
+    "ce_rank": 39,
+    "score": 0.023258904837852208
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "27711043",
+    "prior_rank": 17,
+    "ce_rank": 34,
+    "score": 0.02362531085935341
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "24634621",
+    "prior_rank": 18,
+    "ce_rank": 6,
+    "score": 0.027972027972027972
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "36721932",
+    "prior_rank": 19,
+    "ce_rank": 28,
+    "score": 0.02402186421173763
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "14724693",
+    "prior_rank": 20,
+    "ce_rank": 37,
+    "score": 0.022809278350515466
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "2891825",
+    "prior_rank": 21,
+    "ce_rank": 50,
+    "score": 0.02143658810325477
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "13027590",
+    "prior_rank": 22,
+    "ce_rank": 23,
+    "score": 0.02424331472230385
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "8604837",
+    "prior_rank": 23,
+    "ce_rank": 26,
+    "score": 0.023676099747828524
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "5586392",
+    "prior_rank": 24,
+    "ce_rank": 47,
+    "score": 0.02125055629728527
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "24865781",
+    "prior_rank": 25,
+    "ce_rank": 22,
+    "score": 0.023959827833572454
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "21957231",
+    "prior_rank": 26,
+    "ce_rank": 38,
+    "score": 0.021831988609397245
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "20696397",
+    "prior_rank": 27,
+    "ce_rank": 43,
+    "score": 0.021202990737640887
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "19529370",
+    "prior_rank": 28,
+    "ce_rank": 31,
+    "score": 0.022352647352647352
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "6767133",
+    "prior_rank": 29,
+    "ce_rank": 33,
+    "score": 0.021988643228222787
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "1360607",
+    "prior_rank": 30,
+    "ce_rank": 40,
+    "score": 0.021111111111111112
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "21767325",
+    "prior_rank": 31,
+    "ce_rank": 20,
+    "score": 0.02348901098901099
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "6191684",
+    "prior_rank": 32,
+    "ce_rank": 15,
+    "score": 0.02420289855072464
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "6841927",
+    "prior_rank": 33,
+    "ce_rank": 27,
+    "score": 0.02224694104560623
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "6625693",
+    "prior_rank": 34,
+    "ce_rank": 7,
+    "score": 0.025563671006668783
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "10666475",
+    "prior_rank": 35,
+    "ce_rank": 35,
+    "score": 0.021052631578947368
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "14118484",
+    "prior_rank": 36,
+    "ce_rank": 44,
+    "score": 0.02003205128205128
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "2335873",
+    "prior_rank": 37,
+    "ce_rank": 13,
+    "score": 0.024007908487501763
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "41976370",
+    "prior_rank": 38,
+    "ce_rank": 19,
+    "score": 0.022862309480754326
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "4164929",
+    "prior_rank": 39,
+    "ce_rank": 11,
+    "score": 0.024185517143263623
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "8596837",
+    "prior_rank": 40,
+    "ce_rank": 42,
+    "score": 0.019803921568627453
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "11933721",
+    "prior_rank": 41,
+    "ce_rank": 21,
+    "score": 0.02224666911135558
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "19182166",
+    "prior_rank": 42,
+    "ce_rank": 24,
+    "score": 0.021708683473389355
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "5687200",
+    "prior_rank": 43,
+    "ce_rank": 32,
+    "score": 0.020578303081468973
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "39892135",
+    "prior_rank": 44,
+    "ce_rank": 16,
+    "score": 0.02277327935222672
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "42950029",
+    "prior_rank": 45,
+    "ce_rank": 46,
+    "score": 0.018957771787960466
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "25301182",
+    "prior_rank": 46,
+    "ce_rank": 10,
+    "score": 0.02371967654986523
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "26107000",
+    "prior_rank": 47,
+    "ce_rank": 25,
+    "score": 0.021110500274876307
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "116556376",
+    "prior_rank": 48,
+    "ce_rank": 45,
+    "score": 0.018783068783068783
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "52175065",
+    "prior_rank": 49,
+    "ce_rank": 18,
+    "score": 0.021994824747118325
+  },
+  {
+    "cell": "01",
+    "query_id": "454",
+    "doc_id": "30292811",
+    "prior_rank": 50,
+    "ce_rank": 29,
+    "score": 0.020326864147088865
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "24341590",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "13069283",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "20454006",
+    "prior_rank": 3,
+    "ce_rank": 3,
+    "score": 0.031746031746031744
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "12438901",
+    "prior_rank": 4,
+    "ce_rank": 4,
+    "score": 0.03125
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "4886637",
+    "prior_rank": 5,
+    "ce_rank": 39,
+    "score": 0.02548562548562549
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "31311495",
+    "prior_rank": 6,
+    "ce_rank": 5,
+    "score": 0.030536130536130537
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "22482820",
+    "prior_rank": 7,
+    "ce_rank": 25,
+    "score": 0.0266900790166813
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "195680777",
+    "prior_rank": 8,
+    "ce_rank": 6,
+    "score": 0.029857397504456328
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "16098747",
+    "prior_rank": 9,
+    "ce_rank": 33,
+    "score": 0.025245441795231416
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "313403",
+    "prior_rank": 10,
+    "ce_rank": 9,
+    "score": 0.02877846790890269
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "23284774",
+    "prior_rank": 11,
+    "ce_rank": 24,
+    "score": 0.025989268947015427
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "24349992",
+    "prior_rank": 12,
+    "ce_rank": 8,
+    "score": 0.028594771241830064
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "15721252",
+    "prior_rank": 13,
+    "ce_rank": 10,
+    "score": 0.027984344422700584
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "17163294",
+    "prior_rank": 14,
+    "ce_rank": 17,
+    "score": 0.026500526500526502
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "13007205",
+    "prior_rank": 15,
+    "ce_rank": 13,
+    "score": 0.027031963470319637
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "1171121",
+    "prior_rank": 16,
+    "ce_rank": 23,
+    "score": 0.025206087507926443
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "13831558",
+    "prior_rank": 17,
+    "ce_rank": 45,
+    "score": 0.022510822510822513
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "3285322",
+    "prior_rank": 18,
+    "ce_rank": 37,
+    "score": 0.023129791171028286
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "27240667",
+    "prior_rank": 19,
+    "ce_rank": 41,
+    "score": 0.022559217947111167
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "24988745",
+    "prior_rank": 20,
+    "ce_rank": 29,
+    "score": 0.023735955056179776
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "20127522",
+    "prior_rank": 21,
+    "ce_rank": 11,
+    "score": 0.0264301860545992
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "2015126",
+    "prior_rank": 22,
+    "ce_rank": 34,
+    "score": 0.022833419823559936
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "25973484",
+    "prior_rank": 23,
+    "ce_rank": 47,
+    "score": 0.0213939871636077
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "7821634",
+    "prior_rank": 24,
+    "ce_rank": 12,
+    "score": 0.025793650793650792
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "32534305",
+    "prior_rank": 25,
+    "ce_rank": 42,
+    "score": 0.021568627450980392
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "16701509",
+    "prior_rank": 26,
+    "ce_rank": 40,
+    "score": 0.021627906976744188
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "15559582",
+    "prior_rank": 27,
+    "ce_rank": 31,
+    "score": 0.02248326386257421
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "4429932",
+    "prior_rank": 28,
+    "ce_rank": 7,
+    "score": 0.02628900949796472
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "25732836",
+    "prior_rank": 29,
+    "ce_rank": 16,
+    "score": 0.02439384979302188
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "20886584",
+    "prior_rank": 30,
+    "ce_rank": 20,
+    "score": 0.02361111111111111
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "13831842",
+    "prior_rank": 31,
+    "ce_rank": 49,
+    "score": 0.020163322915616497
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "3329824",
+    "prior_rank": 32,
+    "ce_rank": 19,
+    "score": 0.023527793065492568
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "45638119",
+    "prior_rank": 33,
+    "ce_rank": 26,
+    "score": 0.022380595148787197
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "27123743",
+    "prior_rank": 34,
+    "ce_rank": 46,
+    "score": 0.02007226013649137
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "37480103",
+    "prior_rank": 35,
+    "ce_rank": 44,
+    "score": 0.020141700404858298
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "21033230",
+    "prior_rank": 36,
+    "ce_rank": 22,
+    "score": 0.02261178861788618
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "38551172",
+    "prior_rank": 37,
+    "ce_rank": 36,
+    "score": 0.02072594501718213
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "2328272",
+    "prior_rank": 38,
+    "ce_rank": 27,
+    "score": 0.021698334506216277
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "23557241",
+    "prior_rank": 39,
+    "ce_rank": 32,
+    "score": 0.020970575318401408
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "2931832",
+    "prior_rank": 40,
+    "ce_rank": 35,
+    "score": 0.020526315789473684
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "25121903",
+    "prior_rank": 41,
+    "ce_rank": 43,
+    "score": 0.01960972796308757
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "2130391",
+    "prior_rank": 42,
+    "ce_rank": 30,
+    "score": 0.020915032679738564
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "5864770",
+    "prior_rank": 43,
+    "ce_rank": 28,
+    "score": 0.021072374227714033
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "9394119",
+    "prior_rank": 44,
+    "ce_rank": 50,
+    "score": 0.018706293706293706
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "1389264",
+    "prior_rank": 45,
+    "ce_rank": 15,
+    "score": 0.02285714285714286
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "31616203",
+    "prior_rank": 46,
+    "ce_rank": 14,
+    "score": 0.022947475777664456
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "6550579",
+    "prior_rank": 47,
+    "ce_rank": 21,
+    "score": 0.021691473404869044
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "40735046",
+    "prior_rank": 48,
+    "ce_rank": 48,
+    "score": 0.018518518518518517
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "1379127",
+    "prior_rank": 49,
+    "ce_rank": 18,
+    "score": 0.021994824747118325
+  },
+  {
+    "cell": "01",
+    "query_id": "30",
+    "doc_id": "24575065",
+    "prior_rank": 50,
+    "ce_rank": 38,
+    "score": 0.019294990723562153
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "25001628",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "5238341",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "21164071",
+    "prior_rank": 3,
+    "ce_rank": 18,
+    "score": 0.028693528693528692
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "19482914",
+    "prior_rank": 4,
+    "ce_rank": 11,
+    "score": 0.029709507042253523
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "44387884",
+    "prior_rank": 5,
+    "ce_rank": 8,
+    "score": 0.030090497737556562
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "24670522",
+    "prior_rank": 6,
+    "ce_rank": 6,
+    "score": 0.030303030303030304
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "2931832",
+    "prior_rank": 7,
+    "ce_rank": 17,
+    "score": 0.027912386121341344
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "14075252",
+    "prior_rank": 8,
+    "ce_rank": 25,
+    "score": 0.026470588235294117
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "5266423",
+    "prior_rank": 9,
+    "ce_rank": 21,
+    "score": 0.026838432635534086
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "15981174",
+    "prior_rank": 10,
+    "ce_rank": 14,
+    "score": 0.027799227799227798
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "35660758",
+    "prior_rank": 11,
+    "ce_rank": 29,
+    "score": 0.025320462098433298
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "7873737",
+    "prior_rank": 12,
+    "ce_rank": 32,
+    "score": 0.024758454106280192
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "22123421",
+    "prior_rank": 13,
+    "ce_rank": 26,
+    "score": 0.025326537113730486
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "25543207",
+    "prior_rank": 14,
+    "ce_rank": 22,
+    "score": 0.025708635464733027
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "23195674",
+    "prior_rank": 15,
+    "ce_rank": 34,
+    "score": 0.02397163120567376
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "2842550",
+    "prior_rank": 16,
+    "ce_rank": 20,
+    "score": 0.025657894736842105
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "17897801",
+    "prior_rank": 17,
+    "ce_rank": 30,
+    "score": 0.024098124098124098
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "22371455",
+    "prior_rank": 18,
+    "ce_rank": 47,
+    "score": 0.022166307213036182
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "23783727",
+    "prior_rank": 19,
+    "ce_rank": 42,
+    "score": 0.022462149416728715
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "2587396",
+    "prior_rank": 20,
+    "ce_rank": 19,
+    "score": 0.025158227848101268
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "21931005",
+    "prior_rank": 21,
+    "ce_rank": 33,
+    "score": 0.02309836718438869
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "24730100",
+    "prior_rank": 22,
+    "ce_rank": 16,
+    "score": 0.025353016688061617
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "8219248",
+    "prior_rank": 23,
+    "ce_rank": 23,
+    "score": 0.024096385542168676
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "25420421",
+    "prior_rank": 24,
+    "ce_rank": 44,
+    "score": 0.02152014652014652
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "10530014",
+    "prior_rank": 25,
+    "ce_rank": 36,
+    "score": 0.022181372549019605
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "12039953",
+    "prior_rank": 26,
+    "ce_rank": 43,
+    "score": 0.021336644840821855
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "6158879",
+    "prior_rank": 27,
+    "ce_rank": 41,
+    "score": 0.02139524297257312
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "12358173",
+    "prior_rank": 28,
+    "ce_rank": 9,
+    "score": 0.025856389986824768
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "18064113",
+    "prior_rank": 29,
+    "ce_rank": 38,
+    "score": 0.021440036688832834
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "23716150",
+    "prior_rank": 30,
+    "ce_rank": 3,
+    "score": 0.026984126984126985
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "37297740",
+    "prior_rank": 31,
+    "ce_rank": 49,
+    "score": 0.020163322915616497
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "3056682",
+    "prior_rank": 32,
+    "ce_rank": 13,
+    "score": 0.024568195354377605
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "23190392",
+    "prior_rank": 33,
+    "ce_rank": 48,
+    "score": 0.02001194743130227
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "9196472",
+    "prior_rank": 34,
+    "ce_rank": 15,
+    "score": 0.02397163120567376
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "3495456",
+    "prior_rank": 35,
+    "ce_rank": 35,
+    "score": 0.021052631578947368
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "34016987",
+    "prior_rank": 36,
+    "ce_rank": 12,
+    "score": 0.024305555555555552
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "6796297",
+    "prior_rank": 37,
+    "ce_rank": 40,
+    "score": 0.020309278350515464
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "31543713",
+    "prior_rank": 38,
+    "ce_rank": 10,
+    "score": 0.024489795918367346
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "71625969",
+    "prior_rank": 39,
+    "ce_rank": 45,
+    "score": 0.01962481962481963
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "39164524",
+    "prior_rank": 40,
+    "ce_rank": 37,
+    "score": 0.020309278350515464
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "19149247",
+    "prior_rank": 41,
+    "ce_rank": 24,
+    "score": 0.021805752003771807
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "8331432",
+    "prior_rank": 42,
+    "ce_rank": 46,
+    "score": 0.019237883832778392
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "20707861",
+    "prior_rank": 43,
+    "ce_rank": 4,
+    "score": 0.02533373786407767
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "33118292",
+    "prior_rank": 44,
+    "ce_rank": 28,
+    "score": 0.02097902097902098
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "14672919",
+    "prior_rank": 45,
+    "ce_rank": 31,
+    "score": 0.020512820512820516
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "13702924",
+    "prior_rank": 46,
+    "ce_rank": 39,
+    "score": 0.019534972365161045
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "18662787",
+    "prior_rank": 47,
+    "ce_rank": 27,
+    "score": 0.020840047266086584
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "12315072",
+    "prior_rank": 48,
+    "ce_rank": 50,
+    "score": 0.01835016835016835
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "47240151",
+    "prior_rank": 49,
+    "ce_rank": 7,
+    "score": 0.024099685060933865
+  },
+  {
+    "cell": "01",
+    "query_id": "280",
+    "doc_id": "3845894",
+    "prior_rank": 50,
+    "ce_rank": 5,
+    "score": 0.024475524475524476
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "37549932",
+    "prior_rank": 1,
+    "ce_rank": 2,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "34436231",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "22890091",
+    "prior_rank": 3,
+    "ce_rank": 7,
+    "score": 0.030798389007344232
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "16550075",
+    "prior_rank": 4,
+    "ce_rank": 27,
+    "score": 0.027119252873563218
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "4323425",
+    "prior_rank": 5,
+    "ce_rank": 4,
+    "score": 0.031009615384615385
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "34439544",
+    "prior_rank": 6,
+    "ce_rank": 3,
+    "score": 0.031024531024531024
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "8496132",
+    "prior_rank": 7,
+    "ce_rank": 14,
+    "score": 0.028438886647841874
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "11900630",
+    "prior_rank": 8,
+    "ce_rank": 5,
+    "score": 0.030090497737556562
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "30580263",
+    "prior_rank": 9,
+    "ce_rank": 16,
+    "score": 0.027650648360030512
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "29689140",
+    "prior_rank": 10,
+    "ce_rank": 10,
+    "score": 0.02857142857142857
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "39381118",
+    "prior_rank": 11,
+    "ce_rank": 11,
+    "score": 0.028169014084507043
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "2762601",
+    "prior_rank": 12,
+    "ce_rank": 47,
+    "score": 0.023234683281412254
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "30224907",
+    "prior_rank": 13,
+    "ce_rank": 9,
+    "score": 0.02819138376017471
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "6532806",
+    "prior_rank": 14,
+    "ce_rank": 45,
+    "score": 0.02303732303732304
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "18987782",
+    "prior_rank": 15,
+    "ce_rank": 40,
+    "score": 0.023333333333333334
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "6121555",
+    "prior_rank": 16,
+    "ce_rank": 12,
+    "score": 0.027046783625730993
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "28006126",
+    "prior_rank": 17,
+    "ce_rank": 30,
+    "score": 0.024098124098124098
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "39424916",
+    "prior_rank": 18,
+    "ce_rank": 6,
+    "score": 0.027972027972027972
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "25677651",
+    "prior_rank": 19,
+    "ce_rank": 13,
+    "score": 0.026356857985087564
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "9197092",
+    "prior_rank": 20,
+    "ce_rank": 18,
+    "score": 0.02532051282051282
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "28334217",
+    "prior_rank": 21,
+    "ce_rank": 44,
+    "score": 0.021961063627730294
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "3730196",
+    "prior_rank": 22,
+    "ce_rank": 35,
+    "score": 0.0227214377406932
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "3805841",
+    "prior_rank": 23,
+    "ce_rank": 31,
+    "score": 0.023037203760095326
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "20738970",
+    "prior_rank": 24,
+    "ce_rank": 25,
+    "score": 0.023669467787114845
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "25300426",
+    "prior_rank": 25,
+    "ce_rank": 42,
+    "score": 0.021568627450980392
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "16745747",
+    "prior_rank": 26,
+    "ce_rank": 19,
+    "score": 0.02428613482484545
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "19979816",
+    "prior_rank": 27,
+    "ce_rank": 33,
+    "score": 0.02224694104560623
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "30379039",
+    "prior_rank": 28,
+    "ce_rank": 43,
+    "score": 0.021072374227714033
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "22843616",
+    "prior_rank": 29,
+    "ce_rank": 39,
+    "score": 0.02133696515718988
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "23848916",
+    "prior_rank": 30,
+    "ce_rank": 34,
+    "score": 0.021749408983451537
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "57783564",
+    "prior_rank": 31,
+    "ce_rank": 23,
+    "score": 0.023037203760095326
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "7370282",
+    "prior_rank": 32,
+    "ce_rank": 20,
+    "score": 0.023369565217391305
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "8654183",
+    "prior_rank": 33,
+    "ce_rank": 26,
+    "score": 0.022380595148787197
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "31882215",
+    "prior_rank": 34,
+    "ce_rank": 28,
+    "score": 0.022001934235976787
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "11255504",
+    "prior_rank": 35,
+    "ce_rank": 41,
+    "score": 0.020427305888483585
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "9955779",
+    "prior_rank": 36,
+    "ce_rank": 50,
+    "score": 0.01950757575757576
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "19683625",
+    "prior_rank": 37,
+    "ce_rank": 29,
+    "score": 0.021545233406695237
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "10218447",
+    "prior_rank": 38,
+    "ce_rank": 8,
+    "score": 0.02490996398559424
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "14863011",
+    "prior_rank": 39,
+    "ce_rank": 36,
+    "score": 0.020517676767676768
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "45414636",
+    "prior_rank": 40,
+    "ce_rank": 38,
+    "score": 0.02020408163265306
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "35962023",
+    "prior_rank": 41,
+    "ce_rank": 22,
+    "score": 0.022096112050229412
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "33638477",
+    "prior_rank": 42,
+    "ce_rank": 37,
+    "score": 0.020113199919142913
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "10976596",
+    "prior_rank": 43,
+    "ce_rank": 48,
+    "score": 0.018967997123336928
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "15563864",
+    "prior_rank": 44,
+    "ce_rank": 32,
+    "score": 0.02048494983277592
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "23887844",
+    "prior_rank": 45,
+    "ce_rank": 15,
+    "score": 0.02285714285714286
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "40608679",
+    "prior_rank": 46,
+    "ce_rank": 17,
+    "score": 0.022420975251163933
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "26071782",
+    "prior_rank": 47,
+    "ce_rank": 46,
+    "score": 0.018779756656674307
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "10852047",
+    "prior_rank": 48,
+    "ce_rank": 24,
+    "score": 0.021164021164021163
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "18855191",
+    "prior_rank": 49,
+    "ce_rank": 49,
+    "score": 0.01834862385321101
+  },
+  {
+    "cell": "01",
+    "query_id": "155",
+    "doc_id": "3981033",
+    "prior_rank": 50,
+    "ce_rank": 21,
+    "score": 0.02143658810325477
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "4200695",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "38493521",
+    "prior_rank": 2,
+    "ce_rank": 4,
+    "score": 0.031754032258064516
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "17691617",
+    "prior_rank": 3,
+    "ce_rank": 12,
+    "score": 0.02976190476190476
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "40631095",
+    "prior_rank": 4,
+    "ce_rank": 2,
+    "score": 0.031754032258064516
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "53779698",
+    "prior_rank": 5,
+    "ce_rank": 3,
+    "score": 0.03125763125763126
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "2028532",
+    "prior_rank": 6,
+    "ce_rank": 5,
+    "score": 0.030536130536130537
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "21053753",
+    "prior_rank": 7,
+    "ce_rank": 36,
+    "score": 0.025342039800995024
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "38882175",
+    "prior_rank": 8,
+    "ce_rank": 49,
+    "score": 0.02388019427954668
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "41161366",
+    "prior_rank": 9,
+    "ce_rank": 14,
+    "score": 0.028006267136701922
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "25761154",
+    "prior_rank": 10,
+    "ce_rank": 30,
+    "score": 0.025396825396825397
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "2825340",
+    "prior_rank": 11,
+    "ce_rank": 17,
+    "score": 0.027071520029266508
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "2820454",
+    "prior_rank": 12,
+    "ce_rank": 8,
+    "score": 0.028594771241830064
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "69045262",
+    "prior_rank": 13,
+    "ce_rank": 48,
+    "score": 0.02295788939624556
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "40817021",
+    "prior_rank": 14,
+    "ce_rank": 9,
+    "score": 0.028006267136701922
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "7198295",
+    "prior_rank": 15,
+    "ce_rank": 41,
+    "score": 0.023234323432343235
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "44586415",
+    "prior_rank": 16,
+    "ce_rank": 39,
+    "score": 0.023258904837852208
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "27711043",
+    "prior_rank": 17,
+    "ce_rank": 34,
+    "score": 0.02362531085935341
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "24634621",
+    "prior_rank": 18,
+    "ce_rank": 6,
+    "score": 0.027972027972027972
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "36721932",
+    "prior_rank": 19,
+    "ce_rank": 28,
+    "score": 0.02402186421173763
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "14724693",
+    "prior_rank": 20,
+    "ce_rank": 37,
+    "score": 0.022809278350515466
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "2891825",
+    "prior_rank": 21,
+    "ce_rank": 50,
+    "score": 0.02143658810325477
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "13027590",
+    "prior_rank": 22,
+    "ce_rank": 23,
+    "score": 0.02424331472230385
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "8604837",
+    "prior_rank": 23,
+    "ce_rank": 26,
+    "score": 0.023676099747828524
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "5586392",
+    "prior_rank": 24,
+    "ce_rank": 47,
+    "score": 0.02125055629728527
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "24865781",
+    "prior_rank": 25,
+    "ce_rank": 22,
+    "score": 0.023959827833572454
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "21957231",
+    "prior_rank": 26,
+    "ce_rank": 38,
+    "score": 0.021831988609397245
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "20696397",
+    "prior_rank": 27,
+    "ce_rank": 43,
+    "score": 0.021202990737640887
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "19529370",
+    "prior_rank": 28,
+    "ce_rank": 31,
+    "score": 0.022352647352647352
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "6767133",
+    "prior_rank": 29,
+    "ce_rank": 33,
+    "score": 0.021988643228222787
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "1360607",
+    "prior_rank": 30,
+    "ce_rank": 40,
+    "score": 0.021111111111111112
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "21767325",
+    "prior_rank": 31,
+    "ce_rank": 20,
+    "score": 0.02348901098901099
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "6191684",
+    "prior_rank": 32,
+    "ce_rank": 15,
+    "score": 0.02420289855072464
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "6841927",
+    "prior_rank": 33,
+    "ce_rank": 27,
+    "score": 0.02224694104560623
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "6625693",
+    "prior_rank": 34,
+    "ce_rank": 7,
+    "score": 0.025563671006668783
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "10666475",
+    "prior_rank": 35,
+    "ce_rank": 35,
+    "score": 0.021052631578947368
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "14118484",
+    "prior_rank": 36,
+    "ce_rank": 44,
+    "score": 0.02003205128205128
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "2335873",
+    "prior_rank": 37,
+    "ce_rank": 13,
+    "score": 0.024007908487501763
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "41976370",
+    "prior_rank": 38,
+    "ce_rank": 19,
+    "score": 0.022862309480754326
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "4164929",
+    "prior_rank": 39,
+    "ce_rank": 11,
+    "score": 0.024185517143263623
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "8596837",
+    "prior_rank": 40,
+    "ce_rank": 42,
+    "score": 0.019803921568627453
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "11933721",
+    "prior_rank": 41,
+    "ce_rank": 21,
+    "score": 0.02224666911135558
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "19182166",
+    "prior_rank": 42,
+    "ce_rank": 24,
+    "score": 0.021708683473389355
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "5687200",
+    "prior_rank": 43,
+    "ce_rank": 32,
+    "score": 0.020578303081468973
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "39892135",
+    "prior_rank": 44,
+    "ce_rank": 16,
+    "score": 0.02277327935222672
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "42950029",
+    "prior_rank": 45,
+    "ce_rank": 46,
+    "score": 0.018957771787960466
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "25301182",
+    "prior_rank": 46,
+    "ce_rank": 10,
+    "score": 0.02371967654986523
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "26107000",
+    "prior_rank": 47,
+    "ce_rank": 25,
+    "score": 0.021110500274876307
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "116556376",
+    "prior_rank": 48,
+    "ce_rank": 45,
+    "score": 0.018783068783068783
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "52175065",
+    "prior_rank": 49,
+    "ce_rank": 18,
+    "score": 0.021994824747118325
+  },
+  {
+    "cell": "11",
+    "query_id": "454",
+    "doc_id": "30292811",
+    "prior_rank": 50,
+    "ce_rank": 29,
+    "score": 0.020326864147088865
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "24341590",
+    "prior_rank": 1,
+    "ce_rank": 2,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "13069283",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "20454006",
+    "prior_rank": 3,
+    "ce_rank": 3,
+    "score": 0.031746031746031744
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "12438901",
+    "prior_rank": 4,
+    "ce_rank": 4,
+    "score": 0.03125
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "4886637",
+    "prior_rank": 5,
+    "ce_rank": 39,
+    "score": 0.02548562548562549
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "31311495",
+    "prior_rank": 6,
+    "ce_rank": 5,
+    "score": 0.030536130536130537
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "22482820",
+    "prior_rank": 7,
+    "ce_rank": 25,
+    "score": 0.0266900790166813
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "195680777",
+    "prior_rank": 8,
+    "ce_rank": 6,
+    "score": 0.029857397504456328
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "16098747",
+    "prior_rank": 9,
+    "ce_rank": 33,
+    "score": 0.025245441795231416
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "313403",
+    "prior_rank": 10,
+    "ce_rank": 9,
+    "score": 0.02877846790890269
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "23284774",
+    "prior_rank": 11,
+    "ce_rank": 24,
+    "score": 0.025989268947015427
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "24349992",
+    "prior_rank": 12,
+    "ce_rank": 8,
+    "score": 0.028594771241830064
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "15721252",
+    "prior_rank": 13,
+    "ce_rank": 10,
+    "score": 0.027984344422700584
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "17163294",
+    "prior_rank": 14,
+    "ce_rank": 17,
+    "score": 0.026500526500526502
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "13007205",
+    "prior_rank": 15,
+    "ce_rank": 13,
+    "score": 0.027031963470319637
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "1171121",
+    "prior_rank": 16,
+    "ce_rank": 23,
+    "score": 0.025206087507926443
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "13831558",
+    "prior_rank": 17,
+    "ce_rank": 45,
+    "score": 0.022510822510822513
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "3285322",
+    "prior_rank": 18,
+    "ce_rank": 37,
+    "score": 0.023129791171028286
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "27240667",
+    "prior_rank": 19,
+    "ce_rank": 41,
+    "score": 0.022559217947111167
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "24988745",
+    "prior_rank": 20,
+    "ce_rank": 29,
+    "score": 0.023735955056179776
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "20127522",
+    "prior_rank": 21,
+    "ce_rank": 11,
+    "score": 0.0264301860545992
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "2015126",
+    "prior_rank": 22,
+    "ce_rank": 34,
+    "score": 0.022833419823559936
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "25973484",
+    "prior_rank": 23,
+    "ce_rank": 47,
+    "score": 0.0213939871636077
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "7821634",
+    "prior_rank": 24,
+    "ce_rank": 12,
+    "score": 0.025793650793650792
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "32534305",
+    "prior_rank": 25,
+    "ce_rank": 42,
+    "score": 0.021568627450980392
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "16701509",
+    "prior_rank": 26,
+    "ce_rank": 40,
+    "score": 0.021627906976744188
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "15559582",
+    "prior_rank": 27,
+    "ce_rank": 31,
+    "score": 0.02248326386257421
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "4429932",
+    "prior_rank": 28,
+    "ce_rank": 7,
+    "score": 0.02628900949796472
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "25732836",
+    "prior_rank": 29,
+    "ce_rank": 16,
+    "score": 0.02439384979302188
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "20886584",
+    "prior_rank": 30,
+    "ce_rank": 20,
+    "score": 0.02361111111111111
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "13831842",
+    "prior_rank": 31,
+    "ce_rank": 49,
+    "score": 0.020163322915616497
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "3329824",
+    "prior_rank": 32,
+    "ce_rank": 19,
+    "score": 0.023527793065492568
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "45638119",
+    "prior_rank": 33,
+    "ce_rank": 26,
+    "score": 0.022380595148787197
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "27123743",
+    "prior_rank": 34,
+    "ce_rank": 46,
+    "score": 0.02007226013649137
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "37480103",
+    "prior_rank": 35,
+    "ce_rank": 44,
+    "score": 0.020141700404858298
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "21033230",
+    "prior_rank": 36,
+    "ce_rank": 22,
+    "score": 0.02261178861788618
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "38551172",
+    "prior_rank": 37,
+    "ce_rank": 36,
+    "score": 0.02072594501718213
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "2328272",
+    "prior_rank": 38,
+    "ce_rank": 27,
+    "score": 0.021698334506216277
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "23557241",
+    "prior_rank": 39,
+    "ce_rank": 32,
+    "score": 0.020970575318401408
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "2931832",
+    "prior_rank": 40,
+    "ce_rank": 35,
+    "score": 0.020526315789473684
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "25121903",
+    "prior_rank": 41,
+    "ce_rank": 43,
+    "score": 0.01960972796308757
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "2130391",
+    "prior_rank": 42,
+    "ce_rank": 30,
+    "score": 0.020915032679738564
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "5864770",
+    "prior_rank": 43,
+    "ce_rank": 28,
+    "score": 0.021072374227714033
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "9394119",
+    "prior_rank": 44,
+    "ce_rank": 50,
+    "score": 0.018706293706293706
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "1389264",
+    "prior_rank": 45,
+    "ce_rank": 15,
+    "score": 0.02285714285714286
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "31616203",
+    "prior_rank": 46,
+    "ce_rank": 14,
+    "score": 0.022947475777664456
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "6550579",
+    "prior_rank": 47,
+    "ce_rank": 21,
+    "score": 0.021691473404869044
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "40735046",
+    "prior_rank": 48,
+    "ce_rank": 48,
+    "score": 0.018518518518518517
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "1379127",
+    "prior_rank": 49,
+    "ce_rank": 18,
+    "score": 0.021994824747118325
+  },
+  {
+    "cell": "11",
+    "query_id": "30",
+    "doc_id": "24575065",
+    "prior_rank": 50,
+    "ce_rank": 38,
+    "score": 0.019294990723562153
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "25001628",
+    "prior_rank": 1,
+    "ce_rank": 1,
+    "score": 0.03278688524590164
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "5238341",
+    "prior_rank": 2,
+    "ce_rank": 2,
+    "score": 0.03225806451612903
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "21164071",
+    "prior_rank": 3,
+    "ce_rank": 18,
+    "score": 0.028693528693528692
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "19482914",
+    "prior_rank": 4,
+    "ce_rank": 11,
+    "score": 0.029709507042253523
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "44387884",
+    "prior_rank": 5,
+    "ce_rank": 8,
+    "score": 0.030090497737556562
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "24670522",
+    "prior_rank": 6,
+    "ce_rank": 6,
+    "score": 0.030303030303030304
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "2931832",
+    "prior_rank": 7,
+    "ce_rank": 17,
+    "score": 0.027912386121341344
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "14075252",
+    "prior_rank": 8,
+    "ce_rank": 25,
+    "score": 0.026470588235294117
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "5266423",
+    "prior_rank": 9,
+    "ce_rank": 21,
+    "score": 0.026838432635534086
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "15981174",
+    "prior_rank": 10,
+    "ce_rank": 14,
+    "score": 0.027799227799227798
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "35660758",
+    "prior_rank": 11,
+    "ce_rank": 29,
+    "score": 0.025320462098433298
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "7873737",
+    "prior_rank": 12,
+    "ce_rank": 32,
+    "score": 0.024758454106280192
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "22123421",
+    "prior_rank": 13,
+    "ce_rank": 26,
+    "score": 0.025326537113730486
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "25543207",
+    "prior_rank": 14,
+    "ce_rank": 22,
+    "score": 0.025708635464733027
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "23195674",
+    "prior_rank": 15,
+    "ce_rank": 34,
+    "score": 0.02397163120567376
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "2842550",
+    "prior_rank": 16,
+    "ce_rank": 20,
+    "score": 0.025657894736842105
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "17897801",
+    "prior_rank": 17,
+    "ce_rank": 30,
+    "score": 0.024098124098124098
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "22371455",
+    "prior_rank": 18,
+    "ce_rank": 47,
+    "score": 0.022166307213036182
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "23783727",
+    "prior_rank": 19,
+    "ce_rank": 42,
+    "score": 0.022462149416728715
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "2587396",
+    "prior_rank": 20,
+    "ce_rank": 19,
+    "score": 0.025158227848101268
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "21931005",
+    "prior_rank": 21,
+    "ce_rank": 33,
+    "score": 0.02309836718438869
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "24730100",
+    "prior_rank": 22,
+    "ce_rank": 16,
+    "score": 0.025353016688061617
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "8219248",
+    "prior_rank": 23,
+    "ce_rank": 23,
+    "score": 0.024096385542168676
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "25420421",
+    "prior_rank": 24,
+    "ce_rank": 44,
+    "score": 0.02152014652014652
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "10530014",
+    "prior_rank": 25,
+    "ce_rank": 36,
+    "score": 0.022181372549019605
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "12039953",
+    "prior_rank": 26,
+    "ce_rank": 43,
+    "score": 0.021336644840821855
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "6158879",
+    "prior_rank": 27,
+    "ce_rank": 41,
+    "score": 0.02139524297257312
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "12358173",
+    "prior_rank": 28,
+    "ce_rank": 9,
+    "score": 0.025856389986824768
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "18064113",
+    "prior_rank": 29,
+    "ce_rank": 38,
+    "score": 0.021440036688832834
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "23716150",
+    "prior_rank": 30,
+    "ce_rank": 3,
+    "score": 0.026984126984126985
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "37297740",
+    "prior_rank": 31,
+    "ce_rank": 49,
+    "score": 0.020163322915616497
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "3056682",
+    "prior_rank": 32,
+    "ce_rank": 13,
+    "score": 0.024568195354377605
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "23190392",
+    "prior_rank": 33,
+    "ce_rank": 48,
+    "score": 0.02001194743130227
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "9196472",
+    "prior_rank": 34,
+    "ce_rank": 15,
+    "score": 0.02397163120567376
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "3495456",
+    "prior_rank": 35,
+    "ce_rank": 35,
+    "score": 0.021052631578947368
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "34016987",
+    "prior_rank": 36,
+    "ce_rank": 12,
+    "score": 0.024305555555555552
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "6796297",
+    "prior_rank": 37,
+    "ce_rank": 40,
+    "score": 0.020309278350515464
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "31543713",
+    "prior_rank": 38,
+    "ce_rank": 10,
+    "score": 0.024489795918367346
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "71625969",
+    "prior_rank": 39,
+    "ce_rank": 45,
+    "score": 0.01962481962481963
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "39164524",
+    "prior_rank": 40,
+    "ce_rank": 37,
+    "score": 0.020309278350515464
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "19149247",
+    "prior_rank": 41,
+    "ce_rank": 24,
+    "score": 0.021805752003771807
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "8331432",
+    "prior_rank": 42,
+    "ce_rank": 46,
+    "score": 0.019237883832778392
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "20707861",
+    "prior_rank": 43,
+    "ce_rank": 4,
+    "score": 0.02533373786407767
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "33118292",
+    "prior_rank": 44,
+    "ce_rank": 28,
+    "score": 0.02097902097902098
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "14672919",
+    "prior_rank": 45,
+    "ce_rank": 31,
+    "score": 0.020512820512820516
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "13702924",
+    "prior_rank": 46,
+    "ce_rank": 39,
+    "score": 0.019534972365161045
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "18662787",
+    "prior_rank": 47,
+    "ce_rank": 27,
+    "score": 0.020840047266086584
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "12315072",
+    "prior_rank": 48,
+    "ce_rank": 50,
+    "score": 0.01835016835016835
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "47240151",
+    "prior_rank": 49,
+    "ce_rank": 7,
+    "score": 0.024099685060933865
+  },
+  {
+    "cell": "11",
+    "query_id": "280",
+    "doc_id": "3845894",
+    "prior_rank": 50,
+    "ce_rank": 5,
+    "score": 0.024475524475524476
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "37549932",
+    "prior_rank": 1,
+    "ce_rank": 4,
+    "score": 0.032018442622950824
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "34436231",
+    "prior_rank": 2,
+    "ce_rank": 1,
+    "score": 0.03252247488101534
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "22890091",
+    "prior_rank": 3,
+    "ce_rank": 7,
+    "score": 0.030798389007344232
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "16550075",
+    "prior_rank": 4,
+    "ce_rank": 27,
+    "score": 0.027119252873563218
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "4323425",
+    "prior_rank": 5,
+    "ce_rank": 3,
+    "score": 0.03125763125763126
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "34439544",
+    "prior_rank": 6,
+    "ce_rank": 2,
+    "score": 0.03128054740957967
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "8496132",
+    "prior_rank": 7,
+    "ce_rank": 14,
+    "score": 0.028438886647841874
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "11900630",
+    "prior_rank": 8,
+    "ce_rank": 5,
+    "score": 0.030090497737556562
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "30580263",
+    "prior_rank": 9,
+    "ce_rank": 16,
+    "score": 0.027650648360030512
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "29689140",
+    "prior_rank": 10,
+    "ce_rank": 10,
+    "score": 0.02857142857142857
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "39381118",
+    "prior_rank": 11,
+    "ce_rank": 11,
+    "score": 0.028169014084507043
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "2762601",
+    "prior_rank": 12,
+    "ce_rank": 47,
+    "score": 0.023234683281412254
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "30224907",
+    "prior_rank": 13,
+    "ce_rank": 9,
+    "score": 0.02819138376017471
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "6532806",
+    "prior_rank": 14,
+    "ce_rank": 45,
+    "score": 0.02303732303732304
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "18987782",
+    "prior_rank": 15,
+    "ce_rank": 40,
+    "score": 0.023333333333333334
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "6121555",
+    "prior_rank": 16,
+    "ce_rank": 12,
+    "score": 0.027046783625730993
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "28006126",
+    "prior_rank": 17,
+    "ce_rank": 30,
+    "score": 0.024098124098124098
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "39424916",
+    "prior_rank": 18,
+    "ce_rank": 6,
+    "score": 0.027972027972027972
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "25677651",
+    "prior_rank": 19,
+    "ce_rank": 13,
+    "score": 0.026356857985087564
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "9197092",
+    "prior_rank": 20,
+    "ce_rank": 18,
+    "score": 0.02532051282051282
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "28334217",
+    "prior_rank": 21,
+    "ce_rank": 44,
+    "score": 0.021961063627730294
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "3730196",
+    "prior_rank": 22,
+    "ce_rank": 35,
+    "score": 0.0227214377406932
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "3805841",
+    "prior_rank": 23,
+    "ce_rank": 31,
+    "score": 0.023037203760095326
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "20738970",
+    "prior_rank": 24,
+    "ce_rank": 25,
+    "score": 0.023669467787114845
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "25300426",
+    "prior_rank": 25,
+    "ce_rank": 42,
+    "score": 0.021568627450980392
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "16745747",
+    "prior_rank": 26,
+    "ce_rank": 19,
+    "score": 0.02428613482484545
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "19979816",
+    "prior_rank": 27,
+    "ce_rank": 33,
+    "score": 0.02224694104560623
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "30379039",
+    "prior_rank": 28,
+    "ce_rank": 43,
+    "score": 0.021072374227714033
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "22843616",
+    "prior_rank": 29,
+    "ce_rank": 39,
+    "score": 0.02133696515718988
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "23848916",
+    "prior_rank": 30,
+    "ce_rank": 34,
+    "score": 0.021749408983451537
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "57783564",
+    "prior_rank": 31,
+    "ce_rank": 23,
+    "score": 0.023037203760095326
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "7370282",
+    "prior_rank": 32,
+    "ce_rank": 20,
+    "score": 0.023369565217391305
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "8654183",
+    "prior_rank": 33,
+    "ce_rank": 26,
+    "score": 0.022380595148787197
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "31882215",
+    "prior_rank": 34,
+    "ce_rank": 28,
+    "score": 0.022001934235976787
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "11255504",
+    "prior_rank": 35,
+    "ce_rank": 41,
+    "score": 0.020427305888483585
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "9955779",
+    "prior_rank": 36,
+    "ce_rank": 50,
+    "score": 0.01950757575757576
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "19683625",
+    "prior_rank": 37,
+    "ce_rank": 29,
+    "score": 0.021545233406695237
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "10218447",
+    "prior_rank": 38,
+    "ce_rank": 8,
+    "score": 0.02490996398559424
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "14863011",
+    "prior_rank": 39,
+    "ce_rank": 36,
+    "score": 0.020517676767676768
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "45414636",
+    "prior_rank": 40,
+    "ce_rank": 38,
+    "score": 0.02020408163265306
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "35962023",
+    "prior_rank": 41,
+    "ce_rank": 22,
+    "score": 0.022096112050229412
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "33638477",
+    "prior_rank": 42,
+    "ce_rank": 37,
+    "score": 0.020113199919142913
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "10976596",
+    "prior_rank": 43,
+    "ce_rank": 48,
+    "score": 0.018967997123336928
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "15563864",
+    "prior_rank": 44,
+    "ce_rank": 32,
+    "score": 0.02048494983277592
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "23887844",
+    "prior_rank": 45,
+    "ce_rank": 15,
+    "score": 0.02285714285714286
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "40608679",
+    "prior_rank": 46,
+    "ce_rank": 17,
+    "score": 0.022420975251163933
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "26071782",
+    "prior_rank": 47,
+    "ce_rank": 46,
+    "score": 0.018779756656674307
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "10852047",
+    "prior_rank": 48,
+    "ce_rank": 24,
+    "score": 0.021164021164021163
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "18855191",
+    "prior_rank": 49,
+    "ce_rank": 49,
+    "score": 0.01834862385321101
+  },
+  {
+    "cell": "11",
+    "query_id": "155",
+    "doc_id": "3981033",
+    "prior_rank": 50,
+    "ce_rank": 21,
+    "score": 0.02143658810325477
+  }
+]
