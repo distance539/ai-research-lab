@@ -1,0 +1,61 @@
+{
+  "scope": "conditional development resampling; no selection correction or guaranteed coverage",
+  "seed": 110,
+  "replicates": 10000,
+  "component_count": 94,
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.0333879970815435,
+      "component_percentile_95": [
+        0.0008831395235673985,
+        0.06631887300036132
+      ],
+      "query_percentile_95": [
+        0.0013120488089443882,
+        0.06804795157537598
+      ],
+      "leave_one_component_out_range": [
+        0.027500070359820123,
+        0.037854186902336585
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": 0.03161445901773418,
+      "component_percentile_95": [
+        0.0026921351177958833,
+        0.062389742188509005
+      ],
+      "query_percentile_95": [
+        0.0048023648755684215,
+        0.059443659486541345
+      ],
+      "leave_one_component_out_range": [
+        0.02464596394810506,
+        0.035661779274767276
+      ]
+    },
+    "ce_minus_rrf": {
+      "mean": -0.0017735380638093168,
+      "component_percentile_95": [
+        -0.0493194509597371,
+        0.044971451363759726
+      ],
+      "query_percentile_95": [
+        -0.04931978796405209,
+        0.0433830589221885
+      ],
+      "leave_one_component_out_range": [
+        -0.009276126123656183,
+        0.004759581699092308
+      ]
+    }
+  },
+  "confirmation_evaluated": false,
+  "seconds": 0.9612344999331981,
+  "input_sha256": {
+    "comparison_per_query.json": "1bfa0e39e15791e17ac90b835622ed415bd7a6728c4aed53c6fd3b9fb2fa3542",
+    "components.json": "c81441428e9c2252c2ddf4ea1d916a744d34e467f41131896bc7c703e6edc2f4",
+    "bootstrap_indices.json.gz": "dbebfcafc20f52d295c018f58620d509e2df4df53723baba76ceb980be32f7ad",
+    "bootstrap_replicates.json.gz": "7cdcd630a954d38adecdbe645bf514ad1f698b0b256aef88d6be741f84509b5d"
+  }
+}
