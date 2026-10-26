@@ -1,0 +1,37 @@
+{
+  "original": {
+    "ndcg_cut_10": 0.6709061301781298,
+    "recall_10": 0.7775,
+    "recall_50": 0.905,
+    "mrr_10": 0.6373611111111112
+  },
+  "reranked": {
+    "ndcg_cut_10": 0.6691325921143205,
+    "recall_10": 0.8175,
+    "recall_50": 0.905,
+    "mrr_10": 0.6267499999999999
+  },
+  "oracle": {
+    "ndcg_cut_10": 0.9061314719276545,
+    "recall_10": 0.905,
+    "recall_50": 0.905,
+    "mrr_10": 0.91
+  },
+  "queries": 100,
+  "pairs": 5000,
+  "win_tie_loss": [
+    20,
+    62,
+    18
+  ],
+  "failure_categories": {
+    "no_relevant_candidate": 9,
+    "candidate_hit_but_top10_miss": 8,
+    "top10_hit": 83
+  },
+  "partial_candidate_coverage": 1,
+  "mean_candidate_loss": 0.09386852807234541,
+  "mean_ordering_loss": 0.2369988798133341,
+  "delta": -0.0017735380638093101,
+  "scope": "development subset, no test, no training"
+}
