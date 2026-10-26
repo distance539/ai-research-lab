@@ -1,0 +1,89 @@
+{
+  "rule": "3 lowest and3 highest delta; automatic, not human annotation",
+  "rows": [
+    {
+      "query_id": "1125",
+      "delta": 0.0,
+      "original": 1.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "1309",
+      "delta": 0.0,
+      "original": 0.0,
+      "reranked": 0.0,
+      "oracle": 0.0,
+      "candidate_loss": 1.0,
+      "ordering_loss": 0.0,
+      "category": "no_relevant_candidate",
+      "relevant_total": 1,
+      "relevant_in_candidates": 0,
+      "original_first_relevant": null,
+      "reranked_first_relevant": null
+    },
+    {
+      "query_id": "201",
+      "delta": 0.0,
+      "original": 1.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "201",
+      "delta": 0.0,
+      "original": 1.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "881",
+      "delta": 0.0,
+      "original": 1.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "1193",
+      "delta": 0.36907024642854247,
+      "original": 0.6309297535714575,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 2,
+      "reranked_first_relevant": 1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "scope": "conditional development resampling; no selection correction or guaranteed coverage",
+  "seed": 110,
+  "replicates": 10000,
+  "component_count": 5,
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.0,
+      "component_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    },
+    "ce_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    }
+  },
+  "confirmation_evaluated": false,
+  "seconds": 0.21964216697961092,
+  "input_sha256": {
+    "comparison_per_query.json": "53b1039a9342f68cfe392576e7d09b81ef517fa14e2f6b2c392212315e67a124",
+    "components.json": "673b0fd8d9ef43bbba69243e0b5d0f7a7a20d815b770308002181df6362f74e4",
+    "bootstrap_indices.json.gz": "142f36f06df2adf520c8a3b18b2d56ec11eff8fc00d469e121aa784d8ed0300f",
+    "bootstrap_replicates.json.gz": "1f9cc8adc5d1f09d9060dec0be49a5e61fc5d11ead5d72c3301e2ebdd10347a4"
+  }
+}
