@@ -1,0 +1,37 @@
+[
+  {
+    "topic": "106",
+    "source_url": "https://raw.githubusercontent.com/distance539/ai-research-lab/cf8117a71bb7ed19591d1ce15c8caeaf41c0232d/cycle06/106-failure-to-hypothesis/results/summary.json",
+    "local_path": "prior/106_summary.json",
+    "sha256": "ed1beb0d9275fa1124a58aeeafda46e02a59c22f345f521269e61f5ca95fbc07",
+    "role": "historical reported results, not fresh110 inference"
+  },
+  {
+    "topic": "107",
+    "source_url": "https://raw.githubusercontent.com/distance539/ai-research-lab/ae2ebdbfef3277e025c6f1085937d3e112abc5ff/cycle06/107-discriminating-controls/results/summary.json",
+    "local_path": "prior/107_summary.json",
+    "sha256": "a32628945874e00665fb4a8a11943c731c0ac1f491fab5e67a05eccd0d9e30ab",
+    "role": "historical reported results, not fresh110 inference"
+  },
+  {
+    "topic": "108",
+    "source_url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/results/comparison_summary.json",
+    "local_path": "prior/108_summary.json",
+    "sha256": "ddcf5d27c9546b00dd14eefd10a0464a47eddef51795bcaf8ac59eae9947a5c7",
+    "role": "historical reported results, not fresh110 inference"
+  },
+  {
+    "topic": "109",
+    "source_url": "https://raw.githubusercontent.com/distance539/ai-research-lab/6a1a8d2486068b0af12902a28ecb9368f7ba7e67/cycle06/109-ablation-interactions/results/summary.json",
+    "local_path": "prior/109_summary.json",
+    "sha256": "21969bf935a040a3f2e053bd80145cee80c12565b08353c5e7d7c56304a0f71d",
+    "role": "historical reported results, not fresh110 inference"
+  },
+  {
+    "topic": "107",
+    "source_url": "https://raw.githubusercontent.com/distance539/ai-research-lab/ae2ebdbfef3277e025c6f1085937d3e112abc5ff/cycle06/107-discriminating-controls/human_review_confirmation.json",
+    "local_path": "prior/107_confirmation.json",
+    "sha256": "6e72a903fd7058edcc2c9313745d4f5488b52b441ead395052e1e5739409fd03",
+    "role": "actual user approval supersedes historical pending status"
+  }
+]

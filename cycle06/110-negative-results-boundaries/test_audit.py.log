@@ -1,0 +1,1 @@
+[{'mutation': 'score', 'rejected': True}, {'mutation': 'missing_candidate', 'rejected': True}, {'mutation': 'delta', 'rejected': True}, {'mutation': 'budget', 'rejected': True}, {'mutation': 'confirmation', 'rejected': True}, {'mutation': 'trace', 'rejected': True}, {'mutation': 'tradeoff', 'rejected': True}]

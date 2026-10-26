@@ -1,0 +1,40 @@
+[
+  {
+    "command": [
+      "python",
+      "prepare.py",
+      "--cache",
+      "<verified-cache>"
+    ],
+    "exit_code": 0,
+    "log": "prepare.log",
+    "seconds": 0.1552269458770752
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "<verified-cache>",
+      "--out",
+      "smoke",
+      "--smoke"
+    ],
+    "exit_code": 0,
+    "log": "smoke.log",
+    "seconds": 4.735032081604004
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "--cache",
+      "<verified-cache>",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "log": "development.log",
+    "seconds": 137.47725415229797
+  }
+]

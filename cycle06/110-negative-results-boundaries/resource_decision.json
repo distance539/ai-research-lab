@@ -1,0 +1,7 @@
+{
+  "at": "2026-10-26T09:04:11.746366+08:00",
+  "smoke_pairs": 50,
+  "estimated_formal_seconds": 128.796483296901,
+  "measured_smoke_rss": 795852800,
+  "decision": "run5000pairs"
+}

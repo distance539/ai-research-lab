@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "pairs": 5000,
+  "max_logit_difference": 0,
+  "parent_commit": "51db71c4b1157eb5f5f0195fecfa5c738c452892",
+  "scope": "fresh110 all three original/CE/oracle runs equal108"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "local": "baseline_run.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/run.py",
+    "sha256": "893b5a9766748a96295b2b52f8decb7f90128b934c6d521cce5d7ff9fc2e9f1d",
+    "exact": true
+  },
+  {
+    "local": "ce_run.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/ce_run.py",
+    "sha256": "08bb275ab506b72e39d57aa52a983ccaba91aaf1277aec1c277a7dea89c5d17a",
+    "exact": true
+  },
+  {
+    "local": "common.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/common.py",
+    "sha256": "c78f7372f8c1f8ea1ea888017e74c1fd458fa38ee50f2b7b7103511bd2ac16d1",
+    "exact": true
+  },
+  {
+    "local": "audit.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/audit.py",
+    "sha256": "fd800bc0cd668e3b9ceafa79949de42558dfe71762c968990d3eb8df1f3b9da1",
+    "exact": true
+  },
+  {
+    "local": "ce_audit.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/ce_audit.py",
+    "sha256": "2304c82fe650e289493e4ee7e2bdf5d97f17147184d4a9a043ba6fef1dcf8124",
+    "exact": true
+  },
+  {
+    "local": "prepare.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/prepare.py",
+    "sha256": "6d43f4ab9e814be63d2fd927dfdfde58c00143ed7d31f77b61b530b0b016d9c2",
+    "exact": true
+  },
+  {
+    "local": "test_audit.py",
+    "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/51db71c4b1157eb5f5f0195fecfa5c738c452892/cycle06/108-equal-budget-baselines/test_audit.py",
+    "sha256": "f529929092fa6ca718b84afbd57eafe49d4d31f8186e258bce28ebde0552361f",
+    "exact": true
+  }
+]

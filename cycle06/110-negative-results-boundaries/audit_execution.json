@@ -1,0 +1,57 @@
+[
+  {
+    "command": [
+      "python3",
+      "audit.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "seconds": 0.48932504653930664,
+    "log": "audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "ce_audit.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "seconds": 0.12542986869812012,
+    "log": "ce_audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "audit_statistics.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "seconds": 0.6995127201080322,
+    "log": "audit_statistics.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "test_audit.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "seconds": 1.955327033996582,
+    "log": "test_audit.py.log"
+  },
+  {
+    "command": [
+      "python3",
+      "test_statistics.py",
+      "--out",
+      "results"
+    ],
+    "exit_code": 0,
+    "seconds": 4.644412040710449,
+    "log": "test_statistics.py.log"
+  }
+]
