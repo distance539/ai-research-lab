@@ -1,0 +1,9 @@
+{
+  "scope": "preflight only",
+  "practical_threshold": 0.01,
+  "mean": 0.0,
+  "point_threshold_met": false,
+  "interval_covers_zero": true,
+  "interval_covers_practical_threshold": false,
+  "no_reselection": true
+}

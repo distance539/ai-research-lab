@@ -1,0 +1,47 @@
+{
+  "rule": "three lowest blend-minusCE; descriptive ranking predicate, no new semantic labels",
+  "rows": [
+    {
+      "query_id": "1125",
+      "rrf": 1.0,
+      "ce": 1.0,
+      "blend": 1.0,
+      "blend_minus_ce": 0.0,
+      "blend_minus_rrf": 0.0,
+      "ce_minus_rrf": 0.0,
+      "ranks": {
+        "rrf": 1,
+        "ce": 1,
+        "blend": 1
+      }
+    },
+    {
+      "query_id": "1193",
+      "rrf": 0.6309297535714575,
+      "ce": 1.0,
+      "blend": 1.0,
+      "blend_minus_ce": 0.0,
+      "blend_minus_rrf": 0.36907024642854247,
+      "ce_minus_rrf": 0.36907024642854247,
+      "ranks": {
+        "rrf": 2,
+        "ce": 1,
+        "blend": 1
+      }
+    },
+    {
+      "query_id": "1309",
+      "rrf": 0.0,
+      "ce": 0.0,
+      "blend": 0.0,
+      "blend_minus_ce": 0.0,
+      "blend_minus_rrf": 0.0,
+      "ce_minus_rrf": 0.0,
+      "ranks": {
+        "rrf": null,
+        "ce": null,
+        "blend": null
+      }
+    }
+  ]
+}

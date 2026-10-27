@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "independent_graph": "BFS shared positive qrels",
+  "resampled_means_checked": 60000,
+  "interval_endpoints_checked": 12,
+  "input_sha256": {
+    "comparison_per_query.json": "53b1039a9342f68cfe392576e7d09b81ef517fa14e2f6b2c392212315e67a124",
+    "components.json": "673b0fd8d9ef43bbba69243e0b5d0f7a7a20d815b770308002181df6362f74e4",
+    "bootstrap_indices.json.gz": "f03b7fad49bb7cf82c40e61319d991cd855430d744680e3d129b258092088f05",
+    "bootstrap_replicates.json.gz": "aba745aa5be7ce5e44fd02e5da8bec0b692e42964a49763c6c75417f82b0dacb"
+  },
+  "script_sha256": "8fc570b0b2b26e7da537f88fa03d1d1e95d154c67f7a4ef20f94c81e3087c302"
+}

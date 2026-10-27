@@ -1,0 +1,29 @@
+{
+  "rule": "connected components of queries sharing any positive-qrels document; transitive closure; no outcome use",
+  "groups": [
+    [
+      "1125"
+    ],
+    [
+      "1193"
+    ],
+    [
+      "1309"
+    ],
+    [
+      "201"
+    ],
+    [
+      "881"
+    ]
+  ],
+  "count": 5,
+  "sizes": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "queries": 5
+}

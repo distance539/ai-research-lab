@@ -1,0 +1,61 @@
+{
+  "scope": "development preflight",
+  "seed": 111,
+  "replicates": 10000,
+  "component_count": 5,
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.0,
+      "component_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    },
+    "ce_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    }
+  },
+  "confirmation_evaluated": false,
+  "seconds": 0.2081653750501573,
+  "input_sha256": {
+    "comparison_per_query.json": "53b1039a9342f68cfe392576e7d09b81ef517fa14e2f6b2c392212315e67a124",
+    "components.json": "673b0fd8d9ef43bbba69243e0b5d0f7a7a20d815b770308002181df6362f74e4",
+    "bootstrap_indices.json.gz": "f03b7fad49bb7cf82c40e61319d991cd855430d744680e3d129b258092088f05",
+    "bootstrap_replicates.json.gz": "aba745aa5be7ce5e44fd02e5da8bec0b692e42964a49763c6c75417f82b0dacb"
+  }
+}
