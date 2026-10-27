@@ -1,0 +1,15 @@
+{
+  "candidate_pairs": 15000,
+  "rrf_additional_ce_pairs": 0,
+  "ce_pairs": 15000,
+  "blend_ce_pairs": 15000,
+  "blend_extra_model_pairs": 0,
+  "ce_effective_tokens": 5323656,
+  "blend_effective_tokens": 5323656,
+  "training_tokens": 0,
+  "ce_inference_seconds": 391.03651429200545,
+  "fusion_arithmetic_seconds": 0.00812108302488923,
+  "fusion_timing_scope": "build both rank maps, sum reciprocals and sort; includes trace construction; excludes evaluation and JSON writes",
+  "shared_initial_retrieval_seconds": "measured separately in retrieval/status.json; shared across policies",
+  "cost_interpretation": "CE and blend share the same single model pass; pureRRF has zero incremental CE cost. Not equal total end-to-end costs. Shape check adds4 auxiliary model pairs outside scored experiment for all strategies."
+}

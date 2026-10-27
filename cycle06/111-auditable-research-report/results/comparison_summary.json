@@ -1,0 +1,56 @@
+{
+  "queries": 300,
+  "methods": {
+    "rrf": {
+      "ndcg_cut_10": 0.7113379805797218,
+      "recall_10": 0.8536111111111111,
+      "recall_50": 0.9403333333333334,
+      "mrr_10": 0.6721402116402116
+    },
+    "ce": {
+      "ndcg_cut_10": 0.6927649046797678,
+      "recall_10": 0.8222222222222222,
+      "recall_50": 0.9403333333333334,
+      "mrr_10": 0.6610925925925926
+    },
+    "blend": {
+      "ndcg_cut_10": 0.7103051470671109,
+      "recall_10": 0.8617777777777779,
+      "recall_50": 0.9403333333333334,
+      "mrr_10": 0.6691653439153439
+    }
+  },
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.01754024238734319,
+      "win_tie_loss": [
+        65,
+        197,
+        38
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": -0.001032833512610768,
+      "win_tie_loss": [
+        46,
+        213,
+        41
+      ]
+    }
+  },
+  "top10_misses": {
+    "rrf": 40,
+    "ce": 49,
+    "blend": 38
+  },
+  "confirmation_evaluated": true,
+  "scope": "frozen300confirmation",
+  "override_tradeoff": {
+    "old_ce_losses": 66,
+    "improved_vs_ce": 57,
+    "recovered_to_rrf_or_better": 29,
+    "old_ce_gains": 51,
+    "old_gains_reduced_by_blend": 37,
+    "new_harm_vs_rrf_on_nonlosses": 4
+  }
+}

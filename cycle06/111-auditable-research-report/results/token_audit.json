@@ -1,0 +1,8 @@
+{
+  "pairs": 15000,
+  "raw_tokens": 5546257,
+  "retained_tokens": 5323656,
+  "truncated_pairs": 1883,
+  "max_raw_tokens": 1969,
+  "tokenization": "longest_first on pair; combined512; no prompt"
+}

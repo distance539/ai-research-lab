@@ -1,0 +1,89 @@
+{
+  "rule": "3 lowest and3 highest delta; automatic, not human annotation",
+  "rows": [
+    {
+      "query_id": "1278",
+      "delta": -1.0,
+      "original": 1.0,
+      "reranked": 0.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 1.0,
+      "category": "candidate_hit_but_top10_miss",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 12
+    },
+    {
+      "query_id": "1279",
+      "delta": -1.0,
+      "original": 1.0,
+      "reranked": 0.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 1.0,
+      "category": "candidate_hit_but_top10_miss",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 11
+    },
+    {
+      "query_id": "94",
+      "delta": -0.7109351736821121,
+      "original": 1.0,
+      "reranked": 0.2890648263178879,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.7109351736821121,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 1,
+      "reranked_first_relevant": 10
+    },
+    {
+      "query_id": "644",
+      "delta": 0.6437928128919779,
+      "original": 0.3562071871080222,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 6,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "1368",
+      "delta": 1.0,
+      "original": 0.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 16,
+      "reranked_first_relevant": 1
+    },
+    {
+      "query_id": "690",
+      "delta": 1.0,
+      "original": 0.0,
+      "reranked": 1.0,
+      "oracle": 1.0,
+      "candidate_loss": 0.0,
+      "ordering_loss": 0.0,
+      "category": "top10_hit",
+      "relevant_total": 1,
+      "relevant_in_candidates": 1,
+      "original_first_relevant": 33,
+      "reranked_first_relevant": 1
+    }
+  ]
+}

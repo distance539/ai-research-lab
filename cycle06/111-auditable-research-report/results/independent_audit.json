@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "queries": 300,
+  "pairs": 15000,
+  "max_reciprocal_score_error": 6.938893903907228e-18,
+  "duplicate_fusion_scores": 228,
+  "raw_pairs_sha256": "22b92c635ad3ca934e6e0b4483ff91bff67d28a29836d5365a14f26eb3ca3603",
+  "independent_metrics_budgets_and_tradeoffs": true
+}

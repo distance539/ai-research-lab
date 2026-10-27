@@ -1,0 +1,9 @@
+{
+  "scope": "frozen confirmation",
+  "practical_threshold": 0.01,
+  "mean": 0.01754024238734319,
+  "point_threshold_met": true,
+  "interval_covers_zero": true,
+  "interval_covers_practical_threshold": true,
+  "no_reselection": true
+}

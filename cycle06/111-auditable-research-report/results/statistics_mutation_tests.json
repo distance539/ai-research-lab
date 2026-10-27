@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "mutations": [
+    {
+      "mutation": "interval",
+      "rejected": true
+    },
+    {
+      "mutation": "group",
+      "rejected": true
+    },
+    {
+      "mutation": "unpaired",
+      "rejected": true
+    },
+    {
+      "mutation": "draw_index",
+      "rejected": true
+    },
+    {
+      "mutation": "seed",
+      "rejected": true
+    }
+  ],
+  "unequal_size_estimand_control": true
+}
