@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "queries": 5,
+  "candidates": 250,
+  "max_score_error": 0,
+  "inputs": {
+    "bm25.json": "0e104a53c8fd604094d4754d1dfa333c3db81bdc0db7ce6c05e37506c0220f1c",
+    "dense.json": "dee450186710d1349a9952f39ed7bb49802d54cfa663a7b51be02fdfbff398f7",
+    "rrf_union.json": "57526d4e67efacebf668c7be41ddbe8b398e592e911595278c63eb21dcc8ad7d",
+    "candidates.json": "c298318ec611246f7b54dc8535303243e0932a934359fc7a20d4d6706e92e9f8"
+  },
+  "script_sha256": "1f38d707b0ca4a69628dc5048e9c72cf178407634f89b9138a1f629f2fbfc091"
+}

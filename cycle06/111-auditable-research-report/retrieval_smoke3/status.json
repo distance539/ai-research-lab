@@ -1,0 +1,38 @@
+{
+  "exit_code": 0,
+  "stages": {
+    "index": {
+      "seconds": 1.2702403329312801,
+      "reused": false
+    },
+    "bm25": {
+      "seconds": 0.10290300007909536
+    },
+    "dense": {
+      "seconds": 47.71829908317886,
+      "corpus": 5183,
+      "queries": 5,
+      "dimensions": 384,
+      "max_tokens": 256,
+      "fresh_corpus_and_queries": true
+    },
+    "fusion": {
+      "seconds": 0.014604334020987153,
+      "queries": 5,
+      "pairs": 250
+    }
+  },
+  "mode": "dev preflight",
+  "command": [
+    "python",
+    "retrieve.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "retrieval_smoke3",
+    "--smoke"
+  ],
+  "elapsed_seconds": 65.54491858300753,
+  "python_peak_rss_bytes": 814612480,
+  "es_peak_rss": "not measured; separate snapshot"
+}
