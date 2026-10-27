@@ -1,0 +1,37 @@
+{
+  "exit_code": 0,
+  "stages": {
+    "index": {
+      "seconds": 0.09894816600717604,
+      "reused": true
+    },
+    "bm25": {
+      "seconds": 0.370373124955222
+    },
+    "dense": {
+      "seconds": 47.823105291929096,
+      "corpus": 5183,
+      "queries": 300,
+      "dimensions": 384,
+      "max_tokens": 256,
+      "fresh_corpus_and_queries": true
+    },
+    "fusion": {
+      "seconds": 0.12023900006897748,
+      "queries": 300,
+      "pairs": 15000
+    }
+  },
+  "mode": "confirmation",
+  "command": [
+    "python",
+    "retrieve.py",
+    "--cache",
+    "<verified-cache>",
+    "--out",
+    "retrieval"
+  ],
+  "elapsed_seconds": 51.57982149999589,
+  "python_peak_rss_bytes": 899776512,
+  "es_peak_rss": "not measured; separate snapshot"
+}
