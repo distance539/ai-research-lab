@@ -1,0 +1,65 @@
+{
+  "scope": "Historical failures before confirmation; complete raw logs outside distribution",
+  "failures": [
+    {
+      "command": "python -m pip install elasticsearch==7.17.9",
+      "exit_code": 1,
+      "reason": "pip absent; used uv"
+    },
+    {
+      "command": "uv pip install elasticsearch==7.17.9 pandas==2.3.3",
+      "exit_code": 2,
+      "reason": "sandbox network blocked; authorized retry succeeded"
+    },
+    {
+      "command": "python retrieve.py --smoke --out retrieval_smoke",
+      "exit_code": 1,
+      "reason": "BEIR dense package imports datasets; dependency absent; no retrieval/inference"
+    },
+    {
+      "command": "python retrieve.py --smoke --out retrieval_smoke2",
+      "exit_code": 1,
+      "reason": "PyArrow26 requiresNumPy2; pinnedPyArrow18.1.0; no retrieval/inference"
+    },
+    {
+      "command": "smoke independent audit first attempt",
+      "exit_code": 1,
+      "reason": "inherited smoke selector expected first5confirmation IDs; fixed to separate five developmentIDs; model outputs unaffected"
+    },
+    {
+      "command": "edit audit helper from code workingdirectory",
+      "exit_code": 1,
+      "reason": "wrong relative filename, no file changed; corrected from workspace"
+    }
+  ],
+  "completed": [
+    {
+      "command": "python prepare.py --cache <verified-cache>",
+      "exit_code": 0,
+      "log": "prepare.log"
+    },
+    {
+      "command": "python retrieve.py --cache <verified-cache> --out retrieval_smoke3 --smoke --hostname http://127.0.0.1:19283",
+      "exit_code": 0,
+      "log": "retrieval_smoke3.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out smoke --smoke",
+      "exit_code": 0,
+      "log": "smoke.log"
+    },
+    {
+      "command": "python retrieve.py --cache <verified-cache> --out retrieval --hostname http://127.0.0.1:19283",
+      "exit_code": 0,
+      "log": "retrieval.log"
+    },
+    {
+      "command": "python run.py --cache <verified-cache> --out results",
+      "exit_code": 0,
+      "log": "confirmation.log"
+    }
+  ],
+  "independent_checks": "audit_execution.json",
+  "runtime": "results/environment.json",
+  "at": "2026-10-27T09:29:02.873873+08:00"
+}

@@ -1,0 +1,180 @@
+inference {'status': 'passed', 'seconds': 1.2481945832259953, 'pairs': 50, 'new_inference': True}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{
+  "original": {
+    "ndcg_cut_10": 0.7261859507142916,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.7
+  },
+  "reranked": {
+    "ndcg_cut_10": 0.8,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.8
+  },
+  "oracle": {
+    "ndcg_cut_10": 0.8,
+    "recall_10": 0.8,
+    "recall_50": 0.8,
+    "mrr_10": 0.8
+  },
+  "queries": 5,
+  "pairs": 50,
+  "win_tie_loss": [
+    1,
+    4,
+    0
+  ],
+  "failure_categories": {
+    "no_relevant_candidate": 1,
+    "candidate_hit_but_top10_miss": 0,
+    "top10_hit": 4
+  },
+  "partial_candidate_coverage": 0,
+  "mean_candidate_loss": 0.2,
+  "mean_ordering_loss": 0.0,
+  "delta": 0.07381404928570845,
+  "scope": "development preflight"
+}
+{
+  "comparison": {
+    "queries": 5,
+    "methods": {
+      "rrf": {
+        "ndcg_cut_10": 0.7261859507142916,
+        "recall_10": 0.8,
+        "recall_50": 0.8,
+        "mrr_10": 0.7
+      },
+      "ce": {
+        "ndcg_cut_10": 0.8,
+        "recall_10": 0.8,
+        "recall_50": 0.8,
+        "mrr_10": 0.8
+      },
+      "blend": {
+        "ndcg_cut_10": 0.8,
+        "recall_10": 0.8,
+        "recall_50": 0.8,
+        "mrr_10": 0.8
+      }
+    },
+    "comparisons": {
+      "blend_minus_ce": {
+        "mean": 0.0,
+        "win_tie_loss": [
+          0,
+          5,
+          0
+        ]
+      },
+      "blend_minus_rrf": {
+        "mean": 0.07381404928570849,
+        "win_tie_loss": [
+          1,
+          4,
+          0
+        ]
+      }
+    },
+    "top10_misses": {
+      "rrf": 1,
+      "ce": 1,
+      "blend": 1
+    },
+    "confirmation_evaluated": false,
+    "scope": "development preflight",
+    "override_tradeoff": {
+      "old_ce_losses": 0,
+      "improved_vs_ce": 0,
+      "recovered_to_rrf_or_better": 0,
+      "old_ce_gains": 1,
+      "old_gains_reduced_by_blend": 0,
+      "new_harm_vs_rrf_on_nonlosses": 0
+    }
+  },
+  "budget": {
+    "candidate_pairs": 50,
+    "rrf_additional_ce_pairs": 0,
+    "ce_pairs": 50,
+    "blend_ce_pairs": 50,
+    "blend_extra_model_pairs": 0,
+    "ce_effective_tokens": 18168,
+    "blend_effective_tokens": 18168,
+    "training_tokens": 0,
+    "ce_inference_seconds": 1.2481945832259953,
+    "fusion_arithmetic_seconds": 4.254188388586044e-05,
+    "fusion_timing_scope": "build both rank maps, sum reciprocals and sort; includes trace construction; excludes evaluation and JSON writes",
+    "shared_initial_retrieval_seconds": "measured separately in retrieval/status.json; shared across policies",
+    "cost_interpretation": "CE and blend share the same single model pass; pureRRF has zero incremental CE cost. Not equal total end-to-end costs. Shape check adds4 auxiliary model pairs outside scored experiment for all strategies."
+  }
+}
+{
+  "scope": "development preflight",
+  "seed": 111,
+  "replicates": 10000,
+  "component_count": 5,
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.0,
+      "component_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.0
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.0
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    },
+    "ce_minus_rrf": {
+      "mean": 0.07381404928570849,
+      "component_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "query_percentile_95": [
+        0.0,
+        0.2214421478571255
+      ],
+      "leave_one_component_out_range": [
+        0.0,
+        0.09226756160713562
+      ]
+    }
+  },
+  "confirmation_evaluated": false,
+  "seconds": 0.2081653750501573,
+  "input_sha256": {
+    "comparison_per_query.json": "53b1039a9342f68cfe392576e7d09b81ef517fa14e2f6b2c392212315e67a124",
+    "components.json": "673b0fd8d9ef43bbba69243e0b5d0f7a7a20d815b770308002181df6362f74e4",
+    "bootstrap_indices.json.gz": "f03b7fad49bb7cf82c40e61319d991cd855430d744680e3d129b258092088f05",
+    "bootstrap_replicates.json.gz": "aba745aa5be7ce5e44fd02e5da8bec0b692e42964a49763c6c75417f82b0dacb"
+  }
+}

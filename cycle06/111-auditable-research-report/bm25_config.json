@@ -1,0 +1,33 @@
+{
+  "seed": 82,
+  "split": "train",
+  "purpose": "development baseline; BEIR test reserved for later confirmation",
+  "top_k": 100,
+  "k_values": [
+    1,
+    10,
+    100
+  ],
+  "language": "english",
+  "number_of_shards": 1,
+  "batch_size": 64,
+  "es_version": "7.17.9",
+  "model": "Elasticsearch built-in BM25",
+  "model_revision": "ef48222227ee6b9e70e502f0f0daa52435ee634d",
+  "tokenizer": "Elasticsearch 7.17.9 english analyzer",
+  "prompt": null,
+  "decoding": null,
+  "bm25_defaults": {
+    "k1": 1.2,
+    "b": 0.75
+  },
+  "fields": [
+    "title",
+    "txt"
+  ],
+  "multi_match": "best_fields",
+  "tie_breaker": 0.5,
+  "rank_tie_policy": "score descending, doc ID string descending (trec_eval)",
+  "selection_rule": "one frozen default configuration, no hyperparameter search",
+  "query_limit": null
+}

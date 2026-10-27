@@ -1,0 +1,180 @@
+inference {'status': 'passed', 'seconds': 391.03651429200545, 'pairs': 15000, 'new_inference': True}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{
+  "original": {
+    "ndcg_cut_10": 0.7113379805797218,
+    "recall_10": 0.8536111111111111,
+    "recall_50": 0.9403333333333334,
+    "mrr_10": 0.6721402116402116
+  },
+  "reranked": {
+    "ndcg_cut_10": 0.6927649046797678,
+    "recall_10": 0.8222222222222222,
+    "recall_50": 0.9403333333333334,
+    "mrr_10": 0.6610925925925926
+  },
+  "oracle": {
+    "ndcg_cut_10": 0.941169123459136,
+    "recall_10": 0.9403333333333334,
+    "recall_50": 0.9403333333333334,
+    "mrr_10": 0.9433333333333334
+  },
+  "queries": 300,
+  "pairs": 15000,
+  "win_tie_loss": [
+    51,
+    183,
+    66
+  ],
+  "failure_categories": {
+    "no_relevant_candidate": 17,
+    "candidate_hit_but_top10_miss": 32,
+    "top10_hit": 251
+  },
+  "partial_candidate_coverage": 3,
+  "mean_candidate_loss": 0.05883087654086409,
+  "mean_ordering_loss": 0.24840421877936814,
+  "delta": -0.01857307589995394,
+  "scope": "300-query frozen confirmation; no training"
+}
+{
+  "comparison": {
+    "queries": 300,
+    "methods": {
+      "rrf": {
+        "ndcg_cut_10": 0.7113379805797218,
+        "recall_10": 0.8536111111111111,
+        "recall_50": 0.9403333333333334,
+        "mrr_10": 0.6721402116402116
+      },
+      "ce": {
+        "ndcg_cut_10": 0.6927649046797678,
+        "recall_10": 0.8222222222222222,
+        "recall_50": 0.9403333333333334,
+        "mrr_10": 0.6610925925925926
+      },
+      "blend": {
+        "ndcg_cut_10": 0.7103051470671109,
+        "recall_10": 0.8617777777777779,
+        "recall_50": 0.9403333333333334,
+        "mrr_10": 0.6691653439153439
+      }
+    },
+    "comparisons": {
+      "blend_minus_ce": {
+        "mean": 0.01754024238734319,
+        "win_tie_loss": [
+          65,
+          197,
+          38
+        ]
+      },
+      "blend_minus_rrf": {
+        "mean": -0.001032833512610768,
+        "win_tie_loss": [
+          46,
+          213,
+          41
+        ]
+      }
+    },
+    "top10_misses": {
+      "rrf": 40,
+      "ce": 49,
+      "blend": 38
+    },
+    "confirmation_evaluated": true,
+    "scope": "frozen300confirmation",
+    "override_tradeoff": {
+      "old_ce_losses": 66,
+      "improved_vs_ce": 57,
+      "recovered_to_rrf_or_better": 29,
+      "old_ce_gains": 51,
+      "old_gains_reduced_by_blend": 37,
+      "new_harm_vs_rrf_on_nonlosses": 4
+    }
+  },
+  "budget": {
+    "candidate_pairs": 15000,
+    "rrf_additional_ce_pairs": 0,
+    "ce_pairs": 15000,
+    "blend_ce_pairs": 15000,
+    "blend_extra_model_pairs": 0,
+    "ce_effective_tokens": 5323656,
+    "blend_effective_tokens": 5323656,
+    "training_tokens": 0,
+    "ce_inference_seconds": 391.03651429200545,
+    "fusion_arithmetic_seconds": 0.00812108302488923,
+    "fusion_timing_scope": "build both rank maps, sum reciprocals and sort; includes trace construction; excludes evaluation and JSON writes",
+    "shared_initial_retrieval_seconds": "measured separately in retrieval/status.json; shared across policies",
+    "cost_interpretation": "CE and blend share the same single model pass; pureRRF has zero incremental CE cost. Not equal total end-to-end costs. Shape check adds4 auxiliary model pairs outside scored experiment for all strategies."
+  }
+}
+{
+  "scope": "frozen confirmation resampling",
+  "seed": 111,
+  "replicates": 10000,
+  "component_count": 247,
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.01754024238734319,
+      "component_percentile_95": [
+        -0.0023445088108932323,
+        0.03827498729570362
+      ],
+      "query_percentile_95": [
+        -0.0014768331648415882,
+        0.036631675371548184
+      ],
+      "leave_one_component_out_range": [
+        0.014321687280413203,
+        0.019955059863816203
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": -0.001032833512610768,
+      "component_percentile_95": [
+        -0.019943401824316743,
+        0.01683165667567601
+      ],
+      "query_percentile_95": [
+        -0.016885863396735746,
+        0.014567060449983132
+      ],
+      "leave_one_component_out_range": [
+        -0.0029797976725470005,
+        0.0030753165494888804
+      ]
+    },
+    "ce_minus_rrf": {
+      "mean": -0.01857307589995396,
+      "component_percentile_95": [
+        -0.05232483766699706,
+        0.013459315723326187
+      ],
+      "query_percentile_95": [
+        -0.04726844009637521,
+        0.009675602895797913
+      ],
+      "leave_one_component_out_range": [
+        -0.022872482269540615,
+        -0.011986318020087877
+      ]
+    }
+  },
+  "confirmation_evaluated": true,
+  "seconds": 4.343389916000888,
+  "input_sha256": {
+    "comparison_per_query.json": "d3139ab093f68e9c6efb54ba45929dff6e38990f581e20f0a742f79724ced34b",
+    "components.json": "af30ba0663718f68278a2cbe420dfbdf7d417e1749d4554a9ac580743c59b45d",
+    "bootstrap_indices.json.gz": "679a78a4c26e20a9590de55020824a8b32db5ac652d296f0b8ce6445c5da1ee5",
+    "bootstrap_replicates.json.gz": "15bdfd55e7eefec2df0da2ed1ff4cd8134651d13c86cccba9ba585699be266c6"
+  }
+}

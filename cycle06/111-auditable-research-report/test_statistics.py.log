@@ -1,0 +1,1 @@
+{'passed': True, 'mutations': [{'mutation': 'interval', 'rejected': True}, {'mutation': 'group', 'rejected': True}, {'mutation': 'unpaired', 'rejected': True}, {'mutation': 'draw_index', 'rejected': True}, {'mutation': 'seed', 'rejected': True}], 'unequal_size_estimand_control': True}

@@ -1,0 +1,173 @@
+{
+  "accessed_at": "2026-10-27T09:12:47.398804+08:00",
+  "sources": [
+    {
+      "name": "beir-rerank.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/reranking/rerank.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5"
+    },
+    {
+      "name": "beir-bm25.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/lexical/bm25_search.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "f0c056b8145f6104b7f23be34fdeb3f2926fc9ae5b58eb8b6709b3f0b43cc8d0"
+    },
+    {
+      "name": "beir-elastic.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/lexical/elastic_search.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "a75382710c9ace81e7878557ce47ec2753e5e300907d8f79d14199674dec9e21"
+    },
+    {
+      "name": "beir-dense.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/search/dense/exact_search.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "4b7ee8e9c673dc14423ca25d3555716734319fcf2223ed9ca7899ed1144c08a2"
+    },
+    {
+      "name": "beir-eval.py",
+      "url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/evaluation.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "f346bd20f258e552895e438257e3cc91308b65e0b1ee6c09422e987084bc3bd0"
+    },
+    {
+      "name": "CrossEncoder.py",
+      "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/cross_encoder/CrossEncoder.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "87adb18b78e8ca525932635d604549c44251e205217be185428dc11fc52632b6"
+    },
+    {
+      "name": "SentenceTransformer.py",
+      "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/7d52a069e0b37d976b3ed3f674a6180436c27574/sentence_transformers/SentenceTransformer.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "2b94a93974be37e7d7fbaf64dce63bf6a55c337480dec827aeb2141f4cfdeee3"
+    },
+    {
+      "name": "fusion.py",
+      "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/pyserini/fusion/_base.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4"
+    },
+    {
+      "name": "trectools.py",
+      "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/pyserini/trectools/_base.py",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4"
+    },
+    {
+      "name": "pyserini-license.txt",
+      "url": "https://raw.githubusercontent.com/castorini/pyserini/527c917120ff154f84b09ff2b69dc8946085aae4/LICENSE.txt",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "c09df0ba5728f1bf266f0b6240d252e27cbeefecd62c514f85fce61d6325c1d4"
+    },
+    {
+      "name": "scifact-license.md",
+      "url": "https://raw.githubusercontent.com/allenai/scifact/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/LICENSE.md",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "56ee69bc639cbab8f0b2e4b67091ec5e9390aa99a1d65f0a35e4274686c9a806"
+    },
+    {
+      "name": "ce-card.md",
+      "url": "https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2/raw/233902d25c440f23af6f7d6e94d2946bac0bee0a/README.md",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "7c0ec39941d0d1d766ccde671f592971d82fe45b7eea550a80d1ea864ebc3baa"
+    },
+    {
+      "name": "dense-card.md",
+      "url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/raw/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+    },
+    {
+      "name": "parent-protocol.md",
+      "url": "https://raw.githubusercontent.com/distance539/ai-research-lab/26cb2b125dbdfdff7c5891feb312faa79b63bb9d/cycle06/110-negative-results-boundaries/PROTOCOL.md",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": "",
+      "sha256": "0a205c1cb29d8286a51a5216370d95b4e50b3a0f67e8b79168fe643a343bd681"
+    }
+  ],
+  "implementation_equality": [
+    {
+      "official_file": "beir-rerank.py",
+      "local_file": "official_rerank.py",
+      "newline_normalized_equal": true,
+      "sha256": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5"
+    },
+    {
+      "official_file": "beir-bm25.py",
+      "local_file": "verified-cache/beir/retrieval/search/lexical/bm25_search.py",
+      "newline_normalized_equal": true,
+      "sha256": "f0c056b8145f6104b7f23be34fdeb3f2926fc9ae5b58eb8b6709b3f0b43cc8d0"
+    },
+    {
+      "official_file": "beir-elastic.py",
+      "local_file": "verified-cache/beir/retrieval/search/lexical/elastic_search.py",
+      "newline_normalized_equal": true,
+      "sha256": "a75382710c9ace81e7878557ce47ec2753e5e300907d8f79d14199674dec9e21"
+    },
+    {
+      "official_file": "beir-dense.py",
+      "local_file": "verified-cache/beir/retrieval/search/dense/exact_search.py",
+      "newline_normalized_equal": true,
+      "sha256": "4b7ee8e9c673dc14423ca25d3555716734319fcf2223ed9ca7899ed1144c08a2"
+    },
+    {
+      "official_file": "CrossEncoder.py",
+      "local_file": "sentence_transformers/cross_encoder/CrossEncoder.py",
+      "newline_normalized_equal": true,
+      "sha256": "87adb18b78e8ca525932635d604549c44251e205217be185428dc11fc52632b6"
+    },
+    {
+      "official_file": "SentenceTransformer.py",
+      "local_file": "sentence_transformers/SentenceTransformer.py",
+      "newline_normalized_equal": true,
+      "sha256": "2b94a93974be37e7d7fbaf64dce63bf6a55c337480dec827aeb2141f4cfdeee3"
+    },
+    {
+      "official_file": "fusion.py",
+      "local_file": "vendor/fusion_base.py",
+      "newline_normalized_equal": true,
+      "sha256": "b4e22433934667e6c8a02b634e2376ba98441d24170cbc4f136c29c824ce5da4"
+    },
+    {
+      "official_file": "trectools.py",
+      "local_file": "vendor/trectools_base.py",
+      "newline_normalized_equal": true,
+      "sha256": "20cb59c579f4a37c59819e0363c34992ad59d722ad9327340366954e0378e4f4"
+    },
+    {
+      "official_file": "parent-protocol.md",
+      "local_file": "PARENT_PROTOCOL.md",
+      "newline_normalized_equal": true,
+      "sha256": "0a205c1cb29d8286a51a5216370d95b4e50b3a0f67e8b79168fe643a343bd681"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-27T09:16:05.858440+08:00",
+  "before_first_confirmation_retrieval": true,
+  "files": {
+    "audit_statistics.py": "8fc570b0b2b26e7da537f88fa03d1d1e95d154c67f7a4ef20f94c81e3087c302",
+    "run.py": "9588b0ae35e7d97f152af75445beff3620b3be340d08bd6ed3ed551a9060faae",
+    "test_statistics.py": "a99943204b38dcdec268b01c12d2eeb3c9d4710adca125868a1a6918fbe90abb",
+    "statistics_report.py": "9b7de9dbc8b095ff35c94a6134ba253d42027f124567524fa6dff0e782f846b1",
+    "compat.py": "f190edf88cbac732f48566f096e51467d6a89691d3c881dd8975a45d8d4a9239",
+    "audit.py": "4a89e8a1be4dd8127cba2a11a9918c23a72b18aa4881ab6110f710d729a51b8a",
+    "baseline_run.py": "24228f43c61d9c27abfede9abb41a6b041321de10d6b3e04180b140c5adcd4a6",
+    "audit_retrieval.py": "1f38d707b0ca4a69628dc5048e9c72cf178407634f89b9138a1f629f2fbfc091",
+    "ce_audit.py": "2304c82fe650e289493e4ee7e2bdf5d97f17147184d4a9a043ba6fef1dcf8124",
+    "common.py": "2481c85149936d48bb0b36d8138226ef74420171ee1965050e1a432f33ad56a4",
+    "test_audit.py": "5cf57897977ce88cc8c8538d9605218c9abe4b11c2f72c57a157c556c3e41394",
+    "retrieve.py": "165e9219b05a9f96f9e3ce6dd011d55207a81a02016286127e26251c5690d922",
+    "official_rerank.py": "a196123aa2b1c8c7818eedd34e48b137a7b1fe4495061a5988f82b8e113b9aa5",
+    "prepare.py": "ab8d95323ea65c5bf125510ef4c9b636d2d654e9f5f1246dee8ef862851c93ff",
+    "ce_run.py": "e10839208b5ec0b10837230c06290b536e0f6c6bc26e59ba6c002365454d068e",
+    "research_registry.json": "58510ef117445dfe9619411ad3bd22ee0d2b887670f00a93cbe12a7765c89df5",
+    "resources.lock.json": "6d9b1125c53b26348023e6a9690d87a0c04a5fd47a21ab3b497da044fa435107",
+    "config.json": "9b6219abbc3e99f1b094ccdff44e5b02456da911d7476f7b6985d0be9c106893",
+    "resource_decision.json": "5d1a0e0a689ed321d396bb69d938ba154c100bc8331fb7acaa957ce770a0c4bc",
+    "development_compatibility.json": "e1050c31d1a3794b462dc04f77bdab985ae11d5c0d0406ba21879863d196e32d",
+    "upstream_verification.json": "6617cdd84908e099be8694ef6b22c6c9761c09e3483c28c4fd40d500bbf2bbb1",
+    "model.lock.json": "a860140516105d4335eee16fd17bb933527b6e53075a39638fd8671c200c7fe4",
+    "input.lock.json": "58b29c58f321bf12bc6015c3c9f8e7e2bb889d3faebf52e9ab8fa643e7f42660",
+    "bm25_config.json": "52b25fd07f434e482b688c7fd36bd439f76a5a60e6f48cbb8696d2d65e81c4a1",
+    "dense_model.lock.json": "8b4d78c667dea78b1ce7bc354d3661cc5def0acd62153c79a76299260745c539",
+    "PARENT_PROTOCOL.md": "0a205c1cb29d8286a51a5216370d95b4e50b3a0f67e8b79168fe643a343bd681",
+    "PROTOCOL.md": "cf65536ad74a4baab33a6f2d90909d15d19ab922764dde2038a09b5f27c20ac6"
+  },
+  "resource_decision": {
+    "smoke_pairs": 50,
+    "inference_seconds": 1.2481945832259953,
+    "estimated15000pair_seconds": 374.4583749677986,
+    "peak_rss_bytes": 845398016,
+    "formal_limit_seconds": 1200,
+    "formal_limit_bytes": 4294967296,
+    "decision": "proceed"
+  },
+  "development_compatibility": {
+    "bm25": {
+      "same_order": true,
+      "same_set": true,
+      "max_score_error": 0.0
+    },
+    "dense": {
+      "same_order": true,
+      "same_set": true,
+      "max_score_error": 3.2782554626464844e-07
+    },
+    "candidates": {
+      "same_order": true,
+      "same_set": true,
+      "max_score_error": 0.0
+    }
+  }
+}

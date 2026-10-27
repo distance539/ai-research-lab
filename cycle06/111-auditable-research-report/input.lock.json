@@ -1,0 +1,15 @@
+{
+  "files": {
+    "inputs/candidates.json": "865315c07bf566766f1a7e962acc7fef28419360b6ba9d69753dfe910fe6ca7b",
+    "inputs/confirmation_groups.json": "41d12a14b7442a500f85fd68c437a1bc1303646b4ab593413d140c178f23c0c0",
+    "inputs/development_ids.json": "5326843d48600f110cf28ec2e3eea3c1c7e644fd7b617c118ccf1e058d38b2b5",
+    "inputs/qrels.json": "f18c5bc3d56a779b4929343e50dd11c18a0c27a4e5bb71ffb03b142b4b09015b"
+  },
+  "provenance": "Development smoke inherited110 fixed commit26cb2b125dbdfdff7c5891feb312faa79b63bb9d; confirmation qrels from hash-identified BEIR test. Retrieval inputs added after official frozen retrieval only.",
+  "confirmation_retrieval": {
+    "path": "retrieval",
+    "status_sha256": "f0ad61865109a87d06575a6e0f47052be552bcce4dd3d1938fc43e1b057f3d6f",
+    "queries": 300,
+    "candidate_pairs": 15000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "at": "2026-10-27T09:26:40.202732+08:00",
+  "results": [
+    {
+      "command": [
+        "python",
+        "audit.py",
+        "--out",
+        "results"
+      ],
+      "script_sha256": "4a89e8a1be4dd8127cba2a11a9918c23a72b18aa4881ab6110f710d729a51b8a",
+      "exit_code": 0,
+      "seconds": 2.172837018966675,
+      "log": "audit.py.log"
+    },
+    {
+      "command": [
+        "python",
+        "ce_audit.py",
+        "--out",
+        "results"
+      ],
+      "script_sha256": "2304c82fe650e289493e4ee7e2bdf5d97f17147184d4a9a043ba6fef1dcf8124",
+      "exit_code": 0,
+      "seconds": 0.22145605087280273,
+      "log": "ce_audit.py.log"
+    },
+    {
+      "command": [
+        "python",
+        "audit_statistics.py",
+        "--out",
+        "results"
+      ],
+      "script_sha256": "8fc570b0b2b26e7da537f88fa03d1d1e95d154c67f7a4ef20f94c81e3087c302",
+      "exit_code": 0,
+      "seconds": 1.3763501644134521,
+      "log": "audit_statistics.py.log"
+    },
+    {
+      "command": [
+        "python",
+        "test_audit.py",
+        "--out",
+        "results"
+      ],
+      "script_sha256": "5cf57897977ce88cc8c8538d9605218c9abe4b11c2f72c57a157c556c3e41394",
+      "exit_code": 0,
+      "seconds": 8.814625024795532,
+      "log": "test_audit.py.log"
+    },
+    {
+      "command": [
+        "python",
+        "test_statistics.py",
+        "--out",
+        "results"
+      ],
+      "script_sha256": "a99943204b38dcdec268b01c12d2eeb3c9d4710adca125868a1a6918fbe90abb",
+      "exit_code": 0,
+      "seconds": 19.15251612663269,
+      "log": "test_statistics.py.log"
+    }
+  ],
+  "input_identity_sha256": "6df58a7c8d94cf8e9a3d5f27e94c456787d38704b132886dbe8432cbf918f84b",
+  "pair_scores_sha256": "22b92c635ad3ca934e6e0b4483ff91bff67d28a29836d5365a14f26eb3ca3603"
+}

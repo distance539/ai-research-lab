@@ -1,0 +1,9 @@
+{
+  "smoke_pairs": 50,
+  "inference_seconds": 1.2481945832259953,
+  "estimated15000pair_seconds": 374.4583749677986,
+  "peak_rss_bytes": 845398016,
+  "formal_limit_seconds": 1200,
+  "formal_limit_bytes": 4294967296,
+  "decision": "proceed"
+}
