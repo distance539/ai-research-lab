@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "recorded_at": "2026-10-24T09:59:40.649144+08:00",
+  "review_date": "2026-10-24",
+  "reviewer": "user in this conversation",
+  "source": "direct human user message in this conversation",
+  "verbatim_confirmation": "我审核完了,都没问题",
+  "scope": "All eight front/tail transformations for queries454,30,280,155: transformation validity and full-document relevance-label preservation. Collective confirmation; no per-item reasons were supplied.",
+  "reviewed_items": [
+    {
+      "query_id": "454",
+      "condition": "front"
+    },
+    {
+      "query_id": "454",
+      "condition": "tail"
+    },
+    {
+      "query_id": "30",
+      "condition": "front"
+    },
+    {
+      "query_id": "30",
+      "condition": "tail"
+    },
+    {
+      "query_id": "280",
+      "condition": "front"
+    },
+    {
+      "query_id": "280",
+      "condition": "tail"
+    },
+    {
+      "query_id": "155",
+      "condition": "front"
+    },
+    {
+      "query_id": "155",
+      "condition": "tail"
+    }
+  ],
+  "materials_sha256": "d20382d8ab579ea12e52692910edebde49f0b36ef947513267345f0409668f1f",
+  "review_packet_sha256": "22631c7e7342a4b05d2f261a381bd3749358a4f0f450800e241e8c5ca0916173",
+  "original_blank_response_sha256": "70596ee96424f0345cd93bb597594c2a6340087e4cfc4def3650e42b63f5d073",
+  "history_policy": "Original blank response, frozen config, material status, run logs and audit remain unchanged as pre-review historical records. This dated confirmation supplies the later human decision; it is not an automated semantic judgement.",
+  "limitations": "No independent blinding claim: the review page hides scores, but article and prior chat disclose results. No detailed per-item reasons or separate reviewer identity were provided. Small nonrandom probes and confounded sentence-order/truncation changes remain."
+}

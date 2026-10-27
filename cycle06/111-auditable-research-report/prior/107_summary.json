@@ -1,0 +1,19 @@
+{
+  "queries": 4,
+  "pairs": 800,
+  "group_delta": {
+    "long": -0.18453512321427123,
+    "short": -0.10012659774903224
+  },
+  "difference_of_group_deltas": -0.084408525465239,
+  "identity_max_error": 0.0,
+  "token_totals": {
+    "original": 75683,
+    "identity": 75683,
+    "front": 75683,
+    "tail": 75683
+  },
+  "semantic_review": "pending; transformed metrics provisional",
+  "confirmation_evaluated": false,
+  "interpretation": "qrels-assisted diagnostic; short group not randomly matched; no causal or population claim"
+}

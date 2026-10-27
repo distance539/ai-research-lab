@@ -1,0 +1,56 @@
+{
+  "queries": 100,
+  "methods": {
+    "rrf": {
+      "ndcg_cut_10": 0.6709061301781298,
+      "recall_10": 0.7775,
+      "recall_50": 0.905,
+      "mrr_10": 0.6373611111111112
+    },
+    "ce": {
+      "ndcg_cut_10": 0.6691325921143205,
+      "recall_10": 0.8175,
+      "recall_50": 0.905,
+      "mrr_10": 0.6267499999999999
+    },
+    "blend": {
+      "ndcg_cut_10": 0.702520589195864,
+      "recall_10": 0.8475,
+      "recall_50": 0.905,
+      "mrr_10": 0.6601349206349206
+    }
+  },
+  "comparisons": {
+    "blend_minus_ce": {
+      "mean": 0.0333879970815435,
+      "win_tie_loss": [
+        20,
+        66,
+        14
+      ]
+    },
+    "blend_minus_rrf": {
+      "mean": 0.03161445901773418,
+      "win_tie_loss": [
+        18,
+        72,
+        10
+      ]
+    }
+  },
+  "top10_misses": {
+    "rrf": 21,
+    "ce": 17,
+    "blend": 14
+  },
+  "confirmation_evaluated": false,
+  "scope": "observed development only; no threshold success claim",
+  "override_tradeoff": {
+    "old_ce_losses": 18,
+    "improved_vs_ce": 17,
+    "recovered_to_rrf_or_better": 9,
+    "old_ce_gains": 20,
+    "old_gains_reduced_by_blend": 13,
+    "new_harm_vs_rrf_on_nonlosses": 1
+  }
+}
