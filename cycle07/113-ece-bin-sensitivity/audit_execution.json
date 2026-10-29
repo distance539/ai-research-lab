@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "audit.py",
+    "--prefix",
+    "formal"
+  ],
+  "cache_path_redacted": false,
+  "started_unix": 1793161963.350623,
+  "elapsed_seconds": 0.04821515083312988,
+  "exit_code": 0,
+  "output": "audit_execution.log"
+}

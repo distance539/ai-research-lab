@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "logits_probabilities_labels": true,
+    "all_bins_and_wilson": true,
+    "all_8000_bootstrap_metrics": true,
+    "percentile_endpoints": true,
+    "input_identity": true
+  },
+  "script_sha256": "95876376a688d4b6c7aa58f353a673349219ec93fbc0c7d4abe2db55a6b47b5d",
+  "input_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904"
+}

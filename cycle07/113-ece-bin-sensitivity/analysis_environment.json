@@ -1,0 +1,10 @@
+{
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "elapsed_seconds": 4.448183916,
+  "peak_rss_native": 63733760,
+  "peak_rss_unit": "bytes on macOS; KiB on Linux",
+  "input_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904",
+  "script_sha256": "a8b3ddd4abdf1d866dd6a5760ede2615363dda15621e3aa411ce2a47da234cbb",
+  "protocol_sha256": "d793d44916c585fa6e651f7f2c1e8069751807a8d36f86f462405d3777ca71d1"
+}

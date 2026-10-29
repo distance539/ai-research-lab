@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "n": 256,
+  "independent_metrics": {
+    "accuracy": 0.91015625,
+    "mean_confidence": 0.9817440645890163,
+    "signed_gap": 0.07158781458901631,
+    "nll": 0.38525925399684247,
+    "brier_two_class_sum": 0.16991327182587704,
+    "ece10": 0.08370516298208877
+  },
+  "mutation_tests": {
+    "idx": "rejected",
+    "label": "rejected",
+    "prediction": "rejected",
+    "correct": "rejected",
+    "confidence": "rejected",
+    "nll": "rejected"
+  },
+  "human_review": false
+}

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "python3",
+    "check_analysis.py"
+  ],
+  "exit_code": 0,
+  "started_unix": 1793235552.208846,
+  "elapsed_seconds": 2.808532953262329
+}

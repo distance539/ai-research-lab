@@ -1,0 +1,14 @@
+{
+  "bins": [
+    5,
+    10,
+    15,
+    20
+  ],
+  "seed": 113,
+  "resamples": 2000,
+  "interval": "linear percentile 2.5/97.5",
+  "boundaries": "[left,right), last inclusive",
+  "input_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904",
+  "freeze_time": "2026-10-29T00:58:18.010786+00:00"
+}

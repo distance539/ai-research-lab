@@ -1,0 +1,13 @@
+{
+  "command": [
+    "python",
+    "audit.py",
+    "--prefix",
+    "smoke"
+  ],
+  "cache_path_redacted": false,
+  "started_unix": 1793161907.284868,
+  "elapsed_seconds": 0.043660879135131836,
+  "exit_code": 0,
+  "output": "smoke_audit_execution.log"
+}

@@ -1,0 +1,103 @@
+smoke: 8/8
+{
+  "n": 8,
+  "correct": 7,
+  "accuracy": 0.875,
+  "mean_confidence": 0.9849437100441268,
+  "signed_gap": 0.10994371004412684,
+  "ece10": 0.10994371004412684,
+  "nll": 0.48955359055751957,
+  "brier_two_class_sum": 0.24096018899226251,
+  "high_confidence": {
+    "threshold": 0.9,
+    "n": 8,
+    "correct": 7,
+    "accuracy": 0.875
+  },
+  "bins": [
+    {
+      "bin": 0,
+      "left": 0.0,
+      "right": 0.1,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 1,
+      "left": 0.1,
+      "right": 0.2,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 2,
+      "left": 0.2,
+      "right": 0.3,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 3,
+      "left": 0.3,
+      "right": 0.4,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 4,
+      "left": 0.4,
+      "right": 0.5,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 5,
+      "left": 0.5,
+      "right": 0.6,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 6,
+      "left": 0.6,
+      "right": 0.7,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 7,
+      "left": 0.7,
+      "right": 0.8,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 8,
+      "left": 0.8,
+      "right": 0.9,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 9,
+      "left": 0.9,
+      "right": 1.0,
+      "n": 8,
+      "confidence": 0.9849437100441268,
+      "accuracy": 0.875
+    }
+  ],
+  "inference_seconds": 0.07014629198238254,
+  "total_seconds_after_imports": 0.6049352919217199,
+  "peak_rss_bytes": 800374784,
+  "truncated": 0
+}
