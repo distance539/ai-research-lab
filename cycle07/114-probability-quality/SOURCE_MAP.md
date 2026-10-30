@@ -1,0 +1,19 @@
+# Source map
+
+Accessed2026-10-28. Local run.py calls the actual official library; it does not replace the neural network with a toy implementation.
+
+| Component | Verified upstream | Local correspondence |
+|---|---|---|
+| DistilBERT classifier | Transformers commit a22a4378d97d06b7a1d9abad6e0086d30fdea199, [class at lines918–991](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L918) | run.py infer invokes AutoModelForSequenceClassification.from_pretrained; official forward selects first-token hidden state, pre-classifier, ReLU, dropout and two-label classifier. No copied forward code. |
+| Probability and ECE definitions | Guo et al., ICML2017, [Section2, Eq1–3](https://proceedings.mlr.press/v70/guo17a/guo17a.pdf) | run.py metrics is an independent educational implementation; audit.py reconstructs from logits without importing it. |
+| Author ECE reference | gpleiss/temperature_scaling commit ce1154ec7d5235eee046f28875c3dd8421f11d45, [lines89–129](https://github.com/gpleiss/temperature_scaling/blob/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py#L89), master SHA actually resolved by git ls-remote | Read-only comparison, not copied/executed. Author code defaults15 bins and (left,right]; ours preregisters10 and [left,right), final bin inclusive. Check whether any sample is exactly on a boundary before comparing numeric results. |
+| Checkpoint and labels | [model at714eb0fa89d2f80546fda750413ed43d93601a13](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13) | Official Apache-2.0 checkpoint,0NEGATIVE/1POSITIVE, safetensors loaded without remote custom code; every model file verified against official file identities. |
+| Data | [SST-2 revision8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb](https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb) | Official validation parquet loaded by PyArrow. Data-card license unknown: no raw text bundled; record ID/hash and derived predictions, reader retrieves official source. |
+
+Official Transformers model source SHA256:7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e. Both the existing installed file and the local-storage replacement were byte-identical to the official file. Official license at the same commit was fetched and read: Apache License2.0, Hugging Face copyright header. The author ECE repository's fixed LICENSE was also fetched: MIT, copyright2017Geoff Pleiss. No upstream implementation is redistributed in this package.
+
+NLL uses a stable log-sum-exp from real logits. Brier sums squared probability errors over both classes; audit.py uses the independent binary identity2*(p_positive-y)^2. The resulting0–2 scale must not be silently compared with the0–1 single-probability convention. Fresh model inference, independent arithmetic audit and resource/hash validation are separate checks.
+
+## Article114 additions, accessed2026-10-30
+
+Positive temperature division: author repository fixed ce1154ec7d5235eee046f28875c3dd8421f11d45 [temperature_scale lines23–30](https://github.com/gpleiss/temperature_scaling/blob/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py#L23). MIT license as above. Read for correspondence only, no copied code. analyze.py independently implements softmax(logits/T), stable NLL and class-summed Brier. Unlike author set_temperature, no validation-loader fitting or optimizer is executed. check_analysis.py independently uses binary sigmoid, softplus and2*(p-y)^2. All inherited run.py/audit.py/verify_inputs.py and baseline records come from112 fixed public commit a57b8bcb005ae9914c2c95f2d855449b7665fd1b. ANALYSIS_PROTOCOL.md and analysis_config.json define114; baseline PROTOCOL.md is unchanged. plot.py reads temperature_results.json, no image-generated measurements.

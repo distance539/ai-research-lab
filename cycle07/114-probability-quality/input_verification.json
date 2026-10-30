@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "n": 256,
+  "input_labels_and_hashes_match": true,
+  "splits_disjoint": true,
+  "calibration_and_audit_predictions_accessed": false,
+  "protocol_unchanged": true,
+  "smoke_formal_max_logit_delta": 4.76837158203125e-07,
+  "official_model_source_match": true,
+  "exact_ece_boundary_count": 0
+}

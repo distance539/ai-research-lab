@@ -1,0 +1,42 @@
+[
+  {
+    "temperature": 0.5,
+    "n": 256,
+    "correct": 233,
+    "accuracy": 0.91015625,
+    "nll": 0.73670045265376,
+    "brier": 0.17986989264575165,
+    "nll_correct_contribution": 0.0070403501479853635,
+    "nll_error_contribution": 0.7296601025057743
+  },
+  {
+    "temperature": 1,
+    "n": 256,
+    "correct": 233,
+    "accuracy": 0.91015625,
+    "nll": 0.38525925399684247,
+    "brier": 0.16991327182587704,
+    "nll_correct_contribution": 0.01608514342868813,
+    "nll_error_contribution": 0.3691741105681544
+  },
+  {
+    "temperature": 2,
+    "n": 256,
+    "correct": 233,
+    "accuracy": 0.91015625,
+    "nll": 0.24837994403917735,
+    "brier": 0.14863439645992305,
+    "nll_correct_contribution": 0.051287184519485704,
+    "nll_error_contribution": 0.19709275951969157
+  },
+  {
+    "temperature": 4,
+    "n": 256,
+    "correct": 233,
+    "accuracy": 0.91015625,
+    "nll": 0.2834212949884181,
+    "brier": 0.1535490914796379,
+    "nll_correct_contribution": 0.16270413870198824,
+    "nll_error_contribution": 0.12071715628642966
+  }
+]

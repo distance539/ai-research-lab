@@ -1,0 +1,1 @@
+{'passed': True, 'rows': 1024, 'max_absolute_error': 1.7763568394002505e-15, 'input_sha256': 'a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904', 'script_sha256': '52a2dcf4c82712b5b4a43728189aca092177e62b78a8bef134ce97a86e56b058', 'method': 'independent binary sigmoid, softplus and 2*(p-y)^2; no analyzer imports'}

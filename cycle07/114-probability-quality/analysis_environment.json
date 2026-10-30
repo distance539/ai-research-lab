@@ -1,0 +1,8 @@
+{
+  "python": "3.9.6",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "seconds": 0.023980416999999997,
+  "peak_rss_bytes": 14434304,
+  "device": "CPU",
+  "memory_scope": "process high-water mark on macOS"
+}

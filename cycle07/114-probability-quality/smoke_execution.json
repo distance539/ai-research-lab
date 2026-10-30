@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "smoke",
+    "--cache",
+    "<RESOURCE_CACHE>"
+  ],
+  "cache_path_redacted": true,
+  "started_unix": 1793322791.963795,
+  "elapsed_seconds": 4.058323860168457,
+  "exit_code": 0,
+  "output": "smoke_execution.log"
+}

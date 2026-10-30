@@ -1,0 +1,2 @@
+Frozen before analysis: 2026-10-30T09:13:11.676361+08:00
+Fixed 256 exploratory logits from112; T=0.5,1,2,4, all reported. Positive global scaling only; no fitting, selection, bootstrap, new labels or other pools. Primary NLL and two-class-sum Brier, accuracy invariance. Report correct/error contributions and all per-row scores. Seed114 reserved; deterministic analysis. Historical SST-2 exposure; no held-out generalization claim.
