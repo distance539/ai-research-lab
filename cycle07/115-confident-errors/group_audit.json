@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "n": 256,
+  "groups": 12,
+  "correct": 233,
+  "input_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904",
+  "script_sha256": "c151041d1d139c6e829a6c7a977f8bc7c06b55f3194705e59421ad341515d625",
+  "method": "independent binary sigmoid, argmax, original-label and raw-token predicates"
+}

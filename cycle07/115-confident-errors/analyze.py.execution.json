@@ -1,0 +1,10 @@
+{
+  "command": [
+    "python3",
+    "analyze.py"
+  ],
+  "exit_code": 0,
+  "started_unix": 1793408493.136394,
+  "seconds": 0.05414080619812012,
+  "script_sha256": "7926be74ae888a474b69eaaaa8abd7aa4175d5be4601acd675d539b7953e7c18"
+}

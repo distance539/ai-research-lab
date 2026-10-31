@@ -1,0 +1,16 @@
+{
+  "threshold": 0.9,
+  "length_edges": [
+    16,
+    32
+  ],
+  "length_definition": "raw_tokens including special tokens; <=16,17-32,>32",
+  "labels": [
+    0,
+    1
+  ],
+  "top_k": 5,
+  "seed": 115,
+  "prediction_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904",
+  "registered_at": "2026-10-31T00:57:31.162124+00:00"
+}

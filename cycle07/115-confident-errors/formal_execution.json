@@ -1,0 +1,15 @@
+{
+  "command": [
+    "python",
+    "-u",
+    "run.py",
+    "run",
+    "--cache",
+    "<RESOURCE_CACHE>"
+  ],
+  "cache_path_redacted": true,
+  "started_unix": 1793161907.406686,
+  "elapsed_seconds": 3.2917747497558594,
+  "exit_code": 0,
+  "output": "formal_execution.log"
+}
