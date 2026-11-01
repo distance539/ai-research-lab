@@ -1,0 +1,26 @@
+{
+  "classifier": {
+    "n": 256,
+    "correct": 233,
+    "mean_confidence": 0.9817440645890164,
+    "nll": 0.3852592539968426,
+    "brier": 0.16991327182587695
+  },
+  "candidate": {
+    "n": 256,
+    "correct": 130,
+    "mean_confidence": 0.8716443416208723,
+    "nll": 0.9967427118236515,
+    "brier": 0.7183320185104838
+  },
+  "mean_candidate_mass": 0.468368511389562,
+  "disagreements": 133,
+  "forward_seconds": 19.54637408303097,
+  "total_seconds_after_imports": 20.77937166695483,
+  "peak_rss_raw": 1585283072,
+  "rss_unit": "bytes",
+  "python": "3.12.14",
+  "os": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.6.0",
+  "transformers": "4.49.0"
+}

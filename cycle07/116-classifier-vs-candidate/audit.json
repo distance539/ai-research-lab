@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "rows": 256,
+  "kind": "independent deterministic arithmetic, not human review",
+  "input_hashes": {
+    "formal_candidate_predictions.json": "6221d4dacd0a947dca4247ee4331e5c8805bcd60523e6a85bdee826ac9adf890",
+    "formal_predictions.json": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904",
+    "formal_comparison.json": "8d7d3f8788aa5055e2c69a2fd5a0301df2298d94799b40505730832ceb978cb0"
+  },
+  "candidate_predictions_by_label": [
+    256,
+    0
+  ]
+}

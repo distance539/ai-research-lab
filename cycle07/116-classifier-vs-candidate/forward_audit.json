@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "n": 8,
+  "max_logprob_error": 4.440892098500626e-16,
+  "label_mapping": [
+    " negative",
+    " positive"
+  ],
+  "method": "independent prompt-only forward, full-vocabulary softmax, then log; compared with teacher-forced candidate scores"
+}

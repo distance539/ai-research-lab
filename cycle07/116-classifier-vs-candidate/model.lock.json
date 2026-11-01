@@ -1,0 +1,92 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "files": [
+    {
+      "name": "model.safetensors",
+      "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+      "official": {
+        "rfilename": "model.safetensors",
+        "blobId": "2ef707371406f95f8aa91fb03a75f22f3c568299",
+        "size": 269060552,
+        "lfs": {
+          "sha256": "5af571cbf074e6d21a03528d2330792e532ca608f24ac70a143f6b369968ab8c",
+          "size": 269060552,
+          "pointerSize": 134
+        }
+      }
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "4ec77d44f62efeb38d7e044a1db318f6a939438425312dfa333b8382dbad98df",
+      "official": {
+        "rfilename": "tokenizer_config.json",
+        "blobId": "8c7b22013909450429303ed10be4398bd63f5457",
+        "size": 3764
+      }
+    },
+    {
+      "name": "special_tokens_map.json",
+      "sha256": "2b7379f3ae813529281a5c602bc5a11c1d4e0a99107aaa597fe936c1e813ca52",
+      "official": {
+        "rfilename": "special_tokens_map.json",
+        "blobId": "44719d2e365acac0637fd25a3acf46494ca45940",
+        "size": 655
+      }
+    },
+    {
+      "name": "config.json",
+      "sha256": "8eb740e8bbe4cff95ea7b4588d17a2432deb16e8075bc5828ff7ba9be94d982a",
+      "official": {
+        "rfilename": "config.json",
+        "blobId": "36293b6099200eb8aeb55ae2c01bca2ba46d80d0",
+        "size": 861
+      }
+    },
+    {
+      "name": "tokenizer.json",
+      "sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+      "official": {
+        "rfilename": "tokenizer.json",
+        "blobId": "f922b1797f0c88e71addc8393787831f2477a4bd",
+        "size": 2104556
+      }
+    },
+    {
+      "name": "generation_config.json",
+      "sha256": "87b916edaaab66b3899b9d0dd0752727dff6666686da0504d89ae0a6e055a013",
+      "official": {
+        "rfilename": "generation_config.json",
+        "blobId": "da6c4d71a43aa7e6f785bdbb28ea5025438a73fa",
+        "size": 132
+      }
+    },
+    {
+      "name": "README.md",
+      "sha256": "4f97533ad95b1b2fea15fbc075c01b94578ebdd7c8138888fa43fa3abd530dc4",
+      "official": {
+        "rfilename": "README.md",
+        "blobId": "d168166639f4dec33a0d0bb5f8e7d4e20d9d52ac",
+        "size": 6772
+      }
+    },
+    {
+      "name": "merges.txt",
+      "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "official": {
+        "rfilename": "merges.txt",
+        "blobId": "69503b13f727ba3812b6803e97442a6de05ef5eb",
+        "size": 466391
+      }
+    },
+    {
+      "name": "vocab.json",
+      "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+      "official": {
+        "rfilename": "vocab.json",
+        "blobId": "0ad5ecc2035b7031b88afb544ee95e2d49baa484",
+        "size": 800662
+      }
+    }
+  ]
+}

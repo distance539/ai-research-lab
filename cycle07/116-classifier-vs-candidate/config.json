@@ -1,0 +1,21 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "revision": "12fd25f77366fa6b3b4b768ec3050bf629380bac",
+  "seed": 116,
+  "threads": 4,
+  "dtype": "float32",
+  "device": "cpu",
+  "attention": "eager",
+  "n": 256,
+  "max_length": 512,
+  "prompt": "Review: {sentence}\nQuestion: Is this review positive or negative?\nAnswer:",
+  "candidates": [
+    " negative",
+    " positive"
+  ],
+  "eos_scored": false,
+  "chat_template": false,
+  "length_normalization": false,
+  "budget_seconds": 1800,
+  "input_sha256": "a0119cc41338864d8c97d23f76c1d57dea8821021cb62c319e09100f63657904"
+}
