@@ -1,0 +1,10 @@
+{"temperature": 2.481924215086295, "beta": 0.40291318885626437, "boundary": false, "gradient": -1.734723475976807e-16, "calibration_sha256": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b"}
+{'calibration': 1.1511972080916166, 'audit': 1.3728999169543386, 'total_after_imports': 2.7977272081188858}
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)

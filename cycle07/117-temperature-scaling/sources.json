@@ -1,0 +1,38 @@
+{
+  "author_code": {
+    "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "34efa1fc8da61dd216558cb12186a58e43f2a9bab1ce3e0e92ab60a3dae57ea8"
+  },
+  "author_license": {
+    "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/LICENSE",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "2db8bc492d552f355e500205a8a31bf894fbbaee64356192130fdc327fd71dc3"
+  },
+  "model_card": {
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/README.md",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "75f17282923fea5b541df92640e2d8646c4ff5e8e3e16ed0a7e4e50ee7588851"
+  },
+  "data_card": {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/resolve/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "b67282cc0ee148ca5fad017275f5559095cca4252a76a4ae7688377935c862fc"
+  },
+  "official_classifier": {
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e"
+  },
+  "paper": {
+    "url": "https://proceedings.mlr.press/v70/guo17a/guo17a.pdf",
+    "exit_code": 0,
+    "http_status": "200",
+    "sha256": "df7c93f97204f8a3c2b10f6d5bf5265baac25f00c1ae3b473a3e1dbc102dacb2"
+  }
+}

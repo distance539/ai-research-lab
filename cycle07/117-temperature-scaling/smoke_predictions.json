@@ -1,0 +1,146 @@
+[
+  {
+    "idx": 731,
+    "label": 0,
+    "text_sha256": "d035b7974590ee5d391e17dfb4f4a6090ab521d3930fb336f175ca43f10717a6",
+    "logits": [
+      3.175027370452881,
+      -2.62178373336792
+    ],
+    "retained_tokens": 13,
+    "probabilities": [
+      0.9969719720880036,
+      0.003028027911996266
+    ],
+    "prediction": 0,
+    "confidence": 0.9969719720880036,
+    "correct": 1,
+    "nll": 0.003032621664198043
+  },
+  {
+    "idx": 315,
+    "label": 0,
+    "text_sha256": "aeafcef1800d322ebb265234035a9b2d0273ddd3eea736d6a21c18fe541fdf1b",
+    "logits": [
+      4.72700834274292,
+      -3.7519712448120117
+    ],
+    "retained_tokens": 14,
+    "probabilities": [
+      0.9997922525412586,
+      0.0002077474587412053
+    ],
+    "prediction": 0,
+    "confidence": 0.9997922525412586,
+    "correct": 1,
+    "nll": 0.00020776904123387396
+  },
+  {
+    "idx": 343,
+    "label": 0,
+    "text_sha256": "98b3b7390bb6e28a4500859a35524f55aab311f1208cc69aaad8cfb9c4f1c584",
+    "logits": [
+      4.604621410369873,
+      -3.659029960632324
+    ],
+    "retained_tokens": 12,
+    "probabilities": [
+      0.9997423501470828,
+      0.000257649852917319
+    ],
+    "prediction": 0,
+    "confidence": 0.9997423501470828,
+    "correct": 1,
+    "nll": 0.00025768305034290506
+  },
+  {
+    "idx": 188,
+    "label": 0,
+    "text_sha256": "64b83f53f1ec41653f85490f0aa867f2e2b4c5314dddef00097dbd337b86899f",
+    "logits": [
+      3.3133561611175537,
+      -2.781644821166992
+    ],
+    "retained_tokens": 24,
+    "probabilities": [
+      0.997750961648637,
+      0.002249038351363237
+    ],
+    "prediction": 0,
+    "confidence": 0.997750961648637,
+    "correct": 1,
+    "nll": 0.0022515712365325236
+  },
+  {
+    "idx": 133,
+    "label": 0,
+    "text_sha256": "f615a58c27b34981cde1d8cbb7f625671b72379ffdf8c2be3255108ebe381fd7",
+    "logits": [
+      4.212274074554443,
+      -3.4861972332000732
+    ],
+    "retained_tokens": 46,
+    "probabilities": [
+      0.9995466856414376,
+      0.00045331435856218967
+    ],
+    "prediction": 0,
+    "confidence": 0.9995466856414376,
+    "correct": 1,
+    "nll": 0.00045341713657798266
+  },
+  {
+    "idx": 367,
+    "label": 1,
+    "text_sha256": "db8cc0fd5208fa34d3bcea615bc0354cd8f4d3d630f7076d8d537e2ae41032f0",
+    "logits": [
+      -3.686643600463867,
+      3.892906904220581
+    ],
+    "retained_tokens": 17,
+    "probabilities": [
+      0.0005105299954694067,
+      0.9994894700045306
+    ],
+    "prediction": 1,
+    "confidence": 0.9994894700045306,
+    "correct": 1,
+    "nll": 0.0005106603602795801
+  },
+  {
+    "idx": 323,
+    "label": 1,
+    "text_sha256": "de350098c1e44a4402a86029c91a0c2299f91226f61876285119583c1c3d83ec",
+    "logits": [
+      -2.844161033630371,
+      2.963742256164551
+    ],
+    "retained_tokens": 10,
+    "probabilities": [
+      0.0029947260849444634,
+      0.9970052739150554
+    ],
+    "prediction": 1,
+    "confidence": 0.9970052739150554,
+    "correct": 1,
+    "nll": 0.002999219249880891
+  },
+  {
+    "idx": 574,
+    "label": 0,
+    "text_sha256": "aa7841fdc09be5598451ad57b68714d834c2febc1dcc046adc204e45cdac0781",
+    "logits": [
+      4.23531436920166,
+      -3.502885103225708
+    ],
+    "retained_tokens": 22,
+    "probabilities": [
+      0.9995643342482761,
+      0.0004356657517237006
+    ],
+    "prediction": 0,
+    "confidence": 0.9995643342482761,
+    "correct": 1,
+    "nll": 0.000435760681620323
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "max_metric_error": 7.979727989493313e-17,
+  "independent_temperature": 2.4819242360014444,
+  "temperature_difference": 2.091514961222174e-08,
+  "inputs": {
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+    "fit.json": "50c232b7a630efff129fe644f24e6e6c1ebf05350ee684bc551d492ba2e677d2",
+    "results.json": "91f7e1d334f108a72a4f131c2183455fb57a78977b8e208d6c7842dc34bc4a6e",
+    "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358"
+  }
+}
