@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "n": 8,
+  "max_logit_difference": 4.76837158203125e-07,
+  "note": "8-row batch vs original16 padding shape can change floating rounding"
+}

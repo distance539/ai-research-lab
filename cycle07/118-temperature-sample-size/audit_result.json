@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "rows": 250,
+  "max_nll_error": 5.551115123125783e-17,
+  "max_optimal_loss_gap": 1.249000902703301e-16,
+  "inputs": {
+    "protocol.json": "dfc6f8672c363bdc386cb50dd5d6f4f1f4842a34346df766d8c3ae9b67fab5bc",
+    "runs.json": "3523b633a359e6eab738dbad7ffa91c69730095fb8bd9aaa485a8b5d6cec888c",
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+    "audit.py": "8eb5fe0440a89bc317c240bdd6e1ad6e2868646c8049931b540eedb8b67f432a"
+  }
+}

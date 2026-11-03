@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://github.com/gpleiss/temperature_scaling/blob/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "87760b836295fa55410d8a6d9c312f48fcf0e4c67a9f82992fd167275421ca12"
+  },
+  {
+    "url": "https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L918",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "1159b6e2ac695d50be1deddec3a69a693bc906686f27dfaec4ac9ac8d3f0f56e"
+  },
+  {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/blob/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/README.md",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "badb8cc4a94b45ae437de590f115cf5bf795684015ea99517ebfa6958a1b5a6d"
+  },
+  {
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/blob/714eb0fa89d2f80546fda750413ed43d93601a13/README.md",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "ac894380b07dd550949cca18101474e49e59179cf7b093c007ceac3a47fbec9b"
+  },
+  {
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "3b4d7ca0ab60cd88e263f0fe342e033947aed43c68988e91485f2a5318a30cf9"
+  }
+]
