@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "python",
+      "run.py"
+    ],
+    "exit_code": 0,
+    "stdout": "[\n  {\n    \"n\": 32,\n    \"T\": 0.05,\n    \"metrics\": {\n      \"calibration\": {\n        \"raw\": {\n          \"n\": 32,\n          \"correct\": 32,\n          \"brier\": 6.231449303744674e-06,\n          \"nll_clipped\": 0.0008383568192194818,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.0008383568192194757\n        },\n        \"temperature\": {\n          \"n\": 32,\n          \"correct\": 32,\n          \"brier\": 3.780389257662025e-85,\n          \"nll_clipped\": 1.000000500029089e-06,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 17,\n          \"stable_unclipped_nll\": 7.685608859231426e-44\n        },\n        \"isotonic\": {\n          \"n\": 32,\n          \"correct\": 32,\n          \"brier\": 0.0,\n          \"nll_clipped\": 1.000000500029089e-06,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 32\n        }\n      },\n      \"audit\": {\n        \"raw\": {\n          \"n\": 360,\n          \"correct\": 330,\n          \"brier\": 0.1540013539744965,\n          \"nll_clipped\": 0.3841134601457451,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.38411346014574366\n        },\n        \"temperature\": {\n          \"n\": 360,\n          \"correct\": 330,\n          \"brier\": 0.16694519574910704,\n          \"nll_clipped\": 1.1452333276901923,\n          \"infinite_nll_rows\": 15,\n          \"boundary_rows\": 183,\n          \"stable_unclipped_nll\": 7.271314452558617\n        },\n        \"isotonic\": {\n          \"n\": 360,\n          \"correct\": 330,\n          \"brier\": 0.15490536402105712,\n          \"nll_clipped\": 0.6141988795179472,\n          \"infinite_nll_rows\": 11,\n          \"boundary_rows\": 289\n        }\n      }\n    }\n  },\n  {\n    \"n\": 256,\n    \"T\": 2.481924215086294,\n    \"metrics\": {\n      \"calibration\": {\n        \"raw\": {\n          \"n\": 256,\n          \"correct\": 231,\n          \"brier\": 0.18146067708202063,\n          \"nll_clipped\": 0.40371014758077883,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.40371014758077856\n        },\n        \"temperature\": {\n          \"n\": 256,\n          \"correct\": 231,\n          \"brier\": 0.14738502306899043,\n          \"nll_clipped\": 0.24257124661472562,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.24257124661472565\n        },\n        \"isotonic\": {\n          \"n\": 256,\n          \"correct\": 234,\n          \"brier\": 0.1158671802054155,\n          \"nll_clipped\": 0.17266506387921277,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 176\n        }\n      },\n      \"audit\": {\n        \"raw\": {\n          \"n\": 360,\n          \"correct\": 330,\n          \"brier\": 0.1540013539744965,\n          \"nll_clipped\": 0.3841134601457451,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.38411346014574366\n        },\n        \"temperature\": {\n          \"n\": 360,\n          \"correct\": 330,\n          \"brier\": 0.135151138415371,\n          \"nll_clipped\": 0.23713558237307122,\n          \"infinite_nll_rows\": 0,\n          \"boundary_rows\": 0,\n          \"stable_unclipped_nll\": 0.23713558237307122\n        },\n        \"isotonic\": {\n          \"n\": 360,\n          \"correct\": 329,\n          \"brier\": 0.137395122863447,\n          \"nll_clipped\": 0.42060590997930347,\n          \"infinite_nll_rows\": 7,\n          \"boundary_rows\": 249\n        }\n      }\n    }\n  }\n]\n",
+    "stderr": "",
+    "time": 1793754674.250279
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{'passed': True, 'method': 'independent weighted min-max block averages and interpolation', 'max_probability_error': 1.1102230246251565e-16, 'inputs': {'protocol.json': '02c6453fa44bd329e496c3866b89977011e5dbb2761427843720901079070311', 'results.json': '783b0f47521d0d9237b235408f12fcf397396a72decea16aafb9dc90b811c68e', 'audit.py': '4f35f88462434e17cf6da0f3794c50447652e16f2aa204ad9b662b68bc4cf91b', 'calibration_predictions.json': '1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b', 'audit_predictions.json': 'fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44'}}\n",
+    "stderr": "",
+    "time": 1793754674.449033
+  },
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "smoke",
+      "--cache",
+      ".cache"
+    ],
+    "exit_code": 0,
+    "stdout": "{'smoke': 0.0746414577588439, 'total_after_imports': 0.5483887908048928}\n",
+    "stderr": "huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...\nTo disable this warning, you can either:\n\t- Avoid using `tokenizers` before the fork if possible\n\t- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)\nhuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...\nTo disable this warning, you can either:\n\t- Avoid using `tokenizers` before the fork if possible\n\t- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)\n",
+    "time": 1793754465.6057239
+  }
+]

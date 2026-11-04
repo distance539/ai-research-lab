@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "method": "independent weighted min-max block averages and interpolation",
+  "max_probability_error": 1.1102230246251565e-16,
+  "inputs": {
+    "protocol.json": "02c6453fa44bd329e496c3866b89977011e5dbb2761427843720901079070311",
+    "results.json": "783b0f47521d0d9237b235408f12fcf397396a72decea16aafb9dc90b811c68e",
+    "audit.py": "4f35f88462434e17cf6da0f3794c50447652e16f2aa204ad9b662b68bc4cf91b",
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44"
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://proceedings.mlr.press/v70/guo17a.html",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "3b4d7ca0ab60cd88e263f0fe342e033947aed43c68988e91485f2a5318a30cf9"
+  },
+  {
+    "url": "https://scikit-learn.org/stable/modules/isotonic.html",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "ed6a948290d426bf545d3c5bce41a4babe9dc3642c0cf191876a7c4152e3ad4e"
+  },
+  {
+    "url": "https://scikit-learn.org/stable/modules/calibration.html",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "00860ac6c19e425758b76adf27721d343ad3d5cbc72f865da7a9fe1aa32b9864"
+  },
+  {
+    "url": "https://github.com/scikit-learn/scikit-learn/blob/f159b78dc59f250cdde8fe391a21f0bc871960ad/sklearn/isotonic.py#L302",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "7d407f3cd76c14a7aaca03b31874af4bb549260034505c096e4bf73b25609691"
+  },
+  {
+    "url": "https://github.com/scikit-learn/scikit-learn/blob/f159b78dc59f250cdde8fe391a21f0bc871960ad/sklearn/isotonic.py",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "ab6029cfc616f3b363dd15e22bf03a50a6ac7c9db9a25d76df3da8f6cd2e277c"
+  },
+  {
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "f4647c42f54a793fad7e88927ab8abc691d364822f48c9d299ba3052e9459ae2"
+  },
+  {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "1ef603d88faf21cc97c5c0c16826968681b892c53c8f9a69b1aae6d86b1f4b7c"
+  },
+  {
+    "url": "https://apps.apple.com/cn/app/id6804678263",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "f73d29abb0ea1274f83581563526e2d5a630ebf48957f3e07e463d8e3069aaea"
+  },
+  {
+    "url": "https://apps.apple.com/cn/app/id6810087850",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "aca61db188a067f2542704884dead3f6c8f6ef66f8f4c163e64c3341ad9a526e"
+  },
+  {
+    "url": "https://zffjzz.top/",
+    "http": "200",
+    "exit_code": 0,
+    "sha256": "8a6c73f96c667e96389b71c25a00575b9e21023f4d45008114192c4416dff3bd"
+  }
+]
