@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      "python3",
+      "run.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{\n  \"10\": {\n    \"T\": {\n      \"mean\": 2.4957418606574877,\n      \"sd\": 0.2089854595144207,\n      \"min\": 1.9612250080772804,\n      \"max\": 2.902973512024449\n    },\n    \"nll\": {\n      \"mean\": 0.23842102710667923,\n      \"sd\": 0.002086194563540595,\n      \"min\": 0.23705194488586784,\n      \"max\": 0.2454165169741433\n    },\n    \"brier\": {\n      \"mean\": 0.13544334596795551,\n      \"sd\": 0.0009159982335854974,\n      \"min\": 0.1348699605945107,\n      \"max\": 0.13887335025335715\n    }\n  },\n  \"50\": {\n    \"T\": {\n      \"mean\": 2.468257419959257,\n      \"sd\": 0.3351609245075206,\n      \"min\": 1.8182944923867603,\n      \"max\": 3.0433675928510135\n    },\n    \"nll\": {\n      \"mean\": 0.24035456125157612,\n      \"sd\": 0.004106854635718451,\n      \"min\": 0.23705234346770038,\n      \"max\": 0.2524593348462049\n    },\n    \"brier\": {\n      \"mean\": 0.13604176774216697,\n      \"sd\": 0.0015373354144314422,\n      \"min\": 0.13487018405592818,\n      \"max\": 0.14059709953887287\n    }\n  },\n  \"90\": {\n    \"T\": {\n      \"mean\": 2.3981075664402898,\n      \"sd\": 0.20115326382604568,\n      \"min\": 2.102977496367976,\n      \"max\": 2.9345303443144592\n    },\n    \"nll\": {\n      \"mean\": 0.2382304273867979,\n      \"sd\": 0.0015591971595124412,\n      \"min\": 0.237055241481532,\n      \"max\": 0.24329497229614536\n    },\n    \"brier\": {\n      \"mean\": 0.13576942744311912,\n      \"sd\": 0.0007538770960037221,\n      \"min\": 0.13487439358535738,\n      \"max\": 0.13744577627361235\n    }\n  },\n  \"raw\": {\n    \"n\": 360,\n    \"nll\": 0.3841134601457437,\n    \"brier\": 0.15400135397449652,\n    \"correct\": 330\n  }\n}\n",
+    "stderr": "",
+    "time": 1793840382.015467
+  },
+  {
+    "command": [
+      "python3",
+      "audit.py"
+    ],
+    "exit_code": 0,
+    "stdout": "{'passed': True, 'fits_checked': 60, 'method': 'independent golden-section minimization and scalar softplus/Brier reconstruction', 'max_metric_error': 3.3306690738754696e-16, 'input_hashes': {'audit.py': '3b3e981d3640ec7ca6936a4d8d0f83e0e1dfdfaaa55020777b18a0dfc7be7006', 'protocol.json': '569e56f783468a190db89a87e1bbc4bc9d485e65b7d79ce61cfa28450f1fbe74', 'results.json': '4b9aa25276dc45c728d57c92c598c8ca2be2190324b620129231dc9d4efb6110', 'calibration_predictions.json': '1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b', 'audit_predictions.json': 'fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44'}}\n",
+    "stderr": "",
+    "time": 1793840382.6978078
+  },
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "smoke",
+      "--cache",
+      ".cache"
+    ],
+    "exit_code": 0,
+    "stdout": "{'smoke': 0.06036104168742895, 'total_after_imports': 0.5287181250751019}\n",
+    "stderr": "huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...\nTo disable this warning, you can either:\n\t- Avoid using `tokenizers` before the fork if possible\n\t- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)\nhuggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...\nTo disable this warning, you can either:\n\t- Avoid using `tokenizers` before the fork if possible\n\t- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)\n",
+    "time": 1793840388.4067378
+  }
+]

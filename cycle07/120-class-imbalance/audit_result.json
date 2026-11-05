@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "fits_checked": 60,
+  "method": "independent golden-section minimization and scalar softplus/Brier reconstruction",
+  "max_metric_error": 3.3306690738754696e-16,
+  "input_hashes": {
+    "audit.py": "3b3e981d3640ec7ca6936a4d8d0f83e0e1dfdfaaa55020777b18a0dfc7be7006",
+    "protocol.json": "569e56f783468a190db89a87e1bbc4bc9d485e65b7d79ce61cfa28450f1fbe74",
+    "results.json": "4b9aa25276dc45c728d57c92c598c8ca2be2190324b620129231dc9d4efb6110",
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44"
+  }
+}

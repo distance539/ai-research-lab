@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "n": 8,
+  "max_logit_error": 4.76837158203125e-07,
+  "tolerance": 1e-05,
+  "same_classes": true
+}

@@ -1,0 +1,62 @@
+{
+  "initial_restricted_attempts": [
+    {
+      "name": "temperature",
+      "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py",
+      "exit_code": 7,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to 127.0.0.1 port 32221 after 0 ms: Couldn't connect to server\n",
+      "sha256": null
+    },
+    {
+      "name": "MIT",
+      "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/LICENSE",
+      "exit_code": 7,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to 127.0.0.1 port 32221 after 0 ms: Couldn't connect to server\n",
+      "sha256": null
+    },
+    {
+      "name": "classifier",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py",
+      "exit_code": 7,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to 127.0.0.1 port 32221 after 0 ms: Couldn't connect to server\n",
+      "sha256": null
+    },
+    {
+      "name": "Apache",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+      "exit_code": 7,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\ncurl: (7) Failed to connect to 127.0.0.1 port 32221 after 0 ms: Couldn't connect to server\n",
+      "sha256": null
+    }
+  ],
+  "retry": [
+    {
+      "name": "temperature",
+      "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py",
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n 27  4984   27  1369    0     0   1524      0  0:00:03 --:--:--  0:00:03  1522\n100  4984  100  4984    0     0   5541      0 --:--:-- --:--:-- --:--:--  5537\n",
+      "sha256": "34efa1fc8da61dd216558cb12186a58e43f2a9bab1ce3e0e92ab60a3dae57ea8"
+    },
+    {
+      "name": "MIT",
+      "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/LICENSE",
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n100  1069  100  1069    0     0   1212      0 --:--:-- --:--:-- --:--:--  1213\n",
+      "sha256": "2db8bc492d552f355e500205a8a31bf894fbbaee64356192130fdc327fd71dc3"
+    },
+    {
+      "name": "classifier",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py",
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n 52 60370   52 31948    0     0  29585      0  0:00:02  0:00:01  0:00:01 29581\n100 60370  100 60370    0     0  50278      0  0:00:01  0:00:01 --:--:-- 50266\n",
+      "sha256": "7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e"
+    },
+    {
+      "name": "Apache",
+      "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+      "exit_code": 0,
+      "stderr": "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n                                 Dload  Upload   Total   Spent    Left  Speed\n\n  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n 19 11418   19  2180    0     0   2552      0  0:00:04 --:--:--  0:00:04  2552\n100 11418  100 11418    0     0  12669      0 --:--:-- --:--:-- --:--:-- 12658\n",
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049"
+    }
+  ]
+}
