@@ -1,0 +1,9 @@
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+{"rows": 16, "seconds": 4.103281124960631, "peak_rss_native": 1635090432, "os": "macOS-27.0.1-arm64-arm-64bit", "python": "3.12.14", "torch": "2.6.0", "transformers": "4.49.0", "protocol": "3a5f629e761048b121725b23a2398cdd335d2483209d43be421743fe51df32c2", "code": "536ac9bc520e568ab550b406b47694173c268846647cc1c5adf08742caf95b45", "result": "c8b5941e7b85a1afd33dfd5f2420178c344e6c79bcfccbd6f2819ef4111323f7"}

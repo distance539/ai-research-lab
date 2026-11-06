@@ -1,0 +1,36 @@
+{
+  "commands": [
+    {
+      "command": "python score.py --model-dir MODEL_DIR --data DATA --smoke",
+      "exit_code": 0,
+      "output": "smoke.log"
+    },
+    {
+      "command": "python score.py --model-dir MODEL_DIR --data DATA",
+      "exit_code": 0,
+      "output": "formal.log"
+    },
+    {
+      "command": "python run.py",
+      "exit_code": 0,
+      "output": "analysis.log"
+    },
+    {
+      "command": "python audit.py",
+      "exit_code": 0,
+      "output": "audit.log"
+    },
+    {
+      "command": "python plot.py --output ../images/transfer_nll.png",
+      "exit_code": 0,
+      "output": "transfer_nll.png"
+    }
+  ],
+  "stages": {
+    "resources": "verified locked cache, no new download of weights or SST2",
+    "preprocessing": "split, text identity and token prefix checks passed",
+    "inference": "8 shared smoke examples x 2, 616 formal examples x 2; 616 classifier rows inherited",
+    "evaluation": "3 fits, 12 audit cells, independent objective/metrics replay"
+  },
+  "analysis_python": "3.9.6"
+}

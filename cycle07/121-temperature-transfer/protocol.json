@@ -1,0 +1,29 @@
+{
+  "seed": 121,
+  "threads": 4,
+  "max_context": 512,
+  "device": "cpu",
+  "dtype": "float32",
+  "attention": "eager",
+  "decode": "one next-token step; no sampling, EOS, chat or special tokens",
+  "prompts": {
+    "A": "Review: {sentence}\nQuestion: Is this review positive or negative?\nAnswer:",
+    "B": "Review: {sentence}\nQuestion: Is this review negative or positive?\nAnswer:"
+  },
+  "candidates": [
+    " negative",
+    " positive"
+  ],
+  "beta_bounds": [
+    0.05,
+    20
+  ],
+  "input_sha256": {
+    "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358",
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+    "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+    "model.lock.json": "9c91dce1b7add8dea5e4286e6b581ce3c4d9381ef6c912cbcf7ffc7e1784a15a"
+  },
+  "design": "fit C,A,B only on the same 256 calibration rows; evaluate all nine transfers plus unit baselines on the same 360 audit rows. Primary paired audit NLL difference from unit; also report matched comparison, correct counts and positive decisions. No selecting templates or temperature by audit."
+}
