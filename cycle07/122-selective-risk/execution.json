@@ -1,0 +1,55 @@
+[
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "smoke",
+      "--cache",
+      "VALIDATED_CACHE"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 5.544579250272363,
+    "log": "smoke.log"
+  },
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "run",
+      "--cache",
+      "VALIDATED_CACHE"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 5.793050833977759,
+    "log": "run.log"
+  },
+  {
+    "command": [
+      "python",
+      "run.py"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03155620815232396,
+    "log": "analysis.log"
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03194712474942207,
+    "log": "audit.log"
+  },
+  {
+    "command": [
+      "python",
+      "plot.py",
+      "--output",
+      "../images/risk_curve.png"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.5332032088190317,
+    "log": "plot.log"
+  }
+]

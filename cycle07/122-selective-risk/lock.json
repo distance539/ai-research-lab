@@ -1,0 +1,11 @@
+{
+  "PROTOCOL.md": "45cb949df2124cd9ace76047133330318face8267cbdd641c046e165482827c4",
+  "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+  "config.json": "fbff9c76f01cdf7dafc3452914e90a2beeb4ae9f2c33e89399bdaec896abdd82",
+  "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+  "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358",
+  "model_run.py": "fc20d80ad55405a1ff702a369dd491466aaceb32ab1d8d77938371ed1c261a0d",
+  "baseline.py": "74ae01e832e561c4919d8254672ab5f7bb5db8d3a8544df83f1a49edf06d9d23",
+  "run.py": "93356405de3f5dc643bfea3180b51d9ffd588e2740b7f0cc6da1e564ae3b8d1b",
+  "audit.py": "e4199090693744dea0d6b9a0fbf87cb8ec671a9902c495ffc01694335c603ce2"
+}
