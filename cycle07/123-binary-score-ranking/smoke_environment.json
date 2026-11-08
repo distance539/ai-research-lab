@@ -1,0 +1,27 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "numpy": "1.26.4",
+  "device": "cpu",
+  "dtype": "float32",
+  "timings": {
+    "smoke": 0.06414145836606622,
+    "total_after_imports": 0.6861245827749372
+  },
+  "peak_rss_bytes": 807845888,
+  "shapes": [
+    {
+      "input": [
+        8,
+        33
+      ],
+      "logits": [
+        8,
+        2
+      ]
+    }
+  ],
+  "max_logit_difference": 2.384185791015625e-07
+}

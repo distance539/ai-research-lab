@@ -1,0 +1,20 @@
+{
+  "model_id": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "dataset_id": "stanfordnlp/sst2",
+  "dataset_revision": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+  "split": "validation",
+  "selection": "split_manifest.protocol_audit",
+  "n": 360,
+  "batch_size": 16,
+  "max_length": 512,
+  "seed": 117,
+  "threads": 4,
+  "device": "cpu",
+  "dtype": "float32",
+  "attention": "eager",
+  "training": false,
+  "temperature_fitting": false,
+  "formal_budget_seconds": 1800,
+  "rss_budget_bytes": 6442450944
+}

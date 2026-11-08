@@ -1,0 +1,1 @@
+different ranks 0 redundant scores {'maximum': 0, 'entropy': 0, 'gap': 0} k=270 {'maximum': {'k': 270, 'errors': 8, 'risk': 0.02962962962962963}, 'entropy': {'k': 270, 'errors': 8, 'risk': 0.02962962962962963}, 'gap': {'k': 270, 'errors': 8, 'risk': 0.02962962962962963}}

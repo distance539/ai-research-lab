@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://proceedings.neurips.cc/paper/2017/file/4a8423d5e91fda00bb7e46540e2b0cf1-Paper.pdf",
+    "exit_code": 0,
+    "bytes": 414761,
+    "sha256": "167ed5f7292edd07b90c27b2711dea70947ccb024681af020f4bfc4fbbad2e40",
+    "stderr": ""
+  },
+  {
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "exit_code": 0,
+    "bytes": 245682,
+    "sha256": "81efca34e5424b083338cc6c338dcbff7a9e2888d276050898688bea6dd1631c",
+    "stderr": ""
+  },
+  {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "exit_code": 0,
+    "bytes": 143411,
+    "sha256": "9ffb0ee3642ad5689986e4eadd61427d6f29d6992d9f9fc11da8adfdda5740ef",
+    "stderr": ""
+  },
+  {
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py",
+    "exit_code": 0,
+    "bytes": 60370,
+    "sha256": "7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e",
+    "stderr": "",
+    "installed_identical": true
+  },
+  {
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+    "exit_code": 0,
+    "bytes": 11418,
+    "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+    "stderr": ""
+  }
+]

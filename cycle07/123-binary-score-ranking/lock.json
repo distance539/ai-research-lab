@@ -1,0 +1,11 @@
+{
+  "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+  "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358",
+  "model_run.py": "fc20d80ad55405a1ff702a369dd491466aaceb32ab1d8d77938371ed1c261a0d",
+  "baseline.py": "74ae01e832e561c4919d8254672ab5f7bb5db8d3a8544df83f1a49edf06d9d23",
+  "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+  "config.json": "fbff9c76f01cdf7dafc3452914e90a2beeb4ae9f2c33e89399bdaec896abdd82",
+  "run.py": "a17bbf3b2552eb87aa0d2cfa8e62532ce6e5ffcf955e0d9bae921ea6dfcb2ced",
+  "PROTOCOL.md": "3fb6134658dea62b252afc6bd3d1d19cf33f90dfd4dfb7d3f2ab700858a7bf4a",
+  "requirements-observed.txt": "5358176a9af1c8e8e530c2b25ebff440b6d2c4a20885264680c1a4b2f589f017"
+}
