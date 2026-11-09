@@ -1,0 +1,7 @@
+# 源码对应与许可（核验于 2026-11-09）
+
+- [Geifman 与 El-Yaniv 2017，Selective Classification for Deep Neural Networks](https://arxiv.org/abs/1705.08500) 的覆盖率与选择性风险对应 run.py 的前缀错误比率。本文只采用经验风险定义，未调用论文的风险控制算法。
+- [SciPy 官方 bootstrap 文档](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.bootstrap.html) 描述 paired=True 共用索引和 percentile 区间。run.py/curve 与 main 为独立教学实现，抽样后重排，NumPy 1.26.4 quantile 线性插值；不调用 SciPy，不复制上游统计代码。audit.py 从 logit 差与样本重复次数独立复算，plot.py 从 points.json 作图。
+- [Transformers v4.49.0 分类头初始化与 forward 第918–991行](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L918-L991)。commit a22a4378d97d06b7a1d9abad6e0086d30fdea199；实际下载分类头文件与安装文件逐字节核对。model_run.py/main 调用官方 AutoModelForSequenceClassification；classify 做独立推断后处理。保留 [Apache-2.0 许可证](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE) 与 THIRD_PARTY_LICENSE.txt。
+- [模型与分词器](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13)，Apache-2.0。[Stanford NLP SST2](https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb)，数据卡许可 unknown。仅分发身份与派生结果。哈希见 resources.lock.json。
+- [前篇固定提交](https://github.com/distance539/ai-research-lab/tree/6d649f5a8bd318e3547dcb11cc2da4056d4574a1/cycle07/123-binary-score-ranking) 的 MIT 自写模型入口、下载器与锁原样沿用；bootstrap 与区间审计本篇新增。研究源核验记录见 upstream_verification.json。

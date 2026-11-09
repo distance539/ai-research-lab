@@ -1,0 +1,8 @@
+{'k': 1, 'confidence_errors': 0, 'shuffle_errors': 0, 'gain': 0.0, 'ci': [0.0, 0.0]}
+{'k': 18, 'confidence_errors': 0, 'shuffle_errors': 1, 'gain': 0.05555555555555555, 'ci': [0.0, 0.2222222222222222]}
+{'k': 36, 'confidence_errors': 0, 'shuffle_errors': 2, 'gain': 0.05555555555555555, 'ci': [0.0, 0.1388888888888889]}
+{'k': 90, 'confidence_errors': 0, 'shuffle_errors': 5, 'gain': 0.05555555555555555, 'ci': [0.011111111111111112, 0.1]}
+{'k': 180, 'confidence_errors': 3, 'shuffle_errors': 12, 'gain': 0.05, 'ci': [0.011111111111111112, 0.08888888888888889]}
+{'k': 270, 'confidence_errors': 8, 'shuffle_errors': 18, 'gain': 0.037037037037037035, 'ci': [0.011111111111111112, 0.06296296296296296]}
+{'k': 324, 'confidence_errors': 17, 'shuffle_errors': 27, 'gain': 0.030864197530864196, 'ci': [0.009259259259259259, 0.04938271604938271]}
+{'k': 360, 'confidence_errors': 30, 'shuffle_errors': 30, 'gain': 0.0, 'ci': [0.0, 0.0]}

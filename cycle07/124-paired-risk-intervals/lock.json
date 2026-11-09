@@ -1,0 +1,10 @@
+{
+  "run.py": "01a81915f67ccbe87e0524a8381ae5a55ee532ebe46f14d3d0c28c5435240709",
+  "model_run.py": "fc20d80ad55405a1ff702a369dd491466aaceb32ab1d8d77938371ed1c261a0d",
+  "baseline.py": "74ae01e832e561c4919d8254672ab5f7bb5db8d3a8544df83f1a49edf06d9d23",
+  "config.json": "fbff9c76f01cdf7dafc3452914e90a2beeb4ae9f2c33e89399bdaec896abdd82",
+  "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+  "PROTOCOL.md": "d7ae3f450e4521ab4f7a213dfa300c7bb3b9e6022133fe983245486d63e7798e",
+  "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+  "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358"
+}
