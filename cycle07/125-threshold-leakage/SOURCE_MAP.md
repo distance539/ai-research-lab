@@ -1,0 +1,6 @@
+# 源码与公式映射（2026-11-10）
+
+- [Transformers v4.49.0 分类头初始化与 forward 第918–991行](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L918-L991)。commit a22a4378d97d06b7a1d9abad6e0086d30fdea199；实际下载分类头文件与安装文件逐字节核对。model_run.py/main 调用官方 AutoModelForSequenceClassification；classify 做独立推断后处理。保留 [Apache-2.0 许可证](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE) 与 THIRD_PARTY_LICENSE.txt。
+- [模型与分词器](https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13)，Apache-2.0。[Stanford NLP SST2](https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb)，数据卡许可 unknown。仅分发身份与派生结果。哈希见 resources.lock.json。
+- Geifman 与 El-Yaniv（2017）的[原论文](https://arxiv.org/abs/1705.08500)定义接受集及其选择性风险。run.py/counts 独立实现样本风险与覆盖率；choose 为本篇预设的经验约束搜索，不执行原论文的风险上界算法。audit.py 从二分类 logit 差独立核对。
+- [模型入口、下载器、配置来源](https://github.com/distance539/ai-research-lab/tree/87636f4221ba80d16f9b481c0d94cd58d31b8d03/cycle07/124-paired-risk-intervals)，沿用 MIT 项目代码。校准与审计输入来自[原始双池预测记录](https://github.com/distance539/ai-research-lab/tree/f33e57cca855c0d2c6da5aed4753de76db0e7a89/cycle07/117-temperature-scaling)。来源检查和文件哈希分别见 upstream_verification.json、lock.json。阈值搜索和独立审计为本篇自写。

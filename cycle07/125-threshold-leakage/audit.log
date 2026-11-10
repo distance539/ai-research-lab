@@ -1,0 +1,3 @@
+calibration_predictions.json 1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b 256
+audit_predictions.json fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44 360
+PASS: 616 identities, 16 candidate rows, both choices and audit reports

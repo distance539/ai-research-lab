@@ -1,0 +1,69 @@
+{
+  "threshold": 0.99,
+  "calibration": [
+    {
+      "threshold": 0.5,
+      "accepted": 256,
+      "errors": 25,
+      "total": 256,
+      "risk": 0.09765625,
+      "coverage": 1.0
+    },
+    {
+      "threshold": 0.9,
+      "accepted": 247,
+      "errors": 22,
+      "total": 256,
+      "risk": 0.08906882591093117,
+      "coverage": 0.96484375
+    },
+    {
+      "threshold": 0.95,
+      "accepted": 239,
+      "errors": 16,
+      "total": 256,
+      "risk": 0.06694560669456066,
+      "coverage": 0.93359375
+    },
+    {
+      "threshold": 0.97,
+      "accepted": 236,
+      "errors": 15,
+      "total": 256,
+      "risk": 0.0635593220338983,
+      "coverage": 0.921875
+    },
+    {
+      "threshold": 0.98,
+      "accepted": 231,
+      "errors": 12,
+      "total": 256,
+      "risk": 0.05194805194805195,
+      "coverage": 0.90234375
+    },
+    {
+      "threshold": 0.99,
+      "accepted": 218,
+      "errors": 10,
+      "total": 256,
+      "risk": 0.045871559633027525,
+      "coverage": 0.8515625
+    },
+    {
+      "threshold": 0.995,
+      "accepted": 209,
+      "errors": 5,
+      "total": 256,
+      "risk": 0.023923444976076555,
+      "coverage": 0.81640625
+    },
+    {
+      "threshold": 0.999,
+      "accepted": 158,
+      "errors": 1,
+      "total": 256,
+      "risk": 0.006329113924050633,
+      "coverage": 0.6171875
+    }
+  ]
+}

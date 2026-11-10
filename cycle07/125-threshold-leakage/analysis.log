@@ -1,0 +1,2 @@
+calibration threshold 0.99
+locked {'threshold': 0.99, 'accepted': 304, 'errors': 14, 'total': 360, 'risk': 0.046052631578947366, 'coverage': 0.8444444444444444} leaked {'threshold': 0.98, 'accepted': 321, 'errors': 16, 'total': 360, 'risk': 0.04984423676012461, 'coverage': 0.8916666666666667}
