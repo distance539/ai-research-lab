@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/temperature_scaling.py",
+    "bytes": 4984,
+    "sha256": "34efa1fc8da61dd216558cb12186a58e43f2a9bab1ce3e0e92ab60a3dae57ea8",
+    "exit_code": 0
+  },
+  {
+    "url": "https://raw.githubusercontent.com/gpleiss/temperature_scaling/ce1154ec7d5235eee046f28875c3dd8421f11d45/LICENSE",
+    "bytes": 1069,
+    "sha256": "2db8bc492d552f355e500205a8a31bf894fbbaee64356192130fdc327fd71dc3",
+    "exit_code": 0
+  }
+]

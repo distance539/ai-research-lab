@@ -1,0 +1,14 @@
+{
+  "model_run.py": "fc20d80ad55405a1ff702a369dd491466aaceb32ab1d8d77938371ed1c261a0d",
+  "run.py": "3ed914de618e527064bf09eb548c295be82576676d905d430f32c75849cadfa2",
+  "plot.py": "a2323ac642a6250dfcfea8525a619e7fe4858438a3be38f4f596f37f44386356",
+  "audit.py": "96991e58714b5301524a5d068027b1f5400dce10bac9da9a9c50a1e4927bd7c1",
+  "baseline.py": "74ae01e832e561c4919d8254672ab5f7bb5db8d3a8544df83f1a49edf06d9d23",
+  "PROTOCOL.md": "39ee5a14cc5e60e5d51d4590068ffc2f4810ae7995ca1dae99bfb1965758dc9c",
+  "fit.json": "50c232b7a630efff129fe644f24e6e6c1ebf05350ee684bc551d492ba2e677d2",
+  "config.json": "fbff9c76f01cdf7dafc3452914e90a2beeb4ae9f2c33e89399bdaec896abdd82",
+  "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+  "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358",
+  "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+  "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44"
+}
