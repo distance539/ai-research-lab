@@ -1,0 +1,13 @@
+{
+  "config.json": "fbff9c76f01cdf7dafc3452914e90a2beeb4ae9f2c33e89399bdaec896abdd82",
+  "protocol.json": "d6cecb75ae6b601ddab1347daf8efbbf0ce3a7c76e34e824920c469bdc3c4868",
+  "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+  "split_manifest.json": "5b748d9bdab2f0214d592e9d7b78484e6b2ba5d394bb03e5eb64c94dcd6cb358",
+  "baseline.py": "74ae01e832e561c4919d8254672ab5f7bb5db8d3a8544df83f1a49edf06d9d23",
+  "model_run.py": "fc20d80ad55405a1ff702a369dd491466aaceb32ab1d8d77938371ed1c261a0d",
+  "run.py": "efb37890e1b7fbc5454056fa55d6c467992e97537c39143773da12065f83864b",
+  "audit.py": "8379a2caf38918a5bba60db70b427fa431819616cc8bf1ca7ec187f583f4c320",
+  "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+  "run_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+  "audit_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44"
+}

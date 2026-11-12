@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "smoke",
+      "--cache",
+      "VALIDATED_CACHE"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 21.767199542,
+    "log": "smoke.log"
+  },
+  {
+    "command": [
+      "python",
+      "model_run.py",
+      "run",
+      "--cache",
+      "VALIDATED_CACHE"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 6.274121125000001,
+    "log": "run.log"
+  },
+  {
+    "command": [
+      "python",
+      "run.py"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.03606737500000179,
+    "log": "analysis.log"
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "exit_code": 0,
+    "wall_seconds": 0.029296249999998025,
+    "log": "audit.log"
+  }
+]

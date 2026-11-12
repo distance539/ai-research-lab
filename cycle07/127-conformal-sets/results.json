@@ -1,0 +1,19 @@
+{
+  "n": 360,
+  "covered": 333,
+  "coverage": 0.925,
+  "size_counts": [
+    0,
+    351,
+    9
+  ],
+  "mean_size": 1.025,
+  "misses_by_size": [
+    0,
+    27,
+    0
+  ],
+  "baseline_correct": 330,
+  "rank": 232,
+  "threshold": 0.7186523761215998
+}
