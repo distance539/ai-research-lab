@@ -1,0 +1,65 @@
+{
+  "lac.py": {
+    "url": "https://raw.githubusercontent.com/ml-stat-Sustech/TorchCP/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/classification/score/lac.py",
+    "exit_code": 0,
+    "bytes": 3650,
+    "sha256": "fe92a0016760b937b40b4d1dfc0097daa1831b844cffeabaa120dba0c07c80a1",
+    "stderr": ""
+  },
+  "common.py": {
+    "url": "https://raw.githubusercontent.com/ml-stat-Sustech/TorchCP/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/utils/common.py",
+    "exit_code": 0,
+    "bytes": 2610,
+    "sha256": "d8e547b6cf09f070121371c05c5cd6469e6a548953690e746c292b0cc7a78eb3",
+    "stderr": ""
+  },
+  "split.py": {
+    "url": "https://raw.githubusercontent.com/ml-stat-Sustech/TorchCP/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/classification/predictor/split.py",
+    "exit_code": 0,
+    "bytes": 7254,
+    "sha256": "fa07e28792d58ee12e1e500ea3d5c3b4a1c035fd18b9a83df74e8c019a4eb2f0",
+    "stderr": ""
+  },
+  "LICENSE": {
+    "url": "https://raw.githubusercontent.com/ml-stat-Sustech/TorchCP/627455f07cb1ab9ef39e403ae51534b6fbdf200c/LICENSE",
+    "exit_code": 0,
+    "bytes": 7651,
+    "sha256": "a5681bf9b05db14d86776930017c647ad9e6e56ff6bbcfdf21e5848288dfaf1b",
+    "stderr": ""
+  },
+  "4": {
+    "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/714eb0fa89d2f80546fda750413ed43d93601a13",
+    "exit_code": 0,
+    "bytes": 245854,
+    "sha256": "41d6c7427782cabd581bafa14bd07a5185a9b207b2b3904589dfbf164d6d1fe3",
+    "stderr": ""
+  },
+  "5": {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/tree/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "exit_code": 0,
+    "bytes": 143439,
+    "sha256": "238158fd21a6bf812e50e9eb9f122cf07b4b6b4ffd10a3182d915d93ce3230e2",
+    "stderr": ""
+  },
+  "6": {
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py",
+    "exit_code": 0,
+    "bytes": 60370,
+    "sha256": "7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e",
+    "stderr": ""
+  },
+  "7": {
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/a22a4378d97d06b7a1d9abad6e0086d30fdea199/LICENSE",
+    "exit_code": 0,
+    "bytes": 11418,
+    "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+    "stderr": ""
+  },
+  "tutorial": {
+    "url": "https://arxiv.org/html/2107.07511",
+    "exit_code": 0,
+    "bytes": 826491,
+    "sha256": "4d9d25f7ed74d7b15675edbda1b3fca3fcdcec4063c5dc853520fadb38908d6c",
+    "stderr": ""
+  }
+}
