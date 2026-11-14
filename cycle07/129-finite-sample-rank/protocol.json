@@ -1,0 +1,22 @@
+{
+  "alpha": "1/10",
+  "sizes": [
+    4,
+    8,
+    9,
+    10,
+    18,
+    19,
+    20,
+    32,
+    64,
+    128,
+    256
+  ],
+  "order": "original calibration manifest prefixes",
+  "seed": 117,
+  "primary": "set size histogram, mean size, hits/360",
+  "control": "cap rank at n (diagnostic only)",
+  "fit": "calibration only",
+  "registered_before_analysis": true
+}
