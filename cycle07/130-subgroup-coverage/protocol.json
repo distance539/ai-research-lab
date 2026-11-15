@@ -1,0 +1,17 @@
+{
+  "alpha": "1/10",
+  "calibration": 256,
+  "audit": 360,
+  "length_edges": [
+    16,
+    32
+  ],
+  "length_unit": "retained WordPiece including special tokens, excluding padding",
+  "label_groups": [
+    0,
+    1
+  ],
+  "joint_groups": true,
+  "metric": "empirical inclusion counts and set sizes; all strata retained; descriptive only; no threshold selection",
+  "registered_at": "2026-11-15T09:01:50.267722+08:00"
+}
