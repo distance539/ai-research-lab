@@ -1,0 +1,45 @@
+{
+  "rank": 232,
+  "inputs": {
+    "calibration_predictions.json": "1a77b3f03023a4f23cff969ca6d7448dab72e291f1acdae7145d16059d47ab7b",
+    "run_predictions.json": "fde9a72ea40a0377ad92e2916e0edfcacc269d7658bd57648a087d494fa80a44",
+    "memberships.json": "5abd74246732ebaf27000bd96eca014d3877ee0bea05fe84a5944333fce8a96a",
+    "results.json": "5b82fa352959b9fbb731f16cde1aba56de246cdc265b67b5ed28ca7783293338"
+  },
+  "LAC": {
+    "q": 0.7186523761215998,
+    "sizes": [
+      0,
+      351,
+      9
+    ],
+    "hits": 333,
+    "slots": 369
+  },
+  "APS": {
+    "q": 0.9999999999999999,
+    "sizes": [
+      0,
+      277,
+      83
+    ],
+    "hits": 340,
+    "slots": 443
+  },
+  "normalized_endpoint": {
+    "q": 1.0,
+    "sizes": [
+      0,
+      0,
+      360
+    ],
+    "hits": 360,
+    "slots": 720
+  },
+  "calibration_errors": 25,
+  "audit_last_mass_hex": {
+    "0x1.fffffffffffffp-1": 83,
+    "0x1.0000000000000p+0": 257,
+    "0x1.0000000000001p+0": 20
+  }
+}

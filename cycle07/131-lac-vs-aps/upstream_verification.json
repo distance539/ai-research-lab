@@ -1,0 +1,32 @@
+{
+  "aps.py": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/classification/score/aps.py",
+    "sha256": "f5ba76b6401eb8daa0ef967b62732817fcb9f14ba42513ebef3894f624c7b32e"
+  },
+  "lac.py": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/classification/score/lac.py",
+    "sha256": "fe92a0016760b937b40b4d1dfc0097daa1831b844cffeabaa120dba0c07c80a1"
+  },
+  "base.py": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/classification/score/base.py",
+    "sha256": "4a548da021e2d3ba74eb4923313a7465635a1bc4f0a617392e0b82c91a7bf9ba"
+  },
+  "common.py": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/torchcp/utils/common.py",
+    "sha256": "d8e547b6cf09f070121371c05c5cd6469e6a548953690e746c292b0cc7a78eb3"
+  },
+  "TorchCP-LICENSE.txt": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/LICENSE",
+    "sha256": "a5681bf9b05db14d86776930017c647ad9e6e56ff6bbcfdf21e5848288dfaf1b"
+  },
+  "TorchCP-GPL.txt": {
+    "commit": "627455f07cb1ab9ef39e403ae51534b6fbdf200c",
+    "url": "https://github.com/ml-stat-Sustech/TorchCP/blob/627455f07cb1ab9ef39e403ae51534b6fbdf200c/LICENSE.GPL",
+    "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b"
+  }
+}

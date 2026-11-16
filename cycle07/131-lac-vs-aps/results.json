@@ -1,0 +1,29 @@
+{
+  "LAC": {
+    "q": 0.7186523761215998,
+    "sizes": [
+      0,
+      351,
+      9
+    ],
+    "hits": 333,
+    "slots": 369
+  },
+  "APS": {
+    "q": 0.9999999999999999,
+    "sizes": [
+      0,
+      277,
+      83
+    ],
+    "hits": 340,
+    "slots": 443
+  },
+  "different": 92,
+  "paired_hits": {
+    "(False, False)": 17,
+    "(False, True)": 10,
+    "(True, False)": 3,
+    "(True, True)": 330
+  }
+}
