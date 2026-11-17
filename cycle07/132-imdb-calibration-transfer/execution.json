@@ -1,0 +1,95 @@
+[
+  {
+    "command": [
+      "python",
+      "run.py",
+      "fetch",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:00:35.704177+08:00",
+    "wall_s": 0.335082792,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "register",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:00:36.039995+08:00",
+    "wall_s": 2.299343291,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:00:38.340190+08:00",
+    "wall_s": 0.04069533400000003,
+    "exit_code": 1
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:02:00.004656+08:00",
+    "wall_s": 19.610958500000002,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "formal",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:02:19.616377+08:00",
+    "wall_s": 65.551551916,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "analyze",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-17T09:03:25.168421+08:00",
+    "wall_s": 0.06847995800001172,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "started": "2026-11-17T09:03:35.639982+08:00",
+    "wall_s": 0.39257537499999995,
+    "exit_code": 0
+  }
+]
