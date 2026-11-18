@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-18",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "seed": 133,
+  "threads": 4,
+  "batch": 16,
+  "max_length": 512,
+  "padding": "longest",
+  "truncation": "right",
+  "attention": "eager",
+  "dtype": "float32",
+  "prompt": null,
+  "decoding": "binary argmax, lower label wins ties",
+  "raw_T": 1,
+  "fixed_T": 2.481924215086295,
+  "source": "historical SST2 audit 360",
+  "target": "IMDb v1 official test: one representative per movie then unique normalized-text digest; sort with cycle7:132: stable hash. First 1000 exploration, next 1000 calibration, next 1000 confirmation. Neither sealed pool is scored.",
+  "primary": "paired prediction flips and absolute confidence change against length 512",
+  "secondary": "original full-review label accuracy, NLL, dropped token count, measured time and padded tokens",
+  "budget": "8 smoke per length then 1000 exploration per length; no semantic label claims",
+  "lengths": [
+    128,
+    256,
+    512
+  ]
+}

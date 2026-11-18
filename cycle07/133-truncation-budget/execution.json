@@ -1,0 +1,53 @@
+[
+  {
+    "command": [
+      "python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-18T09:01:01.466184+08:00",
+    "wall_s": 8.115025375,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "formal",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-18T09:01:09.581839+08:00",
+    "wall_s": 95.356998,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "analyze",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "started": "2026-11-18T09:02:44.939194+08:00",
+    "wall_s": 0.0657010420000006,
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "started": "2026-11-18T09:04:36.780635+08:00",
+    "wall_s": 0.03926191699999999,
+    "exit_code": 0
+  }
+]

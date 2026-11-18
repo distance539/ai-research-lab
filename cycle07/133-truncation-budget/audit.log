@@ -1,0 +1,1 @@
+{"status": "passed", "rows": 3000, "input_sha256": "98129abaffee46b3a522f3a870c486b160241c5a0655bac70abb6f95b2630df0", "checks": "two-column softmax, label argmax, paired flips, metrics, retained and discarded tokens, locked exploration identity"}

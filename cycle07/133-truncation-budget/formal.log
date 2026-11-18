@@ -1,0 +1,4 @@
+128 9.877116625197232
+256 22.890533958096057
+512 56.18009408330545
+Token indices sequence length is longer than the specified maximum sequence length for this model (1336 > 512). Running this sequence through the model will result in indexing errors

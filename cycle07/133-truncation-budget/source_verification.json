@@ -1,0 +1,16 @@
+{
+  "model": {
+    "sha256": "7aa246bf0a4b45f901b83a9ab993e7dd2c0fb91f4fbb874045baec8ae7429a6e",
+    "installed_exact": true,
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "access_date": "2026-11-18",
+    "path": "models/distilbert/modeling_distilbert.py"
+  },
+  "tokenizer": {
+    "sha256": "59d4fce997d9e9ab29fec6b5e49a623e3a209b233e56020352381c84432cf44d",
+    "installed_exact": true,
+    "commit": "a22a4378d97d06b7a1d9abad6e0086d30fdea199",
+    "access_date": "2026-11-18",
+    "path": "tokenization_utils_fast.py"
+  }
+}

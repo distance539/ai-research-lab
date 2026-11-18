@@ -1,0 +1,44 @@
+{
+  "cache_key": "89d556b63abf8b85a6984f3143cb9baa1953627590443e5dc5e22ea6d06b9e82",
+  "conditions": [
+    {
+      "length": 128,
+      "padded_tokens": 1024,
+      "seconds": 0.12579104211181402,
+      "shapes": [
+        [
+          8,
+          128
+        ]
+      ]
+    },
+    {
+      "length": 256,
+      "padded_tokens": 2048,
+      "seconds": 0.19456633320078254,
+      "shapes": [
+        [
+          8,
+          256
+        ]
+      ]
+    },
+    {
+      "length": 512,
+      "padded_tokens": 3920,
+      "seconds": 0.47270383266732097,
+      "shapes": [
+        [
+          8,
+          490
+        ]
+      ]
+    }
+  ],
+  "peak_rss_bytes": 1374109696,
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "wall_s": 3.1261686249636114
+}
