@@ -1,0 +1,29 @@
+{
+  "eager": {
+    "n": 1000,
+    "hits": 890,
+    "covered": 901,
+    "size_counts": [
+      0,
+      979,
+      21
+    ]
+  },
+  "sdpa": {
+    "n": 1000,
+    "hits": 890,
+    "covered": 901,
+    "size_counts": [
+      0,
+      979,
+      21
+    ]
+  },
+  "paired": {
+    "max_logit_delta": 1.4901161193847656e-05,
+    "max_prob_delta": 4.9057943253272285e-06,
+    "flips": 0,
+    "set_changes": 0,
+    "min_boundary_distance": 0.002298199592403849
+  }
+}

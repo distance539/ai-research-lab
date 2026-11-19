@@ -1,0 +1,11 @@
+# Source map — verified 2026-11-19
+
+Transformers4.49.0 fixed commit a22a4378d97d06b7a1d9abad6e0086d30fdea199, Apache-2.0. Official file downloaded and byte-matched installed source (source_verification.json).
+- [MultiHeadSelfAttention](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L137): eager attention, called unchanged by run.py.
+- [DistilBertSdpaAttention](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L337): SDPA path; call at402, configuration dispatch438–453. No upstream model code copied.
+- [Classifier forward](https://github.com/huggingface/transformers/blob/a22a4378d97d06b7a1d9abad6e0086d30fdea199/src/transformers/models/distilbert/modeling_distilbert.py#L918): run.py loads official classification head unchanged.
+- [PyTorch2.6 SDPA documentation](https://docs.pytorch.org/docs/2.6/generated/torch.nn.functional.scaled_dot_product_attention.html): math and numerical implementation caution. No kernel code copied, no GPU backend claimed.
+- Model/tokenizer Apache-2.0, revision714eb0fa89d2f80546fda750413ed43d93601a13; resources.lock.json records exact file URLs and hashes. Weights excluded.
+- common.py and pools.json reuse our MIT implementation from [132](https://github.com/distance539/ai-research-lab/tree/cc52f59c5e59a01e4baf233a4ee8487d0e7a99e8/cycle07/132-imdb-calibration-transfer). run.py adapts our [133](https://github.com/distance539/ai-research-lab/tree/108318d8b5d91b3eef78296371fd5d62cb790dc7/cycle07/133-truncation-budget) by freezing length512 and changing only attention implementation. analyze.py and audit.py are original teaching implementations of softmax, LAC membership and paired arithmetic, no copied paper algorithm.
+- Frozen q=0.7186523761215998 from [127](https://github.com/distance539/ai-research-lab/tree/3fe8716665fe655ca4a1e45a3193500bcf1a58dd/cycle07/127-conformal-sets), raw historical SST2 calibration256, rank232; not refit on IMDb.
+- IMDb v1: [Maas et al. ACL2011](https://aclanthology.org/P11-1015/). SHA c40f74a18d3b61f90feba1e17730e0d38e8b97c05fde7008942e91923d1658fe. Dataset download mirror pinned in common.py. Original text redistribution rights not presumed, only IDs and derived numbers distributed.

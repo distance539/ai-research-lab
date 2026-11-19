@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "seed": 134,
+  "threads": 4,
+  "batch": 16,
+  "max_length": 512,
+  "padding": "longest",
+  "truncation": "right",
+  "attention": "controlled eager versus sdpa",
+  "dtype": "float32",
+  "prompt": null,
+  "decoding": "binary argmax, lower label wins ties",
+  "raw_T": 1,
+  "fixed_T": 2.481924215086295,
+  "source": "historical SST2 audit 360",
+  "target": "IMDb v1 official test: one representative per movie then unique normalized-text digest; sort with cycle7:132: stable hash. First 1000 exploration, next 1000 calibration, next 1000 confirmation. Neither sealed pool is scored.",
+  "primary": "paired LAC membership changes; frozen raw SST2 q=0.7186523761215998",
+  "secondary": "logit maximum absolute difference, argmax flips, coverage and size",
+  "budget": "8 smoke and 1000 exploration per attention implementation",
+  "conditions": [
+    "eager",
+    "sdpa"
+  ],
+  "threshold": 0.7186523761215998
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "exit_code": 0,
+    "seconds": 7.826741666998714,
+    "at": "2026-11-19T09:02:40.200815+08:00"
+  },
+  {
+    "command": [
+      "python",
+      "run.py",
+      "formal",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "exit_code": 0,
+    "seconds": 148.40429770806804,
+    "at": "2026-11-19T09:05:08.604586+08:00"
+  },
+  {
+    "command": [
+      "python",
+      "analyze.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "exit_code": 0
+  }
+]

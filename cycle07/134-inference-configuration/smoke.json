@@ -1,0 +1,226 @@
+[
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 387,
+    "id": "c39de4a72e180c53b6592575b57ccf953fc65f29ebe1ba11dd8831b94771bf6a",
+    "input_sha256": "86cf6e95d6aca6a9da2feb8c1a30f8121953092cd2e5cd465a096582acd6fd3f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.4237570762634277,
+      -2.847052812576294
+    ],
+    "retained_tokens": 389
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 378,
+    "id": "0b8af97412ba7dc0327f260498351fdfdaa7257dc8798d1151260589a4719478",
+    "input_sha256": "0156b1862fa9c088acb54fe052130d7f3c46fbcec4321571ee9951281ed0c2e1",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.3170721530914307,
+      -2.6818461418151855
+    ],
+    "retained_tokens": 380
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 488,
+    "id": "6b49bd7534ee5826d552d88cd123c94ba63a27c216520a5fd8ba4de766a73ea9",
+    "input_sha256": "da60724e70752b0ac79b303dbdc05e687d6d579f45dcf24c477f6a2313439e20",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      -0.5625128149986267,
+      0.6845406293869019
+    ],
+    "retained_tokens": 490
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 186,
+    "id": "5272e5516dc29cce603354ed011e44a5a820d6426e6809f7eec605d7fad576f4",
+    "input_sha256": "b59769814637e827d31cb19fd91a8ea9a0a3817455e05d37a3933162ec7a7d6f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.142014503479004,
+      -3.3693735599517822
+    ],
+    "retained_tokens": 188
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 142,
+    "id": "a1112fe42f01fa443c45eb0d40bdbed76a7320cc8ec1e75d1d433e8f4e17cc52",
+    "input_sha256": "6a14308855d1553c1e0e63c140e624e2dae7fe226e09ba66b19fcacc74569d0c",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.526156425476074,
+      -3.6822004318237305
+    ],
+    "retained_tokens": 144
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 171,
+    "id": "6e2906f0dadcd1c9572667f8b1bc7c52d3a48119bd002066487ac3bfe8e69a52",
+    "input_sha256": "5b30b4787a119f68128e51b675907249297ccac1312eb3e4b8e574e5017510db",
+    "label": 1,
+    "length": 512,
+    "logits": [
+      -2.887540817260742,
+      3.0179357528686523
+    ],
+    "retained_tokens": 173
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 242,
+    "id": "162bb8db8308d0ba9f7adad564baaec1e5f3b9d24f069fe6728bdfabf6262687",
+    "input_sha256": "48fe593a8353b22b29fd499855dc4635b14a4f1716f5ad3442df5f9557540b9f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.582446098327637,
+      -3.735196590423584
+    ],
+    "retained_tokens": 244
+  },
+  {
+    "condition": "eager",
+    "dropped": 0,
+    "full_tokens": 155,
+    "id": "5f84a8a78d1356791b78d03e681e4a57b2c1ffd5e60f3cf6253def382b865a15",
+    "input_sha256": "55f10c0c6629401d912abd7e5037ef27772c3c78ecda684c1e15ddd9ade836f2",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.5132336616516113,
+      -2.956616163253784
+    ],
+    "retained_tokens": 157
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 387,
+    "id": "c39de4a72e180c53b6592575b57ccf953fc65f29ebe1ba11dd8831b94771bf6a",
+    "input_sha256": "86cf6e95d6aca6a9da2feb8c1a30f8121953092cd2e5cd465a096582acd6fd3f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.423757553100586,
+      -2.8470537662506104
+    ],
+    "retained_tokens": 389
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 378,
+    "id": "0b8af97412ba7dc0327f260498351fdfdaa7257dc8798d1151260589a4719478",
+    "input_sha256": "0156b1862fa9c088acb54fe052130d7f3c46fbcec4321571ee9951281ed0c2e1",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.317068576812744,
+      -2.681842803955078
+    ],
+    "retained_tokens": 380
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 488,
+    "id": "6b49bd7534ee5826d552d88cd123c94ba63a27c216520a5fd8ba4de766a73ea9",
+    "input_sha256": "da60724e70752b0ac79b303dbdc05e687d6d579f45dcf24c477f6a2313439e20",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      -0.5625138282775879,
+      0.6845417022705078
+    ],
+    "retained_tokens": 490
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 186,
+    "id": "5272e5516dc29cce603354ed011e44a5a820d6426e6809f7eec605d7fad576f4",
+    "input_sha256": "b59769814637e827d31cb19fd91a8ea9a0a3817455e05d37a3933162ec7a7d6f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.142014980316162,
+      -3.3693740367889404
+    ],
+    "retained_tokens": 188
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 142,
+    "id": "a1112fe42f01fa443c45eb0d40bdbed76a7320cc8ec1e75d1d433e8f4e17cc52",
+    "input_sha256": "6a14308855d1553c1e0e63c140e624e2dae7fe226e09ba66b19fcacc74569d0c",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.526157379150391,
+      -3.6822004318237305
+    ],
+    "retained_tokens": 144
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 171,
+    "id": "6e2906f0dadcd1c9572667f8b1bc7c52d3a48119bd002066487ac3bfe8e69a52",
+    "input_sha256": "5b30b4787a119f68128e51b675907249297ccac1312eb3e4b8e574e5017510db",
+    "label": 1,
+    "length": 512,
+    "logits": [
+      -2.8875393867492676,
+      3.0179331302642822
+    ],
+    "retained_tokens": 173
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 242,
+    "id": "162bb8db8308d0ba9f7adad564baaec1e5f3b9d24f069fe6728bdfabf6262687",
+    "input_sha256": "48fe593a8353b22b29fd499855dc4635b14a4f1716f5ad3442df5f9557540b9f",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      4.5824456214904785,
+      -3.735196352005005
+    ],
+    "retained_tokens": 244
+  },
+  {
+    "condition": "sdpa",
+    "dropped": 0,
+    "full_tokens": 155,
+    "id": "5f84a8a78d1356791b78d03e681e4a57b2c1ffd5e60f3cf6253def382b865a15",
+    "input_sha256": "55f10c0c6629401d912abd7e5037ef27772c3c78ecda684c1e15ddd9ade836f2",
+    "label": 0,
+    "length": 512,
+    "logits": [
+      3.5132317543029785,
+      -2.9566142559051514
+    ],
+    "retained_tokens": 157
+  }
+]

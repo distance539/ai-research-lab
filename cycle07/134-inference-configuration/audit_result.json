@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "rows": 2000,
+  "membership_decisions": 4000,
+  "input_sha256": "b519eb7cae3ed119b5c5926f4bba208eac8df21afcf3c62ba9cef4ac58b0f811",
+  "minimum_margin": "0.00229819959240384259282060016351651310285212312412",
+  "method": "50-digit Decimal softmax independent of analysis sigmoid"
+}
