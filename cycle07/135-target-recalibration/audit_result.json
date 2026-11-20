@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "n": 16,
+      "independent_beta": 0.2852543288569056,
+      "nll": 0.31110259402812496
+    },
+    {
+      "n": 32,
+      "independent_beta": 0.28244691330727256,
+      "nll": 0.312288112979283
+    },
+    {
+      "n": 64,
+      "independent_beta": 0.33782198747756964,
+      "nll": 0.2945733321667576
+    },
+    {
+      "n": 128,
+      "independent_beta": 0.37573305677607083,
+      "nll": 0.28836498444523906
+    },
+    {
+      "n": 256,
+      "independent_beta": 0.38212492843527046,
+      "nll": 0.28771544332981897
+    },
+    {
+      "n": 512,
+      "independent_beta": 0.3865277225326147,
+      "nll": 0.2873291283088635
+    },
+    {
+      "n": 1000,
+      "independent_beta": 0.4184802860833161,
+      "nll": 0.285910745442803
+    }
+  ],
+  "inputs": {
+    "formal.json": "f01f235b414065435d257568a885c152e19943a4bdc359668df125bcc1d1fca4",
+    "exploration.json": "c062383d4beb1ed6e78f65b94beb6db8c681c2f206d8be01565947a4868fb213",
+    "results.json": "8aaa6d53f8ffd9247590666db88480c3707d4a6d8f1f4ecae59dc12235015deb",
+    "audit.py": "96ae0d5f5cb0ca98a7ddbfa80ca451a86411538e9884ee5ec9a80dc03aa0b023"
+  }
+}

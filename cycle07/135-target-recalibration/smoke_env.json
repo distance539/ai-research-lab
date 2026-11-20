@@ -1,0 +1,22 @@
+{
+  "cache_key": "d2723151ad0591da03e3b0836295d5654695251786eb41a1a7ccd8937c9e91d8",
+  "forward_s": 0.5031420420855284,
+  "peak_rss_bytes": 1029767168,
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "shapes": [
+    [
+      [
+        8,
+        498
+      ],
+      [
+        8,
+        2
+      ]
+    ]
+  ],
+  "torch": "2.6.0",
+  "transformers": "4.49.0",
+  "wall_s": 4.43554800003767
+}
