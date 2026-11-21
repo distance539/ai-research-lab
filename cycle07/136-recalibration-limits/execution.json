@@ -1,0 +1,37 @@
+[
+  {
+    "command": [
+      "python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "MODEL_CACHE",
+      "--archive",
+      "IMDB_V1"
+    ],
+    "exit_code": 0,
+    "seconds": 7.100812833,
+    "at": "2026-11-21T09:06:09.178052+08:00"
+  },
+  {
+    "command": [
+      "python",
+      "analyze.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "audit.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "python",
+      "plot.py"
+    ],
+    "exit_code": 0
+  }
+]

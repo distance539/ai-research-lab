@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-21",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "seed": 136,
+  "threads": 4,
+  "batch": 16,
+  "max_length": 512,
+  "padding": "longest",
+  "truncation": "right",
+  "attention": "eager",
+  "dtype": "float32",
+  "prompt": null,
+  "decoding": "binary argmax, lower label wins ties",
+  "raw_T": 1,
+  "fixed_T": 2.481924215086295,
+  "source": "historical SST2 audit 360",
+  "target": "Only frozen IMDb calibration pool1000; exploration predictions reused from132; confirmation sealed",
+  "primary": "Paired probability loss, complete confidence ranking, fixed confidence0.90 acceptance, LAC invariance under monotonic binary temperature transform",
+  "secondary": "accuracy, class-summed Brier, ECE10, frozen scaled-confidence cutoff 0.90 accepted/errors",
+  "budget": "8 exploration smoke; archived exploration1000/calibration1000 logits reused, no confirmation",
+  "budgets": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1000
+  ],
+  "beta_bounds": [
+    0.05,
+    20
+  ],
+  "registered_at": "2026-11-21T09:04:07.987987+08:00",
+  "target_T": 2.389598859049851,
+  "alpha": 0.1
+}

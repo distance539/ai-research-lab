@@ -1,0 +1,73 @@
+{
+  "created_at": "2026-10-28T04:23:22.540803+00:00",
+  "model": "distilbert/distilbert-base-uncased-finetuned-sst-2-english",
+  "revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "files": [
+    {
+      "name": "config.json",
+      "sha256": "582122c8f414793d131e10022ce9ba04e3811a9da6389137ee2f18665b4f4d15",
+      "bytes": 629,
+      "official": {
+        "rfilename": "config.json",
+        "blobId": "b57fe5dfcb8ec3f9bab35ed427c3434e3c7dd1ba",
+        "size": 629
+      },
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/config.json"
+    },
+    {
+      "name": "tokenizer_config.json",
+      "sha256": "5ab9097b4149371c5fd52b2d6e26cb6f9c07c0d19fcfdda895b1adad6b57c3e0",
+      "bytes": 48,
+      "official": {
+        "rfilename": "tokenizer_config.json",
+        "blobId": "3ed34255a7cb8e6706a8bb21993836e99e7b959f",
+        "size": 48
+      },
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/tokenizer_config.json"
+    },
+    {
+      "name": "vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3",
+      "bytes": 231508,
+      "official": {
+        "rfilename": "vocab.txt",
+        "blobId": "fb140275c155a9c7c5a3b3e0e77a9e839594a938",
+        "size": 231508
+      },
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/vocab.txt"
+    },
+    {
+      "name": "model.safetensors",
+      "sha256": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa",
+      "bytes": 267832558,
+      "official": {
+        "rfilename": "model.safetensors",
+        "blobId": "b6229767fd965dc44319b5b401d3af8403f10fed",
+        "size": 267832558,
+        "lfs": {
+          "sha256": "7c3919835e442510166d267fe7cbe847e0c51cd26d9ba07b89a57b952b49b8aa",
+          "size": 267832558,
+          "pointerSize": 134
+        }
+      },
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/model.safetensors"
+    },
+    {
+      "name": "README.md",
+      "sha256": "75f17282923fea5b541df92640e2d8646c4ff5e8e3e16ed0a7e4e50ee7588851",
+      "bytes": 10512,
+      "official": {
+        "rfilename": "README.md",
+        "blobId": "ebf6c698d8ea8e13695550773d47438c4124ffee",
+        "size": 10512
+      },
+      "url": "https://huggingface.co/distilbert/distilbert-base-uncased-finetuned-sst-2-english/resolve/714eb0fa89d2f80546fda750413ed43d93601a13/README.md"
+    }
+  ],
+  "dataset": {
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2/resolve/8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb/data/validation-00000-of-00001.parquet",
+    "revision": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "sha256": "fb00fe008f6828f86ba2beda8415a4cf5da0c884f21c5f238c87131b5aa19529",
+    "bytes": 72813
+  }
+}

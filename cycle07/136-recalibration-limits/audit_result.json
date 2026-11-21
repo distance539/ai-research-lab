@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "rows": 3000,
+  "memberships": 6000,
+  "method": "independent two-class softmax and absolute-margin ordering",
+  "inputs": {
+    "results.json": "7e598ae3b408758535eac2bde89d7a80e8fb9231ad3ee8c944288844aefb81eb",
+    "decisions.json": "bb38bdd88f76dea620f3b2af2471ca26bdb2991145d0401ac4bb16dc8fa5ce4f",
+    "audit.py": "b79ae3f26197c576f752b6361f2c4be993b2d6275593920ff1404ffadb4a439f",
+    "exploration.json": "c062383d4beb1ed6e78f65b94beb6db8c681c2f206d8be01565947a4868fb213",
+    "calibration.json": "f01f235b414065435d257568a885c152e19943a4bdc359668df125bcc1d1fca4"
+  }
+}
