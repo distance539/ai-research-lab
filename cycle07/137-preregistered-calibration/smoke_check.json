@@ -1,0 +1,6 @@
+{
+  "identity_label_length_equal": true,
+  "max_logit_delta": 3.2186508178710938e-06,
+  "tolerance": 1e-05,
+  "reason": "batch8 vs historical16 floating arithmetic"
+}
