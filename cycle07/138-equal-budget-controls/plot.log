@@ -1,0 +1,54 @@
+[Public log: local home and temporary paths redacted; raw retained locally.]
+USER_HOME/.matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at TEMP_CACHE because there was an issue with the default path (USER_HOME/.matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+
+Fontconfig error: No writable cache directories
+	/opt/homebrew/var/cache/fontconfig
+	USER_HOME/.cache/fontconfig
+	USER_HOME/.fontconfig
+Matplotlib is building the font cache; this may take a moment.

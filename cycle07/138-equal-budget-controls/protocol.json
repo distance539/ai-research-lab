@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-22",
+  "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+  "seed": 137,
+  "threads": 4,
+  "batch": 16,
+  "max_length": 512,
+  "padding": "longest",
+  "truncation": "right",
+  "attention": "eager",
+  "dtype": "float32",
+  "prompt": null,
+  "decoding": "binary argmax, lower label wins ties",
+  "raw_T": 1,
+  "fixed_T": 2.481924215086295,
+  "source": "historical SST2 audit 360",
+  "target": "Only frozen IMDb calibration pool1000; exploration predictions reused from132; confirmation sealed",
+  "primary": "confirmation paired NLL(group-global)",
+  "secondary": [
+    "Brier class sum",
+    "ECE10 fixed equal-width",
+    "accuracy",
+    "risk at exactly800/1000 acceptance",
+    "all risk prefixes"
+  ],
+  "budget": "fresh8 exploration smoke; archived2000 rows identity/invariance audit; no candidate fit or confirmation inference",
+  "budgets": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1000
+  ],
+  "beta_bounds": [
+    0.05,
+    20
+  ],
+  "registered_at": "2026-11-22T09:02:42.632839+08:00",
+  "target_T": 2.389598859049851,
+  "alpha": 0.1,
+  "hypotheses": {
+    "H0": "group temperature has no confirmation NLL gain",
+    "H1": "fixed length grouping improves confirmation NLL",
+    "H2": "extra fitting variance or changed cross-group order worsens NLL or risk"
+  },
+  "candidates": [
+    "global",
+    "length256"
+  ],
+  "grouping": "retained_tokens <=256 versus >256; includes special tokens; capped512",
+  "minimum_group_n": 50,
+  "fallback": "if either calibration group has fewer than50 rows, both use global T",
+  "primary_budget": 1000,
+  "ablation_budgets": [
+    128,
+    1000
+  ],
+  "optimizer": "100 bisection steps for inverse temperature in [0.05,20]",
+  "rank_ties": "ascending sample SHA256 identity",
+  "success": "paired 95% percentile bootstrap upper bound for delta NLL <0 AND risk_at_80 delta <=0.01",
+  "bootstrap": {
+    "seed": 137,
+    "replicates": 10000,
+    "unit": "unique movie, one review each",
+    "interval": "percentile 2.5/97.5"
+  },
+  "stopping": "one fixed candidate; no additional thresholds/groups; fail or null reported; confirmation once only in141; 140 freeze code/config before inference",
+  "schedule": {
+    "137": "register and audit feasibility only",
+    "138": "global and group full1000 calibration; evaluate exploration1000",
+    "139": "2x2 global/group by128/1000 calibration; fixed nested prefixes; exploration only",
+    "140": "freeze exact implementation, damage tests, archive hashes",
+    "141": "one confirmation1000 model pass, evaluate both predeclared methods; no selection by results"
+  }
+}

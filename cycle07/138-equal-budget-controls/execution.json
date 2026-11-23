@@ -1,0 +1,39 @@
+[
+  {
+    "command": [
+      "/private/tmp/ai137-env/bin/python",
+      "analyze.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.349692375
+  },
+  {
+    "command": [
+      "/private/tmp/ai137-env/bin/python",
+      "audit.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.20860320799999993
+  },
+  {
+    "command": [
+      "/private/tmp/ai137-env/bin/python",
+      "plot.py"
+    ],
+    "exit_code": 0,
+    "seconds": 20.277879583
+  },
+  {
+    "command": [
+      "/private/tmp/ai137-env/bin/python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "WORKSPACE/data/research_cycle7/cache112",
+      "--archive",
+      "WORKSPACE/data/research_cycle7/imdb/aclImdb_v1.tar.gz"
+    ],
+    "exit_code": 0,
+    "seconds": 5.4715897909999995
+  }
+]
