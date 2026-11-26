@@ -1,0 +1,8 @@
+# Registered factorial ablation (139)
+Python3.12. Install `python -m pip install -r requirements.txt`.
+Run from this directory: `python analyze.py && python audit.py`.
+Outputs fits.json, predictions.json, results.json, audit_result.json. `python plot.py` creates ../images/ablation_results.png.
+Frozen137 protocol SHA in protocol.sha256, unchanged. Only two budgets128/1000 and two policies global/length256. In128 groups80/48 trigger fallback; full groups552/448 do not. No post-hoc threshold selection. Results are exploratory; confirmation never inferred or evaluated.
+Actual: refit archived1000 calibration logits (nested128 prefix), evaluate same1000 exploration rows in four cells,10000 paired bootstrap with seed137. Interaction is policy difference-in-differences, not an isolated parameterization interaction because fallback degenerates128 cells. Full global/group each102000 gradient-row evaluations;128 global13056, group reuse adds zero. Bootstrap conditions on fitted temperatures, not calibration variability.
+Real CPU model smoke: `python run.py fetch` then `python run.py smoke`. Optional verified caches via `--cache MODEL_CACHE --archive IMDB_V1`. Resource hashes and exact model revision in resources.lock.json; roughly350MB download,1GB disk,2GB RAM. Defaults require no local absolute paths. Smoke8 reviews only, no fresh2000-row inference; batch8 vs historical16 tolerance1e-5. run.py formal optionally reruns exploration only.
+Provenance: pools locked132 before any prediction; exploration132 and calibration135, inherited through138. Only hashed IDs, official labels, lengths, and logits distributed; no raw text or model weights. Arithmetic audit is not human semantic review. See SOURCE_MAP.md and LICENSE.
