@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "case": "label",
+      "file": "calibration.json",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: calibration.json"
+    },
+    {
+      "case": "logit",
+      "file": "exploration.json",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: exploration.json"
+    },
+    {
+      "case": "order",
+      "file": "exploration.json",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: exploration.json"
+    },
+    {
+      "case": "group",
+      "file": "protocol.json",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: protocol.json"
+    },
+    {
+      "case": "pool",
+      "file": "pools.json",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: pools.json"
+    },
+    {
+      "case": "code",
+      "file": "metrics.py",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: metrics.py"
+    },
+    {
+      "case": "missing",
+      "file": "run.py",
+      "exit_code": 1,
+      "diagnostic": "Frozen file mismatch: run.py"
+    },
+    {
+      "case": "derived_loss",
+      "file": "predictions.json",
+      "exit_code": 1,
+      "diagnostic": "AssertionError"
+    }
+  ]
+}

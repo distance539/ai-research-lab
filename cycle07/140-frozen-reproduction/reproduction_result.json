@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "commands": [
+    {
+      "command": [
+        "/private/tmp/ai140-env/bin/python",
+        "analyze.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"cells\": {\n    \"128_global\": {\n      \"nll\": 0.28836498491874324,\n      \"brier\": 0.16918900180799762,\n      \"hits\": 890,\n      \"ece10\": 0.034628566524095315,\n      \"risk80\": 0.05625,\n      \"errors80\": 45\n    },\n    \"128_group\": {\n      \"nll\": 0.28836498491874324,\n      \"brier\": 0.16918900180799762,\n      \"hits\": 890,\n      \"ece10\": 0.034628566524095315,\n      \"risk80\": 0.05625,\n      \"errors80\": 45\n    },\n    \"1000_global\": {\n      \"nll\": 0.28591074549425316,\n      \"brier\": 0.16964791590766137,\n      \"hits\": 890,\n      \"ece10\": 0.028950487846776226,\n      \"risk80\": 0.05625,\n      \"errors80\": 45\n    },\n    \"1000_group\": {\n      \"nll\": 0.28607933716013373,\n      \"brier\": 0.16972040569859262,\n      \"hits\": 890,\n      \"ece10\": 0.031210236449460672,\n      \"risk80\": 0.0575,\n      \"errors80\": 46\n    }\n  },\n  \"contrasts\": {\n    \"128\": {\n      \"mean\": 0.0,\n      \"exploratory_ci\": [\n        0.0,\n        0.0\n      ]\n    },\n    \"1000\": {\n      \"mean\": 0.0001685916658805609,\n      \"exploratory_ci\": [\n        -0.0003819494579365179,\n        0.0007152024976514483\n      ]\n    },\n    \"interaction\": {\n      \"mean\": 0.0001685916658805609,\n      \"exploratory_ci\": [\n        -0.0003819494579365179,\n        0.0007152024976514483\n      ]\n    }\n  },\n  \"confirmation_accessed\": false\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/private/tmp/ai140-env/bin/python",
+        "audit.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{'status': 'passed', 'checked_predictions': 4000, 'optimizer_checks': [{'n': 128, 'loss_gap': 5.551115123125783e-17}, {'n': 1000, 'loss_gap': 0.0}, {'n': 552, 'loss_gap': 0.0}, {'n': 448, 'loss_gap': 5.551115123125783e-17}], 'interaction': 0.00016859166588056084, 'inputs': {'calibration.json': 'f01f235b414065435d257568a885c152e19943a4bdc359668df125bcc1d1fca4', 'exploration.json': 'c062383d4beb1ed6e78f65b94beb6db8c681c2f206d8be01565947a4868fb213', 'protocol.json': '9e8c6f65ccbcc1621815c4634b9e4c6d6f3b492efe01ad287a5b080918af61b8', 'fits.json': 'b06d4f74102a6d0af78dbe2d5d31f144e9cd4bc9069be2e660a801fa7bd876af', 'predictions.json': '8460aa17d2ff7317e014478a9ee6fcba82a7defadf4f216cc00378c99a1930ed'}}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/private/tmp/ai140-env/bin/python",
+        "damage_tests.py"
+      ],
+      "exit_code": 0,
+      "stdout": "[\n  {\n    \"case\": \"label\",\n    \"file\": \"calibration.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: calibration.json\"\n  },\n  {\n    \"case\": \"logit\",\n    \"file\": \"exploration.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: exploration.json\"\n  },\n  {\n    \"case\": \"order\",\n    \"file\": \"exploration.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: exploration.json\"\n  },\n  {\n    \"case\": \"group\",\n    \"file\": \"protocol.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: protocol.json\"\n  },\n  {\n    \"case\": \"pool\",\n    \"file\": \"pools.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: pools.json\"\n  },\n  {\n    \"case\": \"code\",\n    \"file\": \"metrics.py\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: metrics.py\"\n  },\n  {\n    \"case\": \"missing\",\n    \"file\": \"run.py\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"Frozen file mismatch: run.py\"\n  },\n  {\n    \"case\": \"derived_loss\",\n    \"file\": \"predictions.json\",\n    \"exit_code\": 1,\n    \"diagnostic\": \"AssertionError\"\n  }\n]\n",
+      "stderr": ""
+    }
+  ],
+  "exact": {
+    "predictions.json": true,
+    "results.json": true
+  },
+  "seconds": 1.2431944161653519,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "confirmation_accessed": false
+}

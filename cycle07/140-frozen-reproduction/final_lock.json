@@ -1,0 +1,22 @@
+{
+  "frozen_at": "2026-11-27T09:11:00.461627+08:00",
+  "files": {
+    "analyze.py": "7d56569db55123e259f34653b02ca810db92e72477f1cc75a3f7c6dc836e6655",
+    "audit.py": "6fade48757292a9d43c0c5ba13e25fd1871c02f5b425d66c5d4005cb381624e2",
+    "calibration.json": "f01f235b414065435d257568a885c152e19943a4bdc359668df125bcc1d1fca4",
+    "damage_tests.py": "b2e013241baee42bbb9fdc7a9ff3cb8eff44f4ac8733534a812be67780760842",
+    "exploration.json": "c062383d4beb1ed6e78f65b94beb6db8c681c2f206d8be01565947a4868fb213",
+    "final_config.json": "8eaaa245a78b8b321c047e827686b5eb4be11ac44cf2836f22d7bab72ce7f22d",
+    "freeze.py": "c1073bd2652d2e6349ace95dc47ab9425d0266507d5a3e8d84a73c8e3d423df1",
+    "metrics.py": "1901eb3c1e5d9aa8a2ef86f476d0bf3e853799f8af06bb598feb5ce5a83e46e2",
+    "pools.json": "d472a0676f5f9b58aea434ce694ddd40ea2d5b4ab50f9c3aa28aec896d982764",
+    "predictions.json": "8460aa17d2ff7317e014478a9ee6fcba82a7defadf4f216cc00378c99a1930ed",
+    "protocol.json": "9e8c6f65ccbcc1621815c4634b9e4c6d6f3b492efe01ad287a5b080918af61b8",
+    "protocol.sha256": "6b26d4b519acdba6bd38ddc85906230b23cedc21a835c38b8f94bbf2f962de8e",
+    "reproduce.py": "f724b656548dc85daf9f60f2b28f11da3eec883bfd2aa88e28d05964d2adfd3e",
+    "requirements.txt": "9d7db64738cb562df3f481a42b561c9326ea26653718df77013f34fb8ac0c0d6",
+    "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+    "results.json": "3ccf27bcbcba3c2bd0443a51105472a09a598756036b974a5d17f951b305216b",
+    "run.py": "a8771d09f8dd004a20c3d1a93d648bbe4b0a678de2f4450d0b43e0e9ca1e5615"
+  }
+}
