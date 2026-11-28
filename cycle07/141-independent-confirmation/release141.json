@@ -1,0 +1,16 @@
+{
+  "frozen_at": "2026-11-28T08:59:59.567804+08:00",
+  "changes": "Only formal pool adapter released in141; smoke uses exploration8; no temperature refit; evaluate inherited unchanged",
+  "sha256": {
+    "run.py": "d9e126facfc21dad2c87556f27d016ec5a279ef7eb168cbb2ee7c449a5da0038",
+    "analyze.py": "7d56569db55123e259f34653b02ca810db92e72477f1cc75a3f7c6dc836e6655",
+    "metrics.py": "1901eb3c1e5d9aa8a2ef86f476d0bf3e853799f8af06bb598feb5ce5a83e46e2",
+    "final_config.json": "8eaaa245a78b8b321c047e827686b5eb4be11ac44cf2836f22d7bab72ce7f22d",
+    "final_lock.json": "88efc03baba2a6342126e0ec261efa87244a996ca5e900d09f7222ea0bc80a58",
+    "pools.json": "d472a0676f5f9b58aea434ce694ddd40ea2d5b4ab50f9c3aa28aec896d982764",
+    "protocol.json": "9e8c6f65ccbcc1621815c4634b9e4c6d6f3b492efe01ad287a5b080918af61b8",
+    "resources.lock.json": "0969e4d485645f95fd1385cc62d6b2f9d082ff6aca9d33a428b4e36944a729c1",
+    "confirm.py": "e6844ff239fbe9dac6ea5731f1a9ea9cdc132d86e55d632a54e99f40cf825906"
+  },
+  "adapter_failure": "First smoke failed before forward due to corpus assignment indentation; corrected before confirmation"
+}

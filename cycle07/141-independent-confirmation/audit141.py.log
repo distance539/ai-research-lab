@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "rows": 1000,
+  "method_predictions": 2000,
+  "bootstrap_replicates": 10000,
+  "input_sha256": {
+    "formal.json": "bd7649e82fa34db0f29c19754e933352c3a1d94281de61389bfe400c726ec5b0",
+    "final_config.json": "8eaaa245a78b8b321c047e827686b5eb4be11ac44cf2836f22d7bab72ce7f22d",
+    "confirmation_predictions.json": "029e5edbd3be9294f4da415e7e8923a1b31817e076f41be8ba07f68a3c949b74",
+    "confirmation_results.json": "fe61ae0f6d7ef9b15d766e24879db2fb0f5b2b016ef00df4a0056af14cda8fca"
+  },
+  "audit_script_sha256": "ce07f6008451f6df1b6e6085db4b02ea6bbee91747217783a371a66ac2cd6fd1",
+  "human_review": false
+}

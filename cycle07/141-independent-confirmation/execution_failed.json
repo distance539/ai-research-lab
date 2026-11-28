@@ -1,0 +1,15 @@
+[
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "WORKSPACE/data/research_cycle7/cache112",
+      "--archive",
+      "WORKSPACE/data/research_cycle7/imdb/aclImdb_v1.tar.gz"
+    ],
+    "exit_code": 1,
+    "seconds": 2.442707125
+  }
+]

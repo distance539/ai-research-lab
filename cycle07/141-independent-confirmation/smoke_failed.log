@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "WORKSPACE/drafts/research-trends/2026-11-28_141_independent_confirmation/code/run.py", line 91, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "WORKSPACE/drafts/research-trends/2026-11-28_141_independent_confirmation/code/run.py", line 82, in main
+    part=rows[j:j+16];xs=[corpus[r['id']][0] for r in part];assert all(h(norm(s).encode())==r['text'] for s,r in zip(xs,part))
+                          ^^^^^^
+UnboundLocalError: cannot access local variable 'corpus' where it is not associated with a value

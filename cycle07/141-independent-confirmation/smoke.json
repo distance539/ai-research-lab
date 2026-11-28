@@ -1,0 +1,74 @@
+[
+  {
+    "id": "c39de4a72e180c53b6592575b57ccf953fc65f29ebe1ba11dd8831b94771bf6a",
+    "label": 0,
+    "logits": [
+      3.4237570762634277,
+      -2.847052812576294
+    ],
+    "retained_tokens": 389
+  },
+  {
+    "id": "0b8af97412ba7dc0327f260498351fdfdaa7257dc8798d1151260589a4719478",
+    "label": 0,
+    "logits": [
+      3.3170721530914307,
+      -2.6818461418151855
+    ],
+    "retained_tokens": 380
+  },
+  {
+    "id": "6b49bd7534ee5826d552d88cd123c94ba63a27c216520a5fd8ba4de766a73ea9",
+    "label": 0,
+    "logits": [
+      -0.5625128149986267,
+      0.6845406293869019
+    ],
+    "retained_tokens": 490
+  },
+  {
+    "id": "5272e5516dc29cce603354ed011e44a5a820d6426e6809f7eec605d7fad576f4",
+    "label": 0,
+    "logits": [
+      4.142014503479004,
+      -3.3693735599517822
+    ],
+    "retained_tokens": 188
+  },
+  {
+    "id": "a1112fe42f01fa443c45eb0d40bdbed76a7320cc8ec1e75d1d433e8f4e17cc52",
+    "label": 0,
+    "logits": [
+      4.526156425476074,
+      -3.6822004318237305
+    ],
+    "retained_tokens": 144
+  },
+  {
+    "id": "6e2906f0dadcd1c9572667f8b1bc7c52d3a48119bd002066487ac3bfe8e69a52",
+    "label": 1,
+    "logits": [
+      -2.887540817260742,
+      3.0179357528686523
+    ],
+    "retained_tokens": 173
+  },
+  {
+    "id": "162bb8db8308d0ba9f7adad564baaec1e5f3b9d24f069fe6728bdfabf6262687",
+    "label": 0,
+    "logits": [
+      4.582446098327637,
+      -3.735196590423584
+    ],
+    "retained_tokens": 244
+  },
+  {
+    "id": "5f84a8a78d1356791b78d03e681e4a57b2c1ffd5e60f3cf6253def382b865a15",
+    "label": 0,
+    "logits": [
+      3.5132336616516113,
+      -2.956616163253784
+    ],
+    "retained_tokens": 157
+  }
+]

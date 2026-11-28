@@ -1,0 +1,52 @@
+[
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "run.py",
+      "smoke",
+      "--cache",
+      "WORKSPACE/data/research_cycle7/cache112",
+      "--archive",
+      "WORKSPACE/data/research_cycle7/imdb/aclImdb_v1.tar.gz"
+    ],
+    "exit_code": 0,
+    "seconds": 5.272521875
+  },
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "run.py",
+      "formal",
+      "--cache",
+      "WORKSPACE/data/research_cycle7/cache112",
+      "--archive",
+      "WORKSPACE/data/research_cycle7/imdb/aclImdb_v1.tar.gz"
+    ],
+    "exit_code": 0,
+    "seconds": 60.935018250000006
+  },
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "confirm.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.238795584
+  },
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "audit141.py"
+    ],
+    "exit_code": 0,
+    "seconds": 0.226406375
+  },
+  {
+    "command": [
+      "/private/tmp/ai140-env/bin/python",
+      "plot.py"
+    ],
+    "exit_code": 0,
+    "seconds": 19.853762041000003
+  }
+]

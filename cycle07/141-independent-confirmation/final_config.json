@@ -1,0 +1,42 @@
+{
+  "frozen_at": "2026-11-27T09:11:00.461627+08:00",
+  "protocol_sha256": "9e8c6f65ccbcc1621815c4634b9e4c6d6f3b492efe01ad287a5b080918af61b8",
+  "primary_budget": 1000,
+  "candidates": [
+    "global",
+    "length256"
+  ],
+  "temperatures": {
+    "global": 2.389598859049851,
+    "length256": [
+      2.4243062566109463,
+      2.3463675863865694
+    ]
+  },
+  "group_rule": "retained_tokens <=256 versus >256 including special tokens, capped512",
+  "bootstrap": {
+    "seed": 137,
+    "replicates": 10000,
+    "interval": [
+      0.025,
+      0.975
+    ],
+    "unit": "unique movie"
+  },
+  "primary": "mean NLL(length256-global)",
+  "success": "upper95percentile<0 AND delta risk at exactly800/1000 <=0.01",
+  "confirmation_inference_allowed": false,
+  "confirmation_release": "141 only; one model pass, both predeclared methods, no reselection",
+  "inference": {
+    "model_revision": "714eb0fa89d2f80546fda750413ed43d93601a13",
+    "seed": 137,
+    "batch": 16,
+    "max_length": 512,
+    "attention": "eager",
+    "dtype": "float32",
+    "threads": 4,
+    "padding": "longest",
+    "truncation": "right"
+  },
+  "ties": "ascending SHA identity"
+}
